@@ -1,14 +1,15 @@
 #+PROPERTY: LOGGING nil
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/readtheorg/css/htmlize.css"/>
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/readtheorg/css/readtheorg.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://www.pirilampo.org/styles/readtheorg/css/htmlize.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://www.pirilampo.org/styles/readtheorg/css/readtheorg.css"/>
 #+HTML_HEAD: <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 #+HTML_HEAD: <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-#+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.js"></script>
-#+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/readtheorg/js/readtheorg.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="https://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="https://www.pirilampo.org/styles/readtheorg/js/readtheorg.js"></script>
 #+OPTIONS: toc:3
 #+OPTIONS: num:nil
 #+OPTIONS: tags:not-in-toc
 #+TITLE: Octopath Traveler
+
 * Towns
 ** Cliftlands                                                    :Cliftlands:
 *** Bolderfall
@@ -18,27 +19,36 @@
 ***** DONE Therion: Chapter 1                                       :Therion:
 *** Quarrycrest
 **** Connections
-***** [[South Quarrycrest Pass]][[Road to Morlock's Manse]]
+***** [[South Quarrycrest Pass][South Quarrycrest Pass]]
+***** [[Road to Morlock's Manse][Road to Morlock's Manse]]
 ***** [[The Sewers (24)][The Sewers (24)]]
 **** Points of Interest
 ***** DONE Tressa: Chapter 2                                         :Tressa:
+
       A rivalry formed with Ali the son of a famed trader, whom Tressa then
       defended against the corrupt town landlord, Morlock. Driving him out,
       Tressa met with Ali once more, agreeing to challenge each other at the
       Merchant's Fair in Grandport.
+
 ***** DONE Cyrus: Chapter 2                                           :Cyrus:
+
       Cyrus sought the research of former associate Odette, who agreed on
       condition Cyrus helped with a rash of disappearances. Cyrus traced the
       culprit into the forgotten sewers of the town, confronting Gideon, who
       was performing black necromantic acts from a coarse translation of the tome
       Cyrus sought. With the translated book as a fresh lead, he struck out for
       Stonegard, a black-cloaked man tailing his steps.
+
 ***** DONE The Weaver's Predicament                                   :Quest:
+
       Handed over 'A Use for Textiles'
       - Rewards :: 6,500g, Weaver's Charm
+
 ***** DONE Kaia, Mother of Dragons (II)                               :Quest:
+
       Looking for a man who knows about dragons. Guided 'The Egg Man' to her.
       - Rewards :: 6,600g, Light Nut (M)
+
 ***** TODO A Miner Dilemma
 **** Treasures
 ***** Pseudo Gold Ore
@@ -52,13 +62,13 @@
 ***** Olive of Life (M)                                              :Hidden:
 ***** Fool's Gold Ore                                                :Hidden:
 **** Items to Acquire                                        :Therion:Tressa:
-     - Shadow Soulstone (L)
-     - Wind Soulstone (L)
-     - Silent Bandana
-     - Light Soulstone (L)
-     - Wind Soulstone (L)
-     - Fire Soulstone (L)
-     - Ice Soulstone (L)
+***** Shadow Soulstone (L)
+***** Wind Soulstone (L)
+***** Silent Bandana
+***** Light Soulstone (L)
+***** Wind Soulstone (L)
+***** Fire Soulstone (L)
+***** Ice Soulstone (L)
 ** Flatlands                                                      :Flatlands:
 *** Noblecourt
 **** Connections
@@ -67,27 +77,56 @@
 ***** DONE Therion: Chapter 2                                       :Therion:
 ****** TODO Fill in story details
 ***** DONE Junk Collector: South of palace, carrying 'Tools of Learning' :Quest:
+
       Bought Tools of Learning from Junk Collector south of the palace.
+
 ****** TODO Fill this in with proper quest name
 ***** TODO Never Forget                                               :Quest:
+
       Bought "Lorie's Diary" from the Affable Antiquarian.
+** Frostlands                                                    :Frostlands:
+*** Flamesgrace
+**** Connections
+***** [[Northern Flamesgrace Wilds (11)]]
+**** Points of Interest
+***** DONE Ophilia: Chapter I                                       :Ophilia:
+      Fill this out in more detail later...
+***** DONE The Slumbering Giant
+      A Diligent Student is trying to learn more about the jötunn.
+      After the Jötunn Horn was turned over, he recalled the scholar he'd met
+      who'd started him on this line of research, and thinks this may provide
+      his work some legitimacy.
+      - Rewards :: 4,500g, Calamity Spear
 ** Riverlands                                                    :Riverlands:
 *** Saintsbridge
 **** Connections
 ***** [[East Saintsbridge Traverse (23)][East Saintsbridge Traverse (23)]]
 ***** [[Murkwood Trail (20)][Murkwood Trail (20)]]
 **** Points of Interest
-***** TODO Ophilia: Chapter II                                      :Ophilia:
+***** DONE Ophilia: Chapter II                                      :Ophilia:
+
       Ophilia performed the Kindling for Saintsbridge's fire. While seeing the
       town's sights, she attempted to heal two children's friendship, fractured
       over the loss of a precious brooch. After one child chased a dog carrying
       something shiny into the nearby forests, and the friend pursued him in an
       attempt to save him and reconcile, Ophilia too pursued to protect them.
+
+      She finds them in the woods' depths, confronted with an enormous wolf. Her
+      companions and she drove the wolf off, rescuing the boys and allowing them
+      to reconcile, even finding the missing brooch. Returning to the temple,
+      she discusses the event and the warmth and compassion she's brought to its
+      people through her own flame. She plans the next stop on her pilgrimage:
+      Goldshore.
+
 ***** DONE Meryl, Lost then Found (II)
+
       Provoked the Erstwhile Sellsword with H'annit.
       - Rewards :: 6,600g, Resistant Nut (M)
+
 ***** TODO The Worrywart
+
       Worrywart is fretting about a rising river.
+
 **** Treasures
 ***** Inspiriting Plum (M)
 ***** Inspiriting Plum                                               :Hidden:
@@ -137,12 +176,16 @@
 ***** 1 x [[Cliff Birdian IV][Cliff Birdian IV]], 1 x [[Cliff Birdian V][Cliff Birdian V]], 1 x [[Lloris][Lloris]], 1 x [[Two-handed Hatchling][Two-handed Hatchling]]
 ***** 1 x [[Cliff Birdian V][Cliff Birdian V]], 1 x [[Cliff Birdian VI][Cliff Birdian VI]], 1 x [[Lloris][Lloris]], 1 x [[Two-handed Hatchling][Two-handed Hatchling]]
 **** Treasures
-***** DONE Herb of Valor 
+***** DONE Herb of Valor
 ***** DONE Energizing Pomegranate
 ***** DONE Thieves' Chest - Fire Amulet                             :Therion:
+
       South of Quarrycrest entrance, path curling around the west
+
 *** South Orewell Pass (45)
+
     To be visited...
+
 **** Connections
 ***** [[South Quarrycrest Pass][South Quarrycrest Pass]]
 *** Road to Morlock's Manse
@@ -151,22 +194,28 @@
 ***** [[Morlock's Manse (18)][Morlock's Manse (18)]]
 **** Encounters
 ***** 2 x [[Great Condor][Great Condor]], 2 x [[Two-handed Hatchling][Two-handed Hatchling]]
-***** 1 x [[Armor Eater][Armor Eater]], 2 x [[Great Condor][Great Condor]] 
+***** 1 x [[Armor Eater][Armor Eater]], 2 x [[Great Condor][Great Condor]]
 ***** 2 x [[Lloris][Lloris]], 2 x [[Two-handed Hatchling][Two-handed Hatchling]]
 **** Treasures
 ***** Healing Grape (M)
 ***** Inspiriting Plum
 ***** 5,000g
-** Woodlands                                                      :Woodlands:
-*** West S'warkii Trail
+** Frostlands                                                    :Frostlands:
+*** Northern Flamesgrace Wilds (11)
 **** Connections
-***** [[North Bolderfall Pass][North Bolderfall Pass]]
-***** [[Path of Beasts (15)][Path of Beasts (15)]]
-** Sunlands                                                        :Sunlands:
-*** Southern Sunshade Sands (11)
+***** [[Flamesgrace]]
+***** [[Western Flamesgrace Wilds (11)]]
+**** Encounters
+**** Treasures
+*** Western Flamesgrace Wilds (11)
 **** Connections
-***** [[Sunshade][Sunshade]]
-***** [[South Clearbrook Traverse (11)][South Clearbrook Traverse (11)]]
+***** [[Northern Flamesgrace Wilds (11)]]
+***** [[North S'warkii Trail (11)]]
+***** [[Hoarfrost Grotto (25)]]
+**** Encounters
+***** 2 x [[Ice Lizardman I]], 1 x [[Ice Lizardman III]]
+***** 1 x [[Ice Lizardman I]], 2 x [[Ice Lizardman II]], 1 x [[Ice Lizardman III]]
+**** Treasures
 ** Riverlands                                                    :Riverlands:
 *** South Clearbrook Traverse (11)
 **** Connections
@@ -180,8 +229,10 @@
 ***** Soothing Seed
 **** Points of Interest
 ***** DONE A Sweet Reunion                                            :Quest:
+
       Allured the Lost Grandfather back to Clearbrook with Primrose.
       - Rewards :: 2,000g
+
 *** Murkwood Trail (20)
 **** Connections
 ***** [[Saintsbridge][Saintsbridge]]
@@ -190,6 +241,7 @@
 ***** 1 x [[Reptalion][Reptalion]]
 ***** 1 x [[Salamander][Salamander]], 1 x [[River Bug][River Bug]], 1 x [[River Fly][River Fly]]
 ***** 1 x [[Salamander][Salamander]], 3 x [[River Bug][River Bug]]
+***** 2 x [[River Bug]], 2 x [[River Fly]]
 **** Treasures
 ***** Herb of Awakening
 ***** Inspiriting Plum Basket
@@ -205,12 +257,26 @@
 ***** Herb of Healing
 **** Points of Interest
 ***** DONE The Pilgrim's Plight                                       :Quest:
+
       Provoked the Ruffian with H'annit
       - Rewards :: 6,600g, Refreshing Jam
+** Sunlands                                                        :Sunlands:
+*** Southern Sunshade Sands (11)
+**** Connections
+***** [[Sunshade][Sunshade]]
+***** [[South Clearbrook Traverse (11)][South Clearbrook Traverse (11)]]
+** Woodlands                                                      :Woodlands:
+*** North S'warkii Trail (11)
+*** West S'warkii Trail
+**** Connections
+***** [[North Bolderfall Pass][North Bolderfall Pass]]
+***** [[Path of Beasts (15)][Path of Beasts (15)]]
 * Dungeons
 ** Cliftlands                                                    :Cliftlands:
 *** Morlock's Manse (18)
+
     - Entrance :: [[Road to Morlock's Manse][Road to Morlock's Manse]]
+
 **** Encounters
 ***** 1 x [[Sentinel][Sentinel]], 3 x [[Thunder Sentinel][Thunder Sentinel]]
 ***** 2 x [[War Dog][War Dog]], 2 x [[Thunder Sentinel][Thunder Sentinel]]
@@ -226,25 +292,33 @@
 ***** DONE Olive of Life (M)
 ***** DONE Thieves' Chest - Hasty Helm
 *** Carrion Caves (20)
+
     - Entrance :: [[South Bolderfall Pass][South Bolderfall Pass]], east, under bridge
+
 **** Encounters
 ***** 3 x [[Night Raven][Night Raven]], 2 x [[Ash Raven][Ash Raven]]
-***** 3 x [[Night Raven][Night Raven]], 1 x [[Ash Raven][Ash Raven]], 1 x [[Cait][Cait]] 
-***** 1 x [[Great Condor][Great Condor]], 3 x [[Crawly Fledgling][Crawly Fledgling]] 
-***** 1 x [[King Condor][King Condor]], 2 x [[Crawly Fledgling][Crawly Fledgling]] 
-***** 2 x [[Dread Falcon][Dread Falcon]], 2 x [[Tempest Falcon][Tempest Falcon]] 
-***** 3 x [[Dread Falcon][Dread Falcon]], 2 x [[Tempest Falcon][Tempest Falcon]] 
-***** *Boss:* [[Heavenwing][Heavenwing]] 
+***** 3 x [[Night Raven][Night Raven]], 1 x [[Ash Raven][Ash Raven]], 1 x [[Cait][Cait]]
+***** 1 x [[Great Condor][Great Condor]], 3 x [[Crawly Fledgling][Crawly Fledgling]]
+***** 1 x [[King Condor][King Condor]], 2 x [[Crawly Fledgling][Crawly Fledgling]]
+***** 2 x [[Dread Falcon][Dread Falcon]], 2 x [[Tempest Falcon][Tempest Falcon]]
+***** 3 x [[Dread Falcon][Dread Falcon]], 2 x [[Tempest Falcon][Tempest Falcon]]
+***** *Boss:* [[Heavenwing][Heavenwing]]
 **** Treasures
-***** DONE Inspiriting Plum (M) 
+***** DONE Inspiriting Plum (M)
 ***** DONE Olive of Life (M)
 ***** DONE 6,000g
 ***** TODO Thieves' Chest                                           :Therion:
+
       Far south-east of first room
+
 ***** DONE Enchanted Axe
+
       Boss Reward Chest
+
 *** The Sewers (24)
+
     - Entrance :: [[Quarrycrest][Quarrycrest]], behind the inn
+
 **** Encounters
 ***** 2 x [[Marionette Bones][Marionette Bones]], 2 x [[Wind Wisp][Wind Wisp]]
 ***** 1 x [[Puppet Bones][Puppet Bones]], 2 x [[Marionette Bones][Marionette Bones]]
@@ -258,14 +332,40 @@
 ***** DONE Healing Grape Bunch
 ***** DONE Bottle of Befuddling Dust
 ***** DONE Normal Chest - Sprightly Ring
+
       To the west of the boss room
+
 ***** DONE Thieves' Chest - Snipe Saber                             :Therion:
+
       Near entrance (C-shaped path)
+
 *** Derelict Mine (30)
+
     - Entrance :: [[South Quarrycrest Pass][South Quarrycrest Pass]], east of the Quarrycrest entrance path
+** Frostlands                                                    :Frostlands:
+*** Hoarfrost Grotto (25)
+    - Entrance :: [[Northern Flamesgrace Wilds (11)]]
+    #+CAPTION: Hoarfrost Grotto Map
+    [[./images/hoarfrost-grotto.png]]
+**** Encounters
+***** 2 x [[Ice Guardian]], 1 x [[Ice Remnant]]
+***** 2 x [[Ice Curator]], 1 x [[Ice Elemental]]
+***** 2 x [[Ice Curator]], 1 x [[Light Elemental]]
+***** 1 x [[Ice Remnant]], 4 x [[Albino Bat]]
+***** *Boss:* [[Jötunn]]
+**** Treasures
+***** Light Nut
+***** Olive of Life (M)
+***** 10,000g
+***** TODO Thieves' Chest                                           :Therion:
+      Northern exit from the main room loop
+***** Healing Grape (M)
+***** Inspiriting Plum (M)
 ** Riverlands                                                    :Riverlands:
 *** Twin Falls (20)
+
     - Entrance :: [[South Clearbrook Traverse (11)][South Clearbrook Traverse (11)]] 
+
 **** Encounters
 ***** 5 x [[Shadow Bat][Shadow Bat]]
 ***** 1 x [[Cait][Cait]], 4 x [[Shadow Bat][Shadow Bat]]
@@ -282,16 +382,39 @@
 ***** DONE Olive of Life (M)
 ***** DONE Thieves' Chest - Psychic Staff
 ***** DONE Refreshing Jam
+
       Boss Reward Chest
+
 ***** DONE 5,000g
+
       Boss Reward Chest, hidden path
+
 *** The Murkwood (23)
+
     - Entrance :: [[Murkwood Trail (20)][Murkwood Trail (20)]]
+
 **** Encounters
+***** 1 x [[Wanderweed]], 3 x [[Shambling Weed]]
+***** 1 x [[Creeping Treant]], 3 x [[Shambling Weed]]
+***** 1 x [[Creeping Treant]], 2 x [[Wanderweed]]
+***** 2 x [[Wanderweed]], 2 x [[Howler]]
+***** 2 x [[Creeping Treant]]
+***** *Boss:* [[Hróðvitnir]]
 **** Treasures
+***** Inspiriting Plum
+***** Energizing Pomegranate (M)
+***** Olive of Life (M)
+***** Kite Shield
+***** Healing Grape (M)
+***** Psychic Staff
+***** Healing Grape Bunch
+***** TODO Thieves' Chest                                           :Therion:
+      NE corner, far side of the river
 ** Woodlands                                                      :Woodlands:
 *** Path of Beasts (15)
+
     - Entrance :: [[West S'warkii Trail][West S'warkii Trail]], lower trail east of the Bolderfall Pass exit
+
 **** Encounters
 ***** 3 x [[Giant Boar][Giant Boar]]
 ***** 4 x [[Majestic Marmot][Majestic Marmot]]
@@ -301,154 +424,291 @@
 ***** DONE Tough Nut
 ***** DONE Inspiriting Plum (M)
 ***** TODO Thieves' Chest                                           :Therion:
+
       Follow entrance trail east until it curves (not forks) north; chest is
       nestled in a hidden path to the west.
-* Enemies 
+
+* Enemies
 ** =Template=                                                      :noexport:
    - Weaknesses :: /Sword/ /Spear/ /Dagger/ /Axe/ /Bow/ /Staff/ /Fire/ /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
    - Armor :: 
 ** Normal
+*** Albino Bat
+    - Weaknesses :: *Spear* /Dagger/ /Axe/ /Bow/ /Staff/ /Ice/ /Thunder/ /Wind/ /Light/ *Dark*
+    - Armor :: 3
 *** Armor Eater
+
     - Weaknesses :: Sword Axe Wind
     - Armor :: 4
     - On Steal :: Sleepweed
     - On Collect :: 450g 
+
 *** Ash Raven
+
     - Weaknesses :: Spear Dagger Bow Wind
     - Armor :: 1
+
 *** Blood Viper
+
     - Weaknesses :: Sword Spear Axe Dark
     - Armor :: 2
+
 *** Cait
+
     Flees ASAP
     - Weaknesses :: Sword Dagger Axe Staff
     - Armor :: 2
+
 *** Cliff Birdian II
+
     - Weaknesses :: Sword Spear Axe Light
     - Armor :: 2
+
 *** Cliff Birdian IV
+
     - Weaknesses :: Sword Spear Axe Thunder
     - Armor :: 2
+
 *** Cliff Birdian V
+
     - Weaknesses :: Sword Spear Axe Thunder
     - Armor :: 3
     - On Steal :: Sleepweed
+
 *** Cliff Birdian VI
+
     - Weaknesses :: Spear Axe Dark
     - Armor :: 1
     - On Steal :: Inspiriting Plum 
+
 *** Crawly Fledgling
+
     - Weaknesses :: Sword Axe Thunder 
     - Armor :: 3
+
+*** Creeping Treant
+
+    - Weaknesses :: Axe Fire
+    - Armor :: 3
+    - On Steal :: Essence of Pomegranate
+
 *** Cultured Cait
+
     Flees ASAP
     - Weaknesses :: /Sword/ /Spear/ *Dagger* /Axe/ /Bow/ /Staff/ /Ice/ /Wind/ /Light/ /Dark/
     - Armor :: 4
+
 *** Dread Falcon
+
     - Weaknesses :: Spear Dagger Bow Wind Dark
     - Armor :: 3
+
 *** Hatchling
+
     - Weaknesses :: Sword Spear Axe
     - Armor :: 2
+
+*** Howler
+
+    - Weaknesses :: Spear Bow Thunder
+    - Armor :: 1
+
 *** Giant Boar
+
     - Weaknesses :: Sword Bow Dark
     - Armor :: 2
     - On Collect :: 180g 
+
 *** Great Condor
+
     - Weaknesses :: Spear Bow
     - Armor :: 3
+
+*** Ice Curator
+    - Weaknesses :: Spear Bow Staff Fire
+    - Armor :: 1
+    - On Steal :: Ice Soulstone
+*** Ice Elemental
+    - Weaknesses :: Fire Thunder
+    - Armor :: 4
+*** Ice Guardian
+    - Weaknesses :: Sword Dagger Bow Fire
+    - Armor :: 2
+*** Ice Lizardman I
+    - Weaknesses :: Axe Staff Fire Thunder
+    - Armor :: 1
+*** Ice Lizardman II
+    - Weaknesses :: Axe Staff Fire Thunder
+    - Armor :: 2
+*** Ice Lizardman III
+    - Weaknesses :: Staff Thunder Dark
+    - Armor :: 3
+*** Ice Remnant
+    - Weaknesses :: Sword Spear Axe Fire
+    - Armor :: 2
+    - On Steal :: Ice Soulstone (M)
+    - On Collect :: 840g
 *** King Condor
+
     * Weaknesses :: Spear /Dagger/ /Axe/ /Bow/ /Fire/ /Ice/ /Wind/ /Light/ /Dark/
     * Armor :: 4
+
 *** Laughing Hyaena
     - Weaknesses :: Axe Bow Fire
     - Armor :: 1
+*** Light Elemental
+    - Weaknesses :: Ice Dark
+    - Armor :: 4
+    - On Steal :: Light Soulstone (L)
+    - On Collect :: 616g
 *** Lloris
+
     - Weaknesses :: Dagger Fire Wind
     - Armor :: 1
+
 *** Majestic Marmot
+
     - Weaknesses :: Bow Staff Fire
     - Armor :: 3
+
 *** Marionette Bones
+
     - Weaknesses :: Staff Wind Light
     - Armor :: 1
+
 *** Morlock's Mercenary I
+
     - Weaknesses :: Spear Dagger /Axe/ /Bow/ /Staff/ /Fire/ /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
     - Armor :: 3
+
 *** Morlock's Mercenary II
+
     - Weaknesses :: Spear Dagger Ice
     - Armor :: 1
     - On Steal :: Pseudo Gold Ore 
+
 *** Night Raven
+
     - Weaknesses :: Spear Dagger Bow Wind
     - Armor :: 1
+
 *** Puppet Bones
+
     - Weaknesses :: Staff Fire Light
     - Armor :: 2
+
 *** Reptalion
+
     Difficult to hit
     - Weaknesses :: Axe
     - Armor :: 3
+
 *** River Bug
+
     - Weaknesses :: Sword Axe Staff Dark
     - Armor :: 3
     - On Steal :: Noxroot
     - On Collect :: 346g
+
 *** River Fly
+
     - Weaknesses :: Spear Bow Ice Wind
     - Armor :: 1
     - On Steal :: Addlewort
+
 *** River Froggen II
+
     - Weaknesses :: Sword Bow Ice Dark
     - Armor :: 2
+
 *** River Froggen III
+
     - Weaknesses :: Sword Bow Ice
     - Armor :: 3
+
 *** River Froggen IV
+
     - Weaknesses :: Staff Ice Dark
     - Armor :: 2
     - On Steal :: Inspiriting Plum
+
 *** River Froggen V
+
     - Weaknesses :: Staff Ice Dark
     - Armor :: 3
     - On Steal :: Noxroot
+
 *** Salamander
+
     - Weaknesses :: Dagger Ice Light
     - Armor :: 3
     - On Steal :: Olive Bloom 
+
 *** Sentinel
+
     - Weaknesses :: Sword Spear Axe Bow Staff
     - Armor :: 2
     - On Steal :: Olive of Life
+
 *** Shadow Bat
+
     - Weaknesses :: Sword Spear Bow Ice
     - Armor :: 2
     - On Steal :: Curious Bloom
+
+*** Shambling Weed
+
+    - Weaknesses :: Sword Axe Fire
+    - Armor :: 1
+    - On Steal :: Essence of Pomegranate
+    - On Collect :: 406g
+
 *** Spud Bug
+
     - Weaknesses :: /Sword/ /Spear/ /Dagger/ /Axe/ /Bow/ /Staff/ *Fire* /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
     - Armor :: 3
+
 *** Tempest Falcon
+
     - Weaknesses :: *Spear* *Dagger* /Axe/ /Ice/ /Thunder/ /Bow/ *Wind*
     - Armor :: 1
+
 *** Thunder Sentinel
+
     - Weaknesses :: Sword Spear Axe Staff Wind
     - Armor :: 1
     - On Steal :: Thunder Soulstone
     - On Collect :: 204g 
+
 *** Two-handed Hatchling
+
     - Weaknesses :: Sword Spear Axe
     - Armor :: 3
+
+*** Wanderweed
+
+    - Weaknesses :: Sword Fire
+    - Armor :: 3
+    - On Steal :: Addlewort
+
 *** War Dog
+
     - Weaknesses :: /Sword/ /Spear/ /Axe/ *Bow* *Fire* /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
     - Armor :: 2
+
 *** Warrior Wasp
+
     - Weaknesses :: Sword Spear Axe
     - Armor :: 2
+
 *** Wind Wisp
+
     - Weaknesses :: Thunder Light
     - Armor :: 3
+
 ** Bosses
 *** Gideon
+
     - Weaknesses :: Sword Dagger Axe /?/
     - Armor :: 7
     - HP :: 26,951
@@ -457,10 +717,14 @@
     - EXP :: 500
     - JP :: 320
     - Drops :: Energizing Pomegranate, Gideon's Dagger 
+
 **** Dancing Bones
+
      - Weaknesses :: Axe Staff Fire Light
      - Armor :: 4
+
 *** Heavenwing
+
     - Weaknesses :: Spear Bow Dark
     - Armor :: 10
     - HP :: 9,704
@@ -468,7 +732,29 @@
     - Gold :: 6,468
     - XP :: 109
     - JP :: 42 
+
+*** Hróðvitnir
+   - Weaknesses :: Sword Spear Ice Thunder /Wind/ /Light/
+   - Armor :: 5 (+2 on glare)
+   - HP :: 34,969
+   - On Steal :: Healing Grape Bunch
+   - On Collect :: 4,000g
+*** Jötunn
+   - Weaknesses :: Sword Axe Fire Thunder
+   - Armor :: 4 (+2 on thickening ice)
+   - Summons :: 2 x [[Snow Elemental]]
+   - HP :: 30,307
+   - Gold :: 2,200
+   - EXP :: 300
+   - JP :: 200
+   - Drops :: Jötunn Horn
+
+**** Snow Elemental
+     - Weaknesses :: /Sword/ /Spear/ /Dagger/ /Axe/ /Bow/ /Staff/ *Fire* /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
+     - Armor :: 4
+     - On Steal :: Ice Soulstone (M)
 *** Monarch
+
     Mass Sleep + Unconsciousness
     - Weaknesses :: Spear Bow Dark
     - Armor :: 10
@@ -477,7 +763,9 @@
     - Gold :: 3,600
     - EXP :: 74
     - JP :: 36
+
 *** Omar
+
     - Weaknesses :: Spear Dagger Staff Ice Light
     - Armor :: 5 (7 or 9 on using =Tighten Defenses=)
     - Spawns With :: 2 x [[Omar's Footman][Omar's Footman]]
@@ -485,13 +773,18 @@
     - EXP :: 110
     - JP :: 60
     - Drops :: Omar's Axe
+
 **** Omar's Footman
+
      - Weaknesses :: *Sword* /Axe/ /Fire/ /Ice/ *Thunder* *Wind*
      - Armor :: 4
      - On Steal :: Healing Grape (M)
+
 * COMMENT Local Variables
+
 # local variables:
 # eval: (setq org-refile-targets '((nil . (:maxlevel . 2))))
 # eval: (setq org-refile-use-outline-path t)
 # tempnoeval: (setq org-outline-path-complete-in-steps nil)
 # end:
+
