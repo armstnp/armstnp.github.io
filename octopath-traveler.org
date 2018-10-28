@@ -495,7 +495,7 @@
 ***** 2 x [[Wind Curator][Wind Curator]]
 ***** 1 x [[Wind Guardian][Wind Guardian]], 3 x [[Light Sentinel][Light Sentinel]]
 ***** 1 x [[Light Guardian][Light Guardian]], 1 x [[Light Sentinel][Light Sentinel]], 2 x [[Ash Raven][Ash Raven]]
-***** *Boss:* 
+***** *Boss:* [[Rufus, the Left-hand Man][Rufus, the Left-hand Man]]
 **** Treasures
 ***** DONE Herb of Revival
 ***** DONE Shadow Soulstone (M)
