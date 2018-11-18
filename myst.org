@@ -1,0 +1,110 @@
+# -*- org-image-actual-width: nil; -*-
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://www.pirilampo.org/styles/readtheorg/css/htmlize.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://www.pirilampo.org/styles/readtheorg/css/readtheorg.css"/>
+#+HTML_HEAD: <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+#+HTML_HEAD: <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="https://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="https://www.pirilampo.org/styles/readtheorg/js/readtheorg.js"></script>
+#+OPTIONS: toc:2
+#+OPTIONS: num:nil
+#+OPTIONS: tags:not-in-toc
+#+TITLE: Myst
+
+* Stoneship
+** Opening
+*** October 11, 1984 10:04 AM
+**** Maple Leaf
+*** January 17, 1207 5:46 AM
+**** +Tilted Big Dipper+ Serpent
+*** November 23, 9791 6:57 PM
+**** +Left Hook, Right Line+ (Wrote AM instead of PM)
+**** +Egg with Sentinels+ Beetle
+** Telescope
+*** +Telescope: Spike @ 114+
+*** *Telescope: Lighthouse @ 135*
+*** +Telescope: Spike @ 181 or 182+
+*** +Telescope: Big Spike Cliff @ 305+
+** Pumps
+*** Left: Opens the Ship
+*** Middle: Opens Stone halls
+*** Right: Opens Lighthouse
+** Left Half-page
+   #+BEGIN_EXAMPLE
+   Marker Swit--
+   Isle--
+
+   The vault is loc--
+   the Island of N--
+   achieved very --
+   instructions are f--
+   each of the Marker --
+   Turn every one of --
+   "on" position.  Th--
+   as a final step, tu--
+   there to th--
+   #+END_EXAMPLE
+* Mechanical
+** Opening hints
+*** 2:40
+*** 2,2,1
+** Audio Directions
+*** North - Ping
+*** West - Chirp
+*** South - Tin Can
+*** East - Spring
+** North - Pedestal Hints
+*** | Cyan | Tri Rect Tri | -- | -- |
+** East - Pedestal Hints
+*** | -- | -- | Tritri Moon | Semicircle |
+* Channelwood
+** Opening Hints
+*** 7,2,4
+** Routes
+   #+ATTR_ORG: :width 500
+   #+ATTR_HTML: :width 800 
+   #+CAPTION: Channelwood Pipes
+   [[file:./images/channelwood.png]]
+** Right Half-page
+  #+BEGIN_EXAMPLE
+  --ch Vault Access
+  --and of Myst
+   
+  --ated in very plain view on
+  -- Myst, and access can be
+  -- easily if the simple
+  --ollowed. First, locate
+  -- Switches on the island.
+  -- these switches to the
+  --en go to the dock and,
+  --rn the Marker Switch
+  --he "off" position.
+  #+END_EXAMPLE
+* Selenitic
+** Opening Hints
+*** 59 Volts
+*** C1 C2 D#2 F2 A#1
+** Generators
+   | *10* |  +1+ |
+   |  +7+ |  +2+ |
+   |  *8* | *22* |
+   | +16+ | *19* |
+   |  +5+ |  +9+ |
+** Sound Generators
+   | Symbol                 | Sound                          | Position | Sequence |
+   |------------------------+--------------------------------+----------+----------|
+   | Obelisk in Water       | Waves lapping, wind, blowglass |     15.0 |        1 |
+   | Water Drops into Water | Water Trickling                |    153.4 |        2 |
+   | Gusty Hole             | Heavy wind gusts               |    212.2 |        3 |
+   | Steaming Crack / Chasm | Roar                           |    130.3 |        4 |
+   | Quarter Clock w/ Hands | Mechanical Gears / Bells       |     55.6 |        5 |
+** Navigating the Chasm
+*** See [[Audio Directions]]
+*** N W N E E S S W SW W NW NE N SE
+* Final Mechanisms
+** Page 158
+   | X | X |   |   |   |   | X | X |
+   |   | X | X |   | X |   | X | X |
+   | X |   | X |   |   |   | X | X |
+   | X |   |   | X |   |   | X | X |
+   | X | X |   |   | X | X |   |   |
+   | X | X | X | X | X |   | X |   |

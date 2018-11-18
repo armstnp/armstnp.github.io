@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2018-10-23 Tue 01:45 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Myst</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Nathan Armstrong" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="https://www.pirilampo.org/styles/readtheorg/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://www.pirilampo.org/styles/readtheorg/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://www.pirilampo.org/styles/readtheorg/js/readtheorg.js"></script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Myst</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org5e758b7">Stoneship</a>
+<ul>
+<li><a href="#org4a2d03d">Opening</a></li>
+<li><a href="#org7d70554">Telescope</a></li>
+<li><a href="#org6eb1916">Pumps</a></li>
+<li><a href="#org48a0fd5">Left Half-page</a></li>
+</ul>
+</li>
+<li><a href="#orgba482e7">Mechanical</a>
+<ul>
+<li><a href="#org0d1afd6">Opening hints</a></li>
+<li><a href="#orgdbfe672">Audio Directions</a></li>
+<li><a href="#org256e993">North - Pedestal Hints</a></li>
+<li><a href="#orgfaae186">East - Pedestal Hints</a></li>
+</ul>
+</li>
+<li><a href="#orgc9a0bb4">Channelwood</a>
+<ul>
+<li><a href="#orgdcf331a">Opening Hints</a></li>
+<li><a href="#orgf7d120c">Routes</a></li>
+<li><a href="#org42d68d6">Right Half-page</a></li>
+</ul>
+</li>
+<li><a href="#org316413f">Selenitic</a>
+<ul>
+<li><a href="#orge7c383a">Opening Hints</a></li>
+<li><a href="#org33710eb">Generators</a></li>
+<li><a href="#orgb5d63b6">Sound Generators</a></li>
+<li><a href="#org5b48243">Navigating the Chasm</a></li>
+</ul>
+</li>
+<li><a href="#orgca1c66c">Final Mechanisms</a>
+<ul>
+<li><a href="#org3057457">Page 158</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org5e758b7" class="outline-2">
+<h2 id="org5e758b7">Stoneship</h2>
+<div class="outline-text-2" id="text-org5e758b7">
+</div>
+<div id="outline-container-org4a2d03d" class="outline-3">
+<h3 id="org4a2d03d">Opening</h3>
+<div class="outline-text-3" id="text-org4a2d03d">
+</div>
+<div id="outline-container-orgc51a70d" class="outline-4">
+<h4 id="orgc51a70d">October 11, 1984 10:04 AM</h4>
+<div class="outline-text-4" id="text-orgc51a70d">
+</div>
+<ul class="org-ul">
+<li><a id="org5a30cd3"></a>Maple Leaf<br /></li>
+</ul>
+</div>
+<div id="outline-container-org556f602" class="outline-4">
+<h4 id="org556f602">January 17, 1207 5:46 AM</h4>
+<div class="outline-text-4" id="text-org556f602">
+</div>
+<ul class="org-ul">
+<li><a id="orgf9b2ad8"></a><del>Tilted Big Dipper</del> Serpent<br /></li>
+</ul>
+</div>
+<div id="outline-container-org0864cad" class="outline-4">
+<h4 id="org0864cad">November 23, 9791 6:57 PM</h4>
+<div class="outline-text-4" id="text-org0864cad">
+</div>
+<ul class="org-ul">
+<li><a id="org4990c3f"></a><del>Left Hook, Right Line</del> (Wrote AM instead of PM)<br /></li>
+<li><a id="org36ebc31"></a><del>Egg with Sentinels</del> Beetle<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org7d70554" class="outline-3">
+<h3 id="org7d70554">Telescope</h3>
+<div class="outline-text-3" id="text-org7d70554">
+</div>
+<div id="outline-container-org2f94db9" class="outline-4">
+<h4 id="org2f94db9"><del>Telescope: Spike @ 114</del></h4>
+</div>
+<div id="outline-container-orge7239a2" class="outline-4">
+<h4 id="orge7239a2"><b>Telescope: Lighthouse @ 135</b></h4>
+</div>
+<div id="outline-container-orga93718d" class="outline-4">
+<h4 id="orga93718d"><del>Telescope: Spike @ 181 or 182</del></h4>
+</div>
+<div id="outline-container-orgb7395b5" class="outline-4">
+<h4 id="orgb7395b5"><del>Telescope: Big Spike Cliff @ 305</del></h4>
+</div>
+</div>
+<div id="outline-container-org6eb1916" class="outline-3">
+<h3 id="org6eb1916">Pumps</h3>
+<div class="outline-text-3" id="text-org6eb1916">
+</div>
+<div id="outline-container-org08ea5ff" class="outline-4">
+<h4 id="org08ea5ff">Left: Opens the Ship</h4>
+</div>
+<div id="outline-container-orgd227840" class="outline-4">
+<h4 id="orgd227840">Middle: Opens Stone halls</h4>
+</div>
+<div id="outline-container-orga958d52" class="outline-4">
+<h4 id="orga958d52">Right: Opens Lighthouse</h4>
+</div>
+</div>
+<div id="outline-container-org48a0fd5" class="outline-3">
+<h3 id="org48a0fd5">Left Half-page</h3>
+<div class="outline-text-3" id="text-org48a0fd5">
+<pre class="example">
+Marker Swit--
+Isle--
+
+The vault is loc--
+the Island of N--
+achieved very --
+instructions are f--
+each of the Marker --
+Turn every one of --
+"on" position.  Th--
+as a final step, tu--
+there to th--
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgba482e7" class="outline-2">
+<h2 id="orgba482e7">Mechanical</h2>
+<div class="outline-text-2" id="text-orgba482e7">
+</div>
+<div id="outline-container-org0d1afd6" class="outline-3">
+<h3 id="org0d1afd6">Opening hints</h3>
+<div class="outline-text-3" id="text-org0d1afd6">
+</div>
+<div id="outline-container-orgce260cf" class="outline-4">
+<h4 id="orgce260cf">2:40</h4>
+</div>
+<div id="outline-container-orgfde479d" class="outline-4">
+<h4 id="orgfde479d">2,2,1</h4>
+</div>
+</div>
+<div id="outline-container-orgdbfe672" class="outline-3">
+<h3 id="orgdbfe672">Audio Directions</h3>
+<div class="outline-text-3" id="text-orgdbfe672">
+</div>
+<div id="outline-container-org011a463" class="outline-4">
+<h4 id="org011a463">North - Ping</h4>
+</div>
+<div id="outline-container-orgf380a26" class="outline-4">
+<h4 id="orgf380a26">West - Chirp</h4>
+</div>
+<div id="outline-container-orgf69186e" class="outline-4">
+<h4 id="orgf69186e">South - Tin Can</h4>
+</div>
+<div id="outline-container-org1fbd1a8" class="outline-4">
+<h4 id="org1fbd1a8">East - Spring</h4>
+</div>
+</div>
+<div id="outline-container-org256e993" class="outline-3">
+<h3 id="org256e993">North - Pedestal Hints</h3>
+<div class="outline-text-3" id="text-org256e993">
+</div>
+<div id="outline-container-orgc32e33d" class="outline-4">
+<h4 id="orgc32e33d">| Cyan | Tri Rect Tri | &#x2013; | &#x2013; |</h4>
+</div>
+</div>
+<div id="outline-container-orgfaae186" class="outline-3">
+<h3 id="orgfaae186">East - Pedestal Hints</h3>
+<div class="outline-text-3" id="text-orgfaae186">
+</div>
+<div id="outline-container-orgf99c9ca" class="outline-4">
+<h4 id="orgf99c9ca">| &#x2013; | &#x2013; | Tritri Moon | Semicircle |</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc9a0bb4" class="outline-2">
+<h2 id="orgc9a0bb4">Channelwood</h2>
+<div class="outline-text-2" id="text-orgc9a0bb4">
+</div>
+<div id="outline-container-orgdcf331a" class="outline-3">
+<h3 id="orgdcf331a">Opening Hints</h3>
+<div class="outline-text-3" id="text-orgdcf331a">
+</div>
+<div id="outline-container-org8467529" class="outline-4">
+<h4 id="org8467529">7,2,4</h4>
+</div>
+</div>
+<div id="outline-container-orgf7d120c" class="outline-3">
+<h3 id="orgf7d120c">Routes</h3>
+<div class="outline-text-3" id="text-orgf7d120c">
+
+<div class="figure">
+<p><img src="./images/channelwood.png" alt="channelwood.png" width="800" />
+</p>
+<p><span class="figure-number">Figure 1: </span>Channelwood Pipes</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org42d68d6" class="outline-3">
+<h3 id="org42d68d6">Right Half-page</h3>
+<div class="outline-text-3" id="text-org42d68d6">
+<pre class="example">
+--ch Vault Access
+--and of Myst
+
+--ated in very plain view on
+-- Myst, and access can be
+-- easily if the simple
+--ollowed. First, locate
+-- Switches on the island.
+-- these switches to the
+--en go to the dock and,
+--rn the Marker Switch
+--he "off" position.
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org316413f" class="outline-2">
+<h2 id="org316413f">Selenitic</h2>
+<div class="outline-text-2" id="text-org316413f">
+</div>
+<div id="outline-container-orge7c383a" class="outline-3">
+<h3 id="orge7c383a">Opening Hints</h3>
+<div class="outline-text-3" id="text-orge7c383a">
+</div>
+<div id="outline-container-org333ecdb" class="outline-4">
+<h4 id="org333ecdb">59 Volts</h4>
+</div>
+<div id="outline-container-orgf2bc2e7" class="outline-4">
+<h4 id="orgf2bc2e7">C1 C2 D#2 F2 A#1</h4>
+</div>
+</div>
+<div id="outline-container-org33710eb" class="outline-3">
+<h3 id="org33710eb">Generators</h3>
+<div class="outline-text-3" id="text-org33710eb">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left"><b>10</b></td>
+<td class="org-left"><del>1</del></td>
+</tr>
+
+<tr>
+<td class="org-left"><del>7</del></td>
+<td class="org-left"><del>2</del></td>
+</tr>
+
+<tr>
+<td class="org-left"><b>8</b></td>
+<td class="org-left"><b>22</b></td>
+</tr>
+
+<tr>
+<td class="org-left"><del>16</del></td>
+<td class="org-left"><b>19</b></td>
+</tr>
+
+<tr>
+<td class="org-left"><del>5</del></td>
+<td class="org-left"><del>9</del></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-orgb5d63b6" class="outline-3">
+<h3 id="orgb5d63b6">Sound Generators</h3>
+<div class="outline-text-3" id="text-orgb5d63b6">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Symbol</th>
+<th scope="col" class="org-left">Sound</th>
+<th scope="col" class="org-right">Position</th>
+<th scope="col" class="org-right">Sequence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Obelisk in Water</td>
+<td class="org-left">Waves lapping, wind, blowglass</td>
+<td class="org-right">15.0</td>
+<td class="org-right">1</td>
+</tr>
+
+<tr>
+<td class="org-left">Water Drops into Water</td>
+<td class="org-left">Water Trickling</td>
+<td class="org-right">153.4</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Gusty Hole</td>
+<td class="org-left">Heavy wind gusts</td>
+<td class="org-right">212.2</td>
+<td class="org-right">3</td>
+</tr>
+
+<tr>
+<td class="org-left">Steaming Crack / Chasm</td>
+<td class="org-left">Roar</td>
+<td class="org-right">130.3</td>
+<td class="org-right">4</td>
+</tr>
+
+<tr>
+<td class="org-left">Quarter Clock w/ Hands</td>
+<td class="org-left">Mechanical Gears / Bells</td>
+<td class="org-right">55.6</td>
+<td class="org-right">5</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org5b48243" class="outline-3">
+<h3 id="org5b48243">Navigating the Chasm</h3>
+<div class="outline-text-3" id="text-org5b48243">
+</div>
+<div id="outline-container-orgded0e36" class="outline-4">
+<h4 id="orgded0e36">See <a href="#orgdbfe672">Audio Directions</a></h4>
+</div>
+<div id="outline-container-orgf9e4290" class="outline-4">
+<h4 id="orgf9e4290">N W N E E S S W SW W NW NE N SE</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-orgca1c66c" class="outline-2">
+<h2 id="orgca1c66c">Final Mechanisms</h2>
+<div class="outline-text-2" id="text-orgca1c66c">
+</div>
+<div id="outline-container-org3057457" class="outline-3">
+<h3 id="org3057457">Page 158</h3>
+<div class="outline-text-3" id="text-org3057457">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">X</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+</tr>
+
+<tr>
+<td class="org-left">X</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">X</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+</tr>
+
+<tr>
+<td class="org-left">X</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">X</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+</tr>
+
+<tr>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">X</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">X</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Nathan Armstrong</p>
+<p class="date">Created: 2018-10-23 Tue 01:45</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
