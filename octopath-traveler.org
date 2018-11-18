@@ -62,7 +62,15 @@
 ***** Wind Soulstone (L)
 ***** Fire Soulstone (L)
 ***** Ice Soulstone (L)
+** Coastlands                                                    :Coastlands:
+*** Rippletide
+**** Connections
+***** [[East Rippletide Coast (11)][East Rippletide Coast (11)]]
+***** [[Path to the Caves of Maiya (11)][Path to the Caves of Maiya (11)]]
 ** Flatlands                                                      :Flatlands:
+*** Atlasdam
+**** Connections
+***** [[East Atlasdam Flats (11)][East Atlasdam Flats (11)]]
 *** Noblecourt
 **** Connections
 ***** TODO Fill this in...
@@ -162,6 +170,10 @@
       Frostlands Farmer
 ***** DONE Satisfactory Coal
       Villager, near the forest's entrance
+** Highlands                                                      :Highlands:
+*** Cobbleston
+**** Connections
+***** [[South Cobbleston Gap (11)][South Cobbleston Gap (11)]]
 ** Riverlands                                                    :Riverlands:
 *** Saintsbridge
 **** Connections
@@ -212,6 +224,47 @@
 ***** [[East Victors Hollow Trail (29)][East Victors Hollow Trail (29)]]
 ***** [[Forest of No Return (48)][Forest of No Return (48)]]
 **** Points of Interest
+***** DONE Olberic: Chapter 2                                       :Olberic:
+      Olberic seeks sign of the traitor Erhardt in Victor's Hollow, where the
+      brigand Gaston had told him of Gustav, the Black Knight who might be able
+      to point his steps in the right direction. Gustav seems to be a hot new
+      contender in the city's famed arena.
+      
+      A woman named Cecily notices Olberic, and offers to sponsor him in the
+      arena, hoping he's the key to her big break, noting that that's his best
+      bet to talk to Gustav. She offers a way to get him in even after the
+      qualifying rounds: publicly provoke and defeat one of the qualified
+      fighters. He seeks out and challenges a Contemptuous and a Prideful
+      Warrior, drawing out Victorino, the Buccaneer's Bane: bounty hound.
+      Olberic handily beats Victorino, and he honorably offers his place in the
+      tournament. The whole town is abuzz with news of the swordsman of the
+      fallen realm. 
+
+      Introductions made, the tournament begins, with Gustav hinting that he
+      will tell Olberic more upon his victory. He duels Joshua Frostblade, who
+      fights for love; Archibold the Crusher, who fights for his father's
+      memory; and Gustav, the Black Knight. He realizes he fights today for
+      victory alone this day; and with that reason, he defeats Gustav, and is
+      crowned the new king of the arena. Yet he still lacks a reason to carry
+      his blade.
+
+      Back at his inn room, Gustav tells Olberic of Erhardt, the spy he had
+      always been since his hometown had been sacked, and how he blamed King
+      Alfred of Hornburg for not coming to its defense. Both Olberic and Gustav
+      comment on how proud they were to know him, despite his deeds. Gustav
+      points Olberic in the direction of Wellspring to find Erhardt at last.
+      Olberic muses on the reason Erhardt wielded his blade: vengeance. He
+      wonders if he set the sword aside, now his vengeance was complete.
+
+      On his way out of town, Cecily catches up to him and offers to make him
+      a full-time champion if he ever returns. Olberic declines; it is not the
+      life for him, and the road beckons him on to the Sunlands.
+****** Encounters
+       - *Mini-boss:* [[Buccaneer's Bane][Buccaneer's Bane]]
+       - *Mini-boss:* [[Joshua][Joshua]]
+       - *Mini-boss:* [[Archibold][Archibold]]
+       - *Boss:* [[Gustav][Gustav]]
+***** TODO Tressa: Chapter 3                                         :Tressa:
 ***** DONE Arena Aspirations                                          :Quest:
       Showed a gladiator how to guide a young man away from the warrior's path,
       by being a mentor and father figure to replace the [[Father and Fighter][Father and Fighter]] the
@@ -242,17 +295,28 @@
 ***** Estadas's Condition
       Estadas
 ***** Arena Fighters
-      | Fighter               | Weaknesses                    |
-      |-----------------------+-------------------------------|
-      | One-Hundred-Punch Man | Fire, Wind, Dark              |
-      | Hilda 'The Clown'     | Sword, Staff, Ice             |
-      | 'Potboy' Johnny       | Spear, Staff, Fire            |
-      | The Deceiver          | Spear, Ice, Wind              |
-      | Razor                 | Spear, Staff, Ice, Wind       |
-      | The Devil Who Dares   | Sword, Lightning, Light, Dark |
-      | Gouger of Eyes        | Sword, Bow, Fire, Light       |
-      | The Enigma            | Sword, Dagger, Bow, Lightning |
-      | The Southern Dandy    | Sword, Fire                   |
+      | Fighter                  | Weaknesses                   |
+      |--------------------------+------------------------------|
+      | One-Hundred-Punch Man    | Fire, Wind, Dark             |
+      | Hilda 'The Clown'        | Sword, Staff, Ice            |
+      | 'Potboy' Johnny          | Spear, Staff, Fire           |
+      | The Deceiver             | Spear, Ice, Wind             |
+      | Razor                    | Spear, Staff, Ice, Wind      |
+      | The Devil Who Dares      | Sword, Thunder, Light, Dark  |
+      | Gouger of Eyes           | Sword, Bow, Fire, Light      |
+      | The Enigma               | Sword, Dagger, Bow, Thunder  |
+      | The Southern Dandy       | Sword, Fire                  |
+      | Knight of Thorns         | Spear, Bow, Wind, Dark       |
+      | Ironheart                | Sword, Dagger, Fire, Thunder |
+      | The Coincounter          | Sword, Dagger, Staff, Fire   |
+      | Buccaneer's Bane         | Sword, Dagger, Wind, Dark    |
+      | Archibold the Crusher    | Dagger, Bow, Ice, Dark       |
+      | Joshua Frostblade        | Axe, Staff, Fire, Light      |
+      | Conrad the Impaler       | ?                            |
+      | Wallace Wildsword        | ?                            |
+      | Bernhard the Beasthunter | ?                            |
+      | Grieg the Unbreakable    | ?                            |
+      | Gustav, the Black Knight | Spear, Axe, Bow, Dark        |
 **** Treasures
 ***** DONE Inspiriting Plum (M)                                      :Hidden:
 ***** DONE Refreshing Jam                                            :Hidden:
@@ -316,6 +380,33 @@
 ***** Healing Grape (M)
 ***** Inspiriting Plum
 ***** 5,000g
+** Coastlands                                                    :Coastlands:
+*** East Rippletide Coast (11)
+**** Connections
+***** [[Rippletide][Rippletide]]
+***** [[North Rippletide Coast (11)][North Rippletide Coast (11)]]
+***** [[North Cobbleston Gap (11)][North Cobbleston Gap (11)]]
+**** Encounters
+***** 3 x [[Sea Birdian I][Sea Birdian I]], 1 x [[Sea Birdian III][Sea Birdian III]]
+***** 1 x [[Sailfish][Sailfish]], 1 x [[Hermit Conch][Hermit Conch]], 1 x [[Sea Birdian II][Sea Birdian II]]
+**** Treasures
+***** DONE Magic Nut
+*** North Rippletide Coast (11)
+**** Connections
+***** [[East Rippletide Coast (11)][East Rippletide Coast (11)]]
+***** [[East Atlasdam Flats (11)][East Atlasdam Flats (11)]]
+**** Encounters
+***** 2 x [[Sea Birdian II][Sea Birdian II]], 1 x [[Sea Birdian III][Sea Birdian III]]
+*** Path to the Caves of Maiya (11)
+**** Connections
+***** [[Rippletide][Rippletide]]
+** Flatlands                                                      :Flatlands:
+*** East Atlasdam Flats (11)
+**** Connections
+***** [[Atlasdam][Atlasdam]]
+***** [[North Rippletide Coast (11)][North Rippletide Coast (11)]]
+**** Encounters
+***** 1 x [[Flatlands Froggen I][Flatlands Froggen I]], 2 x [[Flatlands Froggen II][Flatlands Froggen II]], 3 x [[Flatlands Froggen III][Flatlands Froggen III]]
 ** Frostlands                                                    :Frostlands:
 *** Northern Flamesgrace Wilds (11)
 **** Connections
@@ -350,6 +441,7 @@
 ***** [[Stillsnow][Stillsnow]]
 **** Encounters
 ***** 1 x [[Hoary Bear][Hoary Bear]]
+***** 1 x [[Hoary Bear][Hoary Bear]], 1 x [[Hoary Howler][Hoary Howler]]
 ***** 2 x [[Ice Lizardman IV][Ice Lizardman IV]], 1 x [[Ice Lizardman V][Ice Lizardman V]], 1 x [[Hoary Howler][Hoary Howler]]
 ***** 1 x [[Ice Lizardman V][Ice Lizardman V]], 1 x [[Ice Lizardman VI][Ice Lizardman VI]], 1 x [[Majestic Snow Marmot][Majestic Snow Marmot]], 1 x [[Hoary Howler][Hoary Howler]]
 **** Treasures
@@ -358,6 +450,30 @@
 *** Trail to the Whitewood (37)
 **** Connections
 ***** [[Stillsnow][Stillsnow]]
+** Highlands                                                      :Highlands:
+*** North Cobbleston Gap (11)
+**** Connections
+***** [[East Rippletide Coast (11)][East Rippletide Coast (11)]]
+***** [[Untouched Sanctum (15)][Untouched Sanctum (15)]]
+***** [[North Stonegard Pass (30)][North Stonegard Pass (30)]]
+**** Encounters
+***** 1 x [[Rockadillo][Rockadillo]], 2 x [[Giant Falcon][Giant Falcon]], 1 x [[Highland Ratkin II][Highland Ratkin II]]
+***** 2 x [[Dread Falcon][Dread Falcon]], 1 x [[Rockadillo][Rockadillo]], 1 x [[Cait][Cait]]
+***** 2 x [[Giant Falcon][Giant Falcon]], 2 x [[Rockadillo][Rockadillo]], 1 x [[Highland Ratkin III][Highland Ratkin III]]
+**** Treasures
+***** DONE Thieves' Chest - Magic Nut                               :Therion:
+*** South Cobbleston Gap (11)
+**** Connections
+***** [[Cobbleston][Cobbleston]]
+***** [[North Cobbleston Gap (11)][North Cobbleston Gap (11)]]
+***** [[Eastern Sunshade Sands (11)][Eastern Sunshade Sands (11)]]
+**** Encounters
+***** 1 x [[Rockadillo][Rockadillo]], 2 x [[Giant Falcon][Giant Falcon]], 1 x [[Highland Ratkin II][Highland Ratkin II]]
+**** Treasures
+***** DONE Herb of Awakening
+*** North Stonegard Pass (30)
+**** Connections
+***** [[North Cobbleston Gap (11)][North Cobbleston Gap (11)]]
 ** Riverlands                                                    :Riverlands:
 *** South Clearbrook Traverse (11)
 **** Connections
@@ -400,9 +516,14 @@
       Provoked the Ruffian with H'annit
       - Rewards :: 6,600g, Refreshing Jam
 ** Sunlands                                                        :Sunlands:
+*** Eastern Sunshade Sands (11)
+**** Connections
+***** [[Southern Sunshade Sands (11)][Southern Sunshade Sands (11)]]
+***** [[South Cobbleston Gap (11)][South Cobbleston Gap (11)]]
 *** Southern Sunshade Sands (11)
 **** Connections
 ***** [[Sunshade][Sunshade]]
+***** [[Eastern Sunshade Sands (11)][Eastern Sunshade Sands (11)]]
 ***** [[South Clearbrook Traverse (11)][South Clearbrook Traverse (11)]]
 ** Woodlands                                                      :Woodlands:
 *** North S'warkii Trail (11)
@@ -422,7 +543,7 @@
 ***** [[Victors Hollow][Victors Hollow]]
 **** Encounters
 ***** 1 x [[Mutant Mushroom][Mutant Mushroom]], 1 x [[Creeping Treant][Creeping Treant]]
-***** 1 x [[Horned Howler][Horned Howler]], 2 x [[Forest Ratkin IV][Forest Ratkin IV]], 1 x [[Forest Ratkin V][Forest Ratkin V]] 
+***** 1 x [[Horned Howler][Horned Howler]], 2 x [[Forest Ratkin IV][Forest Ratkin IV]], 1 x [[Forest Ratkin V][Forest Ratkin V]]
 **** Treasures
 ***** DONE Healing Grape (M)
 ***** DONE Olive of Life (L)
@@ -430,7 +551,7 @@
 ***** DONE Inspiriting Plum
 * Dungeons
 ** Cliftlands                                                    :Cliftlands:
-*** Morlock's Manse (18)
+*** DONE Morlock's Manse (18)
     - Entrance :: [[Road to Morlock's Manse][Road to Morlock's Manse]]
 **** Encounters
 ***** 1 x [[Sentinel][Sentinel]], 3 x [[Thunder Sentinel][Thunder Sentinel]]
@@ -446,7 +567,7 @@
 ***** DONE Refreshing Jam
 ***** DONE Olive of Life (M)
 ***** DONE Thieves' Chest - Hasty Helm
-*** Carrion Caves (20)
+*** DONE Carrion Caves (20)
     - Entrance :: [[South Bolderfall Pass][South Bolderfall Pass]], east, under bridge
 **** Encounters
 ***** 3 x [[Night Raven][Night Raven]], 2 x [[Ash Raven][Ash Raven]]
@@ -464,7 +585,7 @@
       Far south-east of first room
 ***** DONE Enchanted Axe
       Boss Reward Chest
-*** The Sewers (24)
+*** DONE The Sewers (24)
     - Entrance :: [[Quarrycrest][Quarrycrest]], behind the inn
 **** Encounters
 ***** 2 x [[Marionette Bones][Marionette Bones]], 2 x [[Wind Wisp][Wind Wisp]]
@@ -482,10 +603,12 @@
       To the west of the boss room
 ***** DONE Thieves' Chest - Snipe Saber                             :Therion:
       Near entrance (C-shaped path)
-*** Derelict Mine (30)
+*** TODO Derelict Mine (30)
     - Entrance :: [[South Quarrycrest Pass][South Quarrycrest Pass]], east of the Quarrycrest entrance path
+** Coastlands                                                    :Coastlands:
+*** TODO Undertow Cove (45)
 ** Frostlands                                                    :Frostlands:
-*** Secret Path (21)
+*** DONE Secret Path (21)
     - Entrance :: [[Road to the Obsidian Parlor (20)][Road to the Obsidian Parlor (20)]]
     #+CAPTION: Secret Path Map 
     #+ATTR_ORG: :width 500
@@ -505,7 +628,7 @@
 ***** DONE Thieves' Chest - Spiked Vest
 ***** DONE Healing Grape Bunch
 ***** DONE Wakeful Stone
-*** Hoarfrost Grotto (25)
+*** DONE Hoarfrost Grotto (25)
     - Entrance :: [[Northern Flamesgrace Wilds (11)]]
     #+CAPTION: Hoarfrost Grotto Map
     #+ATTR_ORG: :width 300
@@ -525,9 +648,28 @@
       Northern exit from the main room loop
 ***** Healing Grape (M)
 ***** Inspiriting Plum (M)
-*** Tomb of the Imperator (35)
+*** TODO Tomb of the Imperator (35)
+    - Entrance :: [[*Western Stillsnow Wilds (26)][Western Stillsnow Wilds (26)]]
+** Highlands                                                      :Highlands:
+*** TODO Untouched Sanctum (15)
+    - Entrance :: [[North Cobbleston Gap (11)][North Cobbleston Gap (11)]]
+    #+CAPTION: Untouched Sanctum Map 
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600 
+    [[./images/octopath-untouched-sanctum.png]]
+**** Encounters
+***** 2 x [[Highland Goat][Highland Goat]], 1 x [[Ambling Bones][Ambling Bones]]
+***** 4 x [[Dread Viper][Dread Viper]], 1 x [[Highland Goat][Highland Goat]]
+***** 4 x [[Fire Wisp][Fire Wisp]], 1 x [[Marionette Bones][Marionette Bones]]
+**** Points of Interest
+***** Ancient Monument
+      Engraved with runes of some forgotten tongue
+**** Treasures
+***** DONE Thieves' Chest - Sharp Nut
+***** DONE Inspiriting Plum (M)
+***** DONE Olive of Life (M)
 ** Riverlands                                                    :Riverlands:
-*** Twin Falls (20)
+*** DONE Twin Falls (20)
     - Entrance :: [[South Clearbrook Traverse (11)][South Clearbrook Traverse (11)]] 
 **** Encounters
 ***** 5 x [[Shadow Bat][Shadow Bat]]
@@ -548,7 +690,7 @@
       Boss Reward Chest
 ***** DONE 5,000g
       Boss Reward Chest, hidden path
-*** The Murkwood (23)
+*** DONE The Murkwood (23)
     - Entrance :: [[Murkwood Trail (20)][Murkwood Trail (20)]]
 **** Encounters
 ***** 1 x [[Wanderweed]], 3 x [[Shambling Weed]]
@@ -568,7 +710,7 @@
 ***** TODO Thieves' Chest                                           :Therion:
       NE corner, far side of the river
 ** Woodlands                                                      :Woodlands:
-*** Path of Beasts (15)
+*** DONE Path of Beasts (15)
     - Entrance :: [[West S'warkii Trail (11)][West S'warkii Trail (11)]], lower trail east of the Bolderfall Pass exit
 **** Encounters
 ***** 3 x [[Giant Boar][Giant Boar]]
@@ -581,7 +723,8 @@
 ***** TODO Thieves' Chest                                           :Therion:
       Follow entrance trail east until it curves (not forks) north; chest is
       nestled in a hidden path to the west.
-*** Forest of No Return (48)
+*** TODO Forest of No Return (48)
+    - Entrance :: [[Victors Hollow][Victors Hollow]]
 * Enemies
 ** =Template=                                                      :noexport:
    - Weaknesses :: /Sword/ /Spear/ /Dagger/ /Axe/ /Bow/ /Staff/ /Fire/ /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
@@ -590,6 +733,9 @@
 *** Albino Bat
     - Weaknesses :: *Spear* /Dagger/ /Axe/ /Bow/ /Staff/ /Ice/ /Thunder/ /Wind/ /Light/ *Dark*
     - Armor :: 3
+*** Ambling Bones
+   - Weaknesses :: Staff Wind Light
+   - Armor :: 2
 *** Armor Eater
     - Weaknesses :: Sword Axe Wind
     - Armor :: 4
@@ -633,11 +779,26 @@
 *** Dread Falcon
     - Weaknesses :: Spear Dagger Bow Wind Dark
     - Armor :: 3
+*** Dread Viper
+   - Weaknesses :: Spear Axe Dark
+   - Armor :: 3
+*** Fire Wisp
+   - Weaknesses :: Ice Dark
+   - Armor :: 1
+*** Flatlands Froggen I
+   - Weaknesses :: Bow Ice Light
+   - Armor :: 1
+*** Flatlands Froggen II
+   - Weaknesses :: Bow Ice Light
+   - Armor :: 2
+*** Flatlands Froggen III
+   - Weaknesses :: Axe Staff Ice
+   - Armor :: 3
 *** Forest Ratkin IV
-    - Weaknesses :: *Sword* /Spear/ /Dagger/ /Axe/ /Bow/ /Staff/ /Fire/ /Ice/ /Wind/ /Light/ /Dark/
+    - Weaknesses :: *Sword* *Axe* /Staff/ /Fire/ /Wind/ /Light/ /Dark/
     - Armor :: 2
 *** Forest Ratkin V
-    - Weaknesses :: /Sword/ /Spear/ /Dagger/ *Axe* /Bow/ /Staff/ /Fire/ /Ice/ /Wind/ /Light/ /Dark/
+    - Weaknesses :: *Sword* *Axe* /Staff/ /Fire/ /Wind/ /Light/ /Dark/
     - Armor :: 3
 *** Frost Bear
     - Weaknesses :: Spear Axe Wind
@@ -647,12 +808,28 @@
     - Weaknesses :: Sword Bow Dark
     - Armor :: 2
     - On Collect :: 180g 
+*** Giant Falcon
+    - Weaknesses :: Spear Dagger Bow Wind Dark
+    - Armor :: 1
 *** Great Condor
     - Weaknesses :: Spear Bow
     - Armor :: 3
 *** Hatchling
     - Weaknesses :: Sword Spear Axe
     - Armor :: 2
+*** Hermit Conch
+   - Weaknesses :: Sword Spear Ice
+   - Armor :: 2
+   - On Steal :: Sleepweed
+*** Highland Goat
+   - Weaknesses :: *Sword* /Spear/ /Dagger/ /Staff/ /Fire/ /Thunder/ /Wind/ *Light*
+   - Armor :: 2
+*** Highland Ratkin II
+    - Weaknesses :: Sword Dagger Bow Light
+    - Armor :: 2
+*** Highland Ratkin III
+    - Weaknesses :: Spear Bow Dark
+    - Armor :: 3
 *** Hoary Bear
     - Weaknesses :: Spear Axe Wind
     - Armor :: 4
@@ -661,7 +838,7 @@
     - Armor :: 2
     - On Steal :: Essence of Pomegranate
 *** Horned Howler
-    - Weaknesses :: /Sword/ /Spear/ /Dagger/ /Axe/ /Bow/ /Staff/ /Fire/ /Ice/ *Thunder*
+    - Weaknesses :: *Spear* /Dagger/ /Axe/ /Bow/ /Staff/ /Fire/ *Thunder*
     - Armor :: 3
 *** Howler
     - Weaknesses :: Spear Bow Thunder
@@ -776,10 +953,26 @@
     - Weaknesses :: Staff Ice Dark
     - Armor :: 3
     - On Steal :: Noxroot
+*** Rockadillo
+    - Weaknesses :: Sword Axe Dark
+    - Armor :: 2
+*** Sailfish
+   - Weaknesses :: Sword Bow Fire Thunder
+   - Armor :: 2
+   - On Steal :: Essence of Grape
 *** Salamander
     - Weaknesses :: Dagger Ice Light
     - Armor :: 3
     - On Steal :: Olive Bloom 
+*** Sea Birdian I
+    - Weaknesses :: Sword Spear Fire Thunder
+    - Armor :: 1
+*** Sea Birdian II
+   - Weaknesses :: Sword Spear Fire Thunder
+   - Armor :: 2
+*** Sea Birdian III
+   - Weaknesses :: Sword Fire Wind
+   - Armor :: 3
 *** Sentinel
     - Weaknesses :: Sword Spear Axe Bow Staff
     - Armor :: 2
@@ -827,6 +1020,33 @@
 *** Wind Wisp
     - Weaknesses :: Thunder Light
     - Armor :: 3
+** Unique
+*** Archibold
+    Guards Bow and Ice weaknesses while henchmen are alive
+    - Weaknesses :: Dagger Bow Ice Dark
+    - Armor :: 7
+    - Spawns With :: 2 x [[Disguised Duelist][Disguised Duelist]]
+    - On Steal :: Olive of Life (M)
+**** Disguised Duelist
+     - Weaknesses :: *Axe* *Staff* *Fire* /Ice/ /Thunder/ /Wind/ /Light/
+     - Armor :: 5
+*** Buccaneer's Bane
+    - Weaknesses :: Sword Dagger Wind Dark
+    - Armor :: 5
+    - Spawns With :: 2 x [[Victorino's Retainer][Victorino's Retainer]]
+**** Victorino's Retainer
+     - Weaknesses :: *Sword* /Dagger/ /Bow/ /Staff/ /Thunder/ /Light/ *Dark*
+     - Armor :: 2
+     - On Steal :: Healing Grape
+*** Joshua
+    Guards Fire weakness while henchmen are alive
+    - Weaknesses :: Axe Staff Fire Light
+    - Armor :: 6
+    - Spawns With :: 2 x [[Dapper Duelist][Dapper Duelist]]
+    - On Steal :: Inspiriting Plum (M)
+**** Dapper Duelist
+     - Weaknesses :: *Dagger* *Bow* *Fire* /Ice/ /Wind/ /Dark/
+     - Armor :: 4
 ** Bosses
 *** Gideon
     - Weaknesses :: Sword Dagger Axe /?/
@@ -840,6 +1060,20 @@
 **** Dancing Bones
      - Weaknesses :: Axe Staff Fire Light
      - Armor :: 4
+*** Gustav
+    Guards Axe and Dark weaknesses while top henchman is alive
+    Guards Spear, Bow, and Fire weaknesses while bottom henchman is alive
+    - Weaknesses :: Spear Axe Bow Fire Dark
+    - Armor :: 8
+    - Spawns With :: 2 x [[Shield Wielder][Shield Wielder]]
+    - Gold :: 3,600
+    - XP :: 350
+    - JP :: 200
+    - Drops :: Gustav's Shield
+**** Shield Wielder
+     - Weaknesses :: Sword Staff Ice Wind
+     - Armor :: 5
+     - On Steal :: Spiked Shield
 *** Heavenwing
     - Weaknesses :: Spear Bow Dark
     - Armor :: 10
@@ -900,7 +1134,6 @@
     - Weaknesses :: Dagger Axe Ice Wind
     - Armor :: 3
     - On Steal :: Inspiriting Plum (M)
-
 * COMMENT Local Variables
 # local variables:
 # eval: (setq org-refile-targets '((nil . (:maxlevel . 2))))
