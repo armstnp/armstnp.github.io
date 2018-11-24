@@ -20,7 +20,7 @@
 ***** DONE Therion: Chapter 1                                       :Therion:
 *** Quarrycrest
 **** Connections
-***** [[South Quarrycrest Pass][South Quarrycrest Pass]]
+***** [[South Quarrycrest Pass (28)][South Quarrycrest Pass (28)]]
 ***** [[Road to Morlock's Manse][Road to Morlock's Manse]]
 ***** [[The Sewers (24)][The Sewers (24)]]
 **** Points of Interest
@@ -67,6 +67,87 @@
 **** Connections
 ***** [[East Rippletide Coast (11)][East Rippletide Coast (11)]]
 ***** [[Path to the Caves of Maiya (11)][Path to the Caves of Maiya (11)]]
+*** Goldshore
+**** Connections
+***** [[West Goldshore Coast (34)][West Goldshore Coast (34)]]
+***** [[Road to the Caves of Azure (23)][Road to the Caves of Azure (23)]]
+**** Points of Interest
+***** DONE Alfyn: Chapter 2                                           :Alfyn:
+      Alfyn arrives at Goldshore, looking for any requiring his aid. He hears of
+      a fellow apothecary in town, and decides to seek her out. On his way, he
+      aids a young girl, Ellen, who had tripped and skinned her knee. She tells
+      him of her sister, Flynn, down hard with a fever.
+
+      On arriving at Flynn's house, he finds the child already cured, and
+      a dismissive mother labeled him a fraud and threw him out. Alfyn admires
+      this other apothecary's handiwork, and meandering north, finds her in the
+      aristocratic quarters of the town, commenting that she did not require
+      fees for her work, a sentiment that resonates with Alfyn. She introduces
+      herself as Vanessa Hysel. But when Alfyn asks her about her tools and
+      tricks, she suddenly clams up.
+
+      Wandering on the beach, Alfyn meets Ellen again, and talks with her about
+      what he finds truly valuable, and encourages her to treasure her family
+      above all else. Returning to the northern end of the town, he witnesses
+      an aristocrat asking Vanessa to attend to her ill husband. Vanessa
+      identifies the illness as Gaborra whooping cough, and the cure as a moss
+      from a distant and treacherous location. She proceeds to call for a steep
+      fee for her cure, stunning all present. All in attendance see the health
+      of their families as a priority, and are willing to pay her fee. Then
+      Flynn's mother, Marlene, requests a cure in front of all the aristocrats,
+      even knowing she has no money at all, much less enough for the cure.
+      Vanessa spurns her, but not before observing her stock is almost out.
+      Alfyn finds Marlene crying, and offers to try and treat Flynn.
+
+      On examining the medicine Vanessa had used to treat Flynn, Alfyn
+      recognizes the scent from the Gaborra evergreen - a proper treatment,
+      but one also inducing the cough he now witnessed, resembling the namesake
+      plague. Realizing the ploy Vanessa had used, he seeks word of the blue
+      moss that can treat the side effects. He gleans word of Vanessa's
+      destination from a coachman, and tales of Glowworm Moss from a local
+      aristocrat, leading Alfyn to pinpoint her goal as the Caves of Azure to
+      the east.
+
+      In the depths of the caves, he finds Vanessa right where he'd expected.
+      She speaks of how she views the people she treats - as mere tools to
+      further her own enrichment. She is willing to use her skills to do harm
+      rather than heal to that end. Alfyn confronts her, and she aims to silence
+      him. The protection she purchased proves to be insufficient, though, as
+      Alfyn brings her down, and uses a Slumberthorn to knock her out before she
+      can escape. He gathers some moss, treats Flynn with it, and departs to
+      continue his healing in Saintsbridge of the Riverlands.
+***** TODO Ophilia: Chapter 3                                       :Ophilia:
+***** TODO Left Behind
+      A Former Sailor seeks his long-bearded captain, lost in a shipwreck.
+***** TODO Le Mann, Explorer Extraordinaire (II)
+      Le Mann needs motivation to continue on his way, lest he succumb to
+      homesickness. Provoking him to action had no effect.
+***** TODO The Merchant's Path
+      A Merchantry Master needs help with bandit trouble plaguing his merchants.
+**** Treasures
+***** Inspiriting Plum
+***** Thunder Soulstone (L)                                          :Hidden:
+***** Olive of Life
+***** Copper-filled Pouch                                            :Hidden:
+***** Healing Grape Bunch                                            :Hidden:
+***** 4,500g
+***** Herb of Clamor
+***** Healing Grape (M)                                              :Hidden:
+***** Olive of Life
+***** Inspiriting Plum Basket
+***** Odds and Ends                                                  :Hidden:
+***** Silver Axe                                                     :Hidden:
+**** Items to Acquire
+***** Orewell Whetstone
+      Stonemonger, by the armory
+***** Leviathan Egg
+      Fledling Fisherman, in the north end
+***** 3 Cat's Eyes
+      Old Man, in the north end, defended by a weak villager
+***** Wizard's Rod
+      Townsperson near the chapel
+***** Tough Nut (L)
+      Ellen, near the consumables shop
 ** Flatlands                                                      :Flatlands:
 *** Atlasdam
 **** Connections
@@ -174,6 +255,90 @@
 *** Cobbleston
 **** Connections
 ***** [[South Cobbleston Gap (11)][South Cobbleston Gap (11)]]
+*** Stonegard
+**** Connections
+***** [[North Stonegard Pass (30)][North Stonegard Pass (30)]]
+***** [[Spectrewood Path (26)][Spectrewood Path (26)]]
+**** Points of Interest
+***** DONE H'aanit: Chapter 2                                        :Haanit:
+      H'annit comes to Stonegard in search of her master, Z'aanta, who had
+      vanished in pursuit of the fiend Redeye. Following the trail left in his
+      only letter, she brings his returned direwolf Hägen with her to Stonegard.
+
+      She checks the alehouse first, where the tavern keeper knew him, but
+      hadn't seen him in some time. He noted Z'aanta had been visiting a woman,
+      Natalia, at the edge of town during his stay. He also recognized her from
+      the hunter's descriptions. On exiting the alehouse, Hägen seems disturbed
+      by something and runs, with Linde and H'annit pursuing.
+
+      They catch the direwolf as he confronts a local bodyguard in his way,
+      protecting an aristocrat - Nathan - greeting a woman named Natalia. Nearby
+      townspeople remark on the aristocrat's character: a philanderer of no good
+      account. H'aanig realizes Hägen was trying to come to Natalia's aid, and
+      provokes the soldier with her own coterie of wild animals to disguise her
+      role.
+
+      The wanton man chased away, Natalia recognizes Hägen and wonders where
+      he and Z'aanta had been, and why they had departed so suddenly. They head
+      to Natalia's home where she tells H'annit that the last they had heard, he
+      was heading into the nearby woods three months prior. Further prompting
+      from H'annit revealed Natalia's husband had been a friend of Z'aanta
+      before he passed, and hints that their relationship since then had become
+      more than close. They part, and H'annit heads to the Spectrewood in the
+      north.
+
+      H'annit finds the path blocked by a rockfall, and this seems to be the
+      place where Z'aanta and Hägen were separated. She finds a wildlife trail
+      nearby, guarded by an Ancient One, which appears to be a living twisted
+      tree. She provokes it, and gains entry to the Spectrewood. In its depths
+      she confronts the Lord of the Forest, where she finds her master's arrows
+      in the dirt. She wards off the beast, and delves still deeper into the
+      woods. There, she finds Z'aanta, petrified as a stone statue, one of his
+      arrows stuck into a nearby tree with a message for the one who found him.
+      She reads it to discover Redeye is the cause of this petrification, and
+      that Susanna of Stillsnow may know a cure for the condition.
+
+      H'annit returns to Natalia to inform her of Z'aanta's plight, and promises
+      to find a cure. Natalia observes the likeness between 'prentice and
+      master: their common stubborn focus in the heat of the hunt. The two are
+      interrupted by a knock at the door, and Linde growls in recognition as
+      Natalia lets Eliza in. She is informed of the situation as well, and is
+      unable to offer more information on the beast Redeye, as the Knights
+      Ardante had only instructed her to hire the hunter. She now goes to hunt
+      the beast herself, instructing H'annit to find the seer Susanna in the
+      meanwhile.
+
+      As H'annit departs from Stonegard, Natalia catches up to her and gives a
+      parting gift of meager supplies, her own contribution to the effort for
+      Z'aanta's sake. And so H'annit departed for Stillsnow and Susanna.
+***** TODO Cyrus: Chapter 3                                           :Cyrus:
+***** TODO Up to No Good
+      An Elderly Shopowner is being harassed by ruffians. They were provoked into a fight, and chased away for the time being, but returned shortly after the defenders left. The shopowner suspects his persistence is due to someone giving him orders.
+***** TODO A Royal Secret
+      An inquiring youth seeks more information regarding Ventus the Third, and the reason he had suddenly ceased his art, renowned as it was.
+***** TODO Lost in Translation
+      A bookbinder wants to be able to read a foreign book, but requires translation.
+**** Information
+***** The Fall of House Landar
+Erstwhile Bodyguard
+**** Treasures
+***** Inspiriting Plum
+***** Silver-filled Pouch                                            :Hidden:
+***** Bastard Sword                                                  :Hidden:
+***** Inspiriting Plum (M)                                           :Hidden:
+***** Healing Grape (M)
+***** Soldier's Longbow                                              :Hidden:
+***** Empty Coin Pouch                                               :Hidden:
+***** Large Feather                                                  :Hidden:
+**** Items to Acquire
+***** Forbidden Blade
+Townsperson, near equipment shop
+***** Dazzling Artwork
+Exorbitant sell price; Patrician Youth near chapel
+***** Mighty Belt
+Elderly Shopowner
+***** Elemental Augmentor
+Elderly Shopowner
 ** Riverlands                                                    :Riverlands:
 *** Saintsbridge
 **** Connections
@@ -217,7 +382,10 @@
 ***** Bridge Lance                                           :Therion:Tressa:
 ** Sunlands                                                        :Sunlands:
 *** Sunshade
-**** DONE Primrose: Chapter I                                      :Primrose:
+**** Connections
+***** [[Southern Sunshade Sands (11)][Southern Sunshade Sands (11)]]
+**** Points of Interest
+***** DONE Primrose: Chapter I                                     :Primrose:
 ** Woodlands                                                      :Woodlands:
 *** Victors Hollow
 **** Connections
@@ -336,7 +504,7 @@
 *** South Bolderfall Pass
 **** Connections
 ***** [[North Bolderfall Pass][North Bolderfall Pass]]
-***** [[South Quarrycrest Pass][South Quarrycrest Pass]]
+***** [[South Quarrycrest Pass (28)][South Quarrycrest Pass (28)]]
 ***** [[Carrion Caves (20)][Carrion Caves (20)]]
 **** Encounters
 ***** 1 x [[Great Condor][Great Condor]], 1 x [[Laughing Hyaena][Laughing Hyaena]], 1 x [[Cliff Birdian II][Cliff Birdian II]]
@@ -346,7 +514,7 @@
 ***** [[West S'warkii Trail (11)][West S'warkii Trail (11)]]
 **** Encounters
 ***** 1 x [[Cliff Birdian II][Cliff Birdian II]], 1 x [[Laughing Hyaena][Laughing Hyaena]], 2 x [[Hatchling][Hatchling]]
-*** South Quarrycrest Pass
+*** South Quarrycrest Pass (28)
 **** Connections
 ***** [[Quarrycrest][Quarrycrest]]
 ***** Shrine of the Prince of Thieves
@@ -359,6 +527,7 @@
 ***** 1 x [[Cliff Birdian IV][Cliff Birdian IV]], 1 x [[Cliff Birdian V][Cliff Birdian V]], 1 x [[Lloris][Lloris]]
 ***** 1 x [[Cliff Birdian IV][Cliff Birdian IV]], 1 x [[Cliff Birdian V][Cliff Birdian V]], 1 x [[Lloris][Lloris]], 1 x [[Two-handed Hatchling][Two-handed Hatchling]]
 ***** 1 x [[Cliff Birdian V][Cliff Birdian V]], 1 x [[Cliff Birdian VI][Cliff Birdian VI]], 1 x [[Lloris][Lloris]], 1 x [[Two-handed Hatchling][Two-handed Hatchling]]
+***** 1 x [[Cliff Birdian IV][Cliff Birdian IV]], 1 x [[Cliff Birdian V][Cliff Birdian V]], 1 x [[Cliff Birdian VI][Cliff Birdian VI]], 1 x [[Two-handed Hatchling][Two-handed Hatchling]], 1 x [[Long-eared Lloris][Long-eared Lloris]]
 **** Treasures
 ***** DONE Herb of Valor
 ***** DONE Energizing Pomegranate
@@ -367,7 +536,7 @@
 *** South Orewell Pass (45)
     To be visited...
 **** Connections
-***** [[South Quarrycrest Pass][South Quarrycrest Pass]]
+***** [[South Quarrycrest Pass (28)][South Quarrycrest Pass (28)]]
 *** Road to Morlock's Manse
 **** Connections
 ***** [[Quarrycrest][Quarrycrest]]
@@ -387,6 +556,7 @@
 ***** [[North Rippletide Coast (11)][North Rippletide Coast (11)]]
 ***** [[North Cobbleston Gap (11)][North Cobbleston Gap (11)]]
 **** Encounters
+***** 2 x [[Sea Birdian I][Sea Birdian I]], 2 x [[Sea Birdian II][Sea Birdian II]]
 ***** 3 x [[Sea Birdian I][Sea Birdian I]], 1 x [[Sea Birdian III][Sea Birdian III]]
 ***** 1 x [[Sailfish][Sailfish]], 1 x [[Hermit Conch][Hermit Conch]], 1 x [[Sea Birdian II][Sea Birdian II]]
 **** Treasures
@@ -400,6 +570,43 @@
 *** Path to the Caves of Maiya (11)
 **** Connections
 ***** [[Rippletide][Rippletide]]
+*** Road to the Caves of Azure (23)
+    #+CAPTION: Road to the Caves of Azure Map
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600
+    [[./images/octopath-road-to-caves-of-azure.png]]
+**** Connections
+***** [[Goldshore][Goldshore]]
+***** [[Caves of Azure (24)][Caves of Azure (24)]]
+**** Encounters
+***** 1 x [[Rock Tortoise][Rock Tortoise]], 3 x [[Sea Birdian VI][Sea Birdian VI]]
+***** 1 x [[Sea Birdking I][Sea Birdking I]], 2 x [[Sea Birdian VI][Sea Birdian VI]]
+**** Treasures
+***** Heavy Coin Pouch
+***** Energizing Pomegranate
+***** Purifying Seed
+*** Moonstruck Coast (34)
+    #+CAPTION: Moonstruck Coast
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600
+    [[./images/octopath-moonstruck-coast.png]]
+**** Connections
+***** [[North Stonegard Pass (30)][North Stonegard Pass (30)]]
+***** [[West Goldshore Coast (34)][West Goldshore Coast (34)]]
+**** Encounters
+***** 2 x [[Scythe Crab][Scythe Crab]], 2 x [[Rock Tortoise][Rock Tortoise]]
+***** 2 x [[Scythe Crab][Scythe Crab]], 2 x [[Sea Birdian V][Sea Birdian V]]
+**** Treasures
+***** Copper-filled Pouch
+***** Inspiriting Plum
+*** West Goldshore Coast (34)
+**** Connections
+***** [[Moonstruck Coast (34)][Moonstruck Coast (34)]]
+***** [[Goldshore][Goldshore]]
+**** Encounters
+***** 1 x [[Sea Birdking I][Sea Birdking I]], 2 x [[Sea Birdian V][Sea Birdian V]]
+**** Treasures
+***** Energizing Pomegranate
 ** Flatlands                                                      :Flatlands:
 *** East Atlasdam Flats (11)
 **** Connections
@@ -471,9 +678,33 @@
 ***** 1 x [[Rockadillo][Rockadillo]], 2 x [[Giant Falcon][Giant Falcon]], 1 x [[Highland Ratkin II][Highland Ratkin II]]
 **** Treasures
 ***** DONE Herb of Awakening
+*** Spectrewood Path (26)
+    #+CAPTION: Spectrewood Path Map 
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600 
+    [[./images/octopath-spectrewood-path.png]]
+**** Connections
+***** [[Stonegard][Stonegard]]
+***** [[The Spectrewood (27)][The Spectrewood (27)]]
+**** Encounters
+***** 1 x [[Highland Ratkin IV][Highland Ratkin IV]], 2 x [[Highland Ratkin V][Highland Ratkin V]], 2 x [[Dread Falcon][Dread Falcon]]
+***** 1 x [[Highland Ratking I][Highland Ratking I]], 2 x [[Highland Ratkin VI][Highland Ratkin VI]]
+***** 1 x [[Highland Ratking I][Highland Ratking I]], 2 x [[Highland Ratkin V][Highland Ratkin V]], 1 x [[Shaggy Aurochs][Shaggy Aurochs]]
+**** Treasures
+***** 5,000g
+***** Fool's Gold Ore
+***** Herb of Clamor
 *** North Stonegard Pass (30)
 **** Connections
+***** [[Stonegard][Stonegard]]
 ***** [[North Cobbleston Gap (11)][North Cobbleston Gap (11)]]
+***** Shrine of the Thunderblade
+***** [[Moonstruck Coast (34)][Moonstruck Coast (34)]]
+**** Encounters
+***** 1 x [[Highland Ratking I][Highland Ratking I]], 2 x [[Highland Ratkin VI][Highland Ratkin VI]]
+***** 1 x [[Highland Ratking I][Highland Ratking I]], 2 x [[Highland Ratkin V][Highland Ratkin V]], 1 x [[Shaggy Aurochs][Shaggy Aurochs]]
+**** Treasures
+***** Healing Grape (M)
 ** Riverlands                                                    :Riverlands:
 *** South Clearbrook Traverse (11)
 **** Connections
@@ -520,11 +751,14 @@
 **** Connections
 ***** [[Southern Sunshade Sands (11)][Southern Sunshade Sands (11)]]
 ***** [[South Cobbleston Gap (11)][South Cobbleston Gap (11)]]
+***** [[Whistling Cavern (20)][Whistling Cavern (20)]]
 *** Southern Sunshade Sands (11)
 **** Connections
 ***** [[Sunshade][Sunshade]]
 ***** [[Eastern Sunshade Sands (11)][Eastern Sunshade Sands (11)]]
 ***** [[South Clearbrook Traverse (11)][South Clearbrook Traverse (11)]]
+**** Encounters
+***** 2 x [[Sand Lizardman I][Sand Lizardman I]], 2 x [[Army Ant][Army Ant]]
 ** Woodlands                                                      :Woodlands:
 *** North S'warkii Trail (11)
 **** Connections
@@ -604,8 +838,25 @@
 ***** DONE Thieves' Chest - Snipe Saber                             :Therion:
       Near entrance (C-shaped path)
 *** TODO Derelict Mine (30)
-    - Entrance :: [[South Quarrycrest Pass][South Quarrycrest Pass]], east of the Quarrycrest entrance path
+    - Entrance :: [[South Quarrycrest Pass (28)][South Quarrycrest Pass (28)]]
 ** Coastlands                                                    :Coastlands:
+*** DONE Caves of Azure (24)
+    - Entrance :: [[Road to the Caves of Azure (23)][Road to the Caves of Azure (23)]]
+    #+CAPTION: Caves of Azure Map
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600
+    [[./images/octopath-caves-of-azure.png]]
+**** Encounters
+***** 1 x [[Barnacle Bat][Barnacle Bat]], 2 x [[Sea Slug][Sea Slug]]
+***** 2 x [[Barnacle Bat][Barnacle Bat]], 1 x [[Sea Slug][Sea Slug]]
+***** 2 x [[Barnacle Crab][Barnacle Crab]], 1 x [[Sea Slug][Sea Slug]]
+***** 1 x [[Buccaneer III][Buccaneer III]], 2 x [[Buccaneer IV][Buccaneer IV]]
+***** *Boss:* [[Vanessa][Vanessa]]
+**** Treasures
+***** DONE Thieves' Chest - Falcon Garb                             :Therion:
+***** DONE Thieves' Chest - Spiked Armor                            :Therion:
+***** DONE Purifying Dust
+***** DONE Ruinous Dust
 *** TODO Undertow Cove (45)
 ** Frostlands                                                    :Frostlands:
 *** DONE Secret Path (21)
@@ -633,7 +884,7 @@
     #+CAPTION: Hoarfrost Grotto Map
     #+ATTR_ORG: :width 300
     #+ATTR_HTML: :width 600 
-    [[./images/hoarfrost-grotto.png]]
+    [[./images/octopath-hoarfrost-grotto.png]]
 **** Encounters
 ***** 2 x [[Ice Guardian]], 1 x [[Ice Remnant]]
 ***** 2 x [[Ice Curator]], 1 x [[Ice Elemental]]
@@ -651,7 +902,7 @@
 *** TODO Tomb of the Imperator (35)
     - Entrance :: [[*Western Stillsnow Wilds (26)][Western Stillsnow Wilds (26)]]
 ** Highlands                                                      :Highlands:
-*** TODO Untouched Sanctum (15)
+*** DONE Untouched Sanctum (15)
     - Entrance :: [[North Cobbleston Gap (11)][North Cobbleston Gap (11)]]
     #+CAPTION: Untouched Sanctum Map 
     #+ATTR_ORG: :width 500
@@ -668,6 +919,25 @@
 ***** DONE Thieves' Chest - Sharp Nut
 ***** DONE Inspiriting Plum (M)
 ***** DONE Olive of Life (M)
+*** DONE The Spectrewood (27)
+    - Entrance :: [[Spectrewood Path (26)][Spectrewood Path (26)]]
+    #+CAPTION: The Spectrewood Map
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600
+    [[./images/octopath-spectrewood.png]]
+**** Encounters
+***** 2 x [[Creeping Treant][Creeping Treant]], 2 x [[Shambling Weed][Shambling Weed]]
+***** 1 x [[Mutant Mushroom][Mutant Mushroom]], 3 x [[Rampant Weed][Rampant Weed]]
+***** 2 x [[Mutant Mushroom][Mutant Mushroom]], 2 x [[Rampant Weed][Rampant Weed]]
+***** 1 x [[Mutant Mushroom][Mutant Mushroom]], 2 x [[Creeping Treant][Creeping Treant]]
+***** 1 x [[Creeping Treant][Creeping Treant]], 3 x [[Rampant Weed][Rampant Weed]]
+***** *Boss:* [[Lord of the Forest][Lord of the Forest]]
+**** Treasures
+***** DONE Fire Soulstone (M)
+***** TODO Thieves' Chest                                           :Therion:
+***** DONE Refreshing Jam
+***** DONE 6,000g
+***** DONE Copper-filled Pouch
 ** Riverlands                                                    :Riverlands:
 *** DONE Twin Falls (20)
     - Entrance :: [[South Clearbrook Traverse (11)][South Clearbrook Traverse (11)]] 
@@ -709,6 +979,26 @@
 ***** Healing Grape Bunch
 ***** TODO Thieves' Chest                                           :Therion:
       NE corner, far side of the river
+** Sunlands                                                        :Sunlands:
+*** DONE Whistling Cavern (20)
+   - Entrance :: [[Eastern Sunshade Sands (11)][Eastern Sunshade Sands (11)]]
+    #+CAPTION: Whistling Cavern Map
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600
+    [[./images/octopath-whistling-cavern.png]] 
+**** Encounters
+***** 4 x [[River Fly][River Fly]]
+***** 1 x [[Dark Roller][Dark Roller]], 3 x [[Skull Roller][Skull Roller]]
+***** 5 x [[Dire Army Ant][Dire Army Ant]]
+***** 4 x [[Killer Bug][Killer Bug]]
+***** 5 x [[Antagonistic Ant][Antagonistic Ant]]
+***** 5 x [[Skull Roller][Skull Roller]]
+**** Treasures
+***** DONE Heavy Bow
+***** DONE Olive of Life (M)
+***** TODO Thieves' Chest                                           :Therion:
+***** DONE Inspiriting Plum (M)
+***** DONE Fire Soulstone (M)
 ** Woodlands                                                      :Woodlands:
 *** DONE Path of Beasts (15)
     - Entrance :: [[West S'warkii Trail (11)][West S'warkii Trail (11)]], lower trail east of the Bolderfall Pass exit
@@ -736,17 +1026,38 @@
 *** Ambling Bones
    - Weaknesses :: Staff Wind Light
    - Armor :: 2
+*** Antagonistic Ant
+   - Weaknesses :: Dagger Staff
+   - Armor :: 3
 *** Armor Eater
     - Weaknesses :: Sword Axe Wind
     - Armor :: 4
     - On Steal :: Sleepweed
     - On Collect :: 450g 
+*** Army Ant
+   - Weaknesses :: Sword Dagger Axe
+   - Armor :: 1
+   - On Collect :: 60g
 *** Ash Raven
     - Weaknesses :: Spear Dagger Bow Wind
     - Armor :: 1
+*** Barnacle Bat
+   - Weaknesses :: Sword Spear Bow Thunder
+   - Armor :: 1
+   - On Steal :: Curious Bloom
+*** Barnacle Crab
+   - Weaknesses :: *Dagger* *Axe* /Bow/ /Staff/ /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
+   - Armor :: 3
+   - On Steal :: Addlewort
 *** Blood Viper
     - Weaknesses :: Sword Spear Axe Dark
     - Armor :: 2
+*** Buccaneer III
+   - Weaknesses :: *Spear* *Bow* /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
+   - Armor :: 2
+*** Buccaneer IV
+   - Weaknesses :: *Spear* *Bow* /Staff/ /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
+   - Armor :: 3
 *** Cait
     Flees ASAP
     - Weaknesses :: Sword Dagger Axe Staff
@@ -776,6 +1087,13 @@
     Flees ASAP
     - Weaknesses :: /Sword/ /Spear/ *Dagger* /Axe/ /Bow/ /Staff/ /Ice/ /Wind/ /Light/ /Dark/
     - Armor :: 4
+*** Dark Roller
+   - Weaknesses :: Dagger Thunder
+   - Armor :: 1
+*** Dire Army Ant
+   - Weaknesses :: Sword Dagger Axe
+   - Armor :: 2
+   - On Collect :: 120g
 *** Dread Falcon
     - Weaknesses :: Spear Dagger Bow Wind Dark
     - Armor :: 3
@@ -811,6 +1129,9 @@
 *** Giant Falcon
     - Weaknesses :: Spear Dagger Bow Wind Dark
     - Armor :: 1
+*** Giant Scorpion
+   * Weaknesses :: Spear Ice Wind
+   * Armor :: 2
 *** Great Condor
     - Weaknesses :: Spear Bow
     - Armor :: 3
@@ -830,6 +1151,19 @@
 *** Highland Ratkin III
     - Weaknesses :: Spear Bow Dark
     - Armor :: 3
+*** Highland Ratkin IV
+   - Weaknesses :: *Sword* /Spear/ /Dagger/ /Axe/ /Bow/ /Staff/ /Fire/ /Ice/ /Thunder/ /Wind/ *Light*
+   - Armor :: 2
+*** Highland Ratkin V
+   - Weaknesses :: /Sword/ /Spear/ *Bow* *Wind* *Light*
+   - Armor :: 3
+*** Highland Ratkin VI
+   - Weaknesses :: Spear Axe Dark
+   - Armor :: 1
+*** Highland Ratking I
+   - Weaknesses :: Spear Staff Thunder Light
+   - Armor :: 3
+   - On Steal :: Inspiriting Plum
 *** Hoary Bear
     - Weaknesses :: Spear Axe Wind
     - Armor :: 4
@@ -878,6 +1212,9 @@
     - Armor :: 2
     - On Steal :: Ice Soulstone (M)
     - On Collect :: 840g
+*** Killer Bug
+   - Weaknesses :: Sword Axe Dark
+   - Armor :: 2
 *** King Condor
     * Weaknesses :: Spear /Dagger/ /Axe/ /Bow/ /Fire/ /Ice/ /Wind/ /Light/ /Dark/
     * Armor :: 4
@@ -899,6 +1236,9 @@
 *** Lloris
     - Weaknesses :: Dagger Fire Wind
     - Armor :: 1
+*** Long-eared Lloris
+   - Weaknesses :: /Spear/ /Dagger/ /Bow/ /Staff/ *Fire* /Ice/ /Wind/ /Light/ /Dark/
+   - Armor :: 2
 *** Majestic Marmot
     - Weaknesses :: Bow Staff Fire
     - Armor :: 3
@@ -920,12 +1260,16 @@
     - Weaknesses :: Dagger Fire
     - Armor :: 2
     - On Steal :: Herb of Healing
+    - Spawns :: [[Shambling Weed][Shambling Weed]]
 *** Night Raven
     - Weaknesses :: Spear Dagger Bow Wind
     - Armor :: 1
 *** Puppet Bones
     - Weaknesses :: Staff Fire Light
     - Armor :: 2
+*** Rampant Weed
+   - Weaknesses :: Sword Axe Fire
+   - Armor :: 2
 *** Reptalion
     Difficult to hit
     - Weaknesses :: Axe
@@ -956,6 +1300,9 @@
 *** Rockadillo
     - Weaknesses :: Sword Axe Dark
     - Armor :: 2
+*** Rock Tortoise
+   - Weaknesses :: Sword Wind
+   - Armor :: 3
 *** Sailfish
    - Weaknesses :: Sword Bow Fire Thunder
    - Armor :: 2
@@ -964,6 +1311,12 @@
     - Weaknesses :: Dagger Ice Light
     - Armor :: 3
     - On Steal :: Olive Bloom 
+*** Sand Lizardman I
+   - Weaknesses :: Sword Dagger Ice Dark
+   - Armor :: 1
+*** Scythe Crab
+   - Weaknesses :: Dagger Axe Wind
+   - Armor :: 3
 *** Sea Birdian I
     - Weaknesses :: Sword Spear Fire Thunder
     - Armor :: 1
@@ -973,6 +1326,20 @@
 *** Sea Birdian III
    - Weaknesses :: Sword Fire Wind
    - Armor :: 3
+*** Sea Birdian V
+   - Weaknesses :: *Spear* *Staff* *Fire* /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
+   - Armor :: 3
+*** Sea Birdian VI
+   - Weaknesses :: *Sword* *Fire* /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
+   - Armor :: 1
+   - On Steal :: Inspiriting Plum
+*** Sea Birdking I
+   - Weaknesses :: /Spear/ /Dagger/ *Axe* *Bow* *Thunder*
+   - Armor :: 3
+*** Sea Slug
+   - Weaknesses :: Fire Wind Dark
+   - Armor :: 3
+   - On Steal :: Essence of Pomegranate
 *** Sentinel
     - Weaknesses :: Sword Spear Axe Bow Staff
     - Armor :: 2
@@ -981,11 +1348,17 @@
     - Weaknesses :: Sword Spear Bow Ice
     - Armor :: 2
     - On Steal :: Curious Bloom
+*** Shaggy Aurochs
+   - Weaknesses :: /Spear/ /Dagger/ *Axe* *Fire*
+   - Armor :: 2
 *** Shambling Weed
     - Weaknesses :: Sword Axe Fire
     - Armor :: 1
     - On Steal :: Essence of Pomegranate
     - On Collect :: 406g
+*** Skull Roller
+   - Weaknesses :: Spear Ice Dark
+   - Armor :: 2
 *** Spud Bug
     - Weaknesses :: /Sword/ /Spear/ /Dagger/ /Axe/ /Bow/ /Staff/ *Fire* /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
     - Armor :: 3
@@ -1101,6 +1474,16 @@
      - Weaknesses :: /Sword/ /Spear/ /Dagger/ /Axe/ /Bow/ /Staff/ *Fire* /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
      - Armor :: 4
      - On Steal :: Ice Soulstone (M)
+*** Lord of the Forest
+   - Weaknesses :: Sword Axe Fire Light
+   - Armor :: 7
+   - Spawns :: 2 x [[Weeping Treant][Weeping Treant]]
+   - Gold :: 3,000
+   - XP :: 300
+   - JP :: 200
+**** Weeping Treant
+   - Weaknesses :: *Axe* *Fire* /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
+   - Armor :: 3
 *** Monarch
     Mass Sleep + Unconsciousness
     - Weaknesses :: Spear Bow Dark
@@ -1134,6 +1517,20 @@
     - Weaknesses :: Dagger Axe Ice Wind
     - Armor :: 3
     - On Steal :: Inspiriting Plum (M)
+*** Vanessa
+    Guards all weaknesses while any henchmen live
+    - Weaknesses :: *Spear* *Axe *Fire* /Thunder/ /Wind/ *Dark*
+    - Armor :: 5
+    - Spawns With :: 2 x [[Sellsword][Sellsword]]
+    - Summons :: 2 x [[Sellsword][Sellsword]]
+    - On Steal :: Olive of Life (L)
+    - Gold :: 3,400
+    - XP :: 500
+    - JP :: 360
+**** Sellsword
+     - Weaknesses :: *Sword* *Bow* *Ice* /Thunder/ /Wind/ /Light/ /Dark/
+     - Armor :: 6
+     - On Steal :: Herb of Healing
 * COMMENT Local Variables
 # local variables:
 # eval: (setq org-refile-targets '((nil . (:maxlevel . 2))))
