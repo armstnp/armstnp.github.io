@@ -44,16 +44,16 @@
       - Rewards :: 6,600g, Light Nut (M)
 ***** TODO A Miner Dilemma
 **** Treasures
-***** Pseudo Gold Ore
-***** Dubious Gold Ore
-***** Pseudo Gold Ore                                                :Hidden:
-***** Wind Soulstone (M)
-***** Refreshing Jam                                                 :Hidden:
-***** Fool's Gold Ore
-***** Healing Grape Bunch
-***** Herb of Valor
-***** Olive of Life (M)                                              :Hidden:
-***** Fool's Gold Ore                                                :Hidden:
+***** DONE Pseudo Gold Ore
+***** DONE Dubious Gold Ore
+***** DONE Pseudo Gold Ore                                           :Hidden:
+***** DONE Wind Soulstone (M)
+***** DONE Refreshing Jam                                            :Hidden:
+***** DONE Fool's Gold Ore
+***** DONE Healing Grape Bunch
+***** DONE Herb of Valor
+***** DONE Olive of Life (M)                                         :Hidden:
+***** DONE Fool's Gold Ore                                           :Hidden:
 **** Items to Acquire                                        :Therion:Tressa:
 ***** Shadow Soulstone (L)
 ***** Wind Soulstone (L)
@@ -125,18 +125,18 @@
 ***** TODO The Merchant's Path
       A Merchantry Master needs help with bandit trouble plaguing his merchants.
 **** Treasures
-***** Inspiriting Plum
-***** Thunder Soulstone (L)                                          :Hidden:
-***** Olive of Life
-***** Copper-filled Pouch                                            :Hidden:
-***** Healing Grape Bunch                                            :Hidden:
-***** 4,500g
-***** Herb of Clamor
-***** Healing Grape (M)                                              :Hidden:
-***** Olive of Life
-***** Inspiriting Plum Basket
-***** Odds and Ends                                                  :Hidden:
-***** Silver Axe                                                     :Hidden:
+***** DONE Inspiriting Plum
+***** DONE Thunder Soulstone (L)                                     :Hidden:
+***** DONE Olive of Life
+***** DONE Copper-filled Pouch                                       :Hidden:
+***** DONE Healing Grape Bunch                                       :Hidden:
+***** DONE 4,500g
+***** DONE Herb of Clamor
+***** DONE Healing Grape (M)                                         :Hidden:
+***** DONE Olive of Life
+***** DONE Inspiriting Plum Basket
+***** DONE Odds and Ends                                             :Hidden:
+***** DONE Silver Axe                                                :Hidden:
 **** Items to Acquire
 ***** Orewell Whetstone
       Stonemonger, by the armory
@@ -179,7 +179,7 @@
 *** Stillsnow
 **** Connections
 ***** [[Road to the Obsidian Parlor (20)][Road to the Obsidian Parlor (20)]]
-***** [[Western Stillsnow Wilds (26)][Western Stillsnow Wilds (26)]]
+***** [[Western Stillsnow Wilds (29)][Western Stillsnow Wilds (29)]]
 ***** [[Trail to the Whitewood (37)][Trail to the Whitewood (37)]]
 **** Points of Interest
 ***** DONE Primrose: Chapter 2                                     :Primrose:
@@ -230,16 +230,16 @@
 ***** Dragon of the Frostlands
       Veteran Mercenary
 **** Treasures
-***** Ice Soulstone (M)                                              :Hidden:
-***** Olive of Life
-***** Refreshing Jam                                                 :Hidden:
-***** Silver-filled Pouch                                            :Hidden:
-***** Shadow Soulstone (M)
-***** Inspiriting Plum
-***** Healing Grape (M)
-***** Olive Bloom                                                    :Hidden:
-***** Swordbreaker
-***** Soul Bow                                                       :Hidden:
+***** DONE Ice Soulstone (M)                                         :Hidden:
+***** DONE Olive of Life
+***** DONE Refreshing Jam                                            :Hidden:
+***** DONE Silver-filled Pouch                                       :Hidden:
+***** DONE Shadow Soulstone (M)
+***** DONE Inspiriting Plum
+***** DONE Healing Grape (M)
+***** DONE Olive Bloom                                               :Hidden:
+***** DONE Swordbreaker
+***** DONE Soul Bow                                                  :Hidden:
 **** Items to Acquire                                        :Therion:Tressa:
 ***** DONE Adequate Flax
       Villager, entrance to Stillsnow
@@ -313,32 +313,37 @@
       Z'aanta's sake. And so H'annit departed for Stillsnow and Susanna.
 ***** TODO Cyrus: Chapter 3                                           :Cyrus:
 ***** TODO Up to No Good
-      An Elderly Shopowner is being harassed by ruffians. They were provoked into a fight, and chased away for the time being, but returned shortly after the defenders left. The shopowner suspects his persistence is due to someone giving him orders.
+      An Elderly Shopowner is being harassed by ruffians. They were provoked
+      into a fight, and chased away for the time being, but returned shortly
+      after the defenders left. The shopowner suspects his persistence is due to
+      someone giving him orders.
 ***** TODO A Royal Secret
-      An inquiring youth seeks more information regarding Ventus the Third, and the reason he had suddenly ceased his art, renowned as it was.
+      An inquiring youth seeks more information regarding Ventus the Third, and
+      the reason he had suddenly ceased his art, renowned as it was.
 ***** TODO Lost in Translation
-      A bookbinder wants to be able to read a foreign book, but requires translation.
+      A bookbinder wants to be able to read a foreign book, but requires
+      translation.
 **** Information
 ***** The Fall of House Landar
-Erstwhile Bodyguard
+      Erstwhile Bodyguard
 **** Treasures
-***** Inspiriting Plum
-***** Silver-filled Pouch                                            :Hidden:
-***** Bastard Sword                                                  :Hidden:
-***** Inspiriting Plum (M)                                           :Hidden:
-***** Healing Grape (M)
-***** Soldier's Longbow                                              :Hidden:
-***** Empty Coin Pouch                                               :Hidden:
-***** Large Feather                                                  :Hidden:
+***** DONE Inspiriting Plum
+***** DONE Silver-filled Pouch                                       :Hidden:
+***** DONE Bastard Sword                                             :Hidden:
+***** DONE Inspiriting Plum (M)                                      :Hidden:
+***** DONE Healing Grape (M)
+***** DONE Soldier's Longbow                                         :Hidden:
+***** DONE Empty Coin Pouch                                          :Hidden:
+***** DONE Large Feather                                             :Hidden:
 **** Items to Acquire
 ***** Forbidden Blade
-Townsperson, near equipment shop
+      Townsperson, near equipment shop
 ***** Dazzling Artwork
-Exorbitant sell price; Patrician Youth near chapel
+      Exorbitant sell price; Patrician Youth near chapel
 ***** Mighty Belt
-Elderly Shopowner
+      Elderly Shopowner
 ***** Elemental Augmentor
-Elderly Shopowner
+      Elderly Shopowner
 ** Riverlands                                                    :Riverlands:
 *** Saintsbridge
 **** Connections
@@ -364,19 +369,19 @@ Elderly Shopowner
 ***** TODO The Worrywart
       Worrywart is fretting about a rising river.
 **** Treasures
-***** Inspiriting Plum (M)
-***** Inspiriting Plum                                               :Hidden:
-***** Energizing Pomegranate (M)
-***** Healing Grape (M)                                              :Hidden:
-***** Heavy Coin Pouch
-***** Odds and Ends                                                  :Hidden:
-***** Herb of Valor
-***** Olive of Life
-***** Refreshing Jam                                                 :Hidden:
-***** Inspiriting Plum (M)                                           :Hidden:
-***** 3,000g                                                         :Hidden:
-***** Copper-filled Pouch                                            :Hidden:
-***** Bottle of Sleeping Dust
+***** DONE Inspiriting Plum (M)
+***** DONE Inspiriting Plum                                          :Hidden:
+***** DONE Energizing Pomegranate (M)
+***** DONE Healing Grape (M)                                         :Hidden:
+***** DONE Heavy Coin Pouch
+***** DONE Odds and Ends                                             :Hidden:
+***** DONE Herb of Valor
+***** DONE Olive of Life
+***** DONE Refreshing Jam                                            :Hidden:
+***** DONE Inspiriting Plum (M)                                      :Hidden:
+***** DONE 3,000g                                                    :Hidden:
+***** DONE Copper-filled Pouch                                       :Hidden:
+***** DONE Bottle of Sleeping Dust
 **** Items to Acquire
 ***** Holy Longbow                                                  :Therion:
 ***** Bridge Lance                                           :Therion:Tressa:
@@ -386,6 +391,95 @@ Elderly Shopowner
 ***** [[Southern Sunshade Sands (11)][Southern Sunshade Sands (11)]]
 **** Points of Interest
 ***** DONE Primrose: Chapter I                                     :Primrose:
+*** Wellspring
+**** Connections
+***** [[Northern Wellspring Sands (31)][Northern Wellspring Sands (31)]]
+***** [[Western Wellspring Sands (35)][Western Wellspring Sands (35)]]
+***** [[Southern Wellspring Sands (35)][Southern Wellspring Sands (35)]]
+**** Points of Interest
+***** DONE Olberic: Chapter 3                                       :Olberic:
+      Olberic follows the trail told by Gustav to Wellspring, hoping to find
+      Erhardt. The townspeople seem to admire him, as he has been using his
+      blade in great service to the town, defending it from the encroaching
+      lizardmen; however, none seem to know exactly where he is to be found.
+
+      Olberic's questioning draws the attention of the town guard, who take him
+      in for some questioning of their own. Olberic lays out the facts of who he
+      and Erhardt are, but conceals his purpose in seeking Erhardt out. Yet the
+      interview is cut short by one Captain Bale, who reveals that he had
+      offered to take the wandering Erhardt in after his defense of an inbound
+      caravan. Olberic wrestles with himself, trying to determine whether it is
+      right to confront him and his new-found purpose. He finally settles on
+      meeting him, hoping to rediscover purpose of his own in doing so.
+
+      A horde of lizardmen assault the town at that very moment, interrupting
+      Olberic's discovery; he takes up his blade to defend the town. Having
+      driven them off, he chases after Erhardt in the nearby caverns. In its
+      depths, he finds his quarry fending off a pack of lizardmen, and joins his
+      defense, causing Erhardt to start in surprise; yet he agrees to the aid,
+      and they wipe out the onslaught together, dispatching the leaders of the
+      horde. In doing so, Olberic finally discovers his purpose, those he can
+      defend: any who may need his wandering sword.
+
+      The fight over, he returns to Erhardt, who confirms Gustav's tale; the
+      former knight of Hornburg tells of the plot of vengeance he'd woven in the
+      name of his family, and the emptiness its fulfillment had left in its
+      wake. Furthermore, he realizes the treasure he'd given up in the
+      companionship of his fellow soldiers. He regrets the lie he'd lived, yet
+      Olberic has no choice but to draw his blade against him, despite Erhardt's
+      warnings.
+
+      Erhardt cedes the ensuing challenge with no regrets, granting Olberic the
+      answer to a last question: Who led Erhardt's band to plot Hornburg's fall?
+      His answer comes clear: Werner. Erhardt also grants Olberic his last known
+      destination: Riverford.
+      
+      Olberic emerges from the cave, and shortly after him, Erhardt follows,
+      alive and well. The knights of Wellspring thank Olberic for his aid, but
+      he declines: his purpose was his own. Erhardt warns Olberic about the
+      mysterious fear Werner wields behind his blade. The two part on good
+      terms, hands clasped in hope to see each other again, and Olberic strikes
+      out for Riverford to pursue his new cause: removing this fiend from the
+      world before he can cause more destruction as he did with Hornburg.
+****** Horde Encounters
+******* 3 x [[Sand Lizardking I][Sand Lizardking I]]
+******* 3 x [[Sand Lizardking II][Sand Lizardking II]]
+****** *Boss:* [[Erhardt][Erhardt]]
+***** TODO Therion: Chapter 3                                       :Therion:
+***** TODO Shadow over the Sands
+A Staid Soldier is concerned about one of his scouts, who - after his claims of a huge serpent in the Quicksand Caves was disbelieved - pursued the beast himself. He wants to be careful and take care of the beast just in case.
+***** DONE In Search of Sweets
+A man with a Sweet Tooth has traveled from Stillsnow, seeking new delicacies. Disappointed by the local dates, he seeks a sweetener that will counter their bitter aftertaste. After providing him with some Beetroot from his own homeland, he marvels that he'd overlooked the obvious, and plans to begin his journey anew with fresh eyes.
+
+- Rewards :: 4,500g, Gourmet's Charm
+***** DONE Ria, Born to Roam (II)
+Ria continues her journey from Sunshade, but proves to have fallen into more trouble, as a thief has stolen a precious letter from her inn room. The letter is rediscovered in possession of a shady merchant, and stolen back for its owner. Ria speaks briefly of the unification of tribes under King Khalim, appointed under a Grand Assembly, before dissembling and taking her leave.
+
+- Rewards :: 6,600g, Magic Nut (M)
+**** Treasures
+***** DONE Healing Grape (M)
+***** DONE Inspiriting Plum (M)
+***** DONE Thieves' Chest - 14,000g                                 :Therion:
+Inside house guarded by Townsperson, northwest side of town
+***** DONE Thieves' Chest - 9,000g                                  :Therion:
+Inside house guarded by Townsperson, northwest side of town
+***** DONE Thunder Soulstone (M)                                     :Hidden:
+**** Items to Acquire                                        :Tressa:Therion:
+***** TODO Fur Cap
+Townsperson near entrance
+***** TODO Inferno Amulet
+Ria
+***** DONE Primeval Robe
+Old Man, on the west end of town
+***** DONE Tightly Sealed Envelope
+Traveling Merchant on the left side of town; likely Ria's.
+***** DONE Heavy Coin Pouch
+Townsperson, northwest side of town
+***** DONE Copper-filled Pouch
+Townsperson, northwest side of town
+**** Force to Apply                                          :Olberic:Haanit:
+***** TODO Guard (9)
+North, near the tavern
 ** Woodlands                                                      :Woodlands:
 *** Victors Hollow
 **** Connections
@@ -534,7 +628,6 @@ Elderly Shopowner
 ***** DONE Thieves' Chest - Fire Amulet                             :Therion:
       South of Quarrycrest entrance, path curling around the west
 *** South Orewell Pass (45)
-    To be visited...
 **** Connections
 ***** [[South Quarrycrest Pass (28)][South Quarrycrest Pass (28)]]
 *** Road to Morlock's Manse
@@ -546,9 +639,9 @@ Elderly Shopowner
 ***** 1 x [[Armor Eater][Armor Eater]], 2 x [[Great Condor][Great Condor]]
 ***** 2 x [[Lloris][Lloris]], 2 x [[Two-handed Hatchling][Two-handed Hatchling]]
 **** Treasures
-***** Healing Grape (M)
-***** Inspiriting Plum
-***** 5,000g
+***** DONE Healing Grape (M)
+***** DONE Inspiriting Plum
+***** DONE 5,000g
 ** Coastlands                                                    :Coastlands:
 *** East Rippletide Coast (11)
 **** Connections
@@ -582,9 +675,9 @@ Elderly Shopowner
 ***** 1 x [[Rock Tortoise][Rock Tortoise]], 3 x [[Sea Birdian VI][Sea Birdian VI]]
 ***** 1 x [[Sea Birdking I][Sea Birdking I]], 2 x [[Sea Birdian VI][Sea Birdian VI]]
 **** Treasures
-***** Heavy Coin Pouch
-***** Energizing Pomegranate
-***** Purifying Seed
+***** DONE Heavy Coin Pouch
+***** DONE Energizing Pomegranate
+***** DONE Purifying Seed
 *** Moonstruck Coast (34)
     #+CAPTION: Moonstruck Coast
     #+ATTR_ORG: :width 500
@@ -606,7 +699,7 @@ Elderly Shopowner
 **** Encounters
 ***** 1 x [[Sea Birdking I][Sea Birdking I]], 2 x [[Sea Birdian V][Sea Birdian V]]
 **** Treasures
-***** Energizing Pomegranate
+***** DONE Energizing Pomegranate
 ** Flatlands                                                      :Flatlands:
 *** East Atlasdam Flats (11)
 **** Connections
@@ -619,8 +712,6 @@ Elderly Shopowner
 **** Connections
 ***** [[Flamesgrace]]
 ***** [[Western Flamesgrace Wilds (11)]]
-**** Encounters
-**** Treasures
 *** Western Flamesgrace Wilds (11)
 **** Connections
 ***** [[Northern Flamesgrace Wilds (11)]]
@@ -629,7 +720,6 @@ Elderly Shopowner
 **** Encounters
 ***** 2 x [[Ice Lizardman I]], 1 x [[Ice Lizardman III]]
 ***** 1 x [[Ice Lizardman I]], 2 x [[Ice Lizardman II]], 1 x [[Ice Lizardman III]]
-**** Treasures
 *** Road to the Obsidian Parlor (20)
 **** Connections
 ***** [[Stillsnow][Stillsnow]]
@@ -640,7 +730,7 @@ Elderly Shopowner
 ***** DONE Herb of Revival
 ***** DONE Ice Soulstone (M)
 ***** DONE Thieves' Chest - Dark Amulet
-*** Western Stillsnow Wilds (26)
+*** Western Stillsnow Wilds (29)
 **** Connections
 ***** [[East Victors Hollow Trail (29)][East Victors Hollow Trail (29)]]
 ***** [[Tomb of the Imperator (35)][Tomb of the Imperator (35)]]
@@ -649,6 +739,7 @@ Elderly Shopowner
 **** Encounters
 ***** 1 x [[Hoary Bear][Hoary Bear]]
 ***** 1 x [[Hoary Bear][Hoary Bear]], 1 x [[Hoary Howler][Hoary Howler]]
+***** 1 x [[Majestic Snow Marmot][Majestic Snow Marmot]], 1 x [[Hoary Howler][Hoary Howler]], 1 x [[Snow Yak][Snow Yak]]
 ***** 2 x [[Ice Lizardman IV][Ice Lizardman IV]], 1 x [[Ice Lizardman V][Ice Lizardman V]], 1 x [[Hoary Howler][Hoary Howler]]
 ***** 1 x [[Ice Lizardman V][Ice Lizardman V]], 1 x [[Ice Lizardman VI][Ice Lizardman VI]], 1 x [[Majestic Snow Marmot][Majestic Snow Marmot]], 1 x [[Hoary Howler][Hoary Howler]]
 **** Treasures
@@ -691,20 +782,50 @@ Elderly Shopowner
 ***** 1 x [[Highland Ratking I][Highland Ratking I]], 2 x [[Highland Ratkin VI][Highland Ratkin VI]]
 ***** 1 x [[Highland Ratking I][Highland Ratking I]], 2 x [[Highland Ratkin V][Highland Ratkin V]], 1 x [[Shaggy Aurochs][Shaggy Aurochs]]
 **** Treasures
-***** 5,000g
-***** Fool's Gold Ore
-***** Herb of Clamor
+***** DONE 5,000g
+***** DONE Fool's Gold Ore
+***** DONE Herb of Clamor
 *** North Stonegard Pass (30)
+    #+CAPTION: North Stonegard Pass Map
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600 
+    [[./images/octopath-north-stonegard.png]]
 **** Connections
 ***** [[Stonegard][Stonegard]]
 ***** [[North Cobbleston Gap (11)][North Cobbleston Gap (11)]]
 ***** Shrine of the Thunderblade
+***** [[West Stonegard Pass (30)][West Stonegard Pass (30)]]
 ***** [[Moonstruck Coast (34)][Moonstruck Coast (34)]]
 **** Encounters
+***** 2 x [[Mountain Goat][Mountain Goat]]
+***** 1 x [[Highland Ratking I][Highland Ratking I]], 2 x [[Highland Ratkin VI][Highland Ratkin VI]]
+***** 1 x [[Highland Ratking I][Highland Ratking I]], 2 x [[Highland Ratkin V][Highland Ratkin V]], 1 x [[Shaggy Aurochs][Shaggy Aurochs]]
+***** 1 x [[Highland Ratkin IV][Highland Ratkin IV]], 2 x [[Highland Ratkin V][Highland Ratkin V]], 2 x [[Dread Falcon][Dread Falcon]]
+**** Treasures
+***** DONE Healing Grape (M)
+***** DONE Light Soulstone (M)
+*** West Stonegard Pass (30)
+    #+CAPTION: West Stonegard Pass Map
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600 
+    [[./images/octopath-west-stonegard.png]]
+**** Connections
+***** [[North Stonegard Pass (30)][North Stonegard Pass (30)]]
+***** [[Eastern Wellspring Sands (31)][Eastern Wellspring Sands (31)]]
+***** [[Tomb of Kings (25)][Tomb of Kings (25)]]
+***** [[West Everhold Pass (45)][West Everhold Pass (45)]]
+**** Encounters
+***** 1 x [[Mountain Goat][Mountain Goat]], 2 x [[Shaggy Aurochs][Shaggy Aurochs]]
+***** 2 x [[Highland Goat][Highland Goat]], 2 x [[Dread Falcon][Dread Falcon]]
 ***** 1 x [[Highland Ratking I][Highland Ratking I]], 2 x [[Highland Ratkin VI][Highland Ratkin VI]]
 ***** 1 x [[Highland Ratking I][Highland Ratking I]], 2 x [[Highland Ratkin V][Highland Ratkin V]], 1 x [[Shaggy Aurochs][Shaggy Aurochs]]
 **** Treasures
-***** Healing Grape (M)
+***** DONE Copper-filled Pouch
+***** DONE Inspiriting Plum (M)
+***** DONE Energizing Pomegranate
+*** West Everhold Pass (45)
+**** Connections
+***** [[West Stonegard Pass (30)][West Stonegard Pass (30)]]
 ** Riverlands                                                    :Riverlands:
 *** South Clearbrook Traverse (11)
 **** Connections
@@ -714,8 +835,8 @@ Elderly Shopowner
 **** Encounters
 ***** 1 x [[River Froggen II][River Froggen II]], 1 x [[River Froggen III][River Froggen III]], 1 x [[Warrior Wasp][Warrior Wasp]]
 **** Treasures
-***** Healing Grape
-***** Soothing Seed
+***** DONE Healing Grape
+***** DONE Soothing Seed
 **** Points of Interest
 ***** DONE A Sweet Reunion                                            :Quest:
       Allured the Lost Grandfather back to Clearbrook with Primrose.
@@ -730,9 +851,9 @@ Elderly Shopowner
 ***** 1 x [[Salamander][Salamander]], 3 x [[River Bug][River Bug]]
 ***** 2 x [[River Bug]], 2 x [[River Fly]]
 **** Treasures
-***** Herb of Awakening
-***** Inspiriting Plum Basket
-***** 3,500g
+***** DONE Herb of Awakening
+***** DONE Inspiriting Plum Basket
+***** DONE 3,500g
 *** East Saintsbridge Traverse (23)
 **** Connections
 ***** [[Saintsbridge][Saintsbridge]], Shrine of the Healer, [[South Clearbrook Traverse (11)][South Clearbrook Traverse (11)]]
@@ -741,7 +862,7 @@ Elderly Shopowner
 ***** 1 x [[Salamander][Salamander]], 3 x [[River Bug][River Bug]]
 ***** 2 x [[River Bug][River Bug]], 1 x [[River Froggen IV][River Froggen IV]], 1 x [[River Froggen V][River Froggen V]]
 **** Treasures
-***** Herb of Healing
+***** DONE Herb of Healing
 **** Points of Interest
 ***** DONE The Pilgrim's Plight                                       :Quest:
       Provoked the Ruffian with H'annit
@@ -759,6 +880,55 @@ Elderly Shopowner
 ***** [[South Clearbrook Traverse (11)][South Clearbrook Traverse (11)]]
 **** Encounters
 ***** 2 x [[Sand Lizardman I][Sand Lizardman I]], 2 x [[Army Ant][Army Ant]]
+*** Northern Wellspring Sands (31)
+**** Connections
+***** [[Wellspring][Wellspring]]
+***** [[Eastern Wellspring Sands (31)][Eastern Wellspring Sands (31)]]
+***** [[Quicksand Caves (40)][Quicksand Caves (40)]]
+***** Shrine of the Lady of Grace
+**** Encounters
+***** 1 x [[Sandworm][Sandworm]], 2 x [[Giant Scorpion][Giant Scorpion]]
+***** 1 x [[Giant Scorpion][Giant Scorpion]], 2 x [[Sand Lizardman IV][Sand Lizardman IV]]
+**** Information
+***** The Giant Serpent's Master
+Injured Scout, near exit to E. Wellspring
+**** Treasures
+***** DONE Olive of Life
+***** DONE Inspiriting Plum
+***** DONE Energizing Pomegranate (M)
+***** DONE Imperial Lance
+**** TODO Add Map (p. 16)
+*** Eastern Wellspring Sands (31)
+**** TODO Add map
+**** Connections
+***** [[West Stonegard Pass (30)][West Stonegard Pass (30)]]
+***** [[Northern Wellspring Sands (31)][Northern Wellspring Sands (31)]]
+**** Encounters
+***** 1 x [[Sandworm][Sandworm]], 2 x [[Giant Scorpion][Giant Scorpion]]
+***** 1 x [[Giant Scorpion][Giant Scorpion]], 2 x [[Sand Lizardman IV][Sand Lizardman IV]]
+**** Treasures
+***** DONE Fool's Gold Ore
+***** DONE Copper-filled Pouch
+*** Western Wellspring Sands (35)
+    31 on exiting Lizardmen's Den?
+    #+CAPTION: Western Wellspring Sands Map
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600 
+    [[./images/octopath-western-wellspring.png]]
+**** Connections
+***** [[Wellspring][Wellspring]]
+***** [[Lizardmen's Den (32)][Lizardmen's Den (32)]]
+**** Encounters
+***** 1 x [[Sand Lizardking I][Sand Lizardking I]], 2 x [[Sand Lizardman II][Sand Lizardman II]]
+***** 3 x [[Sand Lizardman I][Sand Lizardman I]], 2 x [[Dark Roller][Dark Roller]]
+***** 2 x [[Sand Lizardman I][Sand Lizardman I]], 2 x [[Dark Roller][Dark Roller]]
+***** 1 x [[Sand Lizardman III][Sand Lizardman III]], 2 x [[Desert Worm][Desert Worm]]
+**** Treasures
+***** DONE 6,000g
+***** DONE Olive of Life (M)
+*** Southern Wellspring Sands (35)
+**** Connections
+***** [[Wellspring][Wellspring]]
 ** Woodlands                                                      :Woodlands:
 *** North S'warkii Trail (11)
 **** Connections
@@ -772,7 +942,7 @@ Elderly Shopowner
 *** East Victors Hollow Trail (29)
 **** Connections
 ***** [[West S'warkii Trail (11)][West S'warkii Trail (11)]]
-***** [[Western Stillsnow Wilds (26)][Western Stillsnow Wilds (26)]]
+***** [[Western Stillsnow Wilds (29)][Western Stillsnow Wilds (29)]]
 ***** Shrine of the Huntress
 ***** [[Victors Hollow][Victors Hollow]]
 **** Encounters
@@ -837,8 +1007,26 @@ Elderly Shopowner
       To the west of the boss room
 ***** DONE Thieves' Chest - Snipe Saber                             :Therion:
       Near entrance (C-shaped path)
-*** TODO Derelict Mine (30)
+*** DONE Derelict Mine (30)
     - Entrance :: [[South Quarrycrest Pass (28)][South Quarrycrest Pass (28)]]
+    #+CAPTION: Derelict Mine Map
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600
+    [[./images/octopath-derelict-mine.png]]
+**** Encounters
+***** 1 x [[Dark Elemental][Dark Elemental]], 2 x [[Puppet Bones][Puppet Bones]]
+***** 1 x [[Puppet Bones][Puppet Bones]], 2 x [[Marionette Bones][Marionette Bones]]
+***** 1 x [[Puppet Bones][Puppet Bones]], 2 x [[Dark Curator][Dark Curator]]
+***** 1 x [[Marionette Bones][Marionette Bones]], 2 x [[Flame Curator][Flame Curator]]
+***** 1 x [[Mutant Mushroom][Mutant Mushroom]], 2 x [[Skulking Fungoid][Skulking Fungoid]]
+***** *Boss:* [[Manymaws][Manymaws]]
+**** Treasures
+***** DONE Wind Soulstone (L)
+***** TODO Thieves' Chest                                           :Therion:
+***** DONE Inspiriting Plum (M)
+***** DONE Olive of Life (L)
+***** DONE Carnage Blade
+      Post-boss Reward Chest
 ** Coastlands                                                    :Coastlands:
 *** DONE Caves of Azure (24)
     - Entrance :: [[Road to the Caves of Azure (23)][Road to the Caves of Azure (23)]]
@@ -892,15 +1080,34 @@ Elderly Shopowner
 ***** 1 x [[Ice Remnant]], 4 x [[Albino Bat]]
 ***** *Boss:* [[Jötunn]]
 **** Treasures
-***** Light Nut
-***** Olive of Life (M)
-***** 10,000g
+***** DONE Light Nut
+***** DONE Olive of Life (M)
+***** DONE 10,000g
 ***** TODO Thieves' Chest                                           :Therion:
       Northern exit from the main room loop
-***** Healing Grape (M)
-***** Inspiriting Plum (M)
-*** TODO Tomb of the Imperator (35)
-    - Entrance :: [[*Western Stillsnow Wilds (26)][Western Stillsnow Wilds (26)]]
+***** DONE Healing Grape (M)
+***** DONE Inspiriting Plum (M)
+*** DONE Tomb of the Imperator (35)
+    - Entrance :: [[*Western Stillsnow Wilds (29)][Western Stillsnow Wilds (29)]]
+    #+CAPTION: Tomb of the Imperator Map
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600 
+    [[./images/octopath-tomb-imperator.png]]
+**** Encounters
+***** 2 x [[Ice Lizardman IV][Ice Lizardman IV]], 2 x [[Ice Lizardman VI][Ice Lizardman VI]]
+***** 2 x [[Ice Lizardman V][Ice Lizardman V]], 2 x [[Ice Lizardman VI][Ice Lizardman VI]]
+***** 2 x [[Ice Lizardking I][Ice Lizardking I]], 2 x [[Ice Lizardman V][Ice Lizardman V]]
+***** 2 x [[Ice Lizardking I][Ice Lizardking I]], 2 x [[Ice Lizardman VI][Ice Lizardman VI]]
+***** *Boss:* [[Behemoth][Behemoth]]
+**** Treasures
+***** TODO Thieves' Chest                                           :Therion:
+***** DONE Olive of Life (M)
+***** DONE Healing Grape Bunch
+***** DONE Inspiriting Plum (M)
+***** DONE Refreshing Jam
+***** DONE Silver-filled Pouch
+***** DONE Gaolbreaker
+      Post-boss reward chest
 ** Highlands                                                      :Highlands:
 *** DONE Untouched Sanctum (15)
     - Entrance :: [[North Cobbleston Gap (11)][North Cobbleston Gap (11)]]
@@ -919,6 +1126,8 @@ Elderly Shopowner
 ***** DONE Thieves' Chest - Sharp Nut
 ***** DONE Inspiriting Plum (M)
 ***** DONE Olive of Life (M)
+*** TODO Tomb of Kings (25)
+    - Entrance :: [[West Stonegard Pass (30)][West Stonegard Pass (30)]]
 *** DONE The Spectrewood (27)
     - Entrance :: [[Spectrewood Path (26)][Spectrewood Path (26)]]
     #+CAPTION: The Spectrewood Map
@@ -970,13 +1179,13 @@ Elderly Shopowner
 ***** 2 x [[Creeping Treant]]
 ***** *Boss:* [[Hróðvitnir]]
 **** Treasures
-***** Inspiriting Plum
-***** Energizing Pomegranate (M)
-***** Olive of Life (M)
-***** Kite Shield
-***** Healing Grape (M)
-***** Psychic Staff
-***** Healing Grape Bunch
+***** DONE Inspiriting Plum
+***** DONE Energizing Pomegranate (M)
+***** DONE Olive of Life (M)
+***** DONE Kite Shield
+***** DONE Healing Grape (M)
+***** DONE Psychic Staff
+***** DONE Healing Grape Bunch
 ***** TODO Thieves' Chest                                           :Therion:
       NE corner, far side of the river
 ** Sunlands                                                        :Sunlands:
@@ -999,6 +1208,31 @@ Elderly Shopowner
 ***** TODO Thieves' Chest                                           :Therion:
 ***** DONE Inspiriting Plum (M)
 ***** DONE Fire Soulstone (M)
+*** DONE Lizardmen's Den (32)
+    #+CAPTION: Lizardmen's Den Map 
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600 
+    [[./images/octopath-lizardmens-den.png]]
+**** TODO Add map
+**** Encounters
+***** 1 x [[Sand Lizardking I][Sand Lizardking I]], 2 x [[Sand Lizardman II][Sand Lizardman II]]
+***** 1 x [[Sand Lizardking II][Sand Lizardking II]], 2 x [[Sand Lizardman II][Sand Lizardman II]]
+***** 1 x [[Sand Lizardman I][Sand Lizardman I]], 1 x [[Sand Lizardman II][Sand Lizardman II]], 2 x [[Slayer Bug][Slayer Bug]]
+***** 1 x [[Sand Lizardman I][Sand Lizardman I]], 1 x [[Sand Lizardman II][Sand Lizardman II]], 2 x [[Vampire Bat][Vampire Bat]]
+***** *Boss:* [[Lizardman Chief][Lizardman Chief]]
+**** Treasures
+***** DONE 2,000g
+***** DONE 200g
+***** DONE Thieves' Chest - Silver-filled Pouch                     :Therion:
+***** DONE 400g
+***** DONE 800g
+***** DONE 4,000g
+***** DONE Copper-filled Pouch
+***** DONE 1,000g
+***** DONE 1,400g
+***** DONE Copper-filled Pouch
+*** TODO Quicksand Caves (40)
+    - Entrance :: [[Northern Wellspring Sands (31)][Northern Wellspring Sands (31)]]
 ** Woodlands                                                      :Woodlands:
 *** DONE Path of Beasts (15)
     - Entrance :: [[West S'warkii Trail (11)][West S'warkii Trail (11)]], lower trail east of the Bolderfall Pass exit
@@ -1017,47 +1251,47 @@ Elderly Shopowner
     - Entrance :: [[Victors Hollow][Victors Hollow]]
 * Enemies
 ** =Template=                                                      :noexport:
-   - Weaknesses :: /Sword/ /Spear/ /Dagger/ /Axe/ /Bow/ /Staff/ /Fire/ /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
-   - Armor :: 
+    - Weaknesses :: /Sword/ /Spear/ /Dagger/ /Axe/ /Bow/ /Staff/ /Fire/ /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
+    - Armor :: 
 ** Normal
 *** Albino Bat
     - Weaknesses :: *Spear* /Dagger/ /Axe/ /Bow/ /Staff/ /Ice/ /Thunder/ /Wind/ /Light/ *Dark*
     - Armor :: 3
 *** Ambling Bones
-   - Weaknesses :: Staff Wind Light
-   - Armor :: 2
+    - Weaknesses :: Staff Wind Light
+    - Armor :: 2
 *** Antagonistic Ant
-   - Weaknesses :: Dagger Staff
-   - Armor :: 3
+    - Weaknesses :: Dagger Staff
+    - Armor :: 3
 *** Armor Eater
     - Weaknesses :: Sword Axe Wind
     - Armor :: 4
     - On Steal :: Sleepweed
     - On Collect :: 450g 
 *** Army Ant
-   - Weaknesses :: Sword Dagger Axe
-   - Armor :: 1
-   - On Collect :: 60g
+    - Weaknesses :: Sword Dagger Axe
+    - Armor :: 1
+    - On Collect :: 60g
 *** Ash Raven
     - Weaknesses :: Spear Dagger Bow Wind
     - Armor :: 1
 *** Barnacle Bat
-   - Weaknesses :: Sword Spear Bow Thunder
-   - Armor :: 1
-   - On Steal :: Curious Bloom
+    - Weaknesses :: Sword Spear Bow Thunder
+    - Armor :: 1
+    - On Steal :: Curious Bloom
 *** Barnacle Crab
-   - Weaknesses :: *Dagger* *Axe* /Bow/ /Staff/ /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
-   - Armor :: 3
-   - On Steal :: Addlewort
+    - Weaknesses :: *Dagger* *Axe* /Bow/ /Staff/ /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
+    - Armor :: 3
+    - On Steal :: Addlewort
 *** Blood Viper
     - Weaknesses :: Sword Spear Axe Dark
     - Armor :: 2
 *** Buccaneer III
-   - Weaknesses :: *Spear* *Bow* /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
-   - Armor :: 2
+    - Weaknesses :: *Spear* *Bow* /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
+    - Armor :: 2
 *** Buccaneer IV
-   - Weaknesses :: *Spear* *Bow* /Staff/ /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
-   - Armor :: 3
+    - Weaknesses :: *Spear* *Bow* /Staff/ /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
+    - Armor :: 3
 *** Cait
     Flees ASAP
     - Weaknesses :: Sword Dagger Axe Staff
@@ -1087,31 +1321,44 @@ Elderly Shopowner
     Flees ASAP
     - Weaknesses :: /Sword/ /Spear/ *Dagger* /Axe/ /Bow/ /Staff/ /Ice/ /Wind/ /Light/ /Dark/
     - Armor :: 4
+*** Dark Curator
+    - Weaknesses :: Spear Bow Staff Light
+    - Armor :: 3
+*** Dark Elemental
+    - Weaknesses :: Fire Light
+    - Armor :: 4
 *** Dark Roller
-   - Weaknesses :: Dagger Thunder
-   - Armor :: 1
+    - Weaknesses :: Dagger Thunder
+    - Armor :: 1
+    - On Steal :: Olive of Life
+*** Desert Worm
+   - Weaknesses :: Spear Axe Wind Light
+   - Armor :: 5
 *** Dire Army Ant
-   - Weaknesses :: Sword Dagger Axe
-   - Armor :: 2
-   - On Collect :: 120g
+    - Weaknesses :: Sword Dagger Axe
+    - Armor :: 2
+    - On Collect :: 120g
 *** Dread Falcon
     - Weaknesses :: Spear Dagger Bow Wind Dark
     - Armor :: 3
 *** Dread Viper
-   - Weaknesses :: Spear Axe Dark
-   - Armor :: 3
+    - Weaknesses :: Spear Axe Dark
+    - Armor :: 3
 *** Fire Wisp
-   - Weaknesses :: Ice Dark
-   - Armor :: 1
+    - Weaknesses :: Ice Dark
+    - Armor :: 1
+*** Flame Curator
+    - Weaknesses :: /Sword/ /Spear/ /Dagger/ /Axe/ /Bow/ /Staff/ /Fire/ *Ice*
+    - Armor :: 2
 *** Flatlands Froggen I
-   - Weaknesses :: Bow Ice Light
-   - Armor :: 1
+    - Weaknesses :: Bow Ice Light
+    - Armor :: 1
 *** Flatlands Froggen II
-   - Weaknesses :: Bow Ice Light
-   - Armor :: 2
+    - Weaknesses :: Bow Ice Light
+    - Armor :: 2
 *** Flatlands Froggen III
-   - Weaknesses :: Axe Staff Ice
-   - Armor :: 3
+    - Weaknesses :: Axe Staff Ice
+    - Armor :: 3
 *** Forest Ratkin IV
     - Weaknesses :: *Sword* *Axe* /Staff/ /Fire/ /Wind/ /Light/ /Dark/
     - Armor :: 2
@@ -1130,8 +1377,10 @@ Elderly Shopowner
     - Weaknesses :: Spear Dagger Bow Wind Dark
     - Armor :: 1
 *** Giant Scorpion
-   * Weaknesses :: Spear Ice Wind
-   * Armor :: 2
+    - Weaknesses :: Spear Ice Wind
+    - Armor :: 2
+    - On Steal :: Essence of Pomegranate
+    -On Collect :: 760g
 *** Great Condor
     - Weaknesses :: Spear Bow
     - Armor :: 3
@@ -1139,12 +1388,12 @@ Elderly Shopowner
     - Weaknesses :: Sword Spear Axe
     - Armor :: 2
 *** Hermit Conch
-   - Weaknesses :: Sword Spear Ice
-   - Armor :: 2
-   - On Steal :: Sleepweed
+    - Weaknesses :: Sword Spear Ice
+    - Armor :: 2
+    - On Steal :: Sleepweed
 *** Highland Goat
-   - Weaknesses :: *Sword* /Spear/ /Dagger/ /Staff/ /Fire/ /Thunder/ /Wind/ *Light*
-   - Armor :: 2
+    - Weaknesses :: Sword Spear Light
+    - Armor :: 2
 *** Highland Ratkin II
     - Weaknesses :: Sword Dagger Bow Light
     - Armor :: 2
@@ -1152,18 +1401,18 @@ Elderly Shopowner
     - Weaknesses :: Spear Bow Dark
     - Armor :: 3
 *** Highland Ratkin IV
-   - Weaknesses :: *Sword* /Spear/ /Dagger/ /Axe/ /Bow/ /Staff/ /Fire/ /Ice/ /Thunder/ /Wind/ *Light*
-   - Armor :: 2
+    - Weaknesses :: Sword Bow Wind Light
+    - Armor :: 2
 *** Highland Ratkin V
-   - Weaknesses :: /Sword/ /Spear/ *Bow* *Wind* *Light*
-   - Armor :: 3
+    - Weaknesses :: Sword Bow Wind Light
+    - Armor :: 3
 *** Highland Ratkin VI
-   - Weaknesses :: Spear Axe Dark
-   - Armor :: 1
+    - Weaknesses :: Spear Axe Dark
+    - Armor :: 1
 *** Highland Ratking I
-   - Weaknesses :: Spear Staff Thunder Light
-   - Armor :: 3
-   - On Steal :: Inspiriting Plum
+    - Weaknesses :: Spear Staff Thunder Light
+    - Armor :: 3
+    - On Steal :: Inspiriting Plum
 *** Hoary Bear
     - Weaknesses :: Spear Axe Wind
     - Armor :: 4
@@ -1187,6 +1436,9 @@ Elderly Shopowner
 *** Ice Guardian
     - Weaknesses :: Sword Dagger Bow Fire
     - Armor :: 2
+*** Ice Lizardking I
+    - Weaknesses :: Spear Dagger Fire
+    - Armor :: 4
 *** Ice Lizardman I
     - Weaknesses :: Axe Staff Fire Thunder
     - Armor :: 1
@@ -1213,11 +1465,11 @@ Elderly Shopowner
     - On Steal :: Ice Soulstone (M)
     - On Collect :: 840g
 *** Killer Bug
-   - Weaknesses :: Sword Axe Dark
-   - Armor :: 2
+    - Weaknesses :: Sword Axe Dark
+    - Armor :: 2
 *** King Condor
-    * Weaknesses :: Spear /Dagger/ /Axe/ /Bow/ /Fire/ /Ice/ /Wind/ /Light/ /Dark/
-    * Armor :: 4
+    - Weaknesses :: Spear /Dagger/ /Axe/ /Bow/ /Fire/ /Ice/ /Wind/ /Light/ /Dark/
+    - Armor :: 4
 *** Laughing Hyaena
     - Weaknesses :: Axe Bow Fire
     - Armor :: 1
@@ -1237,8 +1489,8 @@ Elderly Shopowner
     - Weaknesses :: Dagger Fire Wind
     - Armor :: 1
 *** Long-eared Lloris
-   - Weaknesses :: /Spear/ /Dagger/ /Bow/ /Staff/ *Fire* /Ice/ /Wind/ /Light/ /Dark/
-   - Armor :: 2
+    - Weaknesses :: /Spear/ /Dagger/ /Bow/ /Staff/ *Fire* /Ice/ /Wind/ /Light/ /Dark/
+    - Armor :: 2
 *** Majestic Marmot
     - Weaknesses :: Bow Staff Fire
     - Armor :: 3
@@ -1256,6 +1508,10 @@ Elderly Shopowner
     - Weaknesses :: Spear Dagger Ice
     - Armor :: 1
     - On Steal :: Pseudo Gold Ore 
+*** Mountain Goat
+    - Weaknesses :: Sword Spear Light
+    - Armor :: 3
+    - On Steal :: Olive Bloom
 *** Mutant Mushroom
     - Weaknesses :: Dagger Fire
     - Armor :: 2
@@ -1268,8 +1524,8 @@ Elderly Shopowner
     - Weaknesses :: Staff Fire Light
     - Armor :: 2
 *** Rampant Weed
-   - Weaknesses :: Sword Axe Fire
-   - Armor :: 2
+    - Weaknesses :: Sword Axe Fire
+    - Armor :: 2
 *** Reptalion
     Difficult to hit
     - Weaknesses :: Axe
@@ -1301,45 +1557,68 @@ Elderly Shopowner
     - Weaknesses :: Sword Axe Dark
     - Armor :: 2
 *** Rock Tortoise
-   - Weaknesses :: Sword Wind
-   - Armor :: 3
+    - Weaknesses :: Sword Wind
+    - Armor :: 3
 *** Sailfish
-   - Weaknesses :: Sword Bow Fire Thunder
-   - Armor :: 2
-   - On Steal :: Essence of Grape
+    - Weaknesses :: Sword Bow Fire Thunder
+    - Armor :: 2
+    - On Steal :: Essence of Grape
 *** Salamander
     - Weaknesses :: Dagger Ice Light
     - Armor :: 3
     - On Steal :: Olive Bloom 
+*** Sandworm
+   - Weaknesses :: Spear Axe Wind Light
+   - Armor :: 4
+   - On Steal :: Olive Bloom
+   - On Collect :: 144g
+*** Sand Lizardking I
+   - Weaknesses :: Spear Staff Ice
+   - Armor :: 4
+   - On Steal :: Healing Grape (M)
+*** Sand Lizardking II
+   - Weaknesses :: Spear Staff Ice
+   - Armor :: 5
+   - On Steal :: Inspiriting Plum
 *** Sand Lizardman I
-   - Weaknesses :: Sword Dagger Ice Dark
-   - Armor :: 1
-*** Scythe Crab
-   - Weaknesses :: Dagger Axe Wind
+    - Weaknesses :: Sword Dagger Ice Dark OR Spear Ice Wind
+    - Armor :: 1
+*** Sand Lizardman II
+   - Weaknesses :: Spear Ice Wind
+   - Armor :: 2
+   - On Steal :: Inspiriting Plum (M)
+*** Sand Lizardman III
+   - Weaknesses :: /Sword/ /Spear/ /Dagger/ /Bow/ /Staff/ /Fire/ *Ice* /Wind/ /Light/ /Dark/
    - Armor :: 3
+*** Sand Lizardman IV
+   - Weaknesses :: Dagger Axe Ice Wind
+   - Armor :: 2
+*** Scythe Crab
+    - Weaknesses :: Dagger Axe Wind
+    - Armor :: 3
 *** Sea Birdian I
     - Weaknesses :: Sword Spear Fire Thunder
     - Armor :: 1
 *** Sea Birdian II
-   - Weaknesses :: Sword Spear Fire Thunder
-   - Armor :: 2
+    - Weaknesses :: Sword Spear Fire Thunder
+    - Armor :: 2
 *** Sea Birdian III
-   - Weaknesses :: Sword Fire Wind
-   - Armor :: 3
+    - Weaknesses :: Sword Fire Wind
+    - Armor :: 3
 *** Sea Birdian V
-   - Weaknesses :: *Spear* *Staff* *Fire* /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
-   - Armor :: 3
+    - Weaknesses :: *Spear* *Staff* *Fire* /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
+    - Armor :: 3
 *** Sea Birdian VI
-   - Weaknesses :: *Sword* *Fire* /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
-   - Armor :: 1
-   - On Steal :: Inspiriting Plum
+    - Weaknesses :: *Sword* *Fire* /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
+    - Armor :: 1
+    - On Steal :: Inspiriting Plum
 *** Sea Birdking I
-   - Weaknesses :: /Spear/ /Dagger/ *Axe* *Bow* *Thunder*
-   - Armor :: 3
+    - Weaknesses :: /Spear/ /Dagger/ *Axe* *Bow* *Thunder*
+    - Armor :: 3
 *** Sea Slug
-   - Weaknesses :: Fire Wind Dark
-   - Armor :: 3
-   - On Steal :: Essence of Pomegranate
+    - Weaknesses :: Fire Wind Dark
+    - Armor :: 3
+    - On Steal :: Essence of Pomegranate
 *** Sentinel
     - Weaknesses :: Sword Spear Axe Bow Staff
     - Armor :: 2
@@ -1349,16 +1628,26 @@ Elderly Shopowner
     - Armor :: 2
     - On Steal :: Curious Bloom
 *** Shaggy Aurochs
-   - Weaknesses :: /Spear/ /Dagger/ *Axe* *Fire*
-   - Armor :: 2
+    - Weaknesses :: /Spear/ /Dagger/ *Axe* *Fire*
+    - Armor :: 2
 *** Shambling Weed
     - Weaknesses :: Sword Axe Fire
     - Armor :: 1
     - On Steal :: Essence of Pomegranate
     - On Collect :: 406g
+*** Skulking Fungoid
+    - Weaknesses :: *Spear* /Dagger/ /Staff/ /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
+    - Armor :: 4
 *** Skull Roller
-   - Weaknesses :: Spear Ice Dark
-   - Armor :: 2
+    - Weaknesses :: Spear Ice Dark
+    - Armor :: 2
+*** Slayer Bug
+   - Weaknesses :: Sword Axe
+   - Armor :: 3
+   - On Steal :: Essence of Plum
+*** Snow Yak
+    - Weaknesses :: /Spear/ /Dagger/ /Bow/ *Staff* *Thunder*
+    - Armor :: 3
 *** Spud Bug
     - Weaknesses :: /Sword/ /Spear/ /Dagger/ /Axe/ /Bow/ /Staff/ *Fire* /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
     - Armor :: 3
@@ -1373,6 +1662,10 @@ Elderly Shopowner
 *** Two-handed Hatchling
     - Weaknesses :: Sword Spear Axe
     - Armor :: 3
+*** Vampire Bat
+   - Weaknesses :: *Sword Spear* /Dagger/ /Axe/ /Bow/ /Staff/ /Fire/ *Ice*
+   - Armor :: 1
+   - On Steal :: Curious Bloom
 *** Wanderweed
     - Weaknesses :: Sword Fire
     - Armor :: 3
@@ -1421,6 +1714,19 @@ Elderly Shopowner
      - Weaknesses :: *Dagger* *Bow* *Fire* /Ice/ /Wind/ /Dark/
      - Armor :: 4
 ** Bosses
+*** Behemoth
+    - Weaknesses :: Dagger Staff Light
+    - Armor :: 10
+    - On Steal :: Revitalizing Jam
+    - On Collect :: 14,280g
+*** Erhardt
+    Solo challenge vs. Olberic
+    - Weaknesses :: *Sword* /Dagger/ /Axe/ /Bow/ /Fire/ /Ice/ /Thunder/ /Wind/ /Dark/
+    - Armor :: 6
+    - Gold :: 1,000
+    - EXP :: 400
+    - JP :: 200
+    - Drops :: Divine Blade
 *** Gideon
     - Weaknesses :: Sword Dagger Axe /?/
     - Armor :: 7
@@ -1456,34 +1762,54 @@ Elderly Shopowner
     - XP :: 109
     - JP :: 42 
 *** Hróðvitnir
-   - Weaknesses :: Sword Spear Ice Thunder /Wind/ /Light/
-   - Armor :: 5 (+2 on glare)
-   - HP :: 34,969
-   - On Steal :: Healing Grape Bunch
-   - On Collect :: 4,000g
+    - Weaknesses :: Sword Spear Ice Thunder /Wind/ /Light/
+    - Armor :: 5 (+2 on glare)
+    - HP :: 34,969
+    - On Steal :: Healing Grape Bunch
+    - On Collect :: 4,000g
 *** Jötunn
-   - Weaknesses :: Sword Axe Fire Thunder
-   - Armor :: 4 (+2 on thickening ice)
-   - Summons :: 2 x [[Snow Elemental]]
-   - HP :: 30,307
-   - Gold :: 2,200
-   - EXP :: 300
-   - JP :: 200
-   - Drops :: Jötunn Horn
+    - Weaknesses :: Sword Axe Fire Thunder
+    - Armor :: 4 (+2 on thickening ice)
+    - Summons :: 2 x [[Snow Elemental]]
+    - HP :: 30,307
+    - Gold :: 2,200
+    - EXP :: 300
+    - JP :: 200
+    - Drops :: Jötunn Horn
 **** Snow Elemental
      - Weaknesses :: /Sword/ /Spear/ /Dagger/ /Axe/ /Bow/ /Staff/ *Fire* /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
      - Armor :: 4
      - On Steal :: Ice Soulstone (M)
+*** Lizardman Chief
+    Guards Dagger, ?3, and ?5 weaknesses while henchmen are alive
+    - Weaknesses :: *Sword* *Dagger* *Axe* *Thunder* /Wind/ /Light/ /Dark/
+    - Armor :: 7
+    - Summons :: 2 x [[Sand Lizardking][Sand Lizardking]]
+    - Gold :: 6,000
+    - EXP :: 500
+    - JP :: 300
+    - Drops :: Healing Grape Bunch, Lizardking's Axe
+**** Sand Lizardking
+    - Weaknesses :: /Spear/ /Axe/ /Bow/ /Staff/ /Fire/ *Ice* /Wind/ /Light/ /Dark/
+    - Armor :: 3
 *** Lord of the Forest
-   - Weaknesses :: Sword Axe Fire Light
-   - Armor :: 7
-   - Spawns :: 2 x [[Weeping Treant][Weeping Treant]]
-   - Gold :: 3,000
-   - XP :: 300
-   - JP :: 200
+    - Weaknesses :: Sword Axe Fire Light
+    - Armor :: 7
+    - Spawns :: 2 x [[Weeping Treant][Weeping Treant]]
+    - Gold :: 3,000
+    - XP :: 300
+    - JP :: 200
 **** Weeping Treant
-   - Weaknesses :: *Axe* *Fire* /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
-   - Armor :: 3
+     - Weaknesses :: *Axe* *Fire* /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
+     - Armor :: 3
+*** Manymaws
+    Condition bombs
+    - Weaknesses :: Sword Axe Fire
+    - Armor :: 10
+    - On Collect :: 13,440g
+    - Gold :: 7,392
+    - EXP :: 162
+    - JP :: 48
 *** Monarch
     Mass Sleep + Unconsciousness
     - Weaknesses :: Spear Bow Dark
@@ -1514,12 +1840,12 @@ Elderly Shopowner
     - EXP :: 200
     - JP :: 200
 **** Obsidian Associate
-    - Weaknesses :: Dagger Axe Ice Wind
-    - Armor :: 3
-    - On Steal :: Inspiriting Plum (M)
+     - Weaknesses :: Dagger Axe Ice Wind
+     - Armor :: 3
+     - On Steal :: Inspiriting Plum (M)
 *** Vanessa
     Guards all weaknesses while any henchmen live
-    - Weaknesses :: *Spear* *Axe *Fire* /Thunder/ /Wind/ *Dark*
+    - Weaknesses :: *Spear* *Axe* *Fire* /Thunder/ /Wind/ *Dark*
     - Armor :: 5
     - Spawns With :: 2 x [[Sellsword][Sellsword]]
     - Summons :: 2 x [[Sellsword][Sellsword]]
