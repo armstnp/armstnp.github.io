@@ -1,16 +1,42 @@
 # -*-  org-image-actual-width: nil; -*-
+
+* COMMENT Preface
+#+TITLE: Octopath Traveler
+#+TAGS: Cyrus Ophilia Haanit Therion Tressa Olberic Primrose Alfyn
+#+TAGS: Cliftlands Coastlands Flatlands Frostlands Highlands Riverlands Sunlands Woodlands
+#+TAGS: Hidden Quest
 #+PROPERTY: LOGGING nil
+#+OPTIONS: toc:3
+#+OPTIONS: num:nil
+#+OPTIONS: tags:not-in-toc
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="styles/readtheorg/css/htmlize.css"/>
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="styles/readtheorg/css/readtheorg.css"/>
 #+HTML_HEAD: <script type="text/javascript" src="styles/lib/js/jquery.min.js"></script>
 #+HTML_HEAD: <script type="text/javascript" src="styles/lib/js/bootstrap.min.js"></script>
 #+HTML_HEAD: <script type="text/javascript" src="styles/lib/js/jquery.stickytableheaders.min.js"></script>
 #+HTML_HEAD: <script type="text/javascript" src="styles/readtheorg/js/readtheorg.js"></script>
-#+OPTIONS: toc:3
-#+OPTIONS: num:nil
-#+OPTIONS: tags:not-in-toc
-#+TITLE: Octopath Traveler
-
+* COMMENT Styling Guides
+** Connections
+*** Towns
+*** Shrines
+*** Local zone connections (e.g. Wellspring Sands -> Wellspring Sands)
+*** Local region connections (e.g. Flamesgrace Sands -> Wellspring Sands)
+*** Remote region connections (e.g. Sunlands -> Highlands)
+*** Dungeon Paths (e.g. 'Road to _____')
+*** Dungeons
+** Location Sections
+*** (Dungeons only, non-header) Entrance listing + Map
+*** Connections
+*** Encounters
+*** Points of Interest
+*** Treasures
+*** Items to Acquire (tagged w/ Therion Tressa)
+*** Knowledge to Glean (tagged w/ Cyrus Alfyn)
+*** Force to Apply (tagged w/ Olberic Haanit)
+*** Allies to Lead (tagged w/ Ophilia Primrose)
+** Points of Interest
+*** Path stories - Chapter ASC, then Alphabetical
+*** Quests - Alphabetical
 * Towns
 ** Cliftlands                                                    :Cliftlands:
 *** Bolderfall
@@ -18,6 +44,19 @@
 ***** [[North Bolderfall Pass][North Bolderfall Pass]]
 **** Points of Interest
 ***** DONE Therion: Chapter 1                                       :Therion:
+***** TODO Daughter of the Dark God (I)                               :Quest:
+      Alphas, a guard, wants to catch the eye of a nearby woman, who he believes
+      will be a perfect match.
+***** DONE The Bandits' Code                                          :Quest:
+      A Veteran Brigand wants to leave Marta's gang of thieves, but by the
+      group's rules, he must find a replacement before departing. But after
+      informing him of the group's aim - giving money to an orphanage - he
+      reconsiders his current life, and chooses to stick around.
+      - Rewards :: 2,400g, Blazon of Protection
+**** Allies to Lead                                        :Ophilia:Primrose:
+***** Townsperson (10)                                       :Haanit:Olberic:
+      4 x Guillotine (Sword)
+      South side of town, guarded by a weak pauper.
 *** Quarrycrest
 **** Connections
 ***** [[South Quarrycrest Pass (28)][South Quarrycrest Pass (28)]]
@@ -42,7 +81,7 @@
 ***** DONE Kaia, Mother of Dragons (II)                               :Quest:
       Looking for a man who knows about dragons. Guided 'The Egg Man' to her.
       - Rewards :: 6,600g, Light Nut (M)
-***** TODO A Miner Dilemma
+***** TODO A Miner Dilemma                                            :Quest:
 **** Treasures
 ***** DONE Pseudo Gold Ore
 ***** DONE Dubious Gold Ore
@@ -62,6 +101,10 @@
 ***** Wind Soulstone (L)
 ***** Fire Soulstone (L)
 ***** Ice Soulstone (L)
+*** Orewell
+**** Connections
+**** Points of Interest
+***** TODO Alfyn: Chapter 4                                           :Alfyn:
 ** Coastlands                                                    :Coastlands:
 *** Rippletide
 **** Connections
@@ -117,12 +160,17 @@
       can escape. He gathers some moss, treats Flynn with it, and departs to
       continue his healing in Saintsbridge of the Riverlands.
 ***** TODO Ophilia: Chapter 3                                       :Ophilia:
-***** TODO Left Behind
-      A Former Sailor seeks his long-bearded captain, lost in a shipwreck.
-***** TODO Le Mann, Explorer Extraordinaire (II)
+***** DONE Left Behind                                                :Quest:
+      A Former Sailor seeks his long-bearded captain, lost in a shipwreck. An
+      Amnesiac in Victor's Hollow is led to the sailor, who recognizes him as
+      the captain he'd been seeking. He nudges the old man to remember their
+      time on the Blue Wave, and he recalls, asking if the sailor would wish
+      to gather a new crew and sail once more, to which the sailor is delighted.
+      - Rewards :: 4,500g, Elemental Ward
+***** TODO Le Mann, Explorer Extraordinaire (II)                      :Quest:
       Le Mann needs motivation to continue on his way, lest he succumb to
       homesickness. Provoking him to action had no effect.
-***** TODO The Merchant's Path
+***** TODO The Merchant's Path                                        :Quest:
       A Merchantry Master needs help with bandit trouble plaguing his merchants.
 **** Treasures
 ***** DONE Inspiriting Plum
@@ -137,7 +185,7 @@
 ***** DONE Inspiriting Plum Basket
 ***** DONE Odds and Ends                                             :Hidden:
 ***** DONE Silver Axe                                                :Hidden:
-**** Items to Acquire
+**** Items to Acquire                                        :Therion:Tressa:
 ***** Orewell Whetstone
       Stonemonger, by the armory
 ***** Leviathan Egg
@@ -148,6 +196,17 @@
       Townsperson near the chapel
 ***** Tough Nut (L)
       Ellen, near the consumables shop
+***** Forbidden Bow
+      Elderly Woman near the bridge to the north of town
+***** Dragon's Vest
+      Old Man at the town's entrance
+**** Allies to Lead                                        :Ophilia:Primrose:
+***** Crest-bearing Ruffian - 7 x Crush and Grind (Axe) (6)
+      On the beachfront
+*** Grandport
+**** Connections
+**** Points of Interest
+***** TODO Tressa: Chapter 4                                         :Tressa:
 ** Flatlands                                                      :Flatlands:
 *** Atlasdam
 **** Connections
@@ -158,10 +217,11 @@
 **** Points of Interest
 ***** DONE Therion: Chapter 2                                       :Therion:
 ****** TODO Fill in story details
+***** TODO Primrose: Chapter 3                                     :Primrose:
 ***** DONE Junk Collector: South of palace, carrying 'Tools of Learning' :Quest:
       Bought Tools of Learning from Junk Collector south of the palace.
 ****** TODO Fill this in with proper quest name
-***** TODO Never Forget                                               :Quest:
+***** DONE Never Forget                                               :Quest:
       Bought "Lorie's Diary" from the Affable Antiquarian.
 ** Frostlands                                                    :Frostlands:
 *** Flamesgrace
@@ -170,7 +230,7 @@
 **** Points of Interest
 ***** DONE Ophilia: Chapter I                                       :Ophilia:
       Fill this out in more detail later...
-***** DONE The Slumbering Giant
+***** DONE The Slumbering Giant                                       :Quest:
       A Diligent Student is trying to learn more about the jötunn.
       After the Jötunn Horn was turned over, he recalled the scholar he'd met
       who'd started him on this line of research, and thinks this may provide
@@ -178,8 +238,8 @@
       - Rewards :: 4,500g, Calamity Spear
 *** Stillsnow
 **** Connections
-***** [[Road to the Obsidian Parlor (20)][Road to the Obsidian Parlor (20)]]
 ***** [[Western Stillsnow Wilds (29)][Western Stillsnow Wilds (29)]]
+***** [[Road to the Obsidian Parlor (20)][Road to the Obsidian Parlor (20)]]
 ***** [[Trail to the Whitewood (37)][Trail to the Whitewood (37)]]
 **** Points of Interest
 ***** DONE Primrose: Chapter 2                                     :Primrose:
@@ -210,25 +270,72 @@
       next destination: back home, to Noblecourt. As she departs, Arianna
       prompts her to tell what she believes in, and to her sorrow, Primrose
       reaffirms her commitment to vengeance.
-***** DONE Let There Be Warmth
+***** DONE H'annit: Chapter 3                                        :Haanit:
+      H'annit comes to Stillsnow to seek out the seer Susanna. Linde begins to
+      frolic in the snow, surprising H'annit somewhat before realizing the snow
+      leopard feels at home there. Some children notice Linde and begin to pet
+      them; H'annit begins her search by asking them where Susanna is to be
+      found. They refer to her as the 'witch', and direct H'annit to her abode.
+      
+      A crowd greets her in front of the red-roofed house, a wayfarer in dispute
+      about being turned away, as he'd sought the telling of his fortune from the
+      seer. When the man he's shouting at does not respond or step aside, he
+      attempts to assault him, only to find himself shoved to the ground. Another
+      villager names the silent man Alaic, noting he does not talk at all, as
+      Susanna talks for both. Alaic appears to be a minder of sorts for the
+      seer's business. Despite her famed talent, Susanna does not allow anyone to
+      visit her. H'annit provokes Alaic, drawing him into a scuffle with Linde,
+      who topples him.
+
+      As Alaic falls, dazed, Susanna emerges from the house, cackling and bidding
+      H'annit and Linde by name to help carry Alaic inside, while dropping hints
+      that she knows quite a bit about them, and that her legendary skill as a
+      seer is nothing more than simple deduction. Inside, Susanna speaks of one
+      possible cure for the curse, and also observes that Z'aanta had raised a
+      fine 'prentice. The cure, she reveals, is to slay the beast that had
+      wrought the curse in the first place; this would first require H'annit to
+      seek a defense from Redeye's power in the first place, a plant named herb-
+      of-grace, growing in the Whitewood. Alaic meets them at the wood's edge,
+      bidding them take care so they could continue to bring Susanna the joy
+      she'd shown when they'd arrived.
+
+      Deep in the wood, she finds the herb in a clearing; but the roar of a
+      dragon interrupts her approach, and she realizes she's walked right into
+      its lair. She recalls Z'aanta's tales - some seeming taller than most - and
+      his admonition to keep hold of all the stories she can of her own battles.
+      Indeed, he promised her that should no other man believe her tales, he
+      would believe every word. Now, H'annit plans to make him eat those words
+      with this particular tale.
+
+      With the dragon slain, the monsters return: their tyrant's reign is ended.
+      H'annit gathers the herb-of-grace and leaves the wood while the monsters
+      are still calm. Alaic still stands at the woods' edge, feigning ambivalence
+      while still harboring clear concern for the huntress. They return to town,
+      where Susanna brews the herbs in preparation, and asks them to recount the
+      tale of the fight. She admires the huntress' story-telling, recalling how
+      she had had to teach Z'aanta what skill he had. The brew completes, and
+      Susanna hands H'annit ten doses, bidding her drink when the curse begins to
+      settle.
+
+      On her way out of town, one of the Knights Ardante greets her. Lady Eliza
+      has spotted Redeye near Marsalim in the Sunlands. Susanna and Alaic bid her
+      farewell, and she departs, too naive to notice Alaic's affection.
+***** DONE Let There Be Warmth                                        :Quest:
       An Ingenious Inventor is working on a portable heat source. He needs coal,
       flax, and a metal container. His needs were satisfied with
       [[Satisfactory Coal][Satisfactory Coal]], [[Adequate Flax][Adequate Flax]], and a [[Portable Pot][Portable Pot]], and he is able to
       bring his invention to life.
       - Rewards :: 4,800g, Nourishing Nut, Sharp Nut
-***** TODO Setting Out
-      A Pensive Girl wants to leave the village and become a singer, but cannot
-      while her family remains in debt.
-***** DONE Sir Miles, Servant of the Flame (II)
+***** DONE Sir Miles, Servant of the Flame (II)                       :Quest:
       Miles still seeks his father, but he finds his new post more difficult
       than expected as he tastes his first true combat. He requests a match to
       train himself more thoroughly. After Olberic beat him in a Challenge,
       he finds his determination renewed. A Carefree Man brings him information
       about his father and the Knights Ardante, who once saved his life.
       - Rewards :: 6,600g, Nourishing Nut (M)
-**** Information
-***** Dragon of the Frostlands
-      Veteran Mercenary
+***** TODO Setting Out                                                :Quest:
+      A Pensive Girl wants to leave the village and become a singer, but cannot
+      while her family remains in debt.
 **** Treasures
 ***** DONE Ice Soulstone (M)                                         :Hidden:
 ***** DONE Olive of Life
@@ -251,6 +358,13 @@
       Frostlands Farmer
 ***** DONE Satisfactory Coal
       Villager, near the forest's entrance
+**** Knowledge to Glean                                         :Cyrus:Alfyn:
+***** Dragon of the Frostlands
+      Veteran Mercenary
+*** Northreach
+**** Connections
+**** Points of Interest
+***** TODO Therion: Chapter 4                                       :Therion:
 ** Highlands                                                      :Highlands:
 *** Cobbleston
 **** Connections
@@ -312,20 +426,23 @@
       parting gift of meager supplies, her own contribution to the effort for
       Z'aanta's sake. And so H'annit departed for Stillsnow and Susanna.
 ***** TODO Cyrus: Chapter 3                                           :Cyrus:
-***** TODO Up to No Good
+***** DONE A Royal Secret                                             :Quest:
+      An inquiring youth seeks more information regarding Ventus the Third, and
+      the reason he had suddenly ceased his art, renowned as it was. The party
+      discovers the old Ventus Dynasty tombs, and leads the youth within, where
+      its gravekeepers have preserved their history. He reads there of the
+      division and fall of the ancient kingdom under Ventus the Third's sons.
+      The gravekeeper himself proves to be of the elder son's line. The youth
+      sets out to write the tale in scholarly fashion.
+      - Reward :: 5,000g, Royal Crest
+***** TODO Up to No Good                                              :Quest:
       An Elderly Shopowner is being harassed by ruffians. They were provoked
       into a fight, and chased away for the time being, but returned shortly
       after the defenders left. The shopowner suspects his persistence is due to
       someone giving him orders.
-***** TODO A Royal Secret
-      An inquiring youth seeks more information regarding Ventus the Third, and
-      the reason he had suddenly ceased his art, renowned as it was.
-***** TODO Lost in Translation
+***** TODO Lost in Translation                                        :Quest:
       A bookbinder wants to be able to read a foreign book, but requires
       translation.
-**** Information
-***** The Fall of House Landar
-      Erstwhile Bodyguard
 **** Treasures
 ***** DONE Inspiriting Plum
 ***** DONE Silver-filled Pouch                                       :Hidden:
@@ -335,7 +452,7 @@
 ***** DONE Soldier's Longbow                                         :Hidden:
 ***** DONE Empty Coin Pouch                                          :Hidden:
 ***** DONE Large Feather                                             :Hidden:
-**** Items to Acquire
+**** Items to Acquire                                        :Therion:Tressa:
 ***** Forbidden Blade
       Townsperson, near equipment shop
 ***** Dazzling Artwork
@@ -344,11 +461,15 @@
       Elderly Shopowner
 ***** Elemental Augmentor
       Elderly Shopowner
+**** Knowledge to Glean                                         :Cyrus:Alfyn:
+***** The Fall of House Landar
+      Erstwhile Bodyguard
 ** Riverlands                                                    :Riverlands:
 *** Saintsbridge
 **** Connections
 ***** [[East Saintsbridge Traverse (23)][East Saintsbridge Traverse (23)]]
 ***** [[Murkwood Trail (20)][Murkwood Trail (20)]]
+***** [[Rivira Woods (32)][Rivira Woods (32)]]
 **** Points of Interest
 ***** DONE Ophilia: Chapter II                                      :Ophilia:
       Ophilia performed the Kindling for Saintsbridge's fire. While seeing the
@@ -363,10 +484,68 @@
       she discusses the event and the warmth and compassion she's brought to its
       people through her own flame. She plans the next stop on her pilgrimage:
       Goldshore.
-***** DONE Meryl, Lost then Found (II)
+***** DONE Alfyn: Chapter III                                         :Alfyn:
+      A man named Miguel crouches wounded beside a cabin, injured and begging
+      for food. An unknown apothecary inspects the wound, finding it festered,
+      and observing that the wound needs treatment. Before he does so, he asks
+      one question, and does not seem to like the answer, leaving Miguel to die,
+      declaring his life not worth saving. Alfyn arrives, observing the scene
+      unfold, and berates this other apothecary. The man digs into his stance
+      that he has the right to choose his patients. He leaves, and Alfyn treats
+      Miguel before heading to the tavern for a meal.
+
+      On arriving, he finds a commotion: a woman shouts for help, her son
+      collapsed on the floor. Alfyn struggles to come to a diagnosis, but the
+      other apothecary arrives and promptly gives his diagnosis and a cure for
+      the child's allergic paroxysm. He introduces himself as Ogen and departs
+      once more. Alfyn admires the skill of his fellow practitioner, but remains
+      bothered by his mysterious ethic.
+
+      Around the town, Alfyn continues to help its people in what ways he can.
+      While treating one older woman, he asks about wine from the town's famous
+      grapes that he could share with Miguel. The woman seems shocked that the
+      two are acquainted, revealing Miguel to be a thief and rumored murderer of
+      ill repute in the town. Outside the house, Ogen meets Alfyn once more,
+      telling him what he'd observed of Miguel - a false story, concealed
+      dagger, and blood not his own. Sparks fly between the two as their ethics
+      clash. Ogen observes the confident competence displayed by Alfyn's tonics,
+      and earnestly warns him to let Miguel die.
+
+      Alfyn returns to check up on Miguel, finding his wound worse than
+      expected. He plans to treat Miguel with stronger medicine, but is reminded
+      of Ogen's words, and confronts the man with the rumors. Miguel concedes he
+      had done those deeds, but claims innocence by need: three starving
+      children to feed at his home. Alfyn hears this, and agrees to continue
+      treatment, on the condition that Miguel seek honest work. He works through
+      the night to get him over the hump, then collapses into slumber. When he
+      wakes, Miguel is gone.
+
+      Alfyn searches for the wounded man, and finds him holding the same boy
+      from earlier hostage, threatening to slit his throat unless his mother
+      gives him all she has on her. When he sees Alfyn, he retreats into the
+      Rivira Woods with the boy, maintaining his threat and demanding every leaf
+      she can muster. Alfyn pursues, his wrath kindled, and seeks Miguel out. He
+      finds him, deep in the woods, having stabbed Timothy when he wouldn't be
+      quiet. He refuses to let Alfyn near to treat him, and states he doesn't
+      want to risk Alfyn running off with Timothy when he has four people to
+      feed at home. Alfyn catches the inconsistency in Miguel's story, and
+      Miguel mocks the apothecary's gullibility. Alfyn determines to set right
+      the mistake he made by curing Miguel, but Miguel warns him that he wasn't
+      lying about the mercenary past of Miguel Twinspears. He manges to defeat
+      the vagabond, and carries Timothy to safety.
+
+      Alfyn leaves town a few days later. As he departs, Ogen passes him, and
+      he asks what he could have done differently. Ogen observes he made a poor
+      choice in treating Miguel, then goes on to tell him of a similar choice
+      he'd made 10 years ago, when a wanted man he'd sheltered and healed had
+      murdered his wife. He departs, and Alfyn finds he's no closer to having an
+      answer, a guide to making the right decisions, choosing who to heal
+      without risking the lives of others. With heavy heart, he makes his way
+      towards Orewell.
+***** DONE Meryl, Lost then Found (II)                                :Quest:
       Provoked the Erstwhile Sellsword with H'annit.
       - Rewards :: 6,600g, Resistant Nut (M)
-***** TODO The Worrywart
+***** TODO The Worrywart                                              :Quest:
       Worrywart is fretting about a rising river.
 **** Treasures
 ***** DONE Inspiriting Plum (M)
@@ -382,9 +561,20 @@
 ***** DONE 3,000g                                                    :Hidden:
 ***** DONE Copper-filled Pouch                                       :Hidden:
 ***** DONE Bottle of Sleeping Dust
-**** Items to Acquire
-***** Holy Longbow                                                  :Therion:
-***** Bridge Lance                                           :Therion:Tressa:
+**** Items to Acquire                                        :Therion:Tressa:
+***** Holy Longbow
+***** Bridge Lance
+***** Wind Soulstone (L)
+Townsperson, north bridge
+**** Allies to Lead                                        :Ophilia:Primrose:
+***** Townsperson - 7 x Blinding Arrow (6)
+North bridge
+***** Old Man - 6 x Tenebrae Operire (7)
+      On the south bridge, near the exit to the Rivira Woods
+*** Riverford
+**** Connections
+**** Points of Interest
+***** TODO Olberic: Chapter 4                                       :Olberic:
 ** Sunlands                                                        :Sunlands:
 *** Sunshade
 **** Connections
@@ -397,7 +587,7 @@
 ***** [[Western Wellspring Sands (35)][Western Wellspring Sands (35)]]
 ***** [[Southern Wellspring Sands (35)][Southern Wellspring Sands (35)]]
 **** Points of Interest
-***** DONE Olberic: Chapter 3                                       :Olberic:
+***** DONE Olberic: Chapter 3 (32)                                  :Olberic:
       Olberic follows the trail told by Gustav to Wellspring, hoping to find
       Erhardt. The townspeople seem to admire him, as he has been using his
       blade in great service to the town, defending it from the encroaching
@@ -445,17 +635,54 @@
 ******* 3 x [[Sand Lizardking I][Sand Lizardking I]]
 ******* 3 x [[Sand Lizardking II][Sand Lizardking II]]
 ****** *Boss:* [[Erhardt][Erhardt]]
-***** TODO Therion: Chapter 3                                       :Therion:
-***** TODO Shadow over the Sands
-A Staid Soldier is concerned about one of his scouts, who - after his claims of a huge serpent in the Quicksand Caves was disbelieved - pursued the beast himself. He wants to be careful and take care of the beast just in case.
-***** DONE In Search of Sweets
+***** DONE Therion: Chapter 3 (36)                                  :Therion:
+      Therion seeks the emerald dragonstone in Wellspring's black market. A
+      pinched bottle of wine opens the mouth of a suspect pauper, who Therion
+      asks about the stone. The man sends him down a trail beginning with
+      unlisted menu items at the local pub, and ending at a cave in the deserts
+      south of town. Masked men guard the entrance, permitting other masked men
+      to enter.
+
+      Therion realizes he needs a mask to enter, but manages to think around the
+      problem, stealing the market's inventory from the barkeep instead. He
+      discovers the person bringing the stone - 'a man with a black hat' - and
+      finds him at the entrance to the market. Just as he's planning to steal
+      the stone, the man is accosted by bandits and cut down, taking the stone
+      for themselves and racing into the cave.
+
+      Therion tails them inside, and demands the stone, only to be approached by
+      a red-haired man: Darius, his former partner. Darius quickly notices the
+      fool's bangle, mocking Therion for it before sicing his own men at him
+      (1 x [[Darius's Henchman][Darius's Henchman]], 2 x [[Darius's Lackey][Darius's Lackey]]). Therion deals with them,
+      recalling how he'd used him in a similar way in their time together before
+      cutting him down over a precipice in the Cliftlands, killing him to gain a
+      high place among the Ciannos Therion had humiliated. Darius had gotten
+      tired of Therion pushing against him, seeking to do things better.
+
+      Therion shakes his memories, using a shortcut to intercept Darius at an
+      exit to the cave. He probes Darius, but his former partner refuses to tell
+      why he, too, is after the stone. Gareth, Darius' new right-hand man,
+      offers to take on Therion while Darius makes good his escape.
+
+      Therion exits the cave, having defeated Gareth, and returns to Cordelia
+      empty-handed. Cordelia prods him about the loose ends he hints at, and
+      emphasizes that like him, she has suffered betrayal, and understands his
+      sadness and lack of trust. She speaks to him of the sycophants that had
+      surrounded her after her parents' death. Heathcote steps in to observe
+      that Darius' gang has the run of Northreach, and heads that direction to
+      reconnoiter. Therion speaks briefly with Cordelia, asking why she still
+      trusts; to this, she responds with Heathcote's own saying to her: 'Only
+      the betrayed know the true meaning of trust.'
+***** DONE In Search of Sweets                                        :Quest:
 A man with a Sweet Tooth has traveled from Stillsnow, seeking new delicacies. Disappointed by the local dates, he seeks a sweetener that will counter their bitter aftertaste. After providing him with some Beetroot from his own homeland, he marvels that he'd overlooked the obvious, and plans to begin his journey anew with fresh eyes.
 
 - Rewards :: 4,500g, Gourmet's Charm
-***** DONE Ria, Born to Roam (II)
+***** DONE Ria, Born to Roam (II)                                     :Quest:
 Ria continues her journey from Sunshade, but proves to have fallen into more trouble, as a thief has stolen a precious letter from her inn room. The letter is rediscovered in possession of a shady merchant, and stolen back for its owner. Ria speaks briefly of the unification of tribes under King Khalim, appointed under a Grand Assembly, before dissembling and taking her leave.
 
 - Rewards :: 6,600g, Magic Nut (M)
+***** TODO Shadow over the Sands                                      :Quest:
+A Staid Soldier is concerned about one of his scouts, who - after his claims of a huge serpent in the Quicksand Caves was disbelieved - pursued the beast himself. He wants to be careful and take care of the beast just in case.
 **** Treasures
 ***** DONE Healing Grape (M)
 ***** DONE Inspiriting Plum (M)
@@ -464,6 +691,9 @@ Inside house guarded by Townsperson, northwest side of town
 ***** DONE Thieves' Chest - 9,000g                                  :Therion:
 Inside house guarded by Townsperson, northwest side of town
 ***** DONE Thunder Soulstone (M)                                     :Hidden:
+***** DONE Healing Grape Bunch                                       :Hidden:
+***** DONE Heavy Coin Pouch                                          :Hidden:
+***** DONE Heavy Coin Pouch                                          :Hidden:
 **** Items to Acquire                                        :Tressa:Therion:
 ***** TODO Fur Cap
 Townsperson near entrance
@@ -479,11 +709,15 @@ Townsperson, northwest side of town
 Townsperson, northwest side of town
 **** Force to Apply                                          :Olberic:Haanit:
 ***** TODO Guard (9)
-North, near the tavern
+      North, near the tavern
+*** Marsalim
+**** Points of Interest
+***** H'aanit: Chapter 4                                             :Haanit:
 ** Woodlands                                                      :Woodlands:
 *** Victors Hollow
 **** Connections
 ***** [[East Victors Hollow Trail (29)][East Victors Hollow Trail (29)]]
+***** [[Path to the Forgotten Grotto (33)][Path to the Forgotten Grotto (33)]]
 ***** [[Forest of No Return (48)][Forest of No Return (48)]]
 **** Points of Interest
 ***** DONE Olberic: Chapter 2                                       :Olberic:
@@ -526,7 +760,64 @@ North, near the tavern
        - *Mini-boss:* [[Joshua][Joshua]]
        - *Mini-boss:* [[Archibold][Archibold]]
        - *Boss:* [[Gustav][Gustav]]
-***** TODO Tressa: Chapter 3                                         :Tressa:
+***** DONE Tressa: Chapter 3                                         :Tressa:
+      Tressa arrives in Victors Hollow, seeking a treasure worthy of the
+      Merchant's Faire, following in the footsteps of the author of the book she
+      carries. Walking among the stalls, she spots a map, and inquires about it
+      with the dealer. Inspecting closer, she observes writing: "Here lies my
+      most precious treasure. --Baltazar" The dealer recognizes the name as
+      belonging to a dread pirate of the Eastern Seas, and snatches the map
+      back, hoping to make a good profit off it - though he does give Tressa
+      some compensation in a handful of candy.
+
+      Tressa rests and reads the journal some more, its author stating that he
+      seeks one treasure precious enough to cease his journies. As she muses,
+      Captain Leon steps out of the tavern nearby and greets her. They catch up,
+      but behind them, Mikk and Makk reappear, and nearly return to blows with
+      Tressa before Leon stops them; it appears they have taken up new flags
+      with the captain. They depart, and Leon tells her the reason for his
+      presence in this town: he visits the home of an old friend on the
+      anniversary of his passing, the pirate Baltazar. Tressa recognizes the
+      name, and guides Leon to the map. The dealer recognizes Leon as well,
+      marking him too as a former scourge of the seas.
+
+      Leon examines the map, affirming its origin. The antique dealer sees his
+      mark, and asks whether Leon knows of Edbart's Shield, a weapon of legend.
+      He offers to trade it for the map if Leon can get his hands on it. Leon
+      declines, and takes his leave. Tressa resolves to put the map in Leon's
+      hands, though. She seeks out the shield and haggles for it, turning
+      around to barter it for the map, and finally bringing the memento to Leon.
+      She'd seen the forlorn look on seeing it, and on receiving it, he begins
+      to reminisce.
+
+      Baltazar, the Wild Eagle, and Leon, the Sea Serpent, clashing on the high
+      seas. Growing up in the slums, scrabbling to reach the top. Baltazar at
+      one time revealed to Leon his original dreams of becoming a merchant,
+      bringing people together through trade, a dream he longed for even in his
+      time as a pirate. In their last race, Baltazar coaxed Leon to wager that
+      which he treasured most. Baltazar never made it through the storm, though
+      his ship still won the race, wrecked on its shores. The map held the
+      location of the gem Baltazar had wagered, 'eldrite', the Eye of the Sea -
+      the only ore of its kind in the world. Tressa resolves to find this, too,
+      for Leon's sake, and ventures into the Forgotten Grotto. In its depths, she
+      finds the treasure right where it was marked - and a great beast that does
+      not care for her presence.
+
+      Tressa dispatches the beast, and opens the chest to find the beautiful
+      Eldrite, along with a letter addressed to Leon. She returns them to Leon,
+      and he reads the letter, where Baltazar asked whether Leon had found what
+      was most precious to him. Leon recalls his friend's words, his search for
+      treasure not giving the meaning he'd sought. In the time following his
+      friend's death, he repaired the ship, took down his own flag, and pursued
+      the life of a merchant in Baltazar's stead.
+
+      Leon turns the stone over to Tressa, noting that the letter held more
+      value to him than the stone, which he considers worthless. His prize of
+      true value is Baltazar's ship, the emblem of his new life. He asks the same
+      question of Tressa, but she doesn't yet know what her most precious
+      treasure might be. They part ways, and Tressa heads for the Merchant's Fair
+      with her prize: The eldrite will make a fine showing. Behind her, a hooded
+      man follows.
 ***** DONE Arena Aspirations                                          :Quest:
       Showed a gladiator how to guide a young man away from the warrior's path,
       by being a mentor and father figure to replace the [[Father and Fighter][Father and Fighter]] the
@@ -547,7 +838,23 @@ North, near the tavern
       Ashlan seeks the sword Snakesbane, rumored to be held by a swordsman at
       the arena. The sword may be able to save his snake-possessed father. The
       sword - wielded by Monster Hunter - ...
-**** Information
+**** Treasures
+***** DONE Inspiriting Plum (M)                                      :Hidden:
+***** DONE Refreshing Jam                                            :Hidden:
+***** DONE Energizing Pomegranate (M)                                :Hidden:
+***** DONE Lightning Amulet                                          :Hidden:
+***** DONE Ice Soulstone (L)                                         :Hidden:
+***** DONE Thieves' Chest - Dark Amulet                             :Therion:
+***** DONE Inspiriting Plum
+***** DONE Olive of Life (M)                                         :Hidden:
+***** DONE Heavy Coin Pouch
+      In the monastery, protected by the Orphanage Matron
+**** Items to Acquire                                        :Therion:Tressa:
+***** Robe of the Flame
+      Merchant in north of the entry of town
+***** Inferno Amulet
+      Merchant in north of the entry of town
+**** Knowledge to Glean                                         :Cyrus:Alfyn:
 ***** Marta's Gang
       Orphanage Matron
 ***** Father and Fighter
@@ -579,23 +886,13 @@ North, near the tavern
       | Bernhard the Beasthunter | ?                            |
       | Grieg the Unbreakable    | ?                            |
       | Gustav, the Black Knight | Spear, Axe, Bow, Dark        |
-**** Treasures
-***** DONE Inspiriting Plum (M)                                      :Hidden:
-***** DONE Refreshing Jam                                            :Hidden:
-***** DONE Energizing Pomegranate (M)                                :Hidden:
-***** DONE Lightning Amulet                                          :Hidden:
-***** DONE Ice Soulstone (L)                                         :Hidden:
-***** DONE Thieves' Chest - Dark Amulet                             :Therion:
-***** DONE Inspiriting Plum
-***** DONE Olive of Life (M)                                         :Hidden:
-**** Items to Acquire                                        :Therion:Tressa:
-***** Robe of the Flame
-      Merchant in north of the entry of town
-***** Inferno Amulet
-      Merchant in north of the entry of town
+**** Allies to Lead                                        :Ophilia:Primrose:
+***** Amnesiac - 6 x Improved Offense (7)
+      In front of the pub
 * Overworld
 ** Cliftlands                                                    :Cliftlands:
 *** South Bolderfall Pass
+**** TODO Fill in map level
 **** Connections
 ***** [[North Bolderfall Pass][North Bolderfall Pass]]
 ***** [[South Quarrycrest Pass (28)][South Quarrycrest Pass (28)]]
@@ -603,6 +900,7 @@ North, near the tavern
 **** Encounters
 ***** 1 x [[Great Condor][Great Condor]], 1 x [[Laughing Hyaena][Laughing Hyaena]], 1 x [[Cliff Birdian II][Cliff Birdian II]]
 *** North Bolderfall Pass
+**** TODO Fill in map level
 **** Connections
 ***** [[South Bolderfall Pass][South Bolderfall Pass]]
 ***** [[West S'warkii Trail (11)][West S'warkii Trail (11)]]
@@ -613,8 +911,8 @@ North, near the tavern
 ***** [[Quarrycrest][Quarrycrest]]
 ***** Shrine of the Prince of Thieves
 ***** [[South Bolderfall Pass][South Bolderfall Pass]]
-***** [[Derelict Mine (30)][Derelict Mine (30)]]
 ***** [[South Orewell Pass (45)][South Orewell Pass (45)]]
+***** [[Derelict Mine (30)][Derelict Mine (30)]]
 **** Encounters
 ***** 1 x [[Armor Eater][Armor Eater]], 1 x [[Lloris][Lloris]]
 ***** 2 x [[Lloris][Lloris]], 2 x [[Two-handed Hatchling][Two-handed Hatchling]]
@@ -627,10 +925,11 @@ North, near the tavern
 ***** DONE Energizing Pomegranate
 ***** DONE Thieves' Chest - Fire Amulet                             :Therion:
       South of Quarrycrest entrance, path curling around the west
-*** South Orewell Pass (45)
+*** TODO South Orewell Pass (45)
 **** Connections
 ***** [[South Quarrycrest Pass (28)][South Quarrycrest Pass (28)]]
 *** Road to Morlock's Manse
+**** TODO Add zone level
 **** Connections
 ***** [[Quarrycrest][Quarrycrest]]
 ***** [[Morlock's Manse (18)][Morlock's Manse (18)]]
@@ -690,12 +989,12 @@ North, near the tavern
 ***** 2 x [[Scythe Crab][Scythe Crab]], 2 x [[Rock Tortoise][Rock Tortoise]]
 ***** 2 x [[Scythe Crab][Scythe Crab]], 2 x [[Sea Birdian V][Sea Birdian V]]
 **** Treasures
-***** Copper-filled Pouch
-***** Inspiriting Plum
+***** DONE Copper-filled Pouch
+***** DONE Inspiriting Plum
 *** West Goldshore Coast (34)
 **** Connections
-***** [[Moonstruck Coast (34)][Moonstruck Coast (34)]]
 ***** [[Goldshore][Goldshore]]
+***** [[Moonstruck Coast (34)][Moonstruck Coast (34)]]
 **** Encounters
 ***** 1 x [[Sea Birdking I][Sea Birdking I]], 2 x [[Sea Birdian V][Sea Birdian V]]
 **** Treasures
@@ -729,13 +1028,13 @@ North, near the tavern
 **** Treasures
 ***** DONE Herb of Revival
 ***** DONE Ice Soulstone (M)
-***** DONE Thieves' Chest - Dark Amulet
+***** DONE Thieves' Chest - Dark Amulet                             :Therion:
 *** Western Stillsnow Wilds (29)
 **** Connections
+***** [[Stillsnow][Stillsnow]]
+***** Shrine of the Flamebearer
 ***** [[East Victors Hollow Trail (29)][East Victors Hollow Trail (29)]]
 ***** [[Tomb of the Imperator (35)][Tomb of the Imperator (35)]]
-***** Shrine of the Flamebearer
-***** [[Stillsnow][Stillsnow]]
 **** Encounters
 ***** 1 x [[Hoary Bear][Hoary Bear]]
 ***** 1 x [[Hoary Bear][Hoary Bear]], 1 x [[Hoary Howler][Hoary Howler]]
@@ -746,14 +1045,25 @@ North, near the tavern
 ***** DONE Ice Soulstone (M)
 ***** DONE Healing Grape (M)
 *** Trail to the Whitewood (37)
+    #+CAPTION: Trail to the Whitewood Map
+    #+ATTR_ORG: :width 250
+    #+ATTR_HTML: :width 375 
+    [[./images/octopath-whitewood-trail.png]]
 **** Connections
 ***** [[Stillsnow][Stillsnow]]
+***** [[The Whitewood (38)][The Whitewood (38)]]
+**** Encounters
+***** 1 x [[Hoary Bear][Hoary Bear]], 2 x [[Majestic Snow Marmot][Majestic Snow Marmot]]
+***** 1 x [[Snow Leopard][Snow Leopard]], 2 x [[Ice Elemental][Ice Elemental]]
+**** Treasures
+***** DONE Olive of Life (M)
+***** DONE Inspiriting Plum Basket
 ** Highlands                                                      :Highlands:
 *** North Cobbleston Gap (11)
 **** Connections
+***** [[North Stonegard Pass (30)][North Stonegard Pass (30)]]
 ***** [[East Rippletide Coast (11)][East Rippletide Coast (11)]]
 ***** [[Untouched Sanctum (15)][Untouched Sanctum (15)]]
-***** [[North Stonegard Pass (30)][North Stonegard Pass (30)]]
 **** Encounters
 ***** 1 x [[Rockadillo][Rockadillo]], 2 x [[Giant Falcon][Giant Falcon]], 1 x [[Highland Ratkin II][Highland Ratkin II]]
 ***** 2 x [[Dread Falcon][Dread Falcon]], 1 x [[Rockadillo][Rockadillo]], 1 x [[Cait][Cait]]
@@ -792,9 +1102,9 @@ North, near the tavern
     [[./images/octopath-north-stonegard.png]]
 **** Connections
 ***** [[Stonegard][Stonegard]]
-***** [[North Cobbleston Gap (11)][North Cobbleston Gap (11)]]
 ***** Shrine of the Thunderblade
 ***** [[West Stonegard Pass (30)][West Stonegard Pass (30)]]
+***** [[North Cobbleston Gap (11)][North Cobbleston Gap (11)]]
 ***** [[Moonstruck Coast (34)][Moonstruck Coast (34)]]
 **** Encounters
 ***** 2 x [[Mountain Goat][Mountain Goat]]
@@ -811,9 +1121,9 @@ North, near the tavern
     [[./images/octopath-west-stonegard.png]]
 **** Connections
 ***** [[North Stonegard Pass (30)][North Stonegard Pass (30)]]
+***** [[West Everhold Pass (45)][West Everhold Pass (45)]]
 ***** [[Eastern Wellspring Sands (31)][Eastern Wellspring Sands (31)]]
 ***** [[Tomb of Kings (25)][Tomb of Kings (25)]]
-***** [[West Everhold Pass (45)][West Everhold Pass (45)]]
 **** Encounters
 ***** 1 x [[Mountain Goat][Mountain Goat]], 2 x [[Shaggy Aurochs][Shaggy Aurochs]]
 ***** 2 x [[Highland Goat][Highland Goat]], 2 x [[Dread Falcon][Dread Falcon]]
@@ -823,24 +1133,24 @@ North, near the tavern
 ***** DONE Copper-filled Pouch
 ***** DONE Inspiriting Plum (M)
 ***** DONE Energizing Pomegranate
-*** West Everhold Pass (45)
+*** TODO West Everhold Pass (45)
 **** Connections
 ***** [[West Stonegard Pass (30)][West Stonegard Pass (30)]]
 ** Riverlands                                                    :Riverlands:
 *** South Clearbrook Traverse (11)
 **** Connections
+***** [[East Saintsbridge Traverse (23)][East Saintsbridge Traverse (23)]]
 ***** [[Southern Sunshade Sands (11)][Southern Sunshade Sands (11)]]
 ***** [[Twin Falls (20)][Twin Falls (20)]]
-***** [[East Saintsbridge Traverse (23)][East Saintsbridge Traverse (23)]]
 **** Encounters
 ***** 1 x [[River Froggen II][River Froggen II]], 1 x [[River Froggen III][River Froggen III]], 1 x [[Warrior Wasp][Warrior Wasp]]
-**** Treasures
-***** DONE Healing Grape
-***** DONE Soothing Seed
 **** Points of Interest
 ***** DONE A Sweet Reunion                                            :Quest:
       Allured the Lost Grandfather back to Clearbrook with Primrose.
       - Rewards :: 2,000g
+**** Treasures
+***** DONE Healing Grape
+***** DONE Soothing Seed
 *** Murkwood Trail (20)
 **** Connections
 ***** [[Saintsbridge][Saintsbridge]]
@@ -856,17 +1166,19 @@ North, near the tavern
 ***** DONE 3,500g
 *** East Saintsbridge Traverse (23)
 **** Connections
-***** [[Saintsbridge][Saintsbridge]], Shrine of the Healer, [[South Clearbrook Traverse (11)][South Clearbrook Traverse (11)]]
+***** [[Saintsbridge][Saintsbridge]]
+***** Shrine of the Healer
+***** [[South Clearbrook Traverse (11)][South Clearbrook Traverse (11)]]
 **** Encounters
 ***** 2 x [[Salamander][Salamander]]
 ***** 1 x [[Salamander][Salamander]], 3 x [[River Bug][River Bug]]
 ***** 2 x [[River Bug][River Bug]], 1 x [[River Froggen IV][River Froggen IV]], 1 x [[River Froggen V][River Froggen V]]
-**** Treasures
-***** DONE Herb of Healing
 **** Points of Interest
 ***** DONE The Pilgrim's Plight                                       :Quest:
       Provoked the Ruffian with H'annit
       - Rewards :: 6,600g, Refreshing Jam
+**** Treasures
+***** DONE Herb of Healing
 ** Sunlands                                                        :Sunlands:
 *** Eastern Sunshade Sands (11)
 **** Connections
@@ -881,34 +1193,45 @@ North, near the tavern
 **** Encounters
 ***** 2 x [[Sand Lizardman I][Sand Lizardman I]], 2 x [[Army Ant][Army Ant]]
 *** Northern Wellspring Sands (31)
+    #+CAPTION: Northern Wellspring Sands Map
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600 
+    [[./images/octopath-northern-wellspring.png]]
 **** Connections
 ***** [[Wellspring][Wellspring]]
+***** Shrine of the Lady of Grace
 ***** [[Eastern Wellspring Sands (31)][Eastern Wellspring Sands (31)]]
 ***** [[Quicksand Caves (40)][Quicksand Caves (40)]]
-***** Shrine of the Lady of Grace
 **** Encounters
 ***** 1 x [[Sandworm][Sandworm]], 2 x [[Giant Scorpion][Giant Scorpion]]
 ***** 1 x [[Giant Scorpion][Giant Scorpion]], 2 x [[Sand Lizardman IV][Sand Lizardman IV]]
-**** Information
-***** The Giant Serpent's Master
-Injured Scout, near exit to E. Wellspring
 **** Treasures
 ***** DONE Olive of Life
 ***** DONE Inspiriting Plum
 ***** DONE Energizing Pomegranate (M)
 ***** DONE Imperial Lance
-**** TODO Add Map (p. 16)
+**** Knowledge to Glean                                         :Cyrus:Alfyn:
+***** DONE The Giant Serpent's Master
+      Injured Scout, near exit to E. Wellspring
 *** Eastern Wellspring Sands (31)
-**** TODO Add map
+    #+CAPTION: Eastern Wellspring Sands Map
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600 
+    [[./images/octopath-eastern-wellspring.png]]
 **** Connections
-***** [[West Stonegard Pass (30)][West Stonegard Pass (30)]]
 ***** [[Northern Wellspring Sands (31)][Northern Wellspring Sands (31)]]
+***** [[Eastern Marsalim Sands (45)][Eastern Marsalim Sands (45)]]
+***** [[West Stonegard Pass (30)][West Stonegard Pass (30)]]
 **** Encounters
 ***** 1 x [[Sandworm][Sandworm]], 2 x [[Giant Scorpion][Giant Scorpion]]
+***** 1 x [[Dark Roller][Dark Roller]], 2 x [[Giant Scorpion][Giant Scorpion]]
 ***** 1 x [[Giant Scorpion][Giant Scorpion]], 2 x [[Sand Lizardman IV][Sand Lizardman IV]]
 **** Treasures
 ***** DONE Fool's Gold Ore
 ***** DONE Copper-filled Pouch
+***** DONE Thunder Soulstone (L)
+***** DONE Healing Grape (M)
+***** DONE Thieves' Chest - Enlightening Bracelet                   :Therion:
 *** Western Wellspring Sands (35)
     31 on exiting Lizardmen's Den?
     #+CAPTION: Western Wellspring Sands Map
@@ -927,8 +1250,25 @@ Injured Scout, near exit to E. Wellspring
 ***** DONE 6,000g
 ***** DONE Olive of Life (M)
 *** Southern Wellspring Sands (35)
+    #+CAPTION: Southern Wellspring Sands Map
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600
+    [[./images/octopath-southern-wellspring.png]]
 **** Connections
 ***** [[Wellspring][Wellspring]]
+***** [[Black Market (36)][Black Market (36)]]
+**** Encounters
+***** 1 x [[Spiked Skink][Spiked Skink]], 2 x [[Savage Scorpion][Savage Scorpion]]
+***** 2 x [[Savage Scorpion][Savage Scorpion]], 2 x [[Dark Roller][Dark Roller]]
+***** 1 x [[Withered Wanderweed][Withered Wanderweed]], 3 x [[Dark Roller][Dark Roller]]
+**** Treasures
+***** DONE Energizing Pomegranate
+***** DONE Fire Soulstone (L)
+***** DONE Thieves' Chest - Unerring Bracelet                       :Therion:
+***** DONE Copper-filled Pouch
+*** TODO Eastern Marsalim Sands (45)
+**** Connections
+***** [[Eastern Wellspring Sands (31)][Eastern Wellspring Sands (31)]]
 ** Woodlands                                                      :Woodlands:
 *** North S'warkii Trail (11)
 **** Connections
@@ -941,10 +1281,10 @@ Injured Scout, near exit to E. Wellspring
 ***** [[Path of Beasts (15)][Path of Beasts (15)]]
 *** East Victors Hollow Trail (29)
 **** Connections
+***** [[Victors Hollow][Victors Hollow]]
+***** Shrine of the Huntress
 ***** [[West S'warkii Trail (11)][West S'warkii Trail (11)]]
 ***** [[Western Stillsnow Wilds (29)][Western Stillsnow Wilds (29)]]
-***** Shrine of the Huntress
-***** [[Victors Hollow][Victors Hollow]]
 **** Encounters
 ***** 1 x [[Mutant Mushroom][Mutant Mushroom]], 1 x [[Creeping Treant][Creeping Treant]]
 ***** 1 x [[Horned Howler][Horned Howler]], 2 x [[Forest Ratkin IV][Forest Ratkin IV]], 1 x [[Forest Ratkin V][Forest Ratkin V]]
@@ -953,6 +1293,22 @@ Injured Scout, near exit to E. Wellspring
 ***** DONE Olive of Life (L)
       In the shrine
 ***** DONE Inspiriting Plum
+*** Path to the Forgotten Grotto (33)
+    #+CAPTION: Path to the Forgotten Grotto Map
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600
+    [[./images/octopath-forgotten-grotto-path.png]]
+**** Connections
+***** [[Victors Hollow][Victors Hollow]]
+***** [[The Forgotten Grotto (34)][The Forgotten Grotto (34)]]
+**** Encounters
+***** 2 x [[Green Scissors][Green Scissors]], 2 x [[Rampant Weed][Rampant Weed]]
+***** 1 x [[Gargantuan Boar][Gargantuan Boar]], 3 x [[Rampant Weed][Rampant Weed]]
+***** 1 x [[Mutant Mushroom][Mutant Mushroom]], 3 x [[Rampant Weed][Rampant Weed]]
+**** Treasure
+***** DONE Olive of Life
+***** DONE Shadow Soulstone (M)
+***** DONE Healing Grape (M)
 * Dungeons
 ** Cliftlands                                                    :Cliftlands:
 *** DONE Morlock's Manse (18)
@@ -970,7 +1326,7 @@ Injured Scout, near exit to E. Wellspring
 ***** DONE Wind Soulstone (M)
 ***** DONE Refreshing Jam
 ***** DONE Olive of Life (M)
-***** DONE Thieves' Chest - Hasty Helm
+***** DONE Thieves' Chest - Hasty Helm                              :Therion:
 *** DONE Carrion Caves (20)
     - Entrance :: [[South Bolderfall Pass][South Bolderfall Pass]], east, under bridge
 **** Encounters
@@ -1003,7 +1359,7 @@ Injured Scout, near exit to E. Wellspring
 ***** DONE Energizing Pomegranate (L)
 ***** DONE Healing Grape Bunch
 ***** DONE Bottle of Befuddling Dust
-***** DONE Normal Chest - Sprightly Ring
+***** DONE Sprightly Ring
       To the west of the boss room
 ***** DONE Thieves' Chest - Snipe Saber                             :Therion:
       Near entrance (C-shaped path)
@@ -1064,7 +1420,7 @@ Injured Scout, near exit to E. Wellspring
 ***** DONE Inspiriting Plum (M)
 ***** DONE 5,500g
 ***** DONE Energizing Pomegranate (M)
-***** DONE Thieves' Chest - Spiked Vest
+***** DONE Thieves' Chest - Spiked Vest                             :Therion:
 ***** DONE Healing Grape Bunch
 ***** DONE Wakeful Stone
 *** DONE Hoarfrost Grotto (25)
@@ -1108,6 +1464,25 @@ Injured Scout, near exit to E. Wellspring
 ***** DONE Silver-filled Pouch
 ***** DONE Gaolbreaker
       Post-boss reward chest
+*** DONE The Whitewood (38)
+    - Entrance :: [[Trail to the Whitewood (37)][Trail to the Whitewood (37)]]
+    #+CAPTION: The Whitewood Map
+    #+ATTR_ORG: :width 300
+    #+ATTR_HTML: :width 450 
+    [[./images/octopath-whitewood.png]]
+**** Encounters
+***** 2 x [[Winter Wanderweed][Winter Wanderweed]], 2 x [[Hoary Howler][Hoary Howler]]
+***** 1 x [[Frostwing Serpent][Frostwing Serpent]], 2 x [[Hoary Howler][Hoary Howler]]
+***** 1 x [[Avalanche Mushroom][Avalanche Mushroom]], 1 x [[Winter Wanderweed][Winter Wanderweed]], 1 x [[Frostwing Serpent][Frostwing Serpent]]
+***** 1 x [[Avalanche Mushroom][Avalanche Mushroom]], 2 x [[Winter Wanderweed][Winter Wanderweed]]
+***** *Boss:* [[Dragon][Dragon]]
+**** Treasures
+***** TODO Thieves' Chest                                           :Therion:
+***** DONE Olive of Life (L)
+***** DONE Healing Grape Bunch
+***** DONE Inspiriting Plum Basket
+***** DONE Shadow Soulstone (M)
+***** DONE Rock Cleaver
 ** Highlands                                                      :Highlands:
 *** DONE Untouched Sanctum (15)
     - Entrance :: [[North Cobbleston Gap (11)][North Cobbleston Gap (11)]]
@@ -1126,8 +1501,32 @@ Injured Scout, near exit to E. Wellspring
 ***** DONE Thieves' Chest - Sharp Nut
 ***** DONE Inspiriting Plum (M)
 ***** DONE Olive of Life (M)
-*** TODO Tomb of Kings (25)
+*** DONE Tomb of Kings (25)
     - Entrance :: [[West Stonegard Pass (30)][West Stonegard Pass (30)]]
+    #+CAPTION: Tomb of Kings Map 
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600 
+    [[./images/octopath-tomb-kings.png]]
+**** Encounters
+***** 2 x [[Light Guardian][Light Guardian]], 2 x [[Light Sentinel][Light Sentinel]]
+***** 2 x [[Light Guardian][Light Guardian]], 1 x [[Light Remnant][Light Remnant]]
+***** 2 x [[Wind Guardian][Wind Guardian]], 2 x [[Wind Sentinel][Wind Sentinel]]
+***** 2 x [[Wind Guardian][Wind Guardian]], 1 x [[Wind Remnant][Wind Remnant]]
+***** 2 x [[Wind Guardian][Wind Guardian]], 1 x [[Cait][Cait]], 1 x [[Cultured Cait][Cultured Cait]]
+***** 3 x [[Thief I][Thief I]]
+***** 2 x [[Thief I][Thief I]], 1 x [[Thief II][Thief II]]
+***** 2 x [[Thief I][Thief I]], 2 x [[Thief II][Thief II]]
+**** Treasures
+***** DONE Fire Soulstone (L)
+***** DONE Bottle of Blinding Dust
+***** DONE Healing Grape Bunch
+***** DONE 9,400g
+***** DONE Bright Stone
+***** DONE Curious Antique
+***** DONE Thieves' Chest - Hasty Helm                              :Therion:
+**** Knowledge to Glean                                         :Cyrus:Alfyn:
+***** Gravekeeper's Information
+      Nameless Gravekeeper
 *** DONE The Spectrewood (27)
     - Entrance :: [[Spectrewood Path (26)][Spectrewood Path (26)]]
     #+CAPTION: The Spectrewood Map
@@ -1164,7 +1563,7 @@ Injured Scout, near exit to E. Wellspring
 ***** DONE Energizing Pomegranate (M)
 ***** DONE Inspiriting Plum
 ***** DONE Olive of Life (M)
-***** DONE Thieves' Chest - Psychic Staff
+***** DONE Thieves' Chest - Psychic Staff                           :Therion:
 ***** DONE Refreshing Jam
       Boss Reward Chest
 ***** DONE 5,000g
@@ -1188,6 +1587,28 @@ Injured Scout, near exit to E. Wellspring
 ***** DONE Healing Grape Bunch
 ***** TODO Thieves' Chest                                           :Therion:
       NE corner, far side of the river
+*** DONE Rivira Woods (32)
+    - Entrance :: [[Saintsbridge][Saintsbridge]]
+    #+CAPTION: Rivira Woods Map 
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600 
+    [[./images/octopath-rivira-woods.png]]
+**** Encounters
+***** 2 x [[Wind Elemental][Wind Elemental]]
+***** 1 x [[Mammoth Sheep][Mammoth Sheep]], 3 x [[Horned Howler][Horned Howler]]
+***** 1 x [[Gargantuan Boar][Gargantuan Boar]], 3 x [[Horned Howler][Horned Howler]]
+***** 1 x [[Reptalion][Reptalion]], 3 x [[Horned Howler][Horned Howler]]
+***** 1 x [[Gargantuan Boar][Gargantuan Boar]], 2 x [[Mammoth Sheep][Mammoth Sheep]]
+***** *Boss:* [[Miguel][Miguel]]
+**** Treasures
+***** DONE Energizing Pomegranate (L)
+***** TODO Thieves' Chest                                           :Therion:
+***** DONE Refreshing Jam
+***** DONE Purifying Seed
+***** DONE Purifying Dust
+***** TODO Thieves' Chest                                           :Therion:
+***** DONE Silver-filled Pouch
+***** DONE Injurious Dust
 ** Sunlands                                                        :Sunlands:
 *** DONE Whistling Cavern (20)
    - Entrance :: [[Eastern Sunshade Sands (11)][Eastern Sunshade Sands (11)]]
@@ -1213,7 +1634,6 @@ Injured Scout, near exit to E. Wellspring
     #+ATTR_ORG: :width 500
     #+ATTR_HTML: :width 600 
     [[./images/octopath-lizardmens-den.png]]
-**** TODO Add map
 **** Encounters
 ***** 1 x [[Sand Lizardking I][Sand Lizardking I]], 2 x [[Sand Lizardman II][Sand Lizardman II]]
 ***** 1 x [[Sand Lizardking II][Sand Lizardking II]], 2 x [[Sand Lizardman II][Sand Lizardman II]]
@@ -1231,6 +1651,29 @@ Injured Scout, near exit to E. Wellspring
 ***** DONE 1,000g
 ***** DONE 1,400g
 ***** DONE Copper-filled Pouch
+*** DONE Black Market (36)
+    - Entrance :: [[Southern Wellspring Sands (35)][Southern Wellspring Sands (35)]]
+    #+CAPTION: Black Market Map 
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600 
+    [[./images/octopath-black-market.png]]
+**** Encounters
+***** 2 x [[Carmine Eagle][Carmine Eagle]]
+***** 3 x [[Savage Scorpion][Savage Scorpion]], 1 x [[Warrior Bones][Warrior Bones]]
+***** 2 x [[Dark Roller][Dark Roller]], 2 x [[Warrior Bones][Warrior Bones]]
+***** 1 x [[Desert Worm][Desert Worm]], 3 x [[Dark Roller][Dark Roller]]
+***** 1 x [[Desert Worm][Desert Worm]], 3 x [[Savage Scorpion][Savage Scorpion]]
+***** 1 x [[Carmine Eagle][Carmine Eagle]], 2 x [[Desert Worm][Desert Worm]]
+***** *Boss:* [[Gareth][Gareth]]
+**** Treasures
+***** DONE Inspiriting Plum Basket
+***** DONE Energizing Pomegranate (L)
+***** DONE 10,000g
+***** DONE Healing Grape (M)
+***** DONE Fire Soultstone (L)
+***** DONE Light Amulet
+***** DONE Healing Grape Bunch
+***** DONE Thieves' Chest - Calming Stone                           :Therion:
 *** TODO Quicksand Caves (40)
     - Entrance :: [[Northern Wellspring Sands (31)][Northern Wellspring Sands (31)]]
 ** Woodlands                                                      :Woodlands:
@@ -1247,12 +1690,38 @@ Injured Scout, near exit to E. Wellspring
 ***** TODO Thieves' Chest                                           :Therion:
       Follow entrance trail east until it curves (not forks) north; chest is
       nestled in a hidden path to the west.
+*** DONE The Forgotten Grotto (34)
+    - Entrance :: [[Path to the Forgotten Grotto (33)][Path to the Forgotten Grotto (33)]]
+    #+CAPTION: The Forgotten Grotto Map 
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600 
+    [[./images/octopath-forgotten-grotto.png]]
+**** Encounters
+***** 2 x [[Ettin Serpent][Ettin Serpent]], 1 x [[Lightning Elemental][Lightning Elemental]]
+***** 1 x [[Buccaneer Bones][Buccaneer Bones]], 2 x [[Lightning Elemental][Lightning Elemental]]
+***** 1 x [[Davy Bones][Davy Bones]], 2 x [[Lightning Elemental][Lightning Elemental]]
+***** 1 x [[Davy Bones][Davy Bones]], 3 x [[Vampire Bat][Vampire Bat]]
+***** 2 x [[Sea Scorpion][Sea Scorpion]], 2 x [[Vampire Bat][Vampire Bat]]
+***** 1 x [[Lightning Elemental][Lightning Elemental]], 1 x [[Sea Scorpion][Sea Scorpion]], 1 x [[Vampire Bat][Vampire Bat]]
+***** *Boss:* [[Venomtooth Tiger][Venomtooth Tiger]]
+**** Treasures
+***** DONE Healing Grape Bunch
+***** DONE Herb of Light
+***** DONE Inspiriting Plum Basket
+***** DONE Energizing Pomegranate (L)
+***** TODO Thieves' Chest                                           :Therion:
+***** DONE 15,000g
+***** DONE Olive of Life (M)
+***** DONE Vivifying Stone
 *** TODO Forest of No Return (48)
     - Entrance :: [[Victors Hollow][Victors Hollow]]
 * Enemies
 ** =Template=                                                      :noexport:
     - Weaknesses :: /Sword/ /Spear/ /Dagger/ /Axe/ /Bow/ /Staff/ /Fire/ /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
     - Armor :: 
+    - On Steal :: 
+    - On Collect :: g
+    - On Capture :: N x Skill (Strength)
 ** Normal
 *** Albino Bat
     - Weaknesses :: *Spear* /Dagger/ /Axe/ /Bow/ /Staff/ /Ice/ /Thunder/ /Wind/ /Light/ *Dark*
@@ -1275,6 +1744,10 @@ Injured Scout, near exit to E. Wellspring
 *** Ash Raven
     - Weaknesses :: Spear Dagger Bow Wind
     - Armor :: 1
+*** Avalanche Mushroom
+    - Weaknesses :: Dagger Fire Thunder
+    - Armor :: 1
+    - On Steal :: Herb of Awakening
 *** Barnacle Bat
     - Weaknesses :: Sword Spear Bow Thunder
     - Armor :: 1
@@ -1292,10 +1765,18 @@ Injured Scout, near exit to E. Wellspring
 *** Buccaneer IV
     - Weaknesses :: *Spear* *Bow* /Staff/ /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
     - Armor :: 3
+*** Buccaneer Bones
+    - Weaknesses :: *Dagger* *Staff* /Ice/ /Thunder/ /Light/ /Dark/
+    - Armor :: 1
 *** Cait
     Flees ASAP
     - Weaknesses :: Sword Dagger Axe Staff
     - Armor :: 2
+*** Carmine Eagle
+    - Weaknesses :: Spear Bow Wind
+    - Armor :: 3
+    - On Steal :: Large Feather
+    - On Capture :: 3 x Wind Slash (4)
 *** Cliff Birdian II
     - Weaknesses :: Sword Spear Axe Light
     - Armor :: 2
@@ -1319,7 +1800,7 @@ Injured Scout, near exit to E. Wellspring
     - On Steal :: Essence of Pomegranate
 *** Cultured Cait
     Flees ASAP
-    - Weaknesses :: /Sword/ /Spear/ *Dagger* /Axe/ /Bow/ /Staff/ /Ice/ /Wind/ /Light/ /Dark/
+    - Weaknesses :: /Sword/ /Spear/ *Dagger* *Axe* /Bow/ /Staff/ /Ice/ /Wind/ /Light/ /Dark/
     - Armor :: 4
 *** Dark Curator
     - Weaknesses :: Spear Bow Staff Light
@@ -1331,9 +1812,14 @@ Injured Scout, near exit to E. Wellspring
     - Weaknesses :: Dagger Thunder
     - Armor :: 1
     - On Steal :: Olive of Life
+    - On Capture :: ? x Poison Strike (Spear) (4)
+*** Davy Bones
+    - Weaknesses :: Axe Staff Wind Light
+    - Armor :: 3
 *** Desert Worm
-   - Weaknesses :: Spear Axe Wind Light
-   - Armor :: 5
+    - Weaknesses :: Spear Axe Wind Light
+    - Armor :: 5
+    - On Steal :: Olive Bloom
 *** Dire Army Ant
     - Weaknesses :: Sword Dagger Axe
     - Armor :: 2
@@ -1344,6 +1830,9 @@ Injured Scout, near exit to E. Wellspring
 *** Dread Viper
     - Weaknesses :: Spear Axe Dark
     - Armor :: 3
+*** Ettin Serpent
+    - Weaknesses :: *Dagger* /Axe/ /Bow/ /Staff/ *Fire*
+    - Armor :: 2
 *** Fire Wisp
     - Weaknesses :: Ice Dark
     - Armor :: 1
@@ -1369,6 +1858,13 @@ Injured Scout, near exit to E. Wellspring
     - Weaknesses :: Spear Axe Wind
     - Armor :: 3
     - On Steal :: Olive Bloom
+*** Frostwing Serpent
+    - Weaknesses :: Spear Bow Fire Wind
+    - Armor :: 2
+    - On Steal :: Energizing Pomegranate (M)
+*** Gargantuan Boar
+    - Weaknesses :: Sword Bow Dark
+    - Armor :: 3
 *** Giant Boar
     - Weaknesses :: Sword Bow Dark
     - Armor :: 2
@@ -1380,10 +1876,15 @@ Injured Scout, near exit to E. Wellspring
     - Weaknesses :: Spear Ice Wind
     - Armor :: 2
     - On Steal :: Essence of Pomegranate
-    -On Collect :: 760g
+    - On Collect :: 760g
 *** Great Condor
     - Weaknesses :: Spear Bow
     - Armor :: 3
+*** Green Scissors
+    - Weaknesses :: Dagger Axe Thunder
+    - Armor :: 1
+    - On Steal :: Addleword
+    - On Collect :: 540g
 *** Hatchling
     - Weaknesses :: Sword Spear Axe
     - Armor :: 2
@@ -1416,12 +1917,14 @@ Injured Scout, near exit to E. Wellspring
 *** Hoary Bear
     - Weaknesses :: Spear Axe Wind
     - Armor :: 4
+    - On Steal :: Olive Bloom
+    - On Capture :: ? x Enraged Bash (All) (Staff) (6)
 *** Hoary Howler
     - Weaknesses :: Sword Spear Bow Wind
     - Armor :: 2
     - On Steal :: Essence of Pomegranate
 *** Horned Howler
-    - Weaknesses :: *Spear* /Dagger/ /Axe/ /Bow/ /Staff/ /Fire/ *Thunder*
+    - Weaknesses :: Spear Bow Thunder
     - Armor :: 3
 *** Howler
     - Weaknesses :: Spear Bow Thunder
@@ -1481,10 +1984,19 @@ Injured Scout, near exit to E. Wellspring
 *** Light Guardian
     - Weaknesses :: Sword Dagger Bow Dark
     - Armor :: 2
+    - On Steal :: Light Soulstone
+*** Light Remnant
+    - Weaknesses :: *Sword* *Spear* *Axe* /Bow/ /Staff/ /Fire/ /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
+    - Armor :: 1
+    - On Steal :: Light Soulstone (M)
 *** Light Sentinel
     - Weaknesses :: Sword Spear Axe Staff Dark
     - Armor :: 1
     - On Steal :: Light Soulstone
+*** Lightning Elemental
+    - Weaknesses :: Fire Wind
+    - Armor :: 4
+    - On Steal :: Thunder Soulstone (L)
 *** Lloris
     - Weaknesses :: Dagger Fire Wind
     - Armor :: 1
@@ -1498,6 +2010,11 @@ Injured Scout, near exit to E. Wellspring
     - Weaknesses :: Dagger Thunder Dark
     - Armor :: 2
     - On Steal :: Essence of Plum
+*** Mammoth Sheep
+    - Weaknesses :: Bow Dark
+    - Armor :: 2
+    - On Steal :: Olive Bloom
+    - On Collect :: 676g
 *** Marionette Bones
     - Weaknesses :: Staff Wind Light
     - Armor :: 1
@@ -1530,6 +2047,8 @@ Injured Scout, near exit to E. Wellspring
     Difficult to hit
     - Weaknesses :: Axe
     - Armor :: 3
+    - On Steal :: Healing Grape (M)
+    - On Collect :: 1,320g
 *** River Bug
     - Weaknesses :: Sword Axe Staff Dark
     - Armor :: 3
@@ -1568,31 +2087,34 @@ Injured Scout, near exit to E. Wellspring
     - Armor :: 3
     - On Steal :: Olive Bloom 
 *** Sandworm
-   - Weaknesses :: Spear Axe Wind Light
-   - Armor :: 4
-   - On Steal :: Olive Bloom
-   - On Collect :: 144g
+    - Weaknesses :: Spear Axe Wind Light
+    - Armor :: 4
+    - On Steal :: Olive Bloom
+    - On Collect :: 144g
 *** Sand Lizardking I
-   - Weaknesses :: Spear Staff Ice
-   - Armor :: 4
-   - On Steal :: Healing Grape (M)
+    - Weaknesses :: Spear Staff Ice
+    - Armor :: 4
+    - On Steal :: Healing Grape (M)
 *** Sand Lizardking II
-   - Weaknesses :: Spear Staff Ice
-   - Armor :: 5
-   - On Steal :: Inspiriting Plum
+    - Weaknesses :: Spear Staff Ice
+    - Armor :: 5
+    - On Steal :: Inspiriting Plum
 *** Sand Lizardman I
     - Weaknesses :: Sword Dagger Ice Dark OR Spear Ice Wind
     - Armor :: 1
 *** Sand Lizardman II
-   - Weaknesses :: Spear Ice Wind
-   - Armor :: 2
-   - On Steal :: Inspiriting Plum (M)
+    - Weaknesses :: Spear Ice Wind
+    - Armor :: 2
+    - On Steal :: Inspiriting Plum (M)
 *** Sand Lizardman III
-   - Weaknesses :: /Sword/ /Spear/ /Dagger/ /Bow/ /Staff/ /Fire/ *Ice* /Wind/ /Light/ /Dark/
-   - Armor :: 3
+    - Weaknesses :: /Sword/ /Spear/ /Dagger/ /Bow/ /Staff/ /Fire/ *Ice* /Wind/ /Light/ /Dark/
+    - Armor :: 3
 *** Sand Lizardman IV
-   - Weaknesses :: Dagger Axe Ice Wind
-   - Armor :: 2
+    - Weaknesses :: Dagger Axe Ice Wind
+    - Armor :: 2
+*** Savage Scorpion
+    - Weaknesses :: *Spear* *Ice* /Thunder/ /Wind/ /Light/
+    - Armor :: 3
 *** Scythe Crab
     - Weaknesses :: Dagger Axe Wind
     - Armor :: 3
@@ -1615,6 +2137,9 @@ Injured Scout, near exit to E. Wellspring
 *** Sea Birdking I
     - Weaknesses :: /Spear/ /Dagger/ *Axe* *Bow* *Thunder*
     - Armor :: 3
+*** Sea Scorpion
+    - Weaknesses :: Spear Ice Wind
+    - Armor :: 2
 *** Sea Slug
     - Weaknesses :: Fire Wind Dark
     - Armor :: 3
@@ -1642,18 +2167,31 @@ Injured Scout, near exit to E. Wellspring
     - Weaknesses :: Spear Ice Dark
     - Armor :: 2
 *** Slayer Bug
-   - Weaknesses :: Sword Axe
-   - Armor :: 3
-   - On Steal :: Essence of Plum
+    - Weaknesses :: Sword Axe
+    - Armor :: 3
+    - On Steal :: Essence of Plum
+*** Snow Leopard
+    - Weaknesses :: Bow Fire Dark
+    - Armor :: 2
+    - On Capture :: ? x Double Soporific Claw (7)
 *** Snow Yak
     - Weaknesses :: /Spear/ /Dagger/ /Bow/ *Staff* *Thunder*
     - Armor :: 3
+*** Spiked Skink
+    - Weaknesses :: Spear Staff Dark
+    - Armor :: 4
 *** Spud Bug
     - Weaknesses :: /Sword/ /Spear/ /Dagger/ /Axe/ /Bow/ /Staff/ *Fire* /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
     - Armor :: 3
 *** Tempest Falcon
     - Weaknesses :: *Spear* *Dagger* /Axe/ /Ice/ /Thunder/ /Bow/ *Wind*
     - Armor :: 1
+*** Thief I
+    - Weaknesses :: Sword Spear Thunder Light
+    - Armor :: 3
+*** Thief II
+    - Weaknesses :: Sword Bow Ice Light
+    - Armor :: 4
 *** Thunder Sentinel
     - Weaknesses :: Sword Spear Axe Staff Wind
     - Armor :: 1
@@ -1663,9 +2201,9 @@ Injured Scout, near exit to E. Wellspring
     - Weaknesses :: Sword Spear Axe
     - Armor :: 3
 *** Vampire Bat
-   - Weaknesses :: *Sword Spear* /Dagger/ /Axe/ /Bow/ /Staff/ /Fire/ *Ice*
-   - Armor :: 1
-   - On Steal :: Curious Bloom
+    - Weaknesses :: Sword Spear Bow Ice
+    - Armor :: 1
+    - On Steal :: Curious Bloom
 *** Wanderweed
     - Weaknesses :: Sword Fire
     - Armor :: 3
@@ -1673,6 +2211,10 @@ Injured Scout, near exit to E. Wellspring
 *** War Dog
     - Weaknesses :: /Sword/ /Spear/ /Axe/ *Bow* *Fire* /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
     - Armor :: 2
+*** Warrior Bones
+    - Weaknesses :: Axe Staff Fire Light
+    - Armor :: 2
+    - On Capture :: ? x Slash (Sword) (4)
 *** Warrior Wasp
     - Weaknesses :: Sword Spear Axe
     - Armor :: 2
@@ -1680,12 +2222,33 @@ Injured Scout, near exit to E. Wellspring
     - Weaknesses :: Spear Bow Staff Thunder
     - Armor :: 2
     - On Steal :: Wind Soulstone
+*** Wind Elemental
+    - Weaknesses :: /Spear/ /Dagger/ /Bow/ /Staff/ /Fire/ /Ice/ *Thunder*
+    - Armor :: 4
+    - On Steal :: Wind Soulstone (L)
 *** Wind Guardian
-    - Weaknesses :: /Sword/ /Spear/ /Dagger/ /Axe/ *Bow* /Staff/ /Fire/ /Ice/ *Thunder* /Wind/ /Light/
+    - Weaknesses :: Sword Dagger Bow Thunder
     - Armor :: 3
+    - On Steal :: Wind Soulstone
+*** Wind Remnant
+    - Weaknesses :: *Sword* /Spear/ /Dagger/ *Axe* *Thunder*
+    - Armor :: 1
+*** Wind Sentinel
+    - Weaknesses :: *Sword* *Spear* *Axe* /Bow/ /Staff/ /Fire/ /Ice/ *Thunder*
+    - Armor :: 1
 *** Wind Wisp
     - Weaknesses :: Thunder Light
     - Armor :: 3
+*** Winter Wanderweed
+    - Weaknesses :: Sword Wind
+    - Armor :: 3
+    - On Steal :: Addlewort
+    - On Capture :: ? x Shoot (Bow) (4)
+*** Withered Wanderweed
+    - Weaknesses :: *Sword* *Axe* /Bow/ /Staff/ /Fire/ /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
+    - Armor :: 1
+    - On Steal :: Addlewort
+    - On Capture :: 5 x Soporific Shot (All) (6)
 ** Unique
 *** Archibold
     Guards Bow and Ice weaknesses while henchmen are alive
@@ -1704,6 +2267,12 @@ Injured Scout, near exit to E. Wellspring
      - Weaknesses :: *Sword* /Dagger/ /Bow/ /Staff/ /Thunder/ /Light/ *Dark*
      - Armor :: 2
      - On Steal :: Healing Grape
+*** Darius's Henchman
+    - Weaknesses :: /Sword/ /Spear/ /Dagger/ /Axe/ *Bow* /Staff/ /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
+    - Armor :: 3
+*** Darius's Lackey
+    - Weaknesses :: *Sword* *Spear* /Dagger/ /Axe/ /Bow/ /Staff/ /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
+    - Armor :: 3
 *** Joshua
     Guards Fire weakness while henchmen are alive
     - Weaknesses :: Axe Staff Fire Light
@@ -1719,6 +2288,13 @@ Injured Scout, near exit to E. Wellspring
     - Armor :: 10
     - On Steal :: Revitalizing Jam
     - On Collect :: 14,280g
+*** Dragon
+    The dragon's impenetrable scales lock various weaknesses.
+    Its weakness locks change as it is wounded and grows wary, and it grows more
+    armor as well (+3 each time, max 10).
+    - Weaknesses :: Sword Axe Bow Ice Light
+    - Armor :: 4
+    - On Steal :: Refreshing Jam
 *** Erhardt
     Solo challenge vs. Olberic
     - Weaknesses :: *Sword* /Dagger/ /Axe/ /Bow/ /Fire/ /Ice/ /Thunder/ /Wind/ /Dark/
@@ -1727,6 +2303,14 @@ Injured Scout, near exit to E. Wellspring
     - EXP :: 400
     - JP :: 200
     - Drops :: Divine Blade
+*** Gareth
+    Guards various weaknesses after assuming a defensive stance.
+    - Weaknesses :: Sword Axe Staff Ice Wind
+    - Armor :: 5
+    - Spawns With :: 2 x [[Master Thief][Master Thief]]
+**** Master Thief
+     - Weaknesses :: *Spear* *Dagger* *Fire* /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
+     - Armor :: 5
 *** Gideon
     - Weaknesses :: Sword Dagger Axe /?/
     - Armor :: 7
@@ -1810,6 +2394,13 @@ Injured Scout, near exit to E. Wellspring
     - Gold :: 7,392
     - EXP :: 162
     - JP :: 48
+*** Miguel
+    Periodically shifts his defenses, scrambling weaknesses.
+    Weaknesses that were previously analyzed will always be visible.
+    - Armor :: 7
+    - Gold :: 5,500g
+    - EXP :: 600
+    - JP :: 300
 *** Monarch
     Mass Sleep + Unconsciousness
     - Weaknesses :: Spear Bow Dark
@@ -1857,6 +2448,16 @@ Injured Scout, near exit to E. Wellspring
      - Weaknesses :: *Sword* *Bow* *Ice* /Thunder/ /Wind/ /Light/ /Dark/
      - Armor :: 6
      - On Steal :: Herb of Healing
+*** Venomtooth Tiger
+    Max. armor raises by two each time it Steels Defenses
+    - Weaknesses :: *Spear* *Bow* *Fire* /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
+    - Armor :: 6
+    - HP :: 53,661
+    - Gold :: 8,800
+    - EXP :: 600
+    - JP :: 500
+    - Drops :: Olive of Life (L)
+
 * COMMENT Local Variables
 # local variables:
 # eval: (setq org-refile-targets '((nil . (:maxlevel . 2))))
