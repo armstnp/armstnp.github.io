@@ -1,6 +1,4 @@
 # -*-  org-image-actual-width: nil; -*-
-
-* COMMENT Preface
 #+TITLE: Octopath Traveler
 #+TAGS: Cyrus Ophilia Haanit Therion Tressa Olberic Primrose Alfyn
 #+TAGS: Cliftlands Coastlands Flatlands Frostlands Highlands Riverlands Sunlands Woodlands
