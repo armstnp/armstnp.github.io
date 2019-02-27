@@ -13,6 +13,7 @@
 #+HTML_HEAD: <script type="text/javascript" src="styles/lib/js/bootstrap.min.js"></script>
 #+HTML_HEAD: <script type="text/javascript" src="styles/lib/js/jquery.stickytableheaders.min.js"></script>
 #+HTML_HEAD: <script type="text/javascript" src="styles/readtheorg/js/readtheorg.js"></script>
+
 * COMMENT Styling Guides
 ** Connections
 *** Towns
@@ -39,7 +40,7 @@
 ** Cliftlands                                                    :Cliftlands:
 *** Bolderfall
 **** Connections
-***** [[North Bolderfall Pass][North Bolderfall Pass]]
+***** [[North Bolderfall Pass (11)][North Bolderfall Pass (11)]]
 **** Points of Interest
 ***** DONE Therion: Chapter 1                                       :Therion:
 ***** TODO Daughter of the Dark God (I)                               :Quest:
@@ -79,7 +80,10 @@
 ***** DONE Kaia, Mother of Dragons (II)                               :Quest:
       Looking for a man who knows about dragons. Guided 'The Egg Man' to her.
       - Rewards :: 6,600g, Light Nut (M)
-***** TODO A Miner Dilemma                                            :Quest:
+***** DONE A Miner Dilemma                                            :Quest:
+      A Miner needs a way to sharpen his pick. After giving him an Orewell
+      Whetstone, he is surprised to find it actually effectual.
+      - Rewards :: 9,000g, Sharp Nut, Critical Nut
 **** Treasures
 ***** DONE Pseudo Gold Ore
 ***** DONE Dubious Gold Ore
@@ -112,6 +116,7 @@
 **** Connections
 ***** [[West Goldshore Coast (34)][West Goldshore Coast (34)]]
 ***** [[Road to the Caves of Azure (23)][Road to the Caves of Azure (23)]]
+***** [[Road to the Seaside Grotto (33)][Road to the Seaside Grotto (33)]]
 **** Points of Interest
 ***** DONE Alfyn: Chapter 2                                           :Alfyn:
       Alfyn arrives at Goldshore, looking for any requiring his aid. He hears of
@@ -157,7 +162,73 @@
       Alfyn brings her down, and uses a Slumberthorn to knock her out before she
       can escape. He gathers some moss, treats Flynn with it, and departs to
       continue his healing in Saintsbridge of the Riverlands.
-***** TODO Ophilia: Chapter 3                                       :Ophilia:
+***** DONE Ophilia: Chapter 3                                       :Ophilia:
+      Ophilia comes to her last stop in Goldshore. A familiar face greets her
+      there: Master Mattias, of the Leoniel Consortium. They greet one another,
+      Ophilia giving formal thanks for their provisions for the journey. Mattias,
+      in turn, expresses his sorrow for the evils of the world, and those who
+      turn from the Sacred Flame. He has some business to see to, and departs.
+
+      Ophilia turns to the Cathedral, where she meets Bishop Donovan. The bishop
+      appears to be nervous and distracted, bidding her wait as he works on his
+      unfinished preparations for the Kindling. She notices a child spying on
+      her, but as she turns to talk to him, he runs away. She chases after him,
+      and catches up to him in an open cul de sac. She introduces herself, and
+      the child gives her his name: Daniel. She presses him about the bishop,
+      seeing if he'd noticed anything, and offering her aid. Daniel tells her
+      about a letter he'd delivered to the bishop from a newcomer to town that
+      seems to be the cause of his fright.
+
+      The priestess guides Daniel to the archbishop, gently asking him to let her
+      help with what is disturbing him. He contemplates silently for a bit,
+      before handing her the letter. In it, someone informs the archbishop that
+      they have kidnapped his daughter, and that he must bring the Flamebearer's
+      ember to a seaside cavern without telling anyone. The archbishop tells her
+      of his struggle to decide, but tells her he'd chosen to stand by his belief
+      and ideals. He collapses under the strain, and is taken to bed rest.
+      Ophilia determines to go herself to the cave and attempt a rescue.
+
+      On her way out of town, she runs into Mattias again, who offers vague
+      consolation for the troubles that have interrupted the Kindling, and
+      hinting at a darker anger at the choices of the Flame, while wondering how
+      Ophilia can preserve her steady faith. Ophilia considers that maybe it is
+      because she /chooses/ to believe. The two part again, and Ophilia heads south
+      to the seaside grotto.
+
+      She delves deep into the cavern, full of monsters and strange Believers.
+      Within, Donovan's daughter, Lysa, is being kept by two mysterious men, who
+      talk of some Savior they believe in, in refutation of the Sacred Flame.
+      They prepare to kill the girl, taunting her and encouraging her to hate her
+      father for abandoning her. Ophilia steps in before they're able, and the
+      men recognize her as the Flamebearer. She confounds their plans and takes
+      them down, rescuing Lysa and asking what their goal is for the ember. They
+      say their Savior wants it, but only in vague, menacing threats; they perish
+      before they can say anything else, having taken poison.
+
+      Ophilia returns Lysa to her father, who is deeply grateful for the kindness
+      she has done for his family. Together, they return to the Cathedral and
+      perform the sacrament of the Kindling. Donovan thanks her and encourages
+      her for her kindheartedness, and invites her to stay the night and rest
+      before her return journey to Flamesgrace. But as she turns to retire for
+      the day, a familiar figure enters: Anna. She invites her sister to join her
+      at the inn, where they can talk in private.
+
+      At the inn, after giving Ophilia something to drink, Anna tells Ophilia
+      that their father had passed away. Ophilia moves to comfort her, but finds
+      her body suddenly weak. Anna assures her this is for their father's sake,
+      and that Ophilia will surely be understanding of her actions. With Ophilia
+      incapacitated, Anna retrieves the Ember. A mysterious man enters the room,
+      and Anna asks whether the man can bring her father back. He affirms that he
+      can, as that is the power he had been given, arguing the church has done
+      nothing but pray. They depart, leaving Ophilia pleading on the floor.
+
+      When she awakes, Bishop Donovan is there, telling her she'd been drugged
+      with a sleeping draught. She recalls the mysterious man's words, and that
+      they were heading to Wispermill, a village in the Flatlands, that is
+      rumored to have turned its back on the Sacred Flame to follow a man calling
+      himself the 'Savior', after a plague had stricken their village and left
+      death and hollow doubt in its wake. Ophilia determines to take back the
+      ember and her sister's heart, setting out on the road to Wispermill.
 ***** DONE Left Behind                                                :Quest:
       A Former Sailor seeks his long-bearded captain, lost in a shipwreck. An
       Amnesiac in Victor's Hollow is led to the sailor, who recognizes him as
@@ -170,6 +241,9 @@
       homesickness. Provoking him to action had no effect.
 ***** TODO The Merchant's Path                                        :Quest:
       A Merchantry Master needs help with bandit trouble plaguing his merchants.
+***** TODO Scourge of the Seas                                        :Quest:
+      A fledgling fisherman fears to go out on the seas, thanks to a lurking sea
+      monster.
 **** Treasures
 ***** DONE Inspiriting Plum
 ***** DONE Thunder Soulstone (L)                                     :Hidden:
@@ -183,24 +257,29 @@
 ***** DONE Inspiriting Plum Basket
 ***** DONE Odds and Ends                                             :Hidden:
 ***** DONE Silver Axe                                                :Hidden:
+***** DONE Wind Soulstone (L)                                        :Hidden:
+***** DONE Energizing Pomegranate (M)
+***** DONE Energizing Pomegranate (M)                                :Hidden:
 **** Items to Acquire                                        :Therion:Tressa:
-***** Orewell Whetstone
+***** DONE Orewell Whetstone
       Stonemonger, by the armory
-***** Leviathan Egg
+***** TODO Leviathan Egg
       Fledling Fisherman, in the north end
-***** 3 Cat's Eyes
+***** TODO 3 Cat's Eyes
       Old Man, in the north end, defended by a weak villager
-***** Wizard's Rod
+***** TODO Wizard's Rod
       Townsperson near the chapel
-***** Tough Nut (L)
+***** TODO Tough Nut (L)
       Ellen, near the consumables shop
-***** Forbidden Bow
+***** TODO Forbidden Bow
       Elderly Woman near the bridge to the north of town
-***** Dragon's Vest
+***** TODO Dragon's Vest
       Old Man at the town's entrance
 **** Allies to Lead                                        :Ophilia:Primrose:
 ***** Crest-bearing Ruffian - 7 x Crush and Grind (Axe) (6)
       On the beachfront
+***** Knight Ardante - 7 x Brain Bash (Axe) (6)
+      In front of the cathedral
 *** Grandport
 **** Connections
 **** Points of Interest
@@ -212,15 +291,98 @@
 *** Noblecourt
 **** Connections
 ***** TODO Fill this in...
+***** [[Obsidian Manse (40)][Obsidian Manse (40)]]
 **** Points of Interest
 ***** DONE Therion: Chapter 2                                       :Therion:
 ****** TODO Fill in story details
-***** TODO Primrose: Chapter 3                                     :Primrose:
-***** DONE Junk Collector: South of palace, carrying 'Tools of Learning' :Quest:
+***** DONE Primrose: Chapter 3                                     :Primrose:
+      Primrose returns home to Noblecourt, House Azelheart mostly forgotten by
+      its people. She arrives to the scene of a murder, a young successful
+      businessman that's rumored to have challenged the city's lord too loudly.
+      Some of the lord's own guards arrive and clear the area to 'investigate'.
+      Above the scene, Revello Forsythe - former lieutenant commander of the city
+      watch - looks on, catching Primrose's eye.
+
+      Primrose continues roaming the town, and is surprised to find someone who
+      recognizes her: Simeon, from a lifetime ago. He'd been traveling for years,
+      but could not outrun the pain of losing Primrose. Yet he finds himself
+      drawn back to his old home at the very time she would be there. He wonders
+      about her life since she had left, but her silence tells him all he needs,
+      and he consoles her, regretting the pain she must have gone through. They
+      move on towards the tavern as guards seem to want them to get out of the
+      way.
+
+      They recall together how they had met in their youth: she a noble daughter
+      tearfully escaping her father's harsh words; he a gardener's apprentice.
+      He composed words into poems and songs for her, a prelude to his future as
+      a playwright. His songs continued to comfort her after her father's death.
+      When she'd gone, his travels had been to search for her, his poems
+      preventing him from forgetting her, even if he tried. His inability to help
+      her more in her time of greatest need haunts him still.
+
+      The two part for the time being, and Primrose continues her search, finding
+      Revello at the grave of her father. He encourages her to see her father,
+      but she refuses to do so yet, with her business unfinished. She tells him
+      of the life she's lived, and her mission. He warns her about digging too
+      deeply, but agrees to tell her what he knows. He brings her to his home,
+      where his wife Anna recognizes and greets her. He tells her of the group
+      that had come to power and made the city treacherous: 'the Obsidians', a
+      black cartel that had begun to swallow the city in Azelheart's prime. Even
+      former city guard captain Albus had been slain for standing against the
+      brigands. Revello had done his best to track down the criminals, but was
+      overwhelmed by the scale of their evil. He bids Primrose to leave, but she
+      refuses, recalling her father's creed: "Faith will be your shield."
+
+      Revello shows her the entrance to the Obsidian Manse, and asks to accompany
+      her as the blade to her father's shield. They find the Right-hand Man deep
+      in the manse. He explains that the left hand was responsible for recruiting
+      and managing the Obsidians' men, while the right provided money and power.
+      Revello recognizes the man as Captain Albus, and is enraged at his betrayal
+      of Geoffrey Azelheart's trust. Albus taunts Revello and Primrose for their
+      failures and casts his betrayal as 'simply a smart business decision'. The
+      three clash, and at the end, Albus lies dead on the floor. From behind a
+      curtain steps Simeon, greeting her with a dagger. She recognizes the mark
+      of the crow, and reveals himself as Simeon, the Puppet Master of the
+      Obsidians, laughing at the utter tragedy he'd crafted before leaving her
+      crumpled on the floor. Revello finds her and carries her to safety, as she
+      dreams of time gone by when she had turned to Simeon for comfort.
+
+      When she awakes to her wounds, Revello reveals she'd been sleeping for
+      three days and nights, while Simeon had fled town. He tells her where he is
+      headed: the Highland town of Everhold. She determines to give chase with
+      heavy heart.
+***** DONE Theracio's Tutelage (II)                                   :Quest:
       Bought Tools of Learning from Junk Collector south of the palace.
-****** TODO Fill this in with proper quest name
-***** DONE Never Forget                                               :Quest:
-      Bought "Lorie's Diary" from the Affable Antiquarian.
+***** DONE The Gravekeeper's Grief                                    :Quest:
+      A gravekeeper wants a means to ward off a grave robber. When given a
+      filched codger-friendly bow, he realizes he doesn't have to chase him down,
+      and can instead leverage his training as an archer.
+      - Rewards :: 4,500g, Gravekeeper's Mark
+**** Treasure
+***** DONE Thieves' Chest - 10,000g
+      Inside house guarded by Elderly Woman (7)
+***** DONE Rare Stone                                                :Hidden:
+**** Items to Acquire                                        :Therion:Tressa:
+***** DONE Codger-friendly Bow
+**** Force to Apply                                          :Olberic:Haanit:
+***** Elderly Woman
+      South part of town
+***** Townsperson (4)
+      South part of town
+**** Allies to Lead                                        :Ophilia:Primrose:
+***** Townsperson - 6 x Peerless Strike (Spear) (7)          :Olberic:Haanit:
+      Inside a house guarded by a young man (4) 
+***** Luckless Sellsword - 6 x Full Enfeeblement (7)
+      In front of the tavern
+***** Gatekeeper - 7 x Improved Offense (6)
+      In front of the western manor
+***** Gatekeeper - 7 x Steel Defenses (6)
+      In front of the western manor
+***** Tavern Patron - 7 x More Health for All (5)
+      In the tavern
+*** Wispermill
+**** Points of Interest
+***** TODO Ophilia: Chapter 4                                       :Ophilia:
 ** Frostlands                                                    :Frostlands:
 *** Flamesgrace
 **** Connections
@@ -367,10 +529,17 @@
 *** Cobbleston
 **** Connections
 ***** [[South Cobbleston Gap (11)][South Cobbleston Gap (11)]]
+**** Points of Interest
+***** DONE Never Forget                                               :Quest:
+      Bought "Lorie's Diary" from the Affable Antiquarian in Noblecourt and
+      brought it to the Melancholy Youth searching for it, prompting him to
+      set out and search for her. Later, he has found her grave in Noblecourt,
+      and plans to build a new life in the place she lived.
 *** Stonegard
 **** Connections
 ***** [[North Stonegard Pass (30)][North Stonegard Pass (30)]]
 ***** [[Spectrewood Path (26)][Spectrewood Path (26)]]
+***** [[Yvon's Birthplace (40)][Yvon's Birthplace (40)]]
 **** Points of Interest
 ***** DONE H'aanit: Chapter 2                                        :Haanit:
       H'annit comes to Stonegard in search of her master, Z'aanta, who had
@@ -423,7 +592,74 @@
       As H'annit departs from Stonegard, Natalia catches up to her and gives a
       parting gift of meager supplies, her own contribution to the effort for
       Z'aanta's sake. And so H'annit departed for Stillsnow and Susanna.
-***** TODO Cyrus: Chapter 3                                           :Cyrus:
+***** DONE Cyrus: Chapter 3                                           :Cyrus:
+      Cyrus comes to Stonegard, seeking answers from the person who'd bound the
+      translated copy of 'From the Far Reaches of Hell' he'd found. A cloaked
+      figure follows behind him, trying to mask their presence.
+
+      The binder leads Cyrus to a man named Dominic, but he is turned away at the
+      door. Cyrus determines to find another way to reach the man, and inquires
+      with the people of Stonegard to learn about Dominic's troubles. He returns
+      with his conclusion - that Dominic had translated the book in question for
+      quick coin to save his daughter, despite the concerns he had regarding the
+      text. Yet Cyrus recognizes that he had still cut horrific passages to
+      mitigate the book's consequences, and believes he will help him continue to
+      do so. Dominic seems to have a change of heart, and invites the scholar
+      inside.
+
+      Dominic describes the commissioner, whose name he had forgotten: a scholar,
+      sharp of mind, and eyes burning red with intense zeal for knowledge. Rumors
+      hold he is in a prestigious position in Atlasdam's Royal Academy; this
+      information tells Cyrus what he needs to know. The man must be his own
+      Headmaster Yvon. Dominic believes his daughter's death to be divine
+      punishment for his work with the book. Cyrus asserts he will ensure the
+      book is never used for ill again, trying to bring some comfort to Dominic.
+
+      As Cyrus departs the house, he beckons to the cloaked figure, bidding them
+      emerge from hiding. They realize their game is up, and reveal themselves to
+      be Headmaster Yvon's assistant, Lucia. She warns Cyrus that Yvon is
+      plotting to use the tome, likely having stolen the very one Cyrus had
+      discovered was missing from the archives. As such, she seeks Cyrus' aid,
+      requesting he investigate Yvon's childhood home in Stonegard. As he steps
+      towards the house to start looking, he is knocked unconscious by Lucia,
+      collapsing to the ground.
+
+      He awakes in a narrow stone cell, Headmaster Yvon and Lucia looking down on
+      him from a hole far above, gloating in their ruse. Yvon makes an offer to
+      Cyrus, who refuses to agree with Yvon's hoarding of knowledge. The
+      headmaster and Lucia leave Cyrus to starve in the pit, but he has no
+      intention of giving up without a fight. Finding nought but a Bone in his
+      room, he paces and waits, until at long last, the hatch above opens, and a
+      familiar voice calls to him and drops a rope. He climbs it to find Therese
+      waiting for him, having heard he was in peril. Before she can speak another
+      word Yvon emerges, magically casting Cyrus aside and seizing her, ordering
+      Cyrus to cease his investigation lest her life become forfeit before
+      vanishing in a puff of black smoke.
+
+      Cyrus pursues Yvon, of course, and finds him deep in the house's cellars,
+      where he has Therese shackled to an upright frame. Yvon plans to kill both
+      her and Cyrus in one swoop, since they had both meddled in his secrets.
+      Cyrus aims to defend his pupil, but is startled when Yvon wields one of the
+      blood-crystals, turning into a hulk of a being, form twisted by the far
+      reaches of hell. Cyrus returns his wrath blow for blow, bringing Yvon to
+      his end, despite his claimed immortality. Someone had lied to him, but he
+      crumbles into dust before Cyrus can discover who. He takes Therese from her
+      chains and to safety.
+
+      Back in Stonegard, Therese tells Cyrus of what she'd heard: Yvon and
+      another voice had been saying they would see Cyrus dead, and she had come
+      to warn him. Cyrus gives her formal thanks for her rescue, but asks her to
+      consult with others first next time. She observes she'd learned from the
+      best, to which Cyrus seems a bit bemused. He promises to write, and to send
+      lessons to keep her mind sharp. Cyrus aims to depart, but Therese tells of
+      one more thing Yvon had said: his next destination; yet she withholds it,
+      afraid he will pursue it. Cyrus explains his philosophy of knowledge once
+      more, comparing himself and the headmaster in their shared zeal for
+      knowledge, but utterly opposed ends for that knowledge; to use for one's
+      own ends, or to share freely to all. Therese is persuaded, and shares what
+      she knows: Yvon was going to head to the town of Duskbarrow. Cyrus assures
+      her he will act with caution, and departs to find more about what he was
+      seeking about his cursed book there.
 ***** DONE A Royal Secret                                             :Quest:
       An inquiring youth seeks more information regarding Ventus the Third, and
       the reason he had suddenly ceased his art, renowned as it was. The party
@@ -462,6 +698,10 @@
 **** Knowledge to Glean                                         :Cyrus:Alfyn:
 ***** The Fall of House Landar
       Erstwhile Bodyguard
+*** Everhold
+**** Connections
+**** Points of Interest
+***** Primrose: Chapter 4                                          :Primrose:
 ** Riverlands                                                    :Riverlands:
 *** Saintsbridge
 **** Connections
@@ -679,8 +919,14 @@ A man with a Sweet Tooth has traveled from Stillsnow, seeking new delicacies. Di
 Ria continues her journey from Sunshade, but proves to have fallen into more trouble, as a thief has stolen a precious letter from her inn room. The letter is rediscovered in possession of a shady merchant, and stolen back for its owner. Ria speaks briefly of the unification of tribes under King Khalim, appointed under a Grand Assembly, before dissembling and taking her leave.
 
 - Rewards :: 6,600g, Magic Nut (M)
-***** TODO Shadow over the Sands                                      :Quest:
-A Staid Soldier is concerned about one of his scouts, who - after his claims of a huge serpent in the Quicksand Caves was disbelieved - pursued the beast himself. He wants to be careful and take care of the beast just in case.
+***** DONE Shadow over the Sands                                      :Quest:
+      A Staid Soldier is concerned about one of his scouts, who - after his
+      claims of a huge serpent in the Quicksand Caves was disbelieved - pursued
+      the beast himself. He wants to be careful and take care of the beast just
+      in case. The party tracks down a snake charmer and his giant serpent in
+      the caves, and take them both down. The charmer was seeking vengeance for
+      being fired from his bodyguard position.
+      - Rewards :: 8,000g, Transcendent Bow of Shadows
 **** Treasures
 ***** DONE Healing Grape (M)
 ***** DONE Inspiriting Plum (M)
@@ -887,28 +1133,122 @@ Townsperson, northwest side of town
 **** Allies to Lead                                        :Ophilia:Primrose:
 ***** Amnesiac - 6 x Improved Offense (7)
       In front of the pub
+*** Duskbarrow
+**** Connections
+***** [[East Duskbarrow Trail (45)][East Duskbarrow Trail (45)]]
+***** [[Ruins of Eld (45-46)][Ruins of Eld (45-46)]]
+**** Points of Interest
+***** DONE Cyrus: Chapter 4                                           :Cyrus:
+      Cyrus comes to Duskbarrow, searching for signs of Yvon's likely laboratory
+      in the town. He notices Yvon's assistant, Lucia, heading towards a door
+      carved into stone. Cyrus tails her, but cannot seem to open the door,
+      despite an obvious button on its front. A little tinkering reveals that
+      the button requires twisting to operate, and the doow opens to him.
+
+      Deep inside the ruins of eld, he finds an ancient mural, depicting
+      something overflowing in a surreal flood. He recognizes them as runes of
+      High Hornburgian, painted into the mural before him as if flowing from a
+      gate. Pressed for time, he leaves the mural to lie for the moment and
+      presses deeper in.
+
+      Further down, he comes across a hidden library, freshly stocked with
+      tomes, ones long thought lost to time. Cyrus realizes this collection
+      could not have been acquired by Yvon alone, and represented centuries of
+      work. He also suspects he is heading the right direction, and continues on
+      past this discovery.
+
+      A little farther into the caves, Cyrus finds Lucia, in an alcove surrounded
+      by books. Cyrus identifies her as the puppetmaster behind Yvon, and she
+      affirms his findings. She flatters his scholarly drive, and appeals to his
+      desire to learn ever-more, pulling him to join her. It is in that appeal
+      Cyrus takes umbrage, observing that she believed Yvon could not have grown
+      in his passion with the right tutelage, as any man could; there is nothing
+      intrinsic in Cyrus himself that should bestow special consideration, and
+      for her to seek him specially is a specious reason in his eyes. He sees her
+      refusal to teach the unlearned as a fatal flaw, and narrows his questioning
+      to what she will do with the knowledge she acquires, accusing her of being
+      unwilling and unable to teach and inspire others, content to be self-
+      congratulatory of her own genius to her grave, and her knowledge with her.
+      He points out that a teacher lives in the hope that his pupils will surpass
+      them.
+
+      Lucia cuts him off in exasperation, revealing a perfectly-synthesized blood
+      crystal, hoping to gain immortality - time to learn and understand
+      everything. Cyrus defies her, bringing her transformed body beyond its
+      limit, and destroying her utterly. He retrieves the original copy of 'From
+      the Far Reaches of Hell', and makes his way back to Lucia's study to find a
+      means to translate the runes he'd seen: A High Hornburgian dictionary. In
+      addition, he acquires a selection of the tomes he'd seen before: 'Forbidden
+      Gold', likening the powers of the gods to a golden fruit; and 'Trial of the
+      Twelve, Volume VII', about the twelve gods who sealed a dark power beyond
+      the edge of the world. Lastly, he translates what he can of 'From the Far
+      Reaches of Hell', revealing that it contains a forbidden rite to bring back
+      the unholy power sealed beyond the edge of the world.
+
+      Cyrus has one last task remaining to him, and he returns to the mural to
+      translate its runes. What he reads his horrifying: what spills from beyond
+      that gate is 'DEATH DOOM DESTRUCTION DEATH DOOM DESTRUCTION...' From these
+      findings, Cyrus deduces the gods had hid away the power of life and death
+      itself, and like a golden fruit, it tempts the human heart. Cyrus
+      understands this knowledge could be used for good or ill, and takes the
+      mural to be a warning to the present. He considers destroying the book, but
+      understands that that would not deal with the root of evil in man's heart.
+      He aims to learn what is in the book to equip men to defend from the things
+      written within.
+
+      Cyrus returns to Atlasdam to report and continue his research, where he
+      tries to search for signs of the gate the mural had referred to. Therese
+      interrupts him, inquiring on the research, and letting him know he's late
+      to his class. Cyrus joins the princess and her back in the classroom, where
+      their class seems to have grown, and begins to teach them about the value
+      and pursuit of knowledge, and the importance of sharing that knowledge to
+      be harvested and cultivated by generations yet to come.
+
+      Thus ends Cyrus' tale.
+***** TODO Looting Grave Robber                                       :Quest:
+      An obliging merchant is feeling badgered by a nearby grave hustler whose
+      wares he wants no part in.
+***** DONE A Cub with No Name                                         :Quest:
+      A fearful mother worries about the tiger cub her child brought home. After
+      she's told of methods to train tigers to be docile, she decides to bring
+      the entire family in on the project of raising it.
+      - Rewards :: 7,000g, Beastly Scarf
+**** Treasures
+***** DONE Thieves' Chest - 30,000g                                 :Therion:
+***** DONE Old Coin                                                  :Hidden:
+***** DONE Bottle of Poison Dust
+***** DONE Odds and Ends                                             :Hidden:
+***** DONE Curious Antique
+**** Items to Acquire                                        :Therion:Tressa:
+***** TODO Viper Dagger
+      Villager in front of the tiger-child's house
+**** Force to Apply                                          :Olberic:Haanit:
+***** DONE Crest-bearing Swindler (6)
+      Near the inn, part of 'The Price of Vengeance'
+***** TODO Villager (9)
+      In front of the tiger-child's house
 * Overworld
 ** Cliftlands                                                    :Cliftlands:
-*** South Bolderfall Pass
-**** TODO Fill in map level
+*** South Bolderfall Pass (11)
 **** Connections
-***** [[North Bolderfall Pass][North Bolderfall Pass]]
+***** [[North Bolderfall Pass (11)][North Bolderfall Pass (11)]]
 ***** [[South Quarrycrest Pass (28)][South Quarrycrest Pass (28)]]
 ***** [[Carrion Caves (20)][Carrion Caves (20)]]
 **** Encounters
 ***** 1 x [[Great Condor][Great Condor]], 1 x [[Laughing Hyaena][Laughing Hyaena]], 1 x [[Cliff Birdian II][Cliff Birdian II]]
-*** North Bolderfall Pass
-**** TODO Fill in map level
+***** 1 x [[Hatchling][Hatchling]], 2 x [[Laughing Hyaena][Laughing Hyaena]], 1 x [[Cliff Birdian III][Cliff Birdian III]]
+*** North Bolderfall Pass (11)
 **** Connections
-***** [[South Bolderfall Pass][South Bolderfall Pass]]
+***** [[South Bolderfall Pass (11)][South Bolderfall Pass (11)]]
 ***** [[West S'warkii Trail (11)][West S'warkii Trail (11)]]
 **** Encounters
 ***** 1 x [[Cliff Birdian II][Cliff Birdian II]], 1 x [[Laughing Hyaena][Laughing Hyaena]], 2 x [[Hatchling][Hatchling]]
+***** 1 x [[Cliff Birdian I][Cliff Birdian I]], 1 x [[Cliff Birdian III][Cliff Birdian III]], 1 x [[Cait][Cait]]
 *** South Quarrycrest Pass (28)
 **** Connections
 ***** [[Quarrycrest][Quarrycrest]]
 ***** Shrine of the Prince of Thieves
-***** [[South Bolderfall Pass][South Bolderfall Pass]]
+***** [[South Bolderfall Pass (11)][South Bolderfall Pass (11)]]
 ***** [[South Orewell Pass (45)][South Orewell Pass (45)]]
 ***** [[Derelict Mine (30)][Derelict Mine (30)]]
 **** Encounters
@@ -975,6 +1315,25 @@ Townsperson, northwest side of town
 ***** DONE Heavy Coin Pouch
 ***** DONE Energizing Pomegranate
 ***** DONE Purifying Seed
+*** Road to the Seaside Grotto (33)
+    #+CAPTION: Road to the Seaside Grotto Map
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600
+    [[./images/octopath-seaside-grotto-road.png]]
+**** Connections
+***** [[Goldshore][Goldshore]]
+***** [[Seaside Grotto (38)][Seaside Grotto (38)]]
+**** Encounters
+***** 2 x [[Azure Urchin][Azure Urchin]]
+***** 1 x [[Azure Urchin][Azure Urchin]], 1 x [[Flame Curator][Flame Curator]], 1 x [[Scythe Crab][Scythe Crab]]
+***** 1 x [[Azure Urchin][Azure Urchin]], 1 x [[Dark Curator][Dark Curator]], 1 x [[Scythe Crab][Scythe Crab]]
+***** 1 x [[Flame Curator][Flame Curator]], 2 x [[Dark Curator][Dark Curator]]
+**** Treasure
+***** DONE Thunder Soulstone (M)
+***** DONE Healing Grape Bunch
+***** DONE Ice Amulet
+***** DONE Bottle of Poison Dust
+***** DONE Herb of Awakening
 *** Moonstruck Coast (34)
     #+CAPTION: Moonstruck Coast
     #+ATTR_ORG: :width 500
@@ -1051,6 +1410,7 @@ Townsperson, northwest side of town
 ***** [[Stillsnow][Stillsnow]]
 ***** [[The Whitewood (38)][The Whitewood (38)]]
 **** Encounters
+***** 2 x [[Snow Leopard][Snow Leopard]]
 ***** 1 x [[Hoary Bear][Hoary Bear]], 2 x [[Majestic Snow Marmot][Majestic Snow Marmot]]
 ***** 1 x [[Snow Leopard][Snow Leopard]], 2 x [[Ice Elemental][Ice Elemental]]
 **** Treasures
@@ -1203,6 +1563,7 @@ Townsperson, northwest side of town
 **** Encounters
 ***** 1 x [[Sandworm][Sandworm]], 2 x [[Giant Scorpion][Giant Scorpion]]
 ***** 1 x [[Giant Scorpion][Giant Scorpion]], 2 x [[Sand Lizardman IV][Sand Lizardman IV]]
+***** 1 x [[Sand Lizardman IV][Sand Lizardman IV]], 2 x [[Sand Lizardman V][Sand Lizardman V]], 2 x [[Savage Scorpion][Savage Scorpion]]
 **** Treasures
 ***** DONE Olive of Life
 ***** DONE Inspiriting Plum
@@ -1275,7 +1636,7 @@ Townsperson, northwest side of town
 **** Connections
 ***** [[North S'warkii Trail (11)][North S'warkii Trail (11)]]
 ***** [[East Victors Hollow Trail (29)][East Victors Hollow Trail (29)]]
-***** [[North Bolderfall Pass][North Bolderfall Pass]]
+***** [[North Bolderfall Pass (11)][North Bolderfall Pass (11)]]
 ***** [[Path of Beasts (15)][Path of Beasts (15)]]
 *** East Victors Hollow Trail (29)
 **** Connections
@@ -1283,9 +1644,11 @@ Townsperson, northwest side of town
 ***** Shrine of the Huntress
 ***** [[West S'warkii Trail (11)][West S'warkii Trail (11)]]
 ***** [[Western Stillsnow Wilds (29)][Western Stillsnow Wilds (29)]]
+***** [[East Duskbarrow Trail (45)][East Duskbarrow Trail (45)]]
 **** Encounters
 ***** 1 x [[Mutant Mushroom][Mutant Mushroom]], 1 x [[Creeping Treant][Creeping Treant]]
 ***** 1 x [[Horned Howler][Horned Howler]], 2 x [[Forest Ratkin IV][Forest Ratkin IV]], 1 x [[Forest Ratkin V][Forest Ratkin V]]
+***** 2 x [[Gargantuan Boar][Gargantuan Boar]]
 **** Treasures
 ***** DONE Healing Grape (M)
 ***** DONE Olive of Life (L)
@@ -1307,6 +1670,26 @@ Townsperson, northwest side of town
 ***** DONE Olive of Life
 ***** DONE Shadow Soulstone (M)
 ***** DONE Healing Grape (M)
+*** East Duskbarrow Trail (45)
+    #+CAPTION: East Duskbarrow Trail Map 
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600 
+    [[./images/octopath-east-duskbarrow-trail.png]]
+**** Connections
+***** [[Duskbarrow][Duskbarrow]]
+***** [[East Victors Hollow Trail (29)][East Victors Hollow Trail (29)]]
+***** [[Moldering Ruins (45)][Moldering Ruins (45)]]
+***** [[Shrine of the Archmagus (50)][Shrine of the Archmagus (50)]]
+**** Encounters
+***** 2 x [[Forest Ratking II][Forest Ratking II]], 1 x [[Forest Ratking III][Forest Ratking III]]
+***** 1 x [[Raging Treant][Raging Treant]], 2 x [[Forest Ratking III][Forest Ratking III]]
+***** 1 x [[Peek-a-Boo][Peek-a-Boo]], 2 x [[Raging Treant][Raging Treant]]
+***** 1 x [[Raging Treant][Raging Treant]], 3 x [[Black Howler][Black Howler]]
+**** Treasures
+***** DONE ?
+***** DONE ?
+***** DONE Olive of Life (M)
+***** DONE Copper-filled Pouch
 * Dungeons
 ** Cliftlands                                                    :Cliftlands:
 *** DONE Morlock's Manse (18)
@@ -1326,7 +1709,7 @@ Townsperson, northwest side of town
 ***** DONE Olive of Life (M)
 ***** DONE Thieves' Chest - Hasty Helm                              :Therion:
 *** DONE Carrion Caves (20)
-    - Entrance :: [[South Bolderfall Pass][South Bolderfall Pass]], east, under bridge
+    - Entrance :: [[South Bolderfall Pass (11)][South Bolderfall Pass (11)]], east, under bridge
 **** Encounters
 ***** 3 x [[Night Raven][Night Raven]], 2 x [[Ash Raven][Ash Raven]]
 ***** 3 x [[Night Raven][Night Raven]], 1 x [[Ash Raven][Ash Raven]], 1 x [[Cait][Cait]]
@@ -1339,8 +1722,7 @@ Townsperson, northwest side of town
 ***** DONE Inspiriting Plum (M)
 ***** DONE Olive of Life (M)
 ***** DONE 6,000g
-***** TODO Thieves' Chest                                           :Therion:
-      Far south-east of first room
+***** DONE Thieves' Chest - Tough Nut                               :Therion:
 ***** DONE Enchanted Axe
       Boss Reward Chest
 *** DONE The Sewers (24)
@@ -1376,7 +1758,7 @@ Townsperson, northwest side of town
 ***** *Boss:* [[Manymaws][Manymaws]]
 **** Treasures
 ***** DONE Wind Soulstone (L)
-***** TODO Thieves' Chest                                           :Therion:
+***** DONE Thieves' Chest - Conscious Stone                         :Therion:
 ***** DONE Inspiriting Plum (M)
 ***** DONE Olive of Life (L)
 ***** DONE Carnage Blade
@@ -1399,7 +1781,51 @@ Townsperson, northwest side of town
 ***** DONE Thieves' Chest - Spiked Armor                            :Therion:
 ***** DONE Purifying Dust
 ***** DONE Ruinous Dust
+*** DONE Seaside Grotto (38)
+    - Entrance :: [[Road to the Seaside Grotto (33)][Road to the Seaside Grotto (33)]]
+    #+CAPTION: Seaside Grotto Map
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600
+    [[./images/octopath-seaside-grotto.png]]
+**** Encounters
+***** 1 x [[Dark Elemental][Dark Elemental]], 2 x [[Dark Sentinel Mk.II][Dark Sentinel Mk.II]]
+***** 1 x [[Flame Elemental][Flame Elemental]], 2 x [[Flame Sentinel Mk.II][Flame Sentinel Mk.II]]
+***** 3 x [[Believer I][Believer I]]
+***** 1 x [[Believer II][Believer II]], 2 x [[Flame Sentinel Mk.II][Flame Sentinel Mk.II]], 2 x [[Dark Sentinel Mk.II][Dark Sentinel Mk.II]]
+***** 1 x [[Believer II][Believer II]], 1 x [[Flame Sentinel Mk.II][Flame Sentinel Mk.II]], 1 x [[Dark Sentinel Mk.II][Dark Sentinel Mk.II]], 1 x [[Vampire Bat][Vampire Bat]]
+***** 1 x [[Shaggy Spider][Shaggy Spider]], 3 x [[Vampire Bat][Vampire Bat]]
+***** *Boss:* [[Shady Figure and Mystery Man][Shady Figure and Mystery Man]]
+**** Treasure
+***** DONE Inspiriting Plum Basket
+***** DONE Thieves' Chest - Grand Helm                              :Therion:
+***** DONE Refreshing Jam
+***** DONE Olive of Life
+***** DONE Inspiriting Plum (M)
+***** DONE Silver-filled Pouch
+***** DONE Energizing Pomegranate (M)
 *** TODO Undertow Cove (45)
+** Flatlands                                                      :Flatlands:
+*** DONE Obsidian Manse (40)
+    - Entrance :: [[Noblecourt][Noblecourt]]
+    #+CAPTION: Obsidian Manse Map 
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600 
+    [[./images/octopath-obsidian-manse.png]]
+**** Encounters
+***** 1 x [[Constituent I][Constituent I]], 1 x [[Constituent II][Constituent II]], 2 x [[Dire Ash Raven][Dire Ash Raven]]
+***** 1 x [[Constituent I][Constituent I]], 2 x [[Thunder Curator][Thunder Curator]]
+***** 1 x [[Thunder Curator][Thunder Curator]], 2 x [[Icky Slug][Icky Slug]]
+***** 1 x [[Icky Slug][Icky Slug]], 3 x [[Dire Ash Raven][Dire Ash Raven]]
+***** 1 x [[Shaggy Spider][Shaggy Spider]], 3 x [[Dire Ash Raven][Dire Ash Raven]]
+***** 1 x [[Shaggy Spider][Shaggy Spider]], 2 x [[Icky Slug][Icky Slug]]
+***** *Boss:* [[Albus, the Right-hand Man][Albus, the Right-hand Man]]
+**** Treasures
+***** DONE Healing Grape Bunch
+***** DONE 5,000g
+***** DONE Inspiriting Plum Basket
+***** DONE Energizing Pomegranate (M)
+***** DONE Olive of Life (L)
+***** DONE Inspiriting Plum (M)
 ** Frostlands                                                    :Frostlands:
 *** DONE Secret Path (21)
     - Entrance :: [[Road to the Obsidian Parlor (20)][Road to the Obsidian Parlor (20)]]
@@ -1437,8 +1863,7 @@ Townsperson, northwest side of town
 ***** DONE Light Nut
 ***** DONE Olive of Life (M)
 ***** DONE 10,000g
-***** TODO Thieves' Chest                                           :Therion:
-      Northern exit from the main room loop
+***** DONE Thieves' Chest - Soul Hatchet                            :Therion:
 ***** DONE Healing Grape (M)
 ***** DONE Inspiriting Plum (M)
 *** DONE Tomb of the Imperator (35)
@@ -1454,7 +1879,7 @@ Townsperson, northwest side of town
 ***** 2 x [[Ice Lizardking I][Ice Lizardking I]], 2 x [[Ice Lizardman VI][Ice Lizardman VI]]
 ***** *Boss:* [[Behemoth][Behemoth]]
 **** Treasures
-***** TODO Thieves' Chest                                           :Therion:
+***** DONE Thieves' Chest - Wakeful Stone                           :Therion:
 ***** DONE Olive of Life (M)
 ***** DONE Healing Grape Bunch
 ***** DONE Inspiriting Plum (M)
@@ -1475,7 +1900,7 @@ Townsperson, northwest side of town
 ***** 1 x [[Avalanche Mushroom][Avalanche Mushroom]], 2 x [[Winter Wanderweed][Winter Wanderweed]]
 ***** *Boss:* [[Dragon][Dragon]]
 **** Treasures
-***** TODO Thieves' Chest                                           :Therion:
+***** DONE Thieves' Chest - 15,000g                                 :Therion:
 ***** DONE Olive of Life (L)
 ***** DONE Healing Grape Bunch
 ***** DONE Inspiriting Plum Basket
@@ -1540,10 +1965,33 @@ Townsperson, northwest side of town
 ***** *Boss:* [[Lord of the Forest][Lord of the Forest]]
 **** Treasures
 ***** DONE Fire Soulstone (M)
-***** TODO Thieves' Chest                                           :Therion:
+***** DONE Thieves' Chest - Fire Amulet                             :Therion:
 ***** DONE Refreshing Jam
 ***** DONE 6,000g
 ***** DONE Copper-filled Pouch
+*** DONE Yvon's Birthplace (40)
+    - Entrance :: [[Stonegard][Stonegard]]
+    #+CAPTION: Yvon's Birthplace Map
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600
+    [[./images/octopath-yvons-birthplace.png]]
+**** Encounters
+***** 1 x [[Researcher I][Researcher I]], 1 x [[Researcher II][Researcher II]], 1 x [[Researcher III][Researcher III]]
+***** 2 x [[Researcher II][Researcher II]], 1 x [[Researcher III][Researcher III]]
+***** 1 x [[Researcher III][Researcher III]], 2 x [[Flame Guardian][Flame Guardian]]
+***** 1 x [[Thunder Guardian][Thunder Guardian]], 4 x [[Vampire Bat][Vampire Bat]]
+***** 2 x [[Dark Remnant][Dark Remnant]], 2 x [[Vampire Bat][Vampire Bat]]
+***** 1 x [[Flame Guardian][Flame Guardian]], 1 x [[Blood Remnant][Blood Remnant]], 1 x [[Dark Remnant][Dark Remnant]]
+***** *Boss:* [[Yvon][Yvon]]
+**** Treasures
+***** DONE Inspiriting Plum
+***** DONE Light Soulstone (L)
+***** DONE 12,000g
+***** DONE Bright Stone
+***** DONE Energizing Pomegranate (M)
+***** DONE Fire Soulstone (M)
+***** DONE Thieves' Chest - Sturdy Quartz Rod                       :Therion:
+***** DONE Inspiriting Plum Basket
 ** Riverlands                                                    :Riverlands:
 *** DONE Twin Falls (20)
     - Entrance :: [[South Clearbrook Traverse (11)][South Clearbrook Traverse (11)]] 
@@ -1583,8 +2031,7 @@ Townsperson, northwest side of town
 ***** DONE Healing Grape (M)
 ***** DONE Psychic Staff
 ***** DONE Healing Grape Bunch
-***** TODO Thieves' Chest                                           :Therion:
-      NE corner, far side of the river
+***** DONE Thieves' Chest - Clarity Stone                           :Therion:
 *** DONE Rivira Woods (32)
     - Entrance :: [[Saintsbridge][Saintsbridge]]
     #+CAPTION: Rivira Woods Map 
@@ -1600,11 +2047,11 @@ Townsperson, northwest side of town
 ***** *Boss:* [[Miguel][Miguel]]
 **** Treasures
 ***** DONE Energizing Pomegranate (L)
-***** TODO Thieves' Chest                                           :Therion:
+***** DONE Thieves' Chest - Ice Amulet                              :Therion:
 ***** DONE Refreshing Jam
 ***** DONE Purifying Seed
 ***** DONE Purifying Dust
-***** TODO Thieves' Chest                                           :Therion:
+***** DONE Thieves' Chest - Gaolbreaker                             :Therion:
 ***** DONE Silver-filled Pouch
 ***** DONE Injurious Dust
 ** Sunlands                                                        :Sunlands:
@@ -1624,7 +2071,7 @@ Townsperson, northwest side of town
 **** Treasures
 ***** DONE Heavy Bow
 ***** DONE Olive of Life (M)
-***** TODO Thieves' Chest                                           :Therion:
+***** DONE Thieves' Chest - 6,000g                                  :Therion:
 ***** DONE Inspiriting Plum (M)
 ***** DONE Fire Soulstone (M)
 *** DONE Lizardmen's Den (32)
@@ -1672,8 +2119,24 @@ Townsperson, northwest side of town
 ***** DONE Light Amulet
 ***** DONE Healing Grape Bunch
 ***** DONE Thieves' Chest - Calming Stone                           :Therion:
-*** TODO Quicksand Caves (40)
+*** DONE Quicksand Caves (40)
     - Entrance :: [[Northern Wellspring Sands (31)][Northern Wellspring Sands (31)]]
+    #+CAPTION: Quicksand Caves Map 
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600 
+    [[./images/octopath-quicksand-caves.png]]
+**** Encounters
+***** 1 x [[Ettin Asp][Ettin Asp]], 4 x [[Dread Viper][Dread Viper]]
+***** 2 x [[Ettin Asp][Ettin Asp]], 1 x [[Shaggy Spider][Shaggy Spider]]
+***** 1 x [[Shaggy Spider][Shaggy Spider]], 3 x [[Slayer Bug][Slayer Bug]]
+***** *Boss:* [[Snake Charmer and Giant Python][Snake Charmer and Giant Python]]
+**** Treasures
+***** DONE Thieves' Chest - Inferno Axe
+***** DONE Fire Soulstone (L)
+***** DONE Refreshing Jam
+***** DONE Calming Stone
+***** DONE Inspiriting Plum Basket
+***** DONE Protective Bracelet
 ** Woodlands                                                      :Woodlands:
 *** DONE Path of Beasts (15)
     - Entrance :: [[West S'warkii Trail (11)][West S'warkii Trail (11)]], lower trail east of the Bolderfall Pass exit
@@ -1685,9 +2148,7 @@ Townsperson, northwest side of town
 ***** DONE 4,000g
 ***** DONE Tough Nut
 ***** DONE Inspiriting Plum (M)
-***** TODO Thieves' Chest                                           :Therion:
-      Follow entrance trail east until it curves (not forks) north; chest is
-      nestled in a hidden path to the west.
+***** TODO Thieves' Chest - War Lance                               :Therion:
 *** DONE The Forgotten Grotto (34)
     - Entrance :: [[Path to the Forgotten Grotto (33)][Path to the Forgotten Grotto (33)]]
     #+CAPTION: The Forgotten Grotto Map 
@@ -1707,12 +2168,43 @@ Townsperson, northwest side of town
 ***** DONE Herb of Light
 ***** DONE Inspiriting Plum Basket
 ***** DONE Energizing Pomegranate (L)
-***** TODO Thieves' Chest                                           :Therion:
+***** DONE Thieves' Chest - Sledgehammer                            :Therion:
 ***** DONE 15,000g
 ***** DONE Olive of Life (M)
 ***** DONE Vivifying Stone
+*** TODO Moldering Ruins (45)
+    - Entrance :: [[East Duskbarrow Trail (45)][East Duskbarrow Trail (45)]]
+*** DONE Ruins of Eld (45-46)
+    - Entrance :: [[Duskbarrow][Duskbarrow]]
+    #+CAPTION: Ruins of Eld Map 
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600 
+    [[./images/octopath-ruins-of-eld.png]]
+**** Encounters
+***** 2 x [[Sentinel Mk. II][Sentinel Mk. II]], 2 x [[Wind Guardian Mk. II][Wind Guardian Mk. II]]
+***** 1 x [[Guardian Mk. II][Guardian Mk. II]], 4 x [[Wind Sentinel Mk. II][Wind Sentinel Mk. II]]
+***** 1 x [[Guardian Mk. II][Guardian Mk. II]], 4 x [[Vampire Bat][Vampire Bat]]
+***** 1 x [[Wind Guardian Mk. II][Wind Guardian Mk. II]], 4 x [[Vampire Bat][Vampire Bat]]
+***** 1 x [[Curator Mk. II][Curator Mk. II]], 4 x [[Vampire Bat][Vampire Bat]]
+***** 2 x [[Sentinel Mk. II][Sentinel Mk. II]], 3 x [[Vampire Bat][Vampire Bat]]
+***** 1 x [[Blood Revenant][Blood Revenant]], 2 x [[Sentinel Mk. II][Sentinel Mk. II]]
+***** 1 x [[Dark Revenant][Dark Revenant]], 2 x [[Wind Curator Mk. II][Wind Curator Mk. II]]
+***** *Boss:* [[Lucia][Lucia]]
+**** Treasures
+***** DONE Thieves' Chest - Rune Bow                                :Therion:
+***** DONE Refreshing Jam
+***** DONE Shadow Soulstone (L)
+***** DONE 20,000g
+***** DONE Thieves' Chest - 50,000g                                 :Therion:
+***** DONE Void Amulet
+***** DONE Healing Grape Bunch
+***** DONE Energizing Pomegranate (L)
+***** DONE Ice Soulstone (L)
+***** DONE Knight's Shield
 *** TODO Forest of No Return (48)
     - Entrance :: [[Victors Hollow][Victors Hollow]]
+*** TODO Shrine of the Archmagus (50)
+    - Entrance :: [[East Duskbarrow Trail (45)][East Duskbarrow Trail (45)]]
 * Enemies
 ** =Template=                                                      :noexport:
     - Weaknesses :: /Sword/ /Spear/ /Dagger/ /Axe/ /Bow/ /Staff/ /Fire/ /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
@@ -1746,6 +2238,10 @@ Townsperson, northwest side of town
     - Weaknesses :: Dagger Fire Thunder
     - Armor :: 1
     - On Steal :: Herb of Awakening
+*** Azure Urchin
+    - Weaknesses :: Spear Thunder Light
+    - Armor :: 1
+    - On Steal :: Olive of Life
 *** Barnacle Bat
     - Weaknesses :: Sword Spear Bow Thunder
     - Armor :: 1
@@ -1754,6 +2250,24 @@ Townsperson, northwest side of town
     - Weaknesses :: *Dagger* *Axe* /Bow/ /Staff/ /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
     - Armor :: 3
     - On Steal :: Addlewort
+*** Believer I
+    - Weaknesses :: Sword Dagger Axe Light
+    - Armor :: 3
+*** Believer II
+    - Weaknesses :: *Sword* *Dagger* /Axe/ /Bow/ /Staff/ /Fire/ /Thunder/ /Wind/ *Light*
+    - Armor :: 4
+    - On Steal :: Monster Perfume
+*** Black Howler
+    - Weaknesses :: Spear Bow Thunder
+    - Armor :: 1
+*** Blood Remnant
+    - Weaknesses :: Sword Spear Axe Ice
+    - Armor :: 3
+    - On Steal :: Energizing Pomegranate (M)
+*** Blood Revenant
+    - Weaknesses :: Sword Bow Staff Ice
+    - Armor :: 9
+    - On Steal :: Plum Basket
 *** Blood Viper
     - Weaknesses :: Sword Spear Axe Dark
     - Armor :: 2
@@ -1775,9 +2289,15 @@ Townsperson, northwest side of town
     - Armor :: 3
     - On Steal :: Large Feather
     - On Capture :: 3 x Wind Slash (4)
+*** Cliff Birdian I
+    - Weaknesses :: Sword Spear Axe Light
+    - Armor :: 1
 *** Cliff Birdian II
     - Weaknesses :: Sword Spear Axe Light
     - Armor :: 2
+*** Cliff Birdian III
+    - Weaknesses :: Spear Dagger Fire Dark
+    - Armor :: 3
 *** Cliff Birdian IV
     - Weaknesses :: Sword Spear Axe Thunder
     - Armor :: 2
@@ -1789,6 +2309,13 @@ Townsperson, northwest side of town
     - Weaknesses :: Spear Axe Dark
     - Armor :: 1
     - On Steal :: Inspiriting Plum 
+*** Constituent I
+    - Weaknesses :: Spear Axe Bow Dark
+    - Armor :: 2
+    - On Steal :: Herb of Healing
+*** Constituent II
+    - Weaknesses :: Sword Ice Wind Light
+    - Armor :: 1
 *** Crawly Fledgling
     - Weaknesses :: Sword Axe Thunder 
     - Armor :: 3
@@ -1800,17 +2327,35 @@ Townsperson, northwest side of town
     Flees ASAP
     - Weaknesses :: /Sword/ /Spear/ *Dagger* *Axe* /Bow/ /Staff/ /Ice/ /Wind/ /Light/ /Dark/
     - Armor :: 4
+*** Curator Mk. II
+    - Weaknesses :: Spear Dagger Bow
+    - Armor :: 4
+    - On Steal :: Olive of Life (M)
 *** Dark Curator
     - Weaknesses :: Spear Bow Staff Light
     - Armor :: 3
+    - On Steal :: Shadow Soulstone
 *** Dark Elemental
     - Weaknesses :: Fire Light
     - Armor :: 4
+    - On Steal :: Shadow Soulstone (L)
+*** Dark Remnant
+   - Weaknesses :: Sword Spear Axe Light
+   - Armor :: 3
+   - On Steal :: Energizing Pomegranate (M)
+*** Dark Revenant
+    - Weaknesses :: Sword Bow Staff Light
+    - Armor :: 9
+    - On Steal :: Inspiriting Plum Basket
+    - On Collect :: 7,100g
 *** Dark Roller
     - Weaknesses :: Dagger Thunder
     - Armor :: 1
     - On Steal :: Olive of Life
     - On Capture :: ? x Poison Strike (Spear) (4)
+*** Dark Sentinel Mk.II
+    - Weaknesses :: Sword Spear Axe Staff Light
+    - Armor :: 1
 *** Davy Bones
     - Weaknesses :: Axe Staff Wind Light
     - Armor :: 3
@@ -1822,12 +2367,25 @@ Townsperson, northwest side of town
     - Weaknesses :: Sword Dagger Axe
     - Armor :: 2
     - On Collect :: 120g
+*** Dire Ash Raven
+    - Weaknesses :: Spear Dagger Bow Wind
+    - Armor :: 2
+    - On Steal :: Addlewort
+    - On Collect :: 630g
 *** Dread Falcon
     - Weaknesses :: Spear Dagger Bow Wind Dark
     - Armor :: 3
 *** Dread Viper
     - Weaknesses :: Spear Axe Dark
     - Armor :: 3
+*** Ettin Asp
+   - Weaknesses :: Dagger Axe Fire
+   - Armor :: 3
+   - On Steal :: Bottle of Poison Dust
+*** Ettin Ophidian
+    - Weaknesses :: Dagger Axe Wind Dark
+    - Armor :: 3
+    - On Capture :: ? x Double Stab (Dagger) (8)
 *** Ettin Serpent
     - Weaknesses :: *Dagger* /Axe/ /Bow/ /Staff/ *Fire*
     - Armor :: 2
@@ -1835,8 +2393,19 @@ Townsperson, northwest side of town
     - Weaknesses :: Ice Dark
     - Armor :: 1
 *** Flame Curator
-    - Weaknesses :: /Sword/ /Spear/ /Dagger/ /Axe/ /Bow/ /Staff/ /Fire/ *Ice*
+    - Weaknesses :: Spear Bow Staff Ice
     - Armor :: 2
+    - On Steal :: Fire Soulstone
+*** Flame Elemental
+    - Weaknesses :: Ice Wind
+    - Armor :: 4
+    - On Steal :: Fire Soulstone (L)
+*** Flame Guardian
+   - Weaknesses :: Sword Dagger Bow Ice
+   - Armor :: 4
+*** Flame Sentinel Mk.II
+    - Weaknesses :: Sword Spear Axe Staff Ice
+    - Armor :: 1
 *** Flatlands Froggen I
     - Weaknesses :: Bow Ice Light
     - Armor :: 1
@@ -1852,6 +2421,12 @@ Townsperson, northwest side of town
 *** Forest Ratkin V
     - Weaknesses :: *Sword* *Axe* /Staff/ /Fire/ /Wind/ /Light/ /Dark/
     - Armor :: 3
+*** Forest Ratking II
+    - Weaknesses :: /Spear/ /Dagger/ /Axe/ /Bow/ /Staff/ /Fire/ *Ice* /Thunder/ /Wind/ /Light/ /Dark/
+    - Armor :: 2
+*** Forest Ratking III
+    - Weaknesses :: Sword Axe Thunder
+    - Armor :: 4
 *** Frost Bear
     - Weaknesses :: Spear Axe Wind
     - Armor :: 3
@@ -1863,6 +2438,7 @@ Townsperson, northwest side of town
 *** Gargantuan Boar
     - Weaknesses :: Sword Bow Dark
     - Armor :: 3
+    - On Capture :: 3 x Mighty Charge (All) (Spear) (6)
 *** Giant Boar
     - Weaknesses :: Sword Bow Dark
     - Armor :: 2
@@ -1883,6 +2459,10 @@ Townsperson, northwest side of town
     - Armor :: 1
     - On Steal :: Addleword
     - On Collect :: 540g
+*** Guardian Mk. II
+    - Weaknesses :: Sword Spear Dagger Bow
+    - Armor :: 5
+    - On Steal :: Olive of Life (M)
 *** Hatchling
     - Weaknesses :: Sword Spear Axe
     - Armor :: 2
@@ -1924,6 +2504,7 @@ Townsperson, northwest side of town
 *** Horned Howler
     - Weaknesses :: Spear Bow Thunder
     - Armor :: 3
+    - On Steal :: Essence of Pomegranate
 *** Howler
     - Weaknesses :: Spear Bow Thunder
     - Armor :: 1
@@ -1965,6 +2546,10 @@ Townsperson, northwest side of town
     - Armor :: 2
     - On Steal :: Ice Soulstone (M)
     - On Collect :: 840g
+*** Icky Slug
+    - Weaknesses :: Dagger Light
+    - Armor :: 3
+    - On Steal :: Noxroot
 *** Killer Bug
     - Weaknesses :: Sword Axe Dark
     - Armor :: 2
@@ -2013,6 +2598,7 @@ Townsperson, northwest side of town
     - Armor :: 2
     - On Steal :: Olive Bloom
     - On Collect :: 676g
+    - On Capture :: ? x Great Healing Mist (6)
 *** Marionette Bones
     - Weaknesses :: Staff Wind Light
     - Armor :: 1
@@ -2035,9 +2621,18 @@ Townsperson, northwest side of town
 *** Night Raven
     - Weaknesses :: Spear Dagger Bow Wind
     - Armor :: 1
+*** Peek-a-Boo
+    - Weaknesses :: Axe Thunder
+    - Armor :: 4
+    - On Steal :: Olive of Life (M)
 *** Puppet Bones
     - Weaknesses :: Staff Fire Light
     - Armor :: 2
+*** Raging Treant
+    - Weaknesses :: Axe Fire
+    - Armor :: 1
+    - On Steal :: Essence of Pomegranate
+    - On Capture :: ? x Blinding Shot (Bow) (7)
 *** Rampant Weed
     - Weaknesses :: Sword Axe Fire
     - Armor :: 2
@@ -2047,6 +2642,18 @@ Townsperson, northwest side of town
     - Armor :: 3
     - On Steal :: Healing Grape (M)
     - On Collect :: 1,320g
+*** Researcher I
+   - Weaknesses :: Sword Dagger Bow Wind
+   - Armor :: 3
+   - On Steal :: Bottled Breath
+*** Researcher II
+   - Weaknesses :: Sword Dagger Bow Wind
+   - Armor :: 1
+   - On Steal :: Pseudo Cider
+*** Researcher III
+   - Weaknesses :: Dagger Bow Thunder
+   - Armor :: 4
+   - On Steal :: Poysenberry
 *** River Bug
     - Weaknesses :: Sword Axe Staff Dark
     - Armor :: 3
@@ -2110,8 +2717,13 @@ Townsperson, northwest side of town
 *** Sand Lizardman IV
     - Weaknesses :: Dagger Axe Ice Wind
     - Armor :: 2
+*** Sand Lizardman V
+   - Weaknesses :: *Dagger* *Axe* *Ice* /Thunder/ /Wind/ /Light/ /Dark/
+   - Armor :: 3
+   - On Steal :: Essence of Plum
+   - On Capture :: ? x Double Attack All (Staff) (4)
 *** Savage Scorpion
-    - Weaknesses :: *Spear* *Ice* /Thunder/ /Wind/ /Light/
+    - Weaknesses :: Spear Ice Wind
     - Armor :: 3
 *** Scythe Crab
     - Weaknesses :: Dagger Axe Wind
@@ -2146,6 +2758,10 @@ Townsperson, northwest side of town
     - Weaknesses :: Sword Spear Axe Bow Staff
     - Armor :: 2
     - On Steal :: Olive of Life
+*** Sentinel Mk. II
+    - Weaknesses :: Sword Spear Axe Bow Staff
+    - Armor :: 2
+    - On Steal :: Olive of Life (M)
 *** Shadow Bat
     - Weaknesses :: Sword Spear Bow Ice
     - Armor :: 2
@@ -2153,6 +2769,9 @@ Townsperson, northwest side of town
 *** Shaggy Aurochs
     - Weaknesses :: /Spear/ /Dagger/ *Axe* *Fire*
     - Armor :: 2
+*** Shaggy Spider
+    - Weaknesses :: Dagger Axe Staff Thunder Light
+    - Armor :: 4
 *** Shambling Weed
     - Weaknesses :: Sword Axe Fire
     - Armor :: 1
@@ -2171,6 +2790,7 @@ Townsperson, northwest side of town
 *** Snow Leopard
     - Weaknesses :: Bow Fire Dark
     - Armor :: 2
+    - On Steal :: Inspiriting Plum (M)
     - On Capture :: ? x Double Soporific Claw (7)
 *** Snow Yak
     - Weaknesses :: /Spear/ /Dagger/ /Bow/ *Staff* *Thunder*
@@ -2190,6 +2810,13 @@ Townsperson, northwest side of town
 *** Thief II
     - Weaknesses :: Sword Bow Ice Light
     - Armor :: 4
+*** Thunder Curator
+    - Weaknesses :: Spear Bow Staff Wind
+    - Armor :: 1
+*** Thunder Guardian
+   - Weaknesses :: Sword Dagger Bow Wind
+   - Armor :: 4
+   - On Steal :: Thunder Soulstone
 *** Thunder Sentinel
     - Weaknesses :: Sword Spear Axe Staff Wind
     - Armor :: 1
@@ -2202,6 +2829,7 @@ Townsperson, northwest side of town
     - Weaknesses :: Sword Spear Bow Ice
     - Armor :: 1
     - On Steal :: Curious Bloom
+    - On Collect :: 840g
 *** Wanderweed
     - Weaknesses :: Sword Fire
     - Armor :: 3
@@ -2220,6 +2848,9 @@ Townsperson, northwest side of town
     - Weaknesses :: Spear Bow Staff Thunder
     - Armor :: 2
     - On Steal :: Wind Soulstone
+*** Wind Curator Mk. II
+    - Weaknesses :: /Sword/ /Spear/ /Axe/ *Bow* *Thunder*
+    - Armor :: 2
 *** Wind Elemental
     - Weaknesses :: /Spear/ /Dagger/ /Bow/ /Staff/ /Fire/ /Ice/ *Thunder*
     - Armor :: 4
@@ -2228,12 +2859,19 @@ Townsperson, northwest side of town
     - Weaknesses :: Sword Dagger Bow Thunder
     - Armor :: 3
     - On Steal :: Wind Soulstone
+*** Wind Guardian Mk. II
+    - Weaknesses :: Sword Dagger Bow Thunder
+    - Armor :: 3
 *** Wind Remnant
     - Weaknesses :: *Sword* /Spear/ /Dagger/ *Axe* *Thunder*
     - Armor :: 1
 *** Wind Sentinel
     - Weaknesses :: *Sword* *Spear* *Axe* /Bow/ /Staff/ /Fire/ /Ice/ *Thunder*
     - Armor :: 1
+*** Wind Sentinel Mk. II
+    - Weaknesses :: Sword Spear Axe Staff Thunder
+    - Armor :: 1
+    - On Steal :: Wind Soulstone (M)
 *** Wind Wisp
     - Weaknesses :: Thunder Light
     - Armor :: 3
@@ -2281,6 +2919,16 @@ Townsperson, northwest side of town
      - Weaknesses :: *Dagger* *Bow* *Fire* /Ice/ /Wind/ /Dark/
      - Armor :: 4
 ** Bosses
+*** Albus, the Right-hand Man
+    Shields all weaknesses while his lackeys are summoned.
+    - Weaknesses :: Sword Dagger Bow Wind Lightt
+    - Armor :: 8
+    - On Steal :: Inspiriting Plum Basket
+    - Summons :: 2 x [[Obsidian Officer][Obsidian Officer]]
+**** Obsidian Officer
+    - Weaknesses :: *Spear* *Axe* *Fire* /Ice/ /Thunder/ /Wind/ /Dark/
+    - Armor :: 4
+    - On Steal :: Obsidian Garb
 *** Behemoth
     - Weaknesses :: Dagger Staff Light
     - Armor :: 10
@@ -2384,6 +3032,22 @@ Townsperson, northwest side of town
 **** Weeping Treant
      - Weaknesses :: *Axe* *Fire* /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
      - Armor :: 3
+*** Lucia
+    Gains inhuman strength before the battle starts, giving her 30 armor.
+    Metamorphoses after being broken, giving her 15 armor and a new set
+    of weaknesses.
+    Loses control of her body after being broken again, giving her 8 armor
+    and more scrambled weaknesses.
+    - Weaknesses A :: Sword Spear Dagger Axe Bow
+    - Armor A :: 30
+    - Weaknesses B :: Fire Ice Thunder Wind Light
+    - Armor B :: 15
+    - Weaknesses C :: Sword ? Thunder Light
+    - Armor C :: 8
+    - On Steal :: Energizing Pomegranate (L)
+    - Gold :: 15,000
+    - EXP :: 1,500
+    - JP :: 1,000
 *** Manymaws
     Condition bombs
     - Weaknesses :: Sword Axe Fire
@@ -2432,6 +3096,36 @@ Townsperson, northwest side of town
      - Weaknesses :: Dagger Axe Ice Wind
      - Armor :: 3
      - On Steal :: Inspiriting Plum (M)
+*** Shady Figure and Mystery Man
+    Protection by unknown forces guards various weaknesses.
+    - Gold :: 5,000
+    - EXP :: 700
+    - JP :: 300
+**** Shady Figure
+     Heals wounds
+     - Weaknesses :: *Sword* /Spear/ /Dagger/ /Bow/ /Staff/ /Fire/ /Ice/ *Thunder*
+     - Armor :: 4
+     - On Steal :: Stimulating Bracelet
+**** Mystery Man
+     Armor moves to 8 when he begins seething with rage.
+     - Weaknesses :: Spear Axe Light Dark
+     - Armor :: 5
+     - On Steal :: Black Staff 
+*** Snake Charmer and Giant Python
+    - Gold :: 10,000
+    - EXP :: 1200
+    - JP :: 600
+**** Snake Charmer
+     - Weaknesses :: Sword Bow Staff Thunder Wind
+     - Armor :: 5
+     - On Steal :: Herb of Awakening
+**** Giant Python
+     Goes berserk if the Snake Charmer dies.
+     Guards Ice and Light weaknesses and recharges armor if the Snake Charmer
+     commands.
+     - Weaknesses :: Spear Axe Ice Light
+     - Armor :: 5
+     - On Steal :: Energizing Pomegranate (L)
 *** Vanessa
     Guards all weaknesses while any henchmen live
     - Weaknesses :: *Spear* *Axe* *Fire* /Thunder/ /Wind/ *Dark*
@@ -2455,6 +3149,19 @@ Townsperson, northwest side of town
     - EXP :: 600
     - JP :: 500
     - Drops :: Olive of Life (L)
+*** Yvon
+    Armor increases when Yvon augments his physical strength. (3 -> 5 -> 8 -> 12)
+    - Weaknesses :: *Dagger* *Staff* *Fire* *Ice* /Thunder/ /Wind/ /Light/
+    - Armor :: 3
+    - On Steal :: Energizing Pomegranate (L)
+    - Spawns With :: 2 x [[Research Fellow][Research Fellow]]
+    - Gold :: 11,000
+    - EXP :: 850
+    - JP :: 600
+**** Research Fellow
+     - Weaknesses :: Spear Axe Thunder Dark
+     - Armor :: 4
+     - On Steal :: Healing Grape Bunch
 
 * COMMENT Local Variables
 # local variables:
