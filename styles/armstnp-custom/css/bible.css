@@ -1,0 +1,31 @@
+a.bible {
+    font-family: georgia;
+    font-style: oblique;
+    color: seagreen;
+    border: 0.5px solid seagreen;
+    padding: 0.15em 0.3em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    display: inline-block;
+}
+
+a.bible:hover {
+    color: blanchedalmond;
+    background-color: seagreen;
+}
+
+.outline-2, .outline-3 {
+    padding-bottom: 1.5em;
+}
+
+.outline-2 + .outline-2 {
+    border-top: 4px double #444444;
+}
+
+.outline-3 + .outline-3 {
+    border-top: 2.5px solid #444444;
+}
+
+.timestamp {
+    color: #7F7F7F;
+}

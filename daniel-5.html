@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2019-03-25 Mon 21:50 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Daniel 5 - When Empires Fall</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Nathan Armstrong" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="styles/gongzhitaao-org/org.css"/>
+<link rel="stylesheet" type="text/css" href="styles/armstnp-custom/css/bible.css"/>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Daniel 5 - When Empires Fall</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org3aa9239">Daniel 5 'When Empires Fall'</a>
+<ul>
+<li><a href="#org2b463a1">Overview</a></li>
+<li><a href="#org8468e40">Isaiah and Jeremiah both predicted repeatedly the judgment of Babylon.</a></li>
+<li><a href="#orgbcee677">I. 1-4 The Defiance of YHWH: No government, no matter how defiant, is beyond God's sovereignty.</a></li>
+<li><a href="#orgcd0cc0e">II. 5-16 The Writing on the Wall: No empire, no matter how powerful or protected, is beyond God's reach.</a></li>
+<li><a href="#org21f9d71">III. 17-28 The Words of the Prophet: No ruler, no matter how wicked, is beyond God's verdict.</a></li>
+<li><a href="#orgb6992a7">IV. 29-31 The Revolution of History: No empire, no matter how improbable, rises or falls apart from God's decree.</a></li>
+<li><a href="#org824337f">Additional Implications</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org3aa9239" class="outline-2">
+<h2 id="org3aa9239"><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Daniel 5" target="_blank">Daniel 5</a> 'When Empires Fall'</h2>
+<div class="outline-text-2" id="text-org3aa9239">
+</div>
+<div id="outline-container-org2b463a1" class="outline-3">
+<h3 id="org2b463a1">Overview</h3>
+<div class="outline-text-3" id="text-org2b463a1">
+</div>
+<div id="outline-container-org18b4a73" class="outline-4">
+<h4 id="org18b4a73">The message communicated in Daniel is God's absolute sovereignty, over even political systems and entire empires.</h4>
+</div>
+<div id="outline-container-org3ea3a4f" class="outline-4">
+<h4 id="org3ea3a4f">This chapter's theme is that God is absolutely sovereign over the rise and fall of empires and nations.</h4>
+</div>
+<div id="outline-container-org83ffaa0" class="outline-4">
+<h4 id="org83ffaa0">The events of this chapter occur around 70 years into the Babylonian exile.</h4>
+</div>
+</div>
+<div id="outline-container-org8468e40" class="outline-3">
+<h3 id="org8468e40">Isaiah and Jeremiah both predicted repeatedly the judgment of Babylon.</h3>
+<div class="outline-text-3" id="text-org8468e40">
+</div>
+<div id="outline-container-orgaed9baf" class="outline-4">
+<h4 id="orgaed9baf"><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Isaiah 46" target="_blank">Isaiah 46</a> - Written in the early 700s BC, where Daniel occurs in 539 BC</h4>
+<div class="outline-text-4" id="text-orgaed9baf">
+</div>
+<ul class="org-ul">
+<li><a id="org917616a"></a>Babylon's idols had to be carried, but Israel's God carried them<br /></li>
+<li><a id="orgf1e3856"></a>God will fulfill His every sovereign will<br /></li>
+<li><a id="orgc73c2ea"></a><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Isaiah 46:11" target="_blank">11</a> - The specific herald of Babylon's demise<br /></li>
+</ul>
+</div>
+<div id="outline-container-org04f10c6" class="outline-4">
+<h4 id="org04f10c6"><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Isaiah 47" target="_blank">Isaiah 47</a> - The Woe of Babylon</h4>
+</div>
+</div>
+<div id="outline-container-orgbcee677" class="outline-3">
+<h3 id="orgbcee677">I. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Daniel 5:1-4" target="_blank">1-4</a> The Defiance of YHWH: No government, no matter how defiant, is beyond God's sovereignty.</h3>
+<div class="outline-text-3" id="text-orgbcee677">
+</div>
+<div id="outline-container-org29ee9b6" class="outline-4">
+<h4 id="org29ee9b6">Belshazzar - 'Bel protect the king'</h4>
+<div class="outline-text-4" id="text-org29ee9b6">
+<p>
+Bel being one of their gods
+</p>
+
+<p>
+37+ texts dating from the first through fourteenth years of his reign verify his existence.
+</p>
+</div>
+</div>
+<div id="outline-container-orge8dc7a6" class="outline-4">
+<h4 id="orge8dc7a6">The Four Final Kings of Babylon</h4>
+<div class="outline-text-4" id="text-orge8dc7a6">
+</div>
+<ul class="org-ul">
+<li><a id="org97f7d8d"></a>Nebuchadnezzar<br />
+<div class="outline-text-5" id="text-org97f7d8d">
+<p>
+Reigned 43 years
+</p>
+</div>
+</li>
+<li><a id="org8446f87"></a>Amel-Marduk<br />
+<div class="outline-text-5" id="text-org8446f87">
+<p>
+Nebuchadnezzar's son, reigned two years
+Murdered by his brother in law, Neriglissar
+</p>
+</div>
+</li>
+<li><a id="orgdeea2f1"></a>Neriglissar<br /></li>
+<li><a id="org19f2c05"></a>Labashi-Marduk<br />
+<div class="outline-text-5" id="text-org19f2c05">
+<p>
+Neriglissar's young son, became king in 556 BC;
+</p>
+</div>
+</li>
+<li><a id="orgb11b1a4"></a>Nabonidus<br />
+<div class="outline-text-5" id="text-orgb11b1a4">
+<p>
+Co-regent with his son, Belshazzar
+Lived elsewhere, never visited Babylon for fourteen years
+Wanted to worship the moon god instead of Marduk, so spent his time in Arabia where that worship was more prominent, appointing his son
+</p>
+
+<p>
+Belshazzar likely led the assassination of his father. Grossly immoral, compounded by blasphemy in this text.
+</p>
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-org89ba562" class="outline-4">
+<h4 id="org89ba562">Belshazzar held a great feast with a thousand nobles.</h4>
+<div class="outline-text-4" id="text-org89ba562">
+<p>
+Oct 12 539BC
+Nabonidus chronicle says just two day before, king Cyrus of Persia marched towards the capital, routing the army badly and defeating his father.
+The day before, the city was under siege.
+</p>
+
+<p>
+Usually would dine separate from their guests, but on holidays he'd eat with them. This is a show of bravado, drinking himself under the table.
+</p>
+
+<p>
+Sine sort of festival that fell annually on this day.
+</p>
+
+<p>
+Two purposes:
+</p>
+<ul class="org-ul">
+<li>show calmness and normalcy to his people</li>
+<li>show public contempt for the army outside the walls</li>
+</ul>
+
+<p>
+Babylon had a massive 84-feet thick wall, 50-75 feet high, with 25 foot guard towers at regular intervals; then a thinner, higher, inner wall.
+Euphrates river provided moat and water source alike. Palace has an additional six walls, no less than 20ft. in height. 20 years of supplies stockpiled.
+</p>
+
+<p>
+Belshazzar arrogantly considered his city impregnable.
+</p>
+
+<p>
+This <i>may</i> have been in celebration of his formal coronation.
+</p>
+
+<p>
+'tasted the wine' - becoming drunkenly influenced by the wine
+</p>
+
+<p>
+The treasures had likely come from his grandfather (in Aramaic, father can be any prior generation)
+</p>
+
+<p>
+These were taken from the temple in Jerusalem, as evidence their gods were more powerful than Israel's. This was PR for his own power.
+He knew YHWH had humbled Nebuchadnezzar, and this was a declaration YHWH would not similarly humble him.
+</p>
+
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Daniel 8:1-4" target="_blank">Daniel 8:1-4</a>,<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Daniel 8:15-17" target="_blank">15-17</a>,<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Daniel 8:20" target="_blank">20</a>
+</p>
+
+<p>
+This was deliberate, challenging YHWH's prophecy.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgcd0cc0e" class="outline-3">
+<h3 id="orgcd0cc0e">II. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Daniel 5:5-16" target="_blank">5-16</a> The Writing on the Wall: No empire, no matter how powerful or protected, is beyond God's reach.</h3>
+<div class="outline-text-3" id="text-orgcd0cc0e">
+</div>
+<div id="outline-container-org0889e35" class="outline-4">
+<h4 id="org0889e35">A. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Daniel 5:5-9" target="_blank">5-9</a> A man's fingers</h4>
+<div class="outline-text-4" id="text-org0889e35">
+<p>
+The most well lit location in the room.
+Not a vision, as the writing remained for others to see.
+Purely miraculous.
+</p>
+
+<p>
+Belshazzar seems to immediately understand the implication of this event.
+All dignity and decorum is gone, and he is in a state of sheer panic.
+His offered reward is reasonable given the position of his kingdom, and given he just received a message from a deity.
+</p>
+
+<p>
+As always, the wise men prove wholly useless.
+</p>
+
+<p>
+Why could they not read Aramaic?
+</p>
+<ul class="org-ul">
+<li>Older script?</li>
+<li>Old Phoenician?</li>
+<li>Vertically instead of horizontally?</li>
+<li>Only consonants in Aramaic</li>
+</ul>
+
+<p>
+God shows their religious props to be utterly useless.
+</p>
+</div>
+</div>
+<div id="outline-container-org795c10b" class="outline-4">
+<h4 id="org795c10b">B. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Daniel 5:10-12" target="_blank">10-12</a> The Queen Mother</h4>
+<div class="outline-text-4" id="text-org795c10b">
+<p>
+Her timing is God's providence at work.
+</p>
+
+<p>
+Either Belshazzar's grandmother or Belshazzar's mother (Nebuchadnezzar's wife or daughter)
+</p>
+
+<p>
+Seems she knew Daniel personally, used his Hebrew name, respected him greatly, and may even have come to faith in the true and living God.
+</p>
+
+<p>
+Daniel likely around 80, probably semi-retired since Nebuchadnezzar had died and a new regime had replaced the civil leaders.
+</p>
+</div>
+</div>
+<div id="outline-container-orgfb1908e" class="outline-4">
+<h4 id="orgfb1908e">C. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Daniel 5:13-16" target="_blank">13-16</a> The King's Charge</h4>
+<div class="outline-text-4" id="text-orgfb1908e">
+<p>
+The stage is set for Daniel.
+</p>
+
+<p>
+Remember the theme of the passage: there are no impregnable rulers. Every ruler lives within the reach of the hand of Almighty God.
+</p>
+
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Luke 1:52" target="_blank">Luke 1:52</a>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Isaiah 47:5-11" target="_blank">Isaiah 47:5-11</a>, over 150 years earlier
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org21f9d71" class="outline-3">
+<h3 id="org21f9d71">III. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Daniel 5:17-28" target="_blank">17-28</a> The Words of the Prophet: No ruler, no matter how wicked, is beyond God's verdict.</h3>
+<div class="outline-text-3" id="text-org21f9d71">
+</div>
+<div id="outline-container-orgf49bdfd" class="outline-4">
+<h4 id="orgf49bdfd">A. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Daniel 5:17" target="_blank">17</a> Daniel's Introduction</h4>
+<div class="outline-text-4" id="text-orgf49bdfd">
+<p>
+He makes clear there is not even the appearance that God's gifts are not for sale.
+Daniel has a captive audience, here, of the entire royal court.
+</p>
+</div>
+</div>
+<div id="outline-container-org92de8b0" class="outline-4">
+<h4 id="org92de8b0">B. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Daniel 5:18-21" target="_blank">18-21</a> Nebuchadnezzar's Story</h4>
+<div class="outline-text-4" id="text-org92de8b0">
+<p>
+The only true and living God had given Nebuchadnezzar his power.
+This power was utterly unrestrained and absolute; this in contrast to Belshazzar, a mere co-regent.
+God made an ass out of Nebuchadnezzar, literally, humbling him in his pride until he recognized God as the Lord of Lords.
+</p>
+</div>
+</div>
+<div id="outline-container-org436b5a9" class="outline-4">
+<h4 id="org436b5a9">C. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Daniel 5:22-24" target="_blank">22-24</a> Belshazzar's Sin</h4>
+<div class="outline-text-4" id="text-org436b5a9">
+</div>
+<ul class="org-ul">
+<li><a id="org0b3a612"></a>1. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Daniel 5:22" target="_blank">22</a> Willful Disobedience<br />
+<div class="outline-text-5" id="text-org0b3a612">
+<p>
+Belshazzar likely saw these events first-hand; he knew what he was doing.
+Having the right information does not mean you will guarantee the right response.
+</p>
+</div>
+</li>
+<li><a id="orgd435f7b"></a>2. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Daniel 5:23" target="_blank">23a</a> Deliberate Defiance of the True God<br />
+<div class="outline-text-5" id="text-orgd435f7b">
+<p>
+Daniel makes clear the utter banality of the idols of Babylon.
+</p>
+</div>
+</li>
+<li><a id="orgce77b6f"></a>3. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Daniel 5:23" target="_blank">23b</a> Arrogant Disrespect of God<br />
+<div class="outline-text-5" id="text-orgce77b6f">
+<p>
+Despite knowing the power and reality of the LORD, he chose to worship his idols.
+</p>
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-org56c4f1c" class="outline-4">
+<h4 id="org56c4f1c">D. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Daniel 5:25-28" target="_blank">25-28</a> God's Verdict</h4>
+<div class="outline-text-4" id="text-org56c4f1c">
+</div>
+<ul class="org-ul">
+<li><a id="orgcc015ed"></a>'mene' - Your kingdom has been numbered by God, and its number is completed ('your number's up')<br /></li>
+<li><a id="orgcfe7aad"></a>'tekel' - Weighing the kingdom against the divine standard didn't even move the scale<br />
+<div class="outline-text-5" id="text-orgcfe7aad">
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=1 Samuel 2:3" target="_blank">1 Samuel 2:3</a> This is what God does with every person.
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Proverbs 21:2;24:12" target="_blank">Proverbs 21:2;24:12</a> - God knows and will pay each according to his work
+</p>
+</div>
+</li>
+<li><a id="org379be24"></a>'peres' - Singular form of 'upharsin' seen earlier. 'divided' - destroyed, dissolved<br />
+<div class="outline-text-5" id="text-org379be24">
+<p>
+Also wordplay, as 'PRS' constitutes the base of 'peres' and 'Persia'
+</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgb6992a7" class="outline-3">
+<h3 id="orgb6992a7">IV. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Daniel 5:29-31" target="_blank">29-31</a> The Revolution of History: No empire, no matter how improbable, rises or falls apart from God's decree.</h3>
+<div class="outline-text-3" id="text-orgb6992a7">
+</div>
+<div id="outline-container-orgcf4b703" class="outline-4">
+<h4 id="orgcf4b703">A. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Daniel 5:29" target="_blank">29</a> Daniel Rewarded</h4>
+<div class="outline-text-4" id="text-orgcf4b703">
+<p>
+Possible he's keeping his word. Also possible he's trying to rope Daniel into the judgment.
+His response is unlike Nebuchadnezzar; he clearly believes the interpretation by this response towards Daniel.
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Proverbs 29:1" target="_blank">Proverbs 29:1</a>
+</p>
+</div>
+</div>
+<div id="outline-container-orgc151cdb" class="outline-4">
+<h4 id="orgc151cdb">B. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Daniel 5:30" target="_blank">30</a> Babylon Falls</h4>
+<div class="outline-text-4" id="text-orgc151cdb">
+<p>
+Greek historians, in the decades and centuries following, give us details:
+</p>
+<ul class="org-ul">
+<li>They chose this night deliberately, the night of a drunken feast</li>
+<li>They dug a channel north, diverting the Euphrates into the swamp</li>
+<li>The army waded through the shallow river</li>
+<li>The bronze gates to the interior city were open, possibly treasonous action</li>
+<li><b>This is prophecied clearly 150 years before in <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Isaiah 44:24-45:7" target="_blank">Isaiah 44:24-45:7</a>.</b></li>
+<li>The man who led Cyrus to Belshazzar was a man whose son Belshazzar had murdered in cold blood.</li>
+</ul>
+
+<p>
+During all this, God was on His throne, accomplishing His exact purpose, overturning the Babylonian Empire in one cataclysmic day.
+</p>
+</div>
+</div>
+<div id="outline-container-org2665eaf" class="outline-4">
+<h4 id="org2665eaf">C. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Daniel 5:31" target="_blank">31</a> Medo-Persia Rises</h4>
+</div>
+</div>
+<div id="outline-container-org824337f" class="outline-3">
+<h3 id="org824337f">Additional Implications</h3>
+<div class="outline-text-3" id="text-org824337f">
+</div>
+<div id="outline-container-org70e316c" class="outline-4">
+<h4 id="org70e316c">1. It should comfort your heart in the midst of war and political unrest.</h4>
+</div>
+<div id="outline-container-orgab2376d" class="outline-4">
+<h4 id="orgab2376d">2. It should shape your view of politics - local, national, and international.</h4>
+</div>
+<div id="outline-container-orgfebfa39" class="outline-4">
+<h4 id="orgfebfa39">3. It should remind all who are not in Christ of the inevitability of divine judgment.</h4>
+<div class="outline-text-4" id="text-orgfebfa39">
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Hebrews 9:27" target="_blank">Hebrews 9:27</a>
+</p>
+</div>
+</div>
+<div id="outline-container-orgde19d99" class="outline-4">
+<h4 id="orgde19d99">4. It should direct your response to God: humble yourself, recognize God's sovereignty over your life breath and your ways and your total dependence on Him.</h4>
+</div>
+<div id="outline-container-org0bf548b" class="outline-4">
+<h4 id="org0bf548b">5. It should encourage you never to put your ultimate hopes in any earthly nation or kingdom.</h4>
+<div class="outline-text-4" id="text-org0bf548b">
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Daniel 2:44" target="_blank">Daniel 2:44</a>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Hebrews 12:28" target="_blank">Hebrews 12:28</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Nathan Armstrong</p>
+<p class="date">Created: 2019-03-25 Mon 21:50</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
