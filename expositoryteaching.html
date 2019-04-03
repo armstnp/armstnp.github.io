@@ -1,0 +1,1100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2019-04-02 Tue 22:58 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Church Notes</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Nathan Armstrong" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="styles/gongzhitaao-org/org.css"/>
+<link rel="stylesheet" type="text/css" href="styles/armstnp-custom/css/bible.css"/>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Church Notes</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgebb38c4">Expository Teaching and Preaching</a>
+<ul>
+<li><a href="#orgfdc11fb">Introduction</a></li>
+<li><a href="#orgc9c26b0">Exegesis, or The Process of Inductive Bible Study</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgebb38c4" class="outline-2">
+<h2 id="orgebb38c4">Expository Teaching and Preaching</h2>
+<div class="outline-text-2" id="text-orgebb38c4">
+</div>
+<div id="outline-container-orgfdc11fb" class="outline-3">
+<h3 id="orgfdc11fb">Introduction</h3>
+<div class="outline-text-3" id="text-orgfdc11fb">
+</div>
+<div id="outline-container-org45e4591" class="outline-4">
+<h4 id="org45e4591"><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=1 Timothy 4:13,15" target="_blank">1 Timothy 4:13,15</a></h4>
+<div class="outline-text-4" id="text-org45e4591">
+<p>
+We are to be reading, exhorting, and teaching the Word, and the fruit of that study should be evident in us.
+</p>
+</div>
+</div>
+<div id="outline-container-org866739a" class="outline-4">
+<h4 id="org866739a">Exegesis and Exposition</h4>
+<div class="outline-text-4" id="text-org866739a">
+</div>
+<ul class="org-ul">
+<li><a id="org0175388"></a>Exegete - to draw out of a text all the truth that's in it.<br /></li>
+<li><a id="orge8d45d1"></a>Exposit - expose, make visible or known; crafting a message or lesson.<br /></li>
+<li><a id="orgb7d479e"></a>Complementary words<br /></li>
+</ul>
+</div>
+<div id="outline-container-orgcde4516" class="outline-4">
+<h4 id="orgcde4516">Expositional Preaching</h4>
+<div class="outline-text-4" id="text-orgcde4516">
+</div>
+<ul class="org-ul">
+<li><a id="org941b2d6"></a>Quote: ('What Is Exository Preaching?' Bibliotheca Sacra 131):57<br /></li>
+<li><a id="orgd7ee03d"></a>Merrill Unger - preserve original meaning of the text in context, and applying it to present-day hearers.<br /></li>
+<li><a id="orge1a15e8"></a>Mark Dever - 'takes the main point of a passage of Scripture, makes it the main point of the sermon, and applies it to today.'<br /></li>
+<li><a id="org1b24928"></a>Pennington - 'in exposition, the preacher reads the text, explains the text in its context, and then applies the text.'<br /></li>
+</ul>
+</div>
+<div id="outline-container-orgf17df0d" class="outline-4">
+<h4 id="orgf17df0d">To Be an Expository Sermon&#x2026;</h4>
+<div class="outline-text-4" id="text-orgf17df0d">
+</div>
+<ul class="org-ul">
+<li><a id="org740517a"></a>1) You must begin with a biblical text<br /></li>
+<li><a id="org6fcc0a4"></a>2) You must conduct a careful exegesis of that text in order to arrive at the author's original intention<br /></li>
+<li><a id="orgfb8924a"></a>3) You must interpret the text literally and in its context<br /></li>
+<li><a id="org5149c09"></a>4) You must prepare and present a message that in a clear and orderly way explains the original intent [&#x2026;]<br /></li>
+</ul>
+</div>
+<div id="outline-container-org8451909" class="outline-4">
+<h4 id="org8451909">Perspectives</h4>
+<div class="outline-text-4" id="text-org8451909">
+</div>
+<ul class="org-ul">
+<li><a id="orge1f3217"></a>John Calvin<br />
+<div class="outline-text-5" id="text-orge1f3217">
+<p>
+A preacher misses the mark - if not being presumptuous and blasphemous - if they skew the text away from the author's intent.
+</p>
+</div>
+</li>
+<li><a id="orgd8a884c"></a>G. Campbell Morgan on Preaching<br />
+<ul class="org-ul">
+<li><a id="org438bd86"></a>A biblical sermon contains <span class="underline">three elements:</span><br />
+<ul class="org-ul">
+<li><a id="org942bc2b"></a>Truth - the product of exegesis<br /></li>
+<li><a id="org393eada"></a>Clarity - the product of order, explanation, argumentation, illustration, and application<br /></li>
+<li><a id="org892c004"></a>Passion - demonstrated in delivery and integrity<br /></li>
+</ul>
+</li>
+<li><a id="orgc15646c"></a>Usually expository preaching is also <span class="underline">systematic</span> - that is, moving section by section through a book of the Bible.<br />
+<ul class="org-ul">
+<li><a id="org7d2a1a0"></a>Usually guides you towards topical study anyway, and helps present passages in context.<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc9c26b0" class="outline-3">
+<h3 id="orgc9c26b0">Exegesis, or The Process of Inductive Bible Study</h3>
+<div class="outline-text-3" id="text-orgc9c26b0">
+</div>
+<div id="outline-container-org505cfce" class="outline-4">
+<h4 id="org505cfce">Perspectives</h4>
+<div class="outline-text-4" id="text-org505cfce">
+</div>
+<ul class="org-ul">
+<li><a id="org6260da7"></a>MacArthur<br />
+<ul class="org-ul">
+<li><a id="orgbb84244"></a>1) Observation<br /></li>
+<li><a id="orgf1d36e9"></a>2) Interpretation<br /></li>
+<li><a id="org5759877"></a>3) Evaluation<br /></li>
+<li><a id="org26d7056"></a>4) Application<br /></li>
+</ul>
+</li>
+<li><a id="org05eccb8"></a>Pennington<br />
+<ul class="org-ul">
+<li><a id="org48dcb8b"></a>1) Preparation<br /></li>
+<li><a id="org813a3d0"></a>2) Observation<br /></li>
+<li><a id="orgad13c49"></a>3) Meditation<br /></li>
+<li><a id="org3b52ff8"></a>4) Interpretation<br /></li>
+<li><a id="org44968d1"></a>5) Evaluation<br /></li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="outline-container-org592c476" class="outline-4">
+<h4 id="org592c476">A. Preparation</h4>
+<div class="outline-text-4" id="text-org592c476">
+</div>
+<ul class="org-ul">
+<li><a id="org4d2c830"></a>1. Prepare Yourself<br />
+<ul class="org-ul">
+<li><a id="org4ba962b"></a>a) You must be regenerate. John 8:43 <del>John 10:27</del> (Fix)<br /></li>
+<li><a id="orge9989c8"></a>b) You must first confess your sin. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=James 1:21" target="_blank">James 1:21</a><br /></li>
+<li><a id="org4e60ac4"></a>c) With an attitude of humility and dependence, you must pray for illumination. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Psalm 119:18,73,125" target="_blank">Psalm 119:18,73,125</a> <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Ephesians 1:18" target="_blank">Ephesians 1:18</a><br /></li>
+<li><a id="orga864175"></a>d) You must commit to do the hard work. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=2 Timothy 2:15" target="_blank">2 Timothy 2:15</a><br />
+<div class="outline-text-6" id="text-orga864175">
+<p>
+'diligent' - especially conscientious, apply every effort
+</p>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="org889fde3"></a>2. Prepare Your Surroundings<br />
+<ul class="org-ul">
+<li><a id="org0634191"></a>a) Have a set time - your best time of day if possible.<br /></li>
+<li><a id="org2519894"></a>b) Have a set place - quiet and free of distractions.<br /></li>
+<li><a id="orgd2b64d0"></a>c) Turn off and shut out all distractions.<br /></li>
+<li><a id="org1c03bf6"></a>d) Surround yourself with the necessary resources.<br /></li>
+</ul>
+</li>
+<li><a id="orgb12efec"></a>3. Choose a Biblical Book<br /></li>
+</ul>
+</div>
+<div id="outline-container-org6a444d1" class="outline-4">
+<h4 id="org6a444d1">B. Observation</h4>
+<div class="outline-text-4" id="text-org6a444d1">
+<p>
+The heart of exegesis.
+</p>
+
+<p>
+Using careful reading, thought, and analysis along with all available tools to systematically study the details of the text in order to arrive at its meaning.
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org7987e26"></a>The Light of the Reformation<br />
+<ul class="org-ul">
+<li><a id="orgc342c5d"></a>Luther: "The Holy Ghost is the all simplest writer&#x2026;"<br /></li>
+<li><a id="org86cf474"></a>Calvin: "It is the first business of an interpreter to let the author say what he does say, instead of attributing to him what we think he ought to say."<br /></li>
+<li><a id="orgb6ee9ce"></a>Luther: "First I shake the whole tree, that the ripest [fruit] may fall. Then I climb the tree and shake each limb, and then each branch and then each twig, and then I look under each leaf."<br /></li>
+</ul>
+</li>
+<li><a id="org7e2ca8a"></a>What to Observe<br />
+<ul class="org-ul">
+<li><a id="org1ec5056"></a>1) Context<br />
+<ul class="org-ul">
+<li><a id="org9ad8ac0"></a>Historical context: the setting of the book in human history.<br /></li>
+<li><a id="org13de84d"></a>Biblical context: the relationship of the paragraph or section to the surrounding passages, all Scripture.<br /></li>
+</ul>
+</li>
+<li><a id="org31544cf"></a>2) Content<br />
+<ul class="org-ul">
+<li><a id="org7bf5541"></a>Syntax: The relationship of phrases and clauses to one another.<br /></li>
+<li><a id="org99db053"></a>Words: the exact sense of the words the author intended.<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="org9437bbb"></a>Steps / Tools<br />
+<ul class="org-ul">
+<li><a id="orgef35dd1"></a>1. Remember the Big Picture.<br />
+<ul class="org-ul">
+<li><a id="orgf8c8ea2"></a>The <span class="underline">Theme</span> of the Bible<br />
+<ul class="org-ul">
+<li><a id="org86ce7c9"></a>Pennington: "God is redeeming a people by His Son, for His Son, to His own glory."<br /></li>
+</ul>
+</li>
+<li><a id="orge685ae4"></a>The <span class="underline">Purpose</span> of the Testaments<br />
+<ul class="org-ul">
+<li><a id="org3e0309d"></a>The OT: He's coming (and why He needs to come)!<br /></li>
+<li><a id="org15d564f"></a>The NT: He came (Gospels), this is what His coming meant (Acts &amp; epistles), and He's coming again (Revelation).<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="orgca05b64"></a>2. Research the Book's General Introduction.<br />
+<div class="outline-text-6" id="text-orgca05b64">
+<p>
+Applicable for <i>any</i> book.
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org76e9422"></a>a) For an overview read the introductions in the MacArthur Study Bible and the ESV Study Bible.<br />
+<div class="outline-text-7" id="text-org76e9422">
+<p>
+Helpful, not perfect of course; if you read a couple, they check each other.
+</p>
+</div>
+</li>
+<li><a id="org6cf1082"></a>b) Read the general introductions in your commentaries.<br />
+<div class="outline-text-7" id="text-org6cf1082">
+<p>
+Tom has 10-15 at hand for Romans, e.g.
+</p>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="org75e0915"></a>3. Read through the Book Multiple Times. (Survey)<br />
+<div class="outline-text-6" id="text-org75e0915">
+<p>
+Recommended: 5-30
+</p>
+
+<p>
+Can help to break it into sections.
+</p>
+
+<p>
+Read each time with the 'first time' attitude; can help to read it in different versions.
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org22539b4"></a>Steps<br />
+<ul class="org-ul">
+<li><a id="orgb8551c7"></a>Theme of the book<br />
+<ul class="org-ul">
+<li><a id="org402c3d6"></a>a) Explicit statement <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Luke 1:1-4" target="_blank">Luke 1:1-4</a> <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Acts 1:1" target="_blank">Acts 1:1</a> <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=John 20:30-31" target="_blank">John 20:30-31</a><br /></li>
+<li><a id="orgc77a8e5"></a>b) Repetition of certain phrases (Genesis - 'these are the generations of')<br /></li>
+<li><a id="orga0b5b58"></a>c) Exhortations - usually flow from the purpose (e.g. Hebrews 10:32-35)<br /></li>
+</ul>
+</li>
+<li><a id="org416a553"></a>Setting<br /></li>
+<li><a id="org475e635"></a>Author &amp; Audience<br /></li>
+<li><a id="orge481a90"></a>Date<br /></li>
+<li><a id="org1964495"></a>Decide basic book outline<br /></li>
+</ul>
+</li>
+<li><a id="orgaa2a871"></a>Example: Romans<br />
+<ul class="org-ul">
+<li><a id="org9a4ab7b"></a>Theme: Gospel of God<br />
+<div class="outline-text-8" id="text-org9a4ab7b">
+<p>
+Major Sections are tied to this top-level theme
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org6c9e361"></a>Major Section: Gospel Explained <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 1:18-4:25" target="_blank">1:18-4:25</a><br />
+<ul class="org-ul">
+<li><a id="org7003d53"></a>Minor Section: Guilt of the Pagan<br /></li>
+<li><a id="org3677a89"></a>Minor Section: Guilt of the Jew<br /></li>
+<li><a id="org4f979ea"></a>Minor Section: Guilt of All Mankind <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 3:10-20" target="_blank">3:10-20</a><br /></li>
+</ul>
+</li>
+<li><a id="org5e3d814"></a>&#x2026;<br /></li>
+<li><a id="org1904af5"></a>Major Section: The Gospel Defended <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 9-11" target="_blank">9-11</a><br />
+<ul class="org-ul">
+<li><a id="orgd93a10b"></a>Election<br />
+<ul class="org-ul">
+<li><a id="org85a8090"></a>Paragraph: &#x2026;<br /></li>
+</ul>
+</li>
+<li><a id="orgb04b079"></a>Human Responsibility<br /></li>
+<li><a id="orgae9c006"></a>God's Faithfulness to His People<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="org5231433"></a>Observe all sections point back to the main theme.<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="org2d2244d"></a>4. Identify the Paragraphs (Prose) or Stanzas (Poetry).<br />
+<div class="outline-text-6" id="text-org2d2244d">
+<p>
+Geneva Bible added verses to the NT
+</p>
+
+<p>
+Chapter and verse divisions are not inspired; they are utilities for navigation and reference.
+</p>
+
+<p>
+Always ask whether a division is helpful.
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org116c07d"></a>How?<br />
+<ul class="org-ul">
+<li><a id="org671f7ff"></a>a) Greek and Hebrew Bibles<br />
+<div class="outline-text-8" id="text-org671f7ff">
+<p>
+Included notes from scholars
+</p>
+</div>
+</li>
+<li><a id="orge4763ce"></a>b) English Translations<br />
+<div class="outline-text-8" id="text-orge4763ce">
+<p>
+Bolded verse numbers in left-aligned verse numbers are scholarly guesses at paragraph breaks.
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org8ccff98"></a>Prose (either arranged by paragraph or bolded verse number in the left margin)<br /></li>
+<li><a id="org1b4c2d4"></a>Poetry (either extra return / whitespace or bolded verse number)<br /></li>
+</ul>
+</li>
+<li><a id="orgc3d9214"></a>c) Commentaries<br /></li>
+<li><a id="orgc515c8d"></a>d) Your own survey<br /></li>
+</ul>
+</li>
+<li><a id="orgf30dcdb"></a>The Footprint of an Expository sermon<br />
+<ul class="org-ul">
+<li><a id="orgab857c3"></a>Overview of a book in a single sermon<br /></li>
+<li><a id="org0959e33"></a>Section of a book<br /></li>
+<li><a id="orgd3ad959"></a>Chapter<br /></li>
+<li><a id="orgcf44c07"></a>Paragraph<br />
+<ul class="org-ul">
+<li><a id="org9636187"></a>The most common focus of expository preaching.<br /></li>
+<li><a id="org6109906"></a>The principle feature of a paragraph is a unifying theme.<br /></li>
+</ul>
+</li>
+<li><a id="org42d70d6"></a>Sentence or verse<br /></li>
+<li><a id="orgf8ad9dd"></a>Phrase<br /></li>
+<li><a id="org84aa1f1"></a>Word or words<br /></li>
+<li><a id="orgf019e9e"></a>Topic<br />
+<ul class="org-ul">
+<li><a id="org9b6404b"></a>Either one key passage or more often several carefully exegeted and explained.<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="org98e4144"></a>5. Analyze the Syntax.<br />
+<ul class="org-ul">
+<li><a id="org47c4e84"></a>A Brief Grammar Lesson<br />
+<ul class="org-ul">
+<li><a id="org842ef10"></a>The rules by which language communicates meaning<br /></li>
+<li><a id="org4410e1e"></a><b>Clause</b> - part of a sentence that contains a subject and a verb.<br />
+<ul class="org-ul">
+<li><a id="org0c1c05d"></a>1) <span class="underline">Independent</span> - a clause that expresses a complete thought or stands alone; a complete sentence.<br /></li>
+<li><a id="orgde428c3"></a>2) <span class="underline">Dependent</span> - a clause that does not express a complete thought and cannot stand alone; an incomplete sentence.<br /></li>
+</ul>
+</li>
+<li><a id="orgdf57bad"></a><b>Phrase</b> - a group of words in a sentence without a subject and a verb.<br />
+<ul class="org-ul">
+<li><a id="orgfed86e5"></a>1) <span class="underline">Prepositional phrase</span> - a group of words without a verb that is introduced by a preposition.<br />
+<ul class="org-ul">
+<li><a id="orgb3143f7"></a>Common prepositions: of, with, about<br /></li>
+<li><a id="orge07324e"></a>"Anything that a squirrel can be to a stump or an airplane can be to a cloud."<br /></li>
+</ul>
+</li>
+<li><a id="org7b30b1f"></a>2) <span class="underline">Verbal phrase</span> - a group of words without a main verb but with either:<br />
+<ul class="org-ul">
+<li><a id="orgea7d8f6"></a>a) Participle - a verb form that functions like an adjective.<br />
+<ul class="org-ul">
+<li><a id="org4bdde8a"></a><span class="underline">Present participle</span> - verb plus -ing.<br /></li>
+<li><a id="org33e718b"></a><span class="underline">Past participle</span> - verb plus -ed.<br /></li>
+</ul>
+</li>
+<li><a id="org5af6f2e"></a>b) Gerund - a verb form that functions like a noun.<br />
+<ul class="org-ul">
+<li><a id="org15eb38e"></a>Always: verb plus -ing.<br /></li>
+<li><a id="org4ced171"></a>'<sub>Waiting</sub>_ for a text message kept me glued to my cell phone.'<br /></li>
+</ul>
+</li>
+<li><a id="orgfe90e39"></a>c) Infinitive - "to" plus a verb, used as a noun or adjective.<br />
+<ul class="org-ul">
+<li><a id="orga9453f9"></a>They cannot be made <span class="underline">to listen</span>.<br /></li>
+<li><a id="org96d0219"></a>I need a book <span class="underline">to read</span> on holiday.<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="org7034c58"></a>The Key to Analyzing the Grammar<br />
+<ul class="org-ul">
+<li><a id="orge6305d4"></a>1) Break the text down into smaller units.<br /></li>
+<li><a id="org25ba78d"></a>2) Identify the main clause - the sentence's subject and verb.<br /></li>
+<li><a id="orgf033d0e"></a>3) Identify all the other phrases and clauses.<br /></li>
+<li><a id="orgbd1874f"></a>4) Understand their relationship to each other.<br /></li>
+</ul>
+</li>
+<li><a id="org185aa7e"></a>The Best Tool for Analyzing Syntax - Block Diagrams<br />
+<div class="outline-text-7" id="text-org185aa7e">
+<p>
+Strongest recommendation by Tom Pennington
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="orgc287e60"></a>Diagrams the paragraph as a whole.<br /></li>
+<li><a id="orgac4a450"></a>Each phrase and clause is kept in the natural order of the passage.<br /></li>
+<li><a id="org959f68c"></a>Supporting phrases and clauses are indented under what they modify.<br /></li>
+<li><a id="orgf3fb1c8"></a>The relationships of whole sentences, clauses and phrases are visually apparent at a glance.<br /></li>
+<li><a id="org45d6d7c"></a>The Key to Block Diagramming (Ramesh Richard)<br />
+<ul class="org-ul">
+<li><a id="orgf7884af"></a>1) Identify all possible grammatical or content markers of structure.<br />
+<div class="outline-text-9" id="text-orgf7884af">
+<p>
+Grammatical Keys indicating structure, and the kind of structure they imply
+</p>
+
+<p>
+'Bob came home <span class="underline">from</span> work <span class="underline">to</span> rest <span class="underline">because</span> he was tired.'
+</p>
+</div>
+</li>
+<li><a id="org7278df7"></a>2) Separate major markers from minor markers.<br />
+<div class="outline-text-9" id="text-org7278df7">
+<p>
+"You will use your interpretive judgments along with those of others to understand the major and minor divisions of your text."
+</p>
+
+<p>
+'Bob came home <span class="underline">from</span> work <span class="underline">to</span> rest <span class="underline">because</span> he was tired.'
+</p>
+
+<p>
+<i>Because</i> is more important than <i>from</i> and <i>to</i> because it connects two completely different parts of the sentence together.
+</p>
+</div>
+</li>
+<li><a id="org56632fe"></a>3) Understand the meaning or the force of the more major markers.<br />
+<div class="outline-text-9" id="text-org56632fe">
+<p>
+'Bob came home <span class="underline">from</span> work <span class="underline">to</span> rest <span class="underline">because</span> he was tired.'
+</p>
+
+<ul class="org-ul">
+<li><i>because</i> carries the meaning of <span class="underline">reason</span>.</li>
+<li><i>from</i> refers to <span class="underline">place</span>.</li>
+<li><i>to</i> refers to <span class="underline">purpose</span>.</li>
+</ul>
+</div>
+</li>
+<li><a id="orge1f3962"></a>4) Outline the text according to the relative importance of those markers.<br /></li>
+</ul>
+</li>
+<li><a id="orgfcf41b9"></a>Example: <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Ezra 7:10" target="_blank">Ezra 7:10</a> - '<sub>For</sub>_ Ezra had set his heart <span class="underline">to</span> study the law <span class="underline">of</span> the LORD <span class="underline">and</span> <span class="underline">to</span> practice it, <span class="underline">and</span> <span class="underline">to</span> teach His statutes <span class="underline">and</span> ordinances <span class="underline">in</span> Israel.'<br />
+<div class="outline-text-8" id="text-orgfcf41b9">
+<pre class="example">
+For
+    Ezra had set his heart
+        to study the law
+            of the Lord
+        and to practice it,
+        and to teach
+            His statutes
+            and ordinances
+            in Israel.
+</pre>
+
+<pre class="example">
+For                         [reason of previous verse]
+    Ezra had set his heart  [main proposition]
+        to study the law    [goal]
+            of the Lord
+        and to practice it, [goal]
+        and to teach        [goal]
+            His statutes    [content of the Law]
+            and ordinances  [content of the Law]
+            in Israel.      [to whom, or where?]
+</pre>
+</div>
+</li>
+<li><a id="org896b29b"></a>Example: <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Ephesians 5:22-24" target="_blank">Ephesians 5:22-24</a> - 'Wives, be subject <span class="underline">to</span> your own husbands, <span class="underline">as</span> to the Lord. <span class="underline">For</span> the husband is the head <span class="underline">of</span> the wife, <span class="underline">as</span> Christ also is the head <span class="underline">of</span> the church, He Himself being the Savior <span class="underline">of</span> the body. <span class="underline">But</span> as the church is subject <span class="underline">to</span> Christ, <span class="underline">so</span> also the wives ought to be <span class="underline">to</span> their husbands <span class="underline">in</span> everything.'<br />
+<div class="outline-text-8" id="text-org896b29b">
+<pre class="example">
+Wives, be subject [main subject and verb]
+    to your own husbands, [to whom?]
+    as to the Lord. [how?]
+    For the husband is the head [reason]
+        of the wife,
+        as Christ also is the head [comparison]
+            of the church,
+            He Himself being the Savior
+                of the body.
+        But as the church is subject [comparison]
+            to Christ,
+            so also the wives ought to be
+                to their husbands
+                in everything.
+</pre>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="org481007d"></a>6. Identify a Preliminary Theme.<br />
+<div class="outline-text-6" id="text-org481007d">
+<p>
+Each passage only has one central meaning, or 'single truth intention'.
+</p>
+
+<p>
+Trying to reduce the basic point of the paragraph or section, reduced to a simple sentence.
+</p>
+
+<p>
+Preliminary - study may refine or alter this initial estimation.
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org65f0f23"></a>How?<br />
+<ul class="org-ul">
+<li><a id="orge0c2df1"></a>1. Directly stated<br />
+<div class="outline-text-8" id="text-orge0c2df1">
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=1 Timothy 4:6-16" target="_blank">1 Timothy 4:6-16</a>
+</p>
+<ul class="org-ul">
+<li>Theme = 4:16</li>
+</ul>
+
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 1:16-17,18-23,24-25,26-27,28-32" target="_blank">Romans 1:16-17,18-23,24-25,26-27,28-32</a>
+</p>
+</div>
+</li>
+<li><a id="org113f0d6"></a>2. Contained in the words or concepts repeated<br />
+<div class="outline-text-8" id="text-org113f0d6">
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Ephesians 1:3-14" target="_blank">Ephesians 1:3-14</a> - will or purpose of God
+</p>
+
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 2:1-16,17-24,25-29" target="_blank">Romans 2:1-16,17-24,25-29</a>
+</p>
+</div>
+</li>
+<li><a id="org42a21bf"></a>3. Discerned from the context<br />
+<div class="outline-text-8" id="text-org42a21bf">
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Ephesians 4:25" target="_blank">Ephesians 4:25</a> - Illustration of process of sanctification
+</p>
+
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 2:6-11" target="_blank">Romans 2:6-11</a>
+</p>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="orga5b8c87"></a>7. Make Observations and Ask Questions of the Text.<br />
+<div class="outline-text-6" id="text-orga5b8c87">
+<p>
+A continual process during study - probing, pushing, prodding, querying
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="orgf026a81"></a>Ask questions of the text as if you had no idea what the text teaches.<br />
+<ul class="org-ul">
+<li><a id="org24e7083"></a>Who?<br />
+<ul class="org-ul">
+<li><a id="org6683031"></a>Wrote it? Said it? Who is the main character? Who is in this account? Written to whom? About whom is it written?<br /></li>
+</ul>
+</li>
+<li><a id="org9624ee3"></a>What?<br />
+<ul class="org-ul">
+<li><a id="orgb75be64"></a>Major ideas? &#x2026;<br /></li>
+</ul>
+</li>
+<li><a id="org05400d3"></a>Where?<br /></li>
+<li><a id="org14db28f"></a>When?<br /></li>
+<li><a id="orgecbe9cb"></a>Why?<br />
+<ul class="org-ul">
+<li><a id="org349c2a0"></a>Why is this important? Why include that detail? Why is so much written about&#x2026;<br /></li>
+</ul>
+</li>
+<li><a id="org56c10f4"></a>How?<br />
+<ul class="org-ul">
+<li><a id="org6a0b12a"></a>How can it be done? How should it be done? How is the truth illustrated?<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="org29bab06"></a>ii) Make personal observations about what seems to be going on in the text.<br />
+<ul class="org-ul">
+<li><a id="orgc84c3a7"></a>What do I see in this passage?<br />
+<ul class="org-ul">
+<li><a id="org0a3647b"></a>Key words<br /></li>
+<li><a id="org8eacc7c"></a>Key topics<br /></li>
+<li><a id="org919dd7a"></a>Key people<br /></li>
+<li><a id="org3b08301"></a>Commands<br /></li>
+<li><a id="org48cf8b7"></a>Repeated words, topic, phrases<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="org937a707"></a>8. Look up All Proper Nouns.<br /></li>
+<li><a id="orgc241f41"></a>9. Look up Cross References.<br />
+<ul class="org-ul">
+<li><a id="org7ecc7dd"></a>Parallel passages or cross references that use the same words in the original language.<br />
+<ul class="org-ul">
+<li><a id="orge49805f"></a><i>NAU</i><br /></li>
+<li><a id="orgf5dcf7a"></a>Gospels: Harmony of the Gospels; Thomas &amp; Gundry's <i>A Harmony of the Gospels</i><br /></li>
+</ul>
+</li>
+<li><a id="org2cecbd3"></a>Passages that contain the same or similar ideas and concepts.<br />
+<ul class="org-ul">
+<li><a id="org3bc6cc8"></a><i>Treasury of Scripture Knowledge</i><br /></li>
+<li><a id="org5583676"></a><i>MacArthur Topical Bible</i><br /></li>
+<li><a id="orge5ad83f"></a><i>Zondervan Dictionary of Biblical Themes by Manser, McGrath, Packer, &amp; Wiseman</i><br /></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="org64faf05"></a>10. Study the Key Words.<br />
+<ul class="org-ul">
+<li><a id="orgc9226db"></a>Why?<br />
+<ul class="org-ul">
+<li><a id="org15bcb6b"></a>If words have been in a language for any period of time they acquire <span class="underline">a variety of senses</span>.<br />
+<div class="outline-text-8" id="text-org15bcb6b">
+<p>
+e.g. 'The leaders of the company were cool with how the board ran its affairs.'
+</p>
+
+<p>
+'The leaders of the company lost body temperature with how the wood went upstream to spawn its illicit sexual relationships.'
+</p>
+
+<p>
+Context is always king.
+</p>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="orgefbc013"></a>How to Recognize Key Words<br />
+<ul class="org-ul">
+<li><a id="orge50aa5f"></a>1) Words that play a key role in the passage.<br />
+<div class="outline-text-8" id="text-orge50aa5f">
+<ul class="org-ul">
+<li><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 1:16" target="_blank">Romans 1:16</a> - ashamed</li>
+<li><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 1:18" target="_blank">Romans 1:18</a> - wrath</li>
+<li><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 1:28" target="_blank">Romans 1:28</a> - depraved</li>
+</ul>
+</div>
+</li>
+<li><a id="org9b377c7"></a>2) Words that occur frequently in that book or author.<br />
+<div class="outline-text-8" id="text-org9b377c7">
+<ul class="org-ul">
+<li><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=1 John 1" target="_blank">1 John 1</a> - light</li>
+<li><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 1-4" target="_blank">Romans 1-4</a> - righteousness</li>
+</ul>
+</div>
+</li>
+<li><a id="org066dc7c"></a>3) Words that are major biblical words.<br />
+<div class="outline-text-8" id="text-org066dc7c">
+<p>
+Justified, propitiation, redemption
+</p>
+
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 4" target="_blank">Romans 4</a> - faith and justified
+</p>
+</div>
+</li>
+<li><a id="orgb3f47e5"></a>4) Words that could significantly affect the meaning of the passage<br /></li>
+</ul>
+</li>
+<li><a id="orge425536"></a>How?<br />
+<ul class="org-ul">
+<li><a id="orgc93e158"></a>i) Look them up in Greek or Hebrew Lexicons.<br /></li>
+<li><a id="org5a45fcf"></a>ii) Do a concordance search.<br />
+<ul class="org-ul">
+<li><a id="org904063a"></a>1) Within the same book.<br /></li>
+<li><a id="orgd737e06"></a>2) Within other books written by the same author.<br /></li>
+<li><a id="org161ed04"></a>3) Within the same biblical chronology.<br /></li>
+<li><a id="org8ad6feb"></a>4) Within all of scripture.<br /></li>
+<li><a id="orgfefc9ed"></a>What are you looking for?<br />
+<ul class="org-ul">
+<li><a id="org8bccdb2"></a>The various senses of the word.<br /></li>
+<li><a id="org92c92dc"></a>The connotation of the word. (e.g. emotional connotation: stubborn, persistent; courageous, &#x2026;)<br /></li>
+<li><a id="org129be42"></a>The usage: literal or figurative.<br /></li>
+<li><a id="orgae83e6f"></a>The synonyms used with it<br /></li>
+<li><a id="org98d5089"></a>The antonyms used with it<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="org8b84c8f"></a>iii) Based on the context of your paragraph, decide the sense of the word the author intended.<br /></li>
+</ul>
+</li>
+<li><a id="orgd5ac727"></a>The Dangers of Word Studies<br />
+<ul class="org-ul">
+<li><a id="orgc6a619e"></a>i) Being misled by the root fallacy.<br />
+<div class="outline-text-8" id="text-orgc6a619e">
+<p>
+e.g. nice -&gt; Latin <i>ignorant</i>
+</p>
+</div>
+</li>
+<li><a id="org1f46b4c"></a>ii) Reading all the senses of the word into that one passage.<br /></li>
+<li><a id="org8af54c9"></a>iii) Choosing the sense you like best regardless of the context.<br /></li>
+<li><a id="org4ddad0c"></a>iv) Reading the meaning of the English word back into the Greek or Hebrew word.<br /></li>
+<li><a id="org660b6c6"></a>v) Giving a word the exact same sense every time it occurs.<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="orgd66f595"></a>11. Survey the Historical Context.<br />
+<ul class="org-ul">
+<li><a id="orgd87eb8f"></a>a) Outside sources<br />
+<ul class="org-ul">
+<li><a id="org0d5047f"></a>Secular encyclopedias<br /></li>
+<li><a id="org6ef2e6a"></a>Bible dictionaries/encyclopedias<br /></li>
+<li><a id="org7a8497a"></a>Other history texts<br /></li>
+<li><a id="org3d88d1a"></a>Trustworthy websites<br /></li>
+</ul>
+</li>
+<li><a id="org6433242"></a>b) Scripture itself<br /></li>
+</ul>
+</li>
+<li><a id="org06a4cf8"></a>12. Establish the Theological Context.<br />
+<ul class="org-ul">
+<li><a id="org4286e0c"></a>a) Identify any significant theological issues in the passage.<br /></li>
+<li><a id="org3ae4419"></a>b) Study those theological concepts in the rest of Scripture and other resources.<br /></li>
+<li><a id="org2f3f4e2"></a>c) Decide how much of that theological concept must be explained for the passage to be clear.<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="outline-container-org5d7fd8d" class="outline-4">
+<h4 id="org5d7fd8d">C. Meditation</h4>
+<div class="outline-text-4" id="text-org5d7fd8d">
+</div>
+<ul class="org-ul">
+<li><a id="orgb1f7607"></a>1. Why Meditation Is Important<br />
+<ul class="org-ul">
+<li><a id="org88e1c17"></a><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Joshua 1:8" target="_blank">Joshua 1:8</a> A tool that helps us move from reading and study to putting God's Word into practice.<br /></li>
+<li><a id="orgbb0d5b2"></a><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Psalm 1:1-3" target="_blank">Psalm 1:1-3</a><br /></li>
+</ul>
+</li>
+<li><a id="orgb60a831"></a>2. What Meditation Is<br />
+<ul class="org-ul">
+<li><a id="orgdde8618"></a>A Definition of Meditation<br />
+<ul class="org-ul">
+<li><a id="org8cadfeb"></a>Biblical meditation is deliberately choosing to think deeply about something in order 1) to better understand it and 2) to plan how to do it.<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="outline-container-org6861335" class="outline-4">
+<h4 id="org6861335">D. Interpretation</h4>
+<div class="outline-text-4" id="text-org6861335">
+</div>
+<ul class="org-ul">
+<li><a id="orgd02c1a3"></a>Council of Trent on Private Interpretation: "To check unbridled spirits, it [this council] decrees that <span class="underline">no one</span>, relying on his own judgment&#x2026;"<br />
+<div class="outline-text-5" id="text-orgd02c1a3">
+<p>
+tl;dr - The magisterium alone had the authority to interpret the Bible.
+</p>
+</div>
+</li>
+<li><a id="org3378d19"></a>Reformers on Private Interpretation: "Unless I am convinced <span class="underline">by the testimony of Scripture and plain reason</span> &#x2026;"<br /></li>
+<li><a id="orgbcba302"></a>Arguments for Private Interpretation<br />
+<ul class="org-ul">
+<li><a id="org4bdbad2"></a>1) The obligations for faith and obedience are personal, and judgment will be personal<br /></li>
+<li><a id="org95db7e4"></a>2) Scripture addressed to people, not just leaders<br /></li>
+<li><a id="org17e0357"></a>3) People are called upon to study the Scripture personally and to teach it to their children<br /></li>
+<li><a id="org8ad8d43"></a>4) People are praised for &#x2026;<br /></li>
+</ul>
+</li>
+<li><a id="orgd5ef84b"></a>1. The Importance of Interpretation<br />
+<ul class="org-ul">
+<li><a id="orgcd12550"></a>Only the true meaning of the passage is in fact the Word of God. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=2 Peter 3:15-16" target="_blank">2 Peter 3:15-16</a><br /></li>
+</ul>
+</li>
+<li><a id="org325b05d"></a>2. The Meaning of Interpretation<br />
+<ul class="org-ul">
+<li><a id="org7a5c993"></a>&#x2026;<br /></li>
+</ul>
+</li>
+<li><a id="org813c699"></a>3. Three Main Principles of Interpretation<br />
+<ul class="org-ul">
+<li><a id="org08cf63f"></a>a) Interpret based on authorial intent. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Matthew 22:29" target="_blank">Matthew 22:29</a> <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=John 5:39" target="_blank">John 5:39</a> <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=2 Peter 3:15-16" target="_blank">2 Peter 3:15-16</a><br /></li>
+<li><a id="orga16bfdd"></a>b) Interpret Scripture with Scripture - "The Analogy of Faith"<br />
+<ul class="org-ul">
+<li><a id="org28de783"></a>1st - the total Scripture<br /></li>
+<li><a id="orge3421dc"></a>2nd - any part of Scripture, such as a verse or passage.<br /></li>
+<li><a id="org6d22163"></a>Restated: The entire Scripture is the context and guide for [interpreting any other part of Scripture].<br /></li>
+</ul>
+</li>
+<li><a id="orgbc0d605"></a>c) Interpret literally.<br />
+<ul class="org-ul">
+<li><a id="org603d135"></a>Follow the normal rules for interpreting any literature: the grammatical-historical method.<br /></li>
+<li><a id="org59e9066"></a>As with other literature, we must interpret the Bible in the simplest, most literal sense, unless there is indication in the context not to do so.<br /></li>
+<li><a id="org28bf0bb"></a>Implications<br />
+<ul class="org-ul">
+<li><a id="org9ec9133"></a>1) Context rules.<br /></li>
+<li><a id="orgb5180cf"></a>2) Pay attention to the words, syntax, culture, and history.<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="orgbce827f"></a>4. The Dangers of Interpretation<br />
+<div class="outline-text-5" id="text-orgbce827f">
+<p>
+Drawn from 'How to Interpret the Bible for Yourself', 'How to Read the Bible for all it's Worth'
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org6e070a8"></a>1) Allegorizing - adding layers of meaning to the text<br /></li>
+<li><a id="orgedf4544"></a>2) Spiritualizing or moralizing (Song of Solomon)<br /></li>
+<li><a id="org97d3bbf"></a>3) Proof-texting - e.g. 'Judas hanged himself, therefore go and do likewise'<br /></li>
+<li><a id="org5de842a"></a>4) Using a narrative as normative - e.g. Gideon's fleece<br /></li>
+<li><a id="org186912b"></a>5) "Nationalizing" - inserting your country into passages<br /></li>
+<li><a id="orgfb2569d"></a>6) Cultural back-loading - placing current culture back into the text, e.g. evolution, homosexuality, role of marriage, etc.<br /></li>
+<li><a id="orgd8e0935"></a>7) Literalizing - Making a figure of speech literal, e.g. communion<br /></li>
+<li><a id="org07cbfc0"></a>8) Dogmatizing - Forcing a passage to meet your religious system<br /></li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="outline-container-org319d199" class="outline-4">
+<h4 id="org319d199">E. Evaluation</h4>
+<div class="outline-text-4" id="text-org319d199">
+<p>
+Taking commentaries only after all else has been done, to check your work.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Nathan Armstrong</p>
+<p class="date">Created: 2019-04-02 Tue 22:58</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
