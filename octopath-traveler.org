@@ -112,6 +112,29 @@
 **** Connections
 ***** [[East Rippletide Coast (11)][East Rippletide Coast (11)]]
 ***** [[Path to the Caves of Maiya (11)][Path to the Caves of Maiya (11)]]
+**** Points of Interest
+***** DONE Tressa: Chapter I                                         :Tressa:
+***** DONE Princess Mary, Redux                                       :Quest:
+      Princess Mary of Atlasdam is traveling incognito, seeking an old tutor,
+      Professor Paul; she expects him back from a decade of island research.
+      A ship founders in the harbor, and she fears it is his.
+
+      The party finds Paul in the Undertow Cove, bewildered by his environs.
+      Ophilia leads him to safety out of the cave and back to Rippletide, where
+      he is reunited with his pupil. They recall their earlier days: a book
+      hidden as a prank, then accidentally destroyed. He had forgiven her, but
+      exhorted her to take more care, and to instead journal her own learning for
+      him to read later. Now she brings him the completed book, fulfilling her
+      promise, and making her old professor proud.
+      - Rewards :: 9,000g, Absolute Zero Staff
+***** TODO Love Unrequited                                            :Quest:
+      Mathilda is being badgered with proposals by Tony, a lovesick weakling.
+**** Items to Acquire                                        :Tressa:Therion:
+***** TODO Beastly Scarf
+      Olneo, in the first enterable shop
+**** Force to Apply                                          :Olberic:Haanit:
+***** Townsperson (6)
+      A house southwest of the pub
 *** Goldshore
 **** Connections
 ***** [[West Goldshore Coast (34)][West Goldshore Coast (34)]]
@@ -263,8 +286,8 @@
 **** Items to Acquire                                        :Therion:Tressa:
 ***** DONE Orewell Whetstone
       Stonemonger, by the armory
-***** TODO Leviathan Egg
-      Fledling Fisherman, in the north end
+***** DONE Leviathan Egg
+      Fledgling Fisherman, in the north end
 ***** TODO 3 Cat's Eyes
       Old Man, in the north end, defended by a weak villager
 ***** TODO Wizard's Rod
@@ -280,6 +303,8 @@
       On the beachfront
 ***** Knight Ardante - 7 x Brain Bash (Axe) (6)
       In front of the cathedral
+***** Old Man - 5 x Peerless Strike (Spear) (9)
+      Inside a house guarded by a Townsperson (2)
 *** Grandport
 **** Connections
 **** Points of Interest
@@ -288,6 +313,8 @@
 *** Atlasdam
 **** Connections
 ***** [[East Atlasdam Flats (11)][East Atlasdam Flats (11)]]
+**** Points of Interest
+***** DONE Cyrus: Chapter I                                           :Cyrus:
 *** Noblecourt
 **** Connections
 ***** TODO Fill this in...
@@ -387,6 +414,7 @@
 *** Flamesgrace
 **** Connections
 ***** [[Northern Flamesgrace Wilds (11)]]
+***** [[Path to the Cave of Origin (11)][Path to the Cave of Origin (11)]]
 **** Points of Interest
 ***** DONE Ophilia: Chapter I                                       :Ophilia:
       Fill this out in more detail later...
@@ -493,9 +521,15 @@
       he finds his determination renewed. A Carefree Man brings him information
       about his father and the Knights Ardante, who once saved his life.
       - Rewards :: 6,600g, Nourishing Nut (M)
-***** TODO Setting Out                                                :Quest:
+***** DONE Setting Out                                                :Quest:
       A Pensive Girl wants to leave the village and become a singer, but cannot
-      while her family remains in debt.
+      while her family remains in debt, her father's drinking habits keeping her
+      at home. H'aanit provokes the girl's father, leading the father's old
+      friend - a moneylender - to commiserate with him, exhorting him to change,
+      to let a lesson break through the beating he'd received. The father's bile
+      spent on the party, his friend has a chance to pull him back towards his
+      responsibilities, and the support he needs to give his family.
+      - Rewards :: 3,300g, Alluring Ribbon
 **** Treasures
 ***** DONE Ice Soulstone (M)                                         :Hidden:
 ***** DONE Olive of Life
@@ -529,12 +563,26 @@
 *** Cobbleston
 **** Connections
 ***** [[South Cobbleston Gap (11)][South Cobbleston Gap (11)]]
+***** [[Mountain Pass (11)][Mountain Pass (11)]]
 **** Points of Interest
+***** DONE Olberic: Chapter I                                       :Olberic:
 ***** DONE Never Forget                                               :Quest:
       Bought "Lorie's Diary" from the Affable Antiquarian in Noblecourt and
       brought it to the Melancholy Youth searching for it, prompting him to
       set out and search for her. Later, he has found her grave in Noblecourt,
       and plans to build a new life in the place she lived.
+***** TODO Noelle, Seeker of Knowledge (I)                            :Quest:
+      Noelle seeks traces of the legendary King Beowulf the Great, specifically
+      from plinths or carved granite.
+**** Treasures
+***** DONE Purifying Seed                                            :Hidden:
+***** DONE Captain's Sword
+      Guarded by the Captain of the Watch
+**** Force to Apply                                          :Olberic:Haanit:
+***** Village Headman (1)
+      South end of the village
+***** Captain of the Watch (4)
+      Middle of the village, northeast of the pub
 *** Stonegard
 **** Connections
 ***** [[North Stonegard Pass (30)][North Stonegard Pass (30)]]
@@ -677,6 +725,12 @@
 ***** TODO Lost in Translation                                        :Quest:
       A bookbinder wants to be able to read a foreign book, but requires
       translation.
+***** TODO Russell's Repentance                                       :Quest:
+      Russell is learning about the manuscript trade from Dominic, after he
+      turned his life upside-down by stealing a tome. He's repairing his life,
+      one step at a time, but that leaves him with insufficient time to research
+      certain areas of the world for his histories: the Woodlands, Frostlands,
+      and Cliftlands.
 **** Treasures
 ***** DONE Inspiriting Plum
 ***** DONE Silver-filled Pouch                                       :Hidden:
@@ -703,6 +757,20 @@
 **** Points of Interest
 ***** Primrose: Chapter 4                                          :Primrose:
 ** Riverlands                                                    :Riverlands:
+*** Clearbrook
+**** Connections
+***** [[West Clearbrook Traverse (11)][West Clearbrook Traverse (11)]]
+***** [[Path of Rhiyo (11)][Path of Rhiyo (11)]]
+**** Points of Interest
+***** DONE Alfyn: Chapter I                                           :Alfyn:
+**** Items to Acquire                                        :Therion:Tressa:
+***** TODO Golden Axe
+      Old Man, guarded by Granddaughter
+**** Force to Apply                                          :Olberic:Haanit:
+***** Granddaughter (3)
+      Near the town's entrance
+***** Zeph (4)
+      Near the inn
 *** Saintsbridge
 **** Connections
 ***** [[East Saintsbridge Traverse (23)][East Saintsbridge Traverse (23)]]
@@ -817,8 +885,17 @@ North bridge
 *** Sunshade
 **** Connections
 ***** [[Southern Sunshade Sands (11)][Southern Sunshade Sands (11)]]
+***** [[Sunshade Catacombs (11)][Sunshade Catacombs (11)]]
 **** Points of Interest
 ***** DONE Primrose: Chapter I                                     :Primrose:
+**** Treasures
+***** DONE Olive of Life (M)                                         :Hidden:
+**** Items to Acquire                                        :Therion:Tressa:
+***** TODO Commemorative Coin
+      Tavern Patron
+**** Force to Apply                                          :Olberic:Haanit:
+***** Townsperson (1)
+      Just east of the town entrance
 *** Wellspring
 **** Connections
 ***** [[Northern Wellspring Sands (31)][Northern Wellspring Sands (31)]]
@@ -939,7 +1016,7 @@ Inside house guarded by Townsperson, northwest side of town
 ***** DONE Heavy Coin Pouch                                          :Hidden:
 ***** DONE Heavy Coin Pouch                                          :Hidden:
 **** Items to Acquire                                        :Tressa:Therion:
-***** TODO Fur Cap
+***** DONE Fur Cap
 Townsperson near entrance
 ***** TODO Inferno Amulet
 Ria
@@ -958,6 +1035,21 @@ Townsperson, northwest side of town
 **** Points of Interest
 ***** H'aanit: Chapter 4                                             :Haanit:
 ** Woodlands                                                      :Woodlands:
+*** S'warkii
+**** Connections
+***** [[North S'warkii Trail (11)][North S'warkii Trail (11)]]
+***** [[Path to the Whisperwood (11)][Path to the Whisperwood (11)]]
+**** Points of Interest
+***** DONE H'aanit: Chapter I                                        :Haanit:
+**** Treasures
+***** DONE Thieves' Chest - Stone Bow                               :Therion:
+      In a house guarded by a villager
+**** Knowledge to Glean                                         :Cyrus:Alfyn:
+***** Byron Family Lineage
+      Highbrow Historian, center of commerce
+**** Force to Apply                                          :Olberic:Haanit:
+***** Villager (1)
+      Guarding a lodge west of town center
 *** Victors Hollow
 **** Connections
 ***** [[East Victors Hollow Trail (29)][East Victors Hollow Trail (29)]]
@@ -1205,9 +1297,15 @@ Townsperson, northwest side of town
       be harvested and cultivated by generations yet to come.
 
       Thus ends Cyrus' tale.
-***** TODO Looting Grave Robber                                       :Quest:
+***** DONE Looting Grave Robber                                       :Quest:
       An obliging merchant is feeling badgered by a nearby grave hustler whose
       wares he wants no part in.
+
+      In the Moldering Ruins, Olberic challenges the robber, driving him off.
+      The merchant arrives and thanks the party, before realizing the the
+      robber had not, in fact, been pawning off mere rubbish. He decides to keep
+      that knowledge secret to preserve his own reputation in his guild.
+      - Rewards :: 4,000g, Energizing Pomegranate (L)
 ***** DONE A Cub with No Name                                         :Quest:
       A fearful mother worries about the tiger cub her child brought home. After
       she's told of methods to train tigers to be docile, she decides to bring
@@ -1220,8 +1318,13 @@ Townsperson, northwest side of town
 ***** DONE Odds and Ends                                             :Hidden:
 ***** DONE Curious Antique
 **** Items to Acquire                                        :Therion:Tressa:
-***** TODO Viper Dagger
+***** DONE Viper Dagger
       Villager in front of the tiger-child's house
+***** DONE Light Nut (L)
+      Woodlands Know-it-all
+**** Knowledge to Glean                                         :Cyrus:Alfyn:
+***** History of the Woodlands
+      Woodlands Know-it-all
 **** Force to Apply                                          :Olberic:Haanit:
 ***** DONE Crest-bearing Swindler (6)
       Near the inn, part of 'The Price of Vengeance'
@@ -1233,6 +1336,7 @@ Townsperson, northwest side of town
 **** Connections
 ***** [[North Bolderfall Pass (11)][North Bolderfall Pass (11)]]
 ***** [[South Quarrycrest Pass (28)][South Quarrycrest Pass (28)]]
+***** [[West Clearbrook Traverse (11)][West Clearbrook Traverse (11)]]
 ***** [[Carrion Caves (20)][Carrion Caves (20)]]
 **** Encounters
 ***** 1 x [[Great Condor][Great Condor]], 1 x [[Laughing Hyaena][Laughing Hyaena]], 1 x [[Cliff Birdian II][Cliff Birdian II]]
@@ -1295,7 +1399,9 @@ Townsperson, northwest side of town
 **** Connections
 ***** [[East Rippletide Coast (11)][East Rippletide Coast (11)]]
 ***** [[East Atlasdam Flats (11)][East Atlasdam Flats (11)]]
+***** [[Undertow Cove (45)][Undertow Cove (45)]]
 **** Encounters
+***** 2 x [[Sea Birdian I][Sea Birdian I]], 2 x [[Sea Birdian II][Sea Birdian II]]
 ***** 2 x [[Sea Birdian II][Sea Birdian II]], 1 x [[Sea Birdian III][Sea Birdian III]]
 *** Path to the Caves of Maiya (11)
 **** Connections
@@ -1376,16 +1482,6 @@ Townsperson, northwest side of town
 **** Encounters
 ***** 2 x [[Ice Lizardman I]], 1 x [[Ice Lizardman III]]
 ***** 1 x [[Ice Lizardman I]], 2 x [[Ice Lizardman II]], 1 x [[Ice Lizardman III]]
-*** Road to the Obsidian Parlor (20)
-**** Connections
-***** [[Stillsnow][Stillsnow]]
-***** [[Secret Path (21)][Secret Path (21)]]
-**** Encounters
-***** 3 x [[Frost Bear][Frost Bear]]
-**** Treasures
-***** DONE Herb of Revival
-***** DONE Ice Soulstone (M)
-***** DONE Thieves' Chest - Dark Amulet                             :Therion:
 *** Western Stillsnow Wilds (29)
 **** Connections
 ***** [[Stillsnow][Stillsnow]]
@@ -1401,6 +1497,19 @@ Townsperson, northwest side of town
 **** Treasures
 ***** DONE Ice Soulstone (M)
 ***** DONE Healing Grape (M)
+*** Path to the Cave of Origin (11)
+**** Connections
+***** [[Flamesgrace][Flamesgrace]]
+*** Road to the Obsidian Parlor (20)
+**** Connections
+***** [[Stillsnow][Stillsnow]]
+***** [[Secret Path (21)][Secret Path (21)]]
+**** Encounters
+***** 3 x [[Frost Bear][Frost Bear]]
+**** Treasures
+***** DONE Herb of Revival
+***** DONE Ice Soulstone (M)
+***** DONE Thieves' Chest - Dark Amulet                             :Therion:
 *** Trail to the Whitewood (37)
     #+CAPTION: Trail to the Whitewood Map
     #+ATTR_ORG: :width 250
@@ -1437,22 +1546,6 @@ Townsperson, northwest side of town
 ***** 1 x [[Rockadillo][Rockadillo]], 2 x [[Giant Falcon][Giant Falcon]], 1 x [[Highland Ratkin II][Highland Ratkin II]]
 **** Treasures
 ***** DONE Herb of Awakening
-*** Spectrewood Path (26)
-    #+CAPTION: Spectrewood Path Map 
-    #+ATTR_ORG: :width 500
-    #+ATTR_HTML: :width 600 
-    [[./images/octopath-spectrewood-path.png]]
-**** Connections
-***** [[Stonegard][Stonegard]]
-***** [[The Spectrewood (27)][The Spectrewood (27)]]
-**** Encounters
-***** 1 x [[Highland Ratkin IV][Highland Ratkin IV]], 2 x [[Highland Ratkin V][Highland Ratkin V]], 2 x [[Dread Falcon][Dread Falcon]]
-***** 1 x [[Highland Ratking I][Highland Ratking I]], 2 x [[Highland Ratkin VI][Highland Ratkin VI]]
-***** 1 x [[Highland Ratking I][Highland Ratking I]], 2 x [[Highland Ratkin V][Highland Ratkin V]], 1 x [[Shaggy Aurochs][Shaggy Aurochs]]
-**** Treasures
-***** DONE 5,000g
-***** DONE Fool's Gold Ore
-***** DONE Herb of Clamor
 *** North Stonegard Pass (30)
     #+CAPTION: North Stonegard Pass Map
     #+ATTR_ORG: :width 500
@@ -1494,9 +1587,29 @@ Townsperson, northwest side of town
 *** TODO West Everhold Pass (45)
 **** Connections
 ***** [[West Stonegard Pass (30)][West Stonegard Pass (30)]]
+*** Mountain Pass (11)
+**** Connections
+***** [[Cobbleston][Cobbleston]]
+*** Spectrewood Path (26)
+    #+CAPTION: Spectrewood Path Map 
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600 
+    [[./images/octopath-spectrewood-path.png]]
+**** Connections
+***** [[Stonegard][Stonegard]]
+***** [[The Spectrewood (27)][The Spectrewood (27)]]
+**** Encounters
+***** 1 x [[Highland Ratkin IV][Highland Ratkin IV]], 2 x [[Highland Ratkin V][Highland Ratkin V]], 2 x [[Dread Falcon][Dread Falcon]]
+***** 1 x [[Highland Ratking I][Highland Ratking I]], 2 x [[Highland Ratkin VI][Highland Ratkin VI]]
+***** 1 x [[Highland Ratking I][Highland Ratking I]], 2 x [[Highland Ratkin V][Highland Ratkin V]], 1 x [[Shaggy Aurochs][Shaggy Aurochs]]
+**** Treasures
+***** DONE 5,000g
+***** DONE Fool's Gold Ore
+***** DONE Herb of Clamor
 ** Riverlands                                                    :Riverlands:
 *** South Clearbrook Traverse (11)
 **** Connections
+***** [[West Clearbrook Traverse (11)][West Clearbrook Traverse (11)]]
 ***** [[East Saintsbridge Traverse (23)][East Saintsbridge Traverse (23)]]
 ***** [[Southern Sunshade Sands (11)][Southern Sunshade Sands (11)]]
 ***** [[Twin Falls (20)][Twin Falls (20)]]
@@ -1509,6 +1622,14 @@ Townsperson, northwest side of town
 **** Treasures
 ***** DONE Healing Grape
 ***** DONE Soothing Seed
+*** West Clearbrook Traverse (11)
+**** Connections
+***** [[Clearbrook][Clearbrook]]
+***** [[South Clearbrook Traverse (11)][South Clearbrook Traverse (11)]]
+***** [[South Bolderfall Pass (11)][South Bolderfall Pass (11)]]
+*** Path of Rhiyo (11)
+**** Connections
+***** [[Clearbrook][Clearbrook]]
 *** Murkwood Trail (20)
 **** Connections
 ***** [[Saintsbridge][Saintsbridge]]
@@ -1631,6 +1752,7 @@ Townsperson, northwest side of town
 ** Woodlands                                                      :Woodlands:
 *** North S'warkii Trail (11)
 **** Connections
+***** [[S'warkii][S'warkii]]
 ***** [[West S'warkii Trail (11)][West S'warkii Trail (11)]]
 *** West S'warkii Trail (11)
 **** Connections
@@ -1638,6 +1760,9 @@ Townsperson, northwest side of town
 ***** [[East Victors Hollow Trail (29)][East Victors Hollow Trail (29)]]
 ***** [[North Bolderfall Pass (11)][North Bolderfall Pass (11)]]
 ***** [[Path of Beasts (15)][Path of Beasts (15)]]
+*** Path to the Whisperwood (11)
+**** Connections
+***** [[S'warkii][S'warkii]]
 *** East Victors Hollow Trail (29)
 **** Connections
 ***** [[Victors Hollow][Victors Hollow]]
@@ -1803,7 +1928,31 @@ Townsperson, northwest side of town
 ***** DONE Inspiriting Plum (M)
 ***** DONE Silver-filled Pouch
 ***** DONE Energizing Pomegranate (M)
-*** TODO Undertow Cove (45)
+*** DONE Undertow Cove (45)
+    - Entrance :: [[North Rippletide Coast (11)][North Rippletide Coast (11)]]
+    #+CAPTION: Undertow Cove Map
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600
+    [[./images/octopath-undertow-cove.png]]
+**** Encounters
+***** 5 x [[Black Scissors][Black Scissors]]
+***** 2 x [[Cetus Maximus][Cetus Maximus]]
+***** 1 x [[Cetus Maximus][Cetus Maximus]], 2 x [[Reaper Crab][Reaper Crab]]
+***** 1 x [[Cetus Maximus][Cetus Maximus]], 3 x [[Black Scissors][Black Scissors]]
+***** 1 x [[Reaper Crab][Reaper Crab]], 3 x [[Black Scissors][Black Scissors]]
+***** 1 x [[Wind Elemental][Wind Elemental]], 2 x [[Davy Bones][Davy Bones]]
+***** 1 x [[Wind Elemental][Wind Elemental]], 2 x [[Buccaneer Bones][Buccaneer Bones]]
+**** Treasures
+***** DONE Inspiriting Plum (M)
+***** DONE Healing Grape Bunch
+***** DONE Thieves' Chest - Justice Breaker                         :Therion:
+***** DONE Refreshing Jam
+***** DONE Olive of Life (M)
+***** DONE Inspiriting Plum Basket
+***** DONE 20,000g
+**** Allies to Lead                                        :Ophilia:Primrose:
+***** Paul - 7 x Lightning Storm (Lightning) (5)
+      Part of the quest '[[Princess Mary, Redux][Princess Mary, Redux]]'
 ** Flatlands                                                      :Flatlands:
 *** DONE Obsidian Manse (40)
     - Entrance :: [[Noblecourt][Noblecourt]]
@@ -2055,6 +2204,8 @@ Townsperson, northwest side of town
 ***** DONE Silver-filled Pouch
 ***** DONE Injurious Dust
 ** Sunlands                                                        :Sunlands:
+*** DONE Sunshade Catacombs (11)
+    - Entrance :: [[Sunshade][Sunshade]]
 *** DONE Whistling Cavern (20)
    - Entrance :: [[Eastern Sunshade Sands (11)][Eastern Sunshade Sands (11)]]
     #+CAPTION: Whistling Cavern Map
@@ -2172,8 +2323,29 @@ Townsperson, northwest side of town
 ***** DONE 15,000g
 ***** DONE Olive of Life (M)
 ***** DONE Vivifying Stone
-*** TODO Moldering Ruins (45)
+*** DONE Moldering Ruins (45)
     - Entrance :: [[East Duskbarrow Trail (45)][East Duskbarrow Trail (45)]]
+    #+CAPTION: Moldering Ruins Map 
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600 
+    [[./images/octopath-moldering-ruins.png]]
+**** Encounters
+***** 3 x [[Fire Guardian Mk.II][Fire Guardian Mk.II]]
+***** 1 x [[Bandit Bones][Bandit Bones]], 1 x [[Fire Guardian Mk.II][Fire Guardian Mk.II]], 1 x [[Flame Curator Mk.II][Flame Curator Mk. II]]
+***** 3 x [[Ice Curator Mk.II][Ice Curator Mk.II]]
+***** 3 x [[Ice Guardian Mk.II][Ice Guardian Mk.II]]
+***** 2 x [[Master Thief I][Master Thief I]], 1 x [[Master Thief II][Master Thief II]]
+***** 1 x [[Master Thief I][Master Thief I]], 2 x [[Master Thief II][Master Thief II]]
+**** Treasures
+***** DONE Inspiriting Plum (M)
+***** DONE Shadow Soulstone (L)
+***** DONE Energizing Pomegranate (L)
+***** DONE Thunderstorm Amulet
+***** DONE Vivifying Stone
+***** DONE Thieves' Chest - Hypnos Crown                            :Therion:
+**** Force to Apply                                          :Olberic:Haanit:
+***** Grave Robber (7)
+      Part of [[Looting Grave Robber][Looting Grave Robber]]
 *** DONE Ruins of Eld (45-46)
     - Entrance :: [[Duskbarrow][Duskbarrow]]
     #+CAPTION: Ruins of Eld Map 
@@ -2203,8 +2375,25 @@ Townsperson, northwest side of town
 ***** DONE Knight's Shield
 *** TODO Forest of No Return (48)
     - Entrance :: [[Victors Hollow][Victors Hollow]]
-*** TODO Shrine of the Archmagus (50)
+*** DONE Shrine of the Archmagus (50)
     - Entrance :: [[East Duskbarrow Trail (45)][East Duskbarrow Trail (45)]]
+    #+CAPTION: Shrine of the Archmagus Map
+    #+ATTR_ORG: :width 500
+    #+ATTR_HTML: :width 600 
+    [[./images/octopath-shrine-archmagus.png]]
+**** Encounters
+***** 1 x [[Flame Revenant][Flame Revenant]]
+***** 1 x [[Thunder Revenant][Thunder Revenant]]
+***** 2 x [[Flame Remnant Mk.II][Flame Remnant Mk.II]], 1 x [[Animated Armor][Animated Armor]]
+***** 3 x [[Ice Remnant Mk.II][Ice Remnant Mk.II]]
+***** *Boss:* [[Dreisang, the Archmagus][Dreisang, the Archmagus]]
+**** Treasures
+***** DONE Energizing Pomegranate (L)
+***** DONE Shadow Soulstone (M)
+***** DONE 20,000g
+***** DONE Revitalizing Jam
+***** DONE Inspiriting Plum (M)
+***** TODO Thieves' Chest                                           :Therion:
 * Enemies
 ** =Template=                                                      :noexport:
     - Weaknesses :: /Sword/ /Spear/ /Dagger/ /Axe/ /Bow/ /Staff/ /Fire/ /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
@@ -2219,6 +2408,9 @@ Townsperson, northwest side of town
 *** Ambling Bones
     - Weaknesses :: Staff Wind Light
     - Armor :: 2
+*** Animated Armor
+    - Weaknesses :: *Axe* /Staff/ /Fire/ *Ice* *Light*
+    - Armor :: 6
 *** Antagonistic Ant
     - Weaknesses :: Dagger Staff
     - Armor :: 3
@@ -2242,6 +2434,9 @@ Townsperson, northwest side of town
     - Weaknesses :: Spear Thunder Light
     - Armor :: 1
     - On Steal :: Olive of Life
+*** Bandit Bones
+    - Weaknesses :: /Sword/ /Spear/ /Axe/ /Bow/ /Staff/ /Fire/ /Ice/ *Thunder* /Wind/ /Light/ /Dark/
+    - Armor :: 2
 *** Barnacle Bat
     - Weaknesses :: Sword Spear Bow Thunder
     - Armor :: 1
@@ -2260,6 +2455,11 @@ Townsperson, northwest side of town
 *** Black Howler
     - Weaknesses :: Spear Bow Thunder
     - Armor :: 1
+*** Black Scissors
+    - Weaknesses :: Dagger Axe Wind
+    - Armor :: 2
+    - On Steal :: Curious Bloom
+    - On Capture :: ? x Toxice Ice (Ice) (8)
 *** Blood Remnant
     - Weaknesses :: Sword Spear Axe Ice
     - Armor :: 3
@@ -2278,8 +2478,9 @@ Townsperson, northwest side of town
     - Weaknesses :: *Spear* *Bow* /Staff/ /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
     - Armor :: 3
 *** Buccaneer Bones
-    - Weaknesses :: *Dagger* *Staff* /Ice/ /Thunder/ /Light/ /Dark/
+    - Weaknesses :: Dagger Staff Thunder Light
     - Armor :: 1
+    - On Steal :: Hairbrush
 *** Cait
     Flees ASAP
     - Weaknesses :: Sword Dagger Axe Staff
@@ -2289,6 +2490,12 @@ Townsperson, northwest side of town
     - Armor :: 3
     - On Steal :: Large Feather
     - On Capture :: 3 x Wind Slash (4)
+*** Cetus Maximus
+    - Weaknesses :: Spear Staff Thunder Dark
+    - Armor :: 6
+    - On Steal :: Addlewort
+    - On Collect :: 3,300g
+    - On Capture :: 5 x Soporific Mist (All) (6)
 *** Cliff Birdian I
     - Weaknesses :: Sword Spear Axe Light
     - Armor :: 1
@@ -2389,6 +2596,10 @@ Townsperson, northwest side of town
 *** Ettin Serpent
     - Weaknesses :: *Dagger* /Axe/ /Bow/ /Staff/ *Fire*
     - Armor :: 2
+*** Fire Guardian Mk.II
+   - Weaknesses :: Sword Dagger Bow Ice
+   - Armor :: 5
+   - On Steal :: Fire Soulstone (M)
 *** Fire Wisp
     - Weaknesses :: Ice Dark
     - Armor :: 1
@@ -2396,6 +2607,9 @@ Townsperson, northwest side of town
     - Weaknesses :: Spear Bow Staff Ice
     - Armor :: 2
     - On Steal :: Fire Soulstone
+*** Flame Curator Mk.II
+    - Weaknesses :: /Spear/ /Axe/ *Bow* /Staff/ /Fire/ /Ice/ /Wind/ /Light/ /Dark/
+    - Armor :: 3
 *** Flame Elemental
     - Weaknesses :: Ice Wind
     - Armor :: 4
@@ -2403,6 +2617,12 @@ Townsperson, northwest side of town
 *** Flame Guardian
    - Weaknesses :: Sword Dagger Bow Ice
    - Armor :: 4
+*** Flame Remnant Mk.II
+    - Weaknesses :: Sword Spear Axe Ice
+    - Armor :: 3
+*** Flame Revenant
+    - Weaknesses :: /Sword/ /Spear/ /Dagger/ /Axe/ *Bow* /Staff/ /Fire/ *Ice*
+    - Armor :: 8
 *** Flame Sentinel Mk.II
     - Weaknesses :: Sword Spear Axe Staff Ice
     - Armor :: 1
@@ -2512,12 +2732,19 @@ Townsperson, northwest side of town
     - Weaknesses :: Spear Bow Staff Fire
     - Armor :: 1
     - On Steal :: Ice Soulstone
+*** Ice Curator Mk.II
+    - Weaknesses :: Spear Bow Fire
+    - Armor :: 3
+    - On Steal :: Ice Soulstone (M)
 *** Ice Elemental
     - Weaknesses :: Fire Thunder
     - Armor :: 4
 *** Ice Guardian
     - Weaknesses :: Sword Dagger Bow Fire
     - Armor :: 2
+*** Ice Guardian Mk.II
+    - Weaknesses :: Sword Dagger Bow Fire
+    - Armor :: 4
 *** Ice Lizardking I
     - Weaknesses :: Spear Dagger Fire
     - Armor :: 4
@@ -2546,6 +2773,9 @@ Townsperson, northwest side of town
     - Armor :: 2
     - On Steal :: Ice Soulstone (M)
     - On Collect :: 840g
+*** Ice Remnant Mk.II
+    - Weaknesses :: Sword Spear Axe Fire
+    - Armor :: 4
 *** Icky Slug
     - Weaknesses :: Dagger Light
     - Armor :: 3
@@ -2602,6 +2832,13 @@ Townsperson, northwest side of town
 *** Marionette Bones
     - Weaknesses :: Staff Wind Light
     - Armor :: 1
+*** Master Thief I
+    - Weaknesses :: Sword Spear Thunder Light
+    - Armor :: 3
+*** Master Thief II
+    - Weaknesses :: Sword Bow Ice Light
+    - Armor :: 4
+    - On Steal :: Coin Pouch
 *** Morlock's Mercenary I
     - Weaknesses :: Spear Dagger /Axe/ /Bow/ /Staff/ /Fire/ /Ice/ /Thunder/ /Wind/ /Light/ /Dark/
     - Armor :: 3
@@ -2636,6 +2873,9 @@ Townsperson, northwest side of town
 *** Rampant Weed
     - Weaknesses :: Sword Axe Fire
     - Armor :: 2
+*** Reaper Crab
+    - Weaknesses :: Dagger Axe Thunder
+    - Armor :: 5
 *** Reptalion
     Difficult to hit
     - Weaknesses :: Axe
@@ -2817,6 +3057,9 @@ Townsperson, northwest side of town
    - Weaknesses :: Sword Dagger Bow Wind
    - Armor :: 4
    - On Steal :: Thunder Soulstone
+*** Thunder Revenant
+    - Weaknesses :: Sword Bow Staff Wind
+    - Armor :: 7
 *** Thunder Sentinel
     - Weaknesses :: Sword Spear Axe Staff Wind
     - Armor :: 1
@@ -2852,7 +3095,7 @@ Townsperson, northwest side of town
     - Weaknesses :: /Sword/ /Spear/ /Axe/ *Bow* *Thunder*
     - Armor :: 2
 *** Wind Elemental
-    - Weaknesses :: /Spear/ /Dagger/ /Bow/ /Staff/ /Fire/ /Ice/ *Thunder*
+    - Weaknesses :: Ice Thunder
     - Armor :: 4
     - On Steal :: Wind Soulstone (L)
 *** Wind Guardian
@@ -2941,6 +3184,15 @@ Townsperson, northwest side of town
     - Weaknesses :: Sword Axe Bow Ice Light
     - Armor :: 4
     - On Steal :: Refreshing Jam
+*** Dreisang, the Archmagus
+    Scrambles weaknesses periodically.
+    Armor grows to 7, then 10.
+    - Armor :: 4
+    - On Collect :: 40,000g
+    - Gold :: 22,000
+    - EXP :: 2,000
+    - JP :: 1,200
+    - Drops :: Refreshing Jam
 *** Erhardt
     Solo challenge vs. Olberic
     - Weaknesses :: *Sword* /Dagger/ /Axe/ /Bow/ /Fire/ /Ice/ /Thunder/ /Wind/ /Dark/
@@ -3168,5 +3420,4 @@ Townsperson, northwest side of town
 # eval: (setq org-refile-targets '((nil . (:maxlevel . 2))))
 # eval: (setq org-refile-use-outline-path t)
 # tempnoeval: (setq org-outline-path-complete-in-steps nil)
-# after-save-hook: org-html-export-to-html
 # end:
