@@ -29,3 +29,22 @@ a.bible:hover {
 .timestamp {
     color: #7F7F7F;
 }
+
+.outline-2 {
+    line-height: 200%;
+}
+
+p {
+    padding-bottom: 0.5em;
+}
+
+li > div > p {
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+    border-top: 0.5px dotted #cccccc;
+}
+
+p + p {
+    padding-top: 0.5em;
+    border-top: 0.5px dotted #cccccc;
+}
