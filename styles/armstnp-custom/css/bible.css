@@ -34,6 +34,13 @@ a.bible:hover {
     line-height: 200%;
 }
 
+div.outline-text-1, div.outline-text-2, div.outline-text-3, div.outline-text-4, div.outline-text-5, div.outline-text-6, div.outline-text-7, div.outline-text-8 {
+    padding-left: 0.5em;
+    border-left: 0.5px solid #cccccc;
+    border-radius: 16px;
+    background-color: #fafaee;
+}
+
 p {
     padding-bottom: 0.5em;
 }
