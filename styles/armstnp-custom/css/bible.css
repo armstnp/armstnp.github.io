@@ -34,7 +34,14 @@ a.bible:hover {
     line-height: 200%;
 }
 
-div.outline-text-1, div.outline-text-2, div.outline-text-3, div.outline-text-4, div.outline-text-5, div.outline-text-6, div.outline-text-7, div.outline-text-8 {
+div.outline-text-1:not(.blank-section),
+div.outline-text-2:not(.blank-section),
+div.outline-text-3:not(.blank-section),
+div.outline-text-4:not(.blank-section),
+div.outline-text-5:not(.blank-section),
+div.outline-text-6:not(.blank-section),
+div.outline-text-7:not(.blank-section),
+div.outline-text-8:not(.blank-section) {
     padding: 0.5em; inherit; 0.5em; 0.5em;
     border-left: 2px solid #aaaaaa;
     border-radius: 16px;
