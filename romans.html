@@ -1,0 +1,1394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2019-06-09 Sun 15:00 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Romans - Pastor Tom Pennington</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Nathan Armstrong" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="styles/gongzhitaao-org/org.css"/>
+<link rel="stylesheet" type="text/css" href="styles/armstnp-custom/css/bible.css"/>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Romans - Pastor Tom Pennington</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orge7d0a6e">1:1-17    Greeting &amp; Introduction</a></li>
+<li><a href="#orge1ec57f">1:18-4:25 The Gospel Explained: Justification by Faith Alone</a></li>
+<li><a href="#org08f4712">5-8      The Gospel Experienced: The Effects of Justification</a></li>
+<li><a href="#orgfefe0c8">9-11     The Gospel Defended: Election, Israel, &amp; God's Promises</a>
+<ul>
+<li><a href="#org6c5d7d6">9:1-5      Introduction: Israel's Rejection of God's Gospel</a></li>
+<li><a href="#orgdeecc63">9:6-29     The Reality of Divine Election</a></li>
+<li><a href="#org6861223">9:30-10:21  The Reality of Human Responsibility</a>
+<ul>
+<li><a href="#org3074d95">Two realities</a></li>
+<li><a href="#org596b020">Two ways to deal with those realities</a></li>
+<li><a href="#org5f296de">Primary factors why people do not believe the Gospel</a></li>
+</ul>
+</li>
+<li><a href="#org0a99e2d">11:1-32    The Reality of God's Faithfulness</a>
+<ul>
+<li><a href="#org699203c">I. 1-10 Israel's Current Spiritual Condition</a></li>
+<li><a href="#org80a8d22">B. 11-32 Israel's Future Spiritual Salvation</a></li>
+</ul>
+</li>
+<li><a href="#org2b3bf22">11:33-36   Doxology: Our Adoration of God's Character</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orge7d0a6e" class="outline-2">
+<h2 id="orge7d0a6e"><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 1:1-17" target="_blank">1:1-17</a>    Greeting &amp; Introduction</h2>
+</div>
+<div id="outline-container-orge1ec57f" class="outline-2">
+<h2 id="orge1ec57f"><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 1:18-4:25" target="_blank">1:18-4:25</a> The Gospel Explained: Justification by Faith Alone</h2>
+</div>
+<div id="outline-container-org08f4712" class="outline-2">
+<h2 id="org08f4712"><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 5-8" target="_blank">5-8</a>      The Gospel Experienced: The Effects of Justification</h2>
+</div>
+<div id="outline-container-orgfefe0c8" class="outline-2">
+<h2 id="orgfefe0c8"><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 9-11" target="_blank">9-11</a>     The Gospel Defended: Election, Israel, &amp; God's Promises</h2>
+<div class="outline-text-2 blank-section" id="text-orgfefe0c8">
+</div>
+<div id="outline-container-org6c5d7d6" class="outline-3">
+<h3 id="org6c5d7d6"><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 9:1-5" target="_blank">9:1-5</a>      Introduction: Israel's Rejection of God's Gospel</h3>
+</div>
+<div id="outline-container-orgdeecc63" class="outline-3">
+<h3 id="orgdeecc63"><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 9:6-29" target="_blank">9:6-29</a>     The Reality of Divine Election</h3>
+</div>
+<div id="outline-container-org6861223" class="outline-3">
+<h3 id="org6861223"><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 9:30-10:21" target="_blank">9:30-10:21</a>  The Reality of Human Responsibility</h3>
+<div class="outline-text-3 blank-section" id="text-org6861223">
+</div>
+<div id="outline-container-org3074d95" class="outline-4">
+<h4 id="org3074d95">Two realities</h4>
+<div class="outline-text-4 blank-section" id="text-org3074d95">
+</div>
+<ul class="org-ul">
+<li><a id="orgbbe5c44"></a>God is Righteous, and only receives those who are righteous<br /></li>
+<li><a id="org03048a1"></a>None in Humanity are Righteous<br /></li>
+</ul>
+</div>
+<div id="outline-container-org596b020" class="outline-4">
+<h4 id="org596b020">Two ways to deal with those realities</h4>
+<div class="outline-text-4 blank-section" id="text-org596b020">
+</div>
+<ul class="org-ul">
+<li><a id="org3a67c19"></a>Establish your own righteousness before your God<br />
+<ul class="org-ul">
+<li><a id="org6a24dc7"></a><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Isaiah 64:6" target="_blank">Isaiah 64:6</a> - In God's sight, all our <i>righteous</i> deeds are a filthy garment<br /></li>
+</ul>
+</li>
+<li><a id="org69c934f"></a>Receive righteousness from God as a free gift through faith in Jesus Christ<br /></li>
+</ul>
+</div>
+<div id="outline-container-org5f296de" class="outline-4">
+<h4 id="org5f296de">Primary factors why people do not believe the Gospel</h4>
+<div class="outline-text-4 blank-section" id="text-org5f296de">
+</div>
+<ul class="org-ul">
+<li><a id="orge1775da"></a>I.  <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 9:30-33" target="_blank">30-33</a>   A Failure to Understand the Clear Purpose of God's Law<br />
+<ul class="org-ul">
+<li><a id="orge5b1666"></a>A. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 9:30" target="_blank">30</a> Many Gentiles Have Gained Righteousness Apart from God's Law (mosaic law)<br /></li>
+<li><a id="orge228bdd"></a>B. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 9:31-33" target="_blank">31-33</a> No Jews Have Gained Righteousness Through the Law<br />
+<ul class="org-ul">
+<li><a id="org7b3aeec"></a>1. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 9:31" target="_blank">31</a> The Fact<br /></li>
+<li><a id="org1f7faf1"></a>2. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 9:32-33" target="_blank">32-33</a> The Reasons<br />
+<ul class="org-ul">
+<li><a id="org0dfb040"></a>a. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 9:32" target="_blank">32a</a> They Stumbled Over the Means<br />
+<div class="outline-text-8" id="text-org0dfb040">
+<p>
+See also <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 10:3" target="_blank">10:3</a>
+</p>
+</div>
+</li>
+<li><a id="org5846015"></a><b>b. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 9:32-33" target="_blank">32b-33</a> They Stumbled Over the Messiah</b><br /></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="org64c2533"></a>The Messiah is "the Stone"<br />
+<div class="outline-text-6" id="text-org64c2533">
+<ul class="org-ul">
+<li><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Psalm 118:22" target="_blank">Psalm 118:22</a></li>
+<li><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Isaiah 8:13-15;28:16" target="_blank">Isaiah 8:13-15; 28:16</a> (Paul directly quotes these in v. 33)</li>
+<li><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Daniel 2:34-35,44-45" target="_blank">Daniel 2:34-35,44-45</a></li>
+<li><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Matthew 21:42-44" target="_blank">Matthew 21:42-44</a> (cf. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Mark 12:10-11" target="_blank">Mark 12:10-11</a>; <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Luke 20:17-18" target="_blank">Luke 20:17-18</a>)</li>
+<li><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Acts 4:10-12" target="_blank">Acts 4:10-12</a></li>
+<li><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=1 Corinthians 3:11" target="_blank">1 Corinthians 3:11</a></li>
+<li><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Ephesians 2:20" target="_blank">Ephesians 2:20</a></li>
+<li><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=1 Peter 2:4-8" target="_blank">1 Peter 2:4-8</a> (includes <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Isaiah 8,26" target="_blank">Isaiah 8,26</a>; and <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Psalm 118" target="_blank">Psalm 118</a>)</li>
+</ul>
+</div>
+</li>
+<li><a id="org11d3001"></a>'Stumble' - to make contact with something in a violent or bruising manner.<br />
+<div class="outline-text-6" id="text-org11d3001">
+<p>
+In this context: 'to take offense at', 'to feel repugnance for',  'to reject'
+</p>
+</div>
+</li>
+<li><a id="org7718481"></a><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Isaiah 28:16" target="_blank">Isaiah 28:16</a> Christ, the cornerstone<br />
+<div class="outline-text-6" id="text-org7718481">
+<p>
+Crucial role: massive, squared within a fraction of an inch of perfection, then laid on carefully prepared ground. All other stones in the foundation were squared and trued to that cornerstone, and the rest of the building off of that foundation.
+</p>
+
+<p>
+The cornerstone is used to test all others.
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Isaiah 8:14-15" target="_blank">Isaiah 8:14-15</a>
+</p>
+
+<p>
+The cross is a scandal, an offense to those who believe they are saved by their own works, and thus Christ is rejected.
+</p>
+
+<p>
+The faith we place in Christ will never be shaken.
+</p>
+</div>
+</li>
+<li><a id="orgbbe0627"></a>The Implications<br />
+<ul class="org-ul">
+<li><a id="org61170d2"></a>1. Many still stumble over and are offended by Jesus Christ.<br />
+<div class="outline-text-7" id="text-org61170d2">
+<p>
+His exclusivity.
+</p>
+
+<p>
+The confession of how deep our sin is and impossible our own salvation is leads us to reject Christ in pride.
+</p>
+</div>
+</li>
+<li><a id="org013268c"></a>2. Nothing in life or death is more important than your response to Jesus Christ.<br />
+<div class="outline-text-7" id="text-org013268c">
+<p>
+Christ is the cornerstone, all else is meaningless if not trued to that.
+</p>
+</div>
+</li>
+<li><a id="org6896722"></a>3. There are only two possible responses to Jesus.<br />
+<div class="outline-text-7" id="text-org6896722">
+<p>
+Believe in Him (<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 9:33" target="_blank">33</a>)
+Reject Him, either in antagonism or apathy (<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 9:33" target="_blank">33</a>; cf. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Matthew 21:42-44" target="_blank">Matthew 21:42-44</a>)
+</p>
+</div>
+</li>
+<li><a id="orga3a3686"></a>4. True faith in Jesus Christ means He has become the cornerstone of your life!<br /></li>
+<li><a id="org0a6a434"></a>5. No one who believes in Jesus will be disappointed, dishonored, or shamed at the judgment!<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="org40a6b33"></a>II. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 10:1-15" target="_blank">10:1-15</a> An Unwillingness to Accept Salvation by Faith Alone<br />
+<ul class="org-ul">
+<li><a id="orgb094a6a"></a>A. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 10:1-4" target="_blank">1-4</a>   An Abysmal Ignorance of Faith<br />
+<ul class="org-ul">
+<li><a id="org7f571fe"></a>1. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 10:1" target="_blank">1</a> The Result<br />
+<ul class="org-ul">
+<li><a id="org50da0ab"></a><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 9:1-3" target="_blank">9:1-3</a>, <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:1" target="_blank">11:1</a> starts similarly - Paul's sorrow and yearning for the lost of Israel<br /></li>
+<li><a id="org7a6e6cb"></a>The church, the bride of Christ, is the believers' true family; if you do not love them, you are not saved (1 John)<br /></li>
+<li><a id="orgefabd3f"></a>'desire' - something that brings satisfaction, good<br /></li>
+<li><a id="orgef48944"></a>'prayer' - request, petition<br /></li>
+<li><a id="orge80e338"></a>Acts - His own people were his greatest enemies, and despite that, he prays earnestly for their salvation.<br /></li>
+<li><a id="org170af3c"></a><i>In context</i>, as a result of their own ignorance, they had not experienced God's salvation.<br />
+<div class="outline-text-8" id="text-org170af3c">
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Ephesians 2" target="_blank">Ephesians 2</a> - dead in their sins, sons of Satan, children of God's wrath
+</p>
+
+<p>
+They had knowledge of the Scripture, the ceremonies, externally religious and righteous; fervent and sincere desire for spiritual things.
+</p>
+
+<p>
+Paul emphasizes they still need to be saved
+</p>
+</div>
+</li>
+<li><a id="org17426e5"></a>We should follow God's example, and earnestly pray for the salvation of those we love.<br />
+<div class="outline-text-8" id="text-org17426e5">
+<p>
+If we do not pray, we cannot say we desire it.
+</p>
+</div>
+</li>
+<li><a id="org394ad58"></a>Divine election is not incompatible with prayer for salvation and evangelism.<br />
+<div class="outline-text-8" id="text-org394ad58">
+<p>
+This passage comes immediately after his treatise on divine election.
+</p>
+
+<p>
+Consider Paul's life, devoted to evangelism.
+</p>
+
+<p>
+Sovereign election is the only reasonable basis for praying for salvation: It's not ultimately up to them, it's up to God alone.
+</p>
+
+<p>
+J.I. Packer - 'Evangelism and the Sovereignty of God'
+</p>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="org0ffbfc4"></a>2. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 10:2-4" target="_blank">2-4</a> The Analysis<br />
+<ul class="org-ul">
+<li><a id="org52ee5cd"></a>'zeal' - an intense devotion to something; in this case, God<br />
+<div class="outline-text-8" id="text-org52ee5cd">
+<ul class="org-ul">
+<li><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=John 2:17" target="_blank">John 2:17</a>, <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Acts 21:20" target="_blank">Acts 21:20</a>;<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Acts 22:3" target="_blank">22:3</a>, <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=2 Corinthians 11:2" target="_blank">2 Corinthians 11:2</a> - The zeal of Israel</li>
+<li><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Acts 26:9-11" target="_blank">Acts 26:9-11</a>, <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Galatians 1:13-14" target="_blank">Galatians 1:13-14</a> - Paul's own zeal for God as an unbeliever</li>
+</ul>
+</div>
+</li>
+<li><a id="orgdf8dca9"></a><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 10:2" target="_blank">2</a> This zeal was not founded in knowledge, in practical application on how they could be made right with God.<br />
+<div class="outline-text-8" id="text-orgdf8dca9">
+<p>
+Zeal is nowadays valued greater than knowledge.
+</p>
+
+<p>
+You can be zealous for God and not even be converted.
+</p>
+
+<p>
+Luther: 'Better to limp in the right way than to run with great zeal in the wrong direction.'
+</p>
+</div>
+</li>
+<li><a id="orgaccb41d"></a><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 10:3" target="_blank">3</a> They did not know God's righteousness<br />
+<ul class="org-ul">
+<li><a id="org97d881c"></a>'righteousness' - the gift of righteousness that God gives<br />
+<div class="outline-text-9" id="text-org97d881c">
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 1:16-17" target="_blank">1:16-17</a>, <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 3:21-24" target="_blank">3:21-24</a>, <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 4:1-6" target="_blank">4:1-6</a>
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="orgb9a4d7a"></a>Paul uses this expression in the same way (<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 10:6" target="_blank">6</a>)<br /></li>
+<li><a id="org6903ced"></a>Ignorant of the extent of God's righteousness (too low), their own sinful hearts (too high)<br /></li>
+<li><a id="org452b184"></a>This is true even today: Roman Catholicism, modern Judaism, 'Church of Christ' attaching baptism, many cults: wrong Jesus, wrong Scripture<br /></li>
+<li><a id="org479e3af"></a>This same ignorance can be found even in faithful churches, because we are born self-righteous<br /></li>
+<li><a id="orgffff9b5"></a>If we could earn our way to God, why did God have to reconcile us through His Son?<br /></li>
+</ul>
+</li>
+<li><a id="orgbf27931"></a>Establishing their own righteousness; 'seeking' - through serious effort<br />
+<ul class="org-ul">
+<li><a id="org69c40f0"></a>Tried to earn righteousness before God with their own efforts<br /></li>
+<li><a id="orge0b421c"></a><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 9:31" target="_blank">9:31</a>, <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Philippians 3:3-9" target="_blank">Philippians 3:3-9</a><br /></li>
+</ul>
+</li>
+<li><a id="orgf8e750a"></a>How do you submit?<br />
+<ul class="org-ul">
+<li><a id="org43ddd7f"></a>Renouncing your own righteousness<br /></li>
+<li><a id="org3f0e30d"></a>Putting your complete confidence in the life and death of Jesus Christ<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="org027b31b"></a><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 10:4" target="_blank">4</a> Christ, the end of the law for righteousness<br />
+<ul class="org-ul">
+<li><a id="org459c978"></a>'end', 'telos', 'terminus' - The law has been terminated as a way to gain a right standing before God.<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="org542e9a8"></a>The Implications<br />
+<ul class="org-ul">
+<li><a id="org1e10c3c"></a>Examine yourself.<br /></li>
+<li><a id="org2134320"></a>Admit the spiritual condition of all who lack the knowledge of God's way of salvation or have refused to submit to it.<br /></li>
+<li><a id="orgbf73d96"></a>Desire and pray for their salvation.<br /></li>
+<li><a id="org40c383c"></a>Share the biblical gospel with them.<br /></li>
+<li><a id="orgefe807e"></a>Celebrate Christ as the end of the law for righteousness to everyone who believes.<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="org831b8da"></a>B. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 10:5-8" target="_blank">5-8</a>   The Diametrical Opposite of Faith<br />
+<div class="outline-text-6" id="text-org831b8da">
+<p>
+Only two possible approaches to be right with God
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org2583db8"></a>1. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 10:5" target="_blank">5</a> The Righteousness based on Law<br />
+<div class="outline-text-7" id="text-org2583db8">
+<p>
+lit. 'out of the law'
+</p>
+
+<p>
+Quotes <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Leviticus 18:5" target="_blank">Leviticus 18:5</a> - 'a man may live if he does them'
+</p>
+
+<p>
+This is true even in earthly kingdoms - a violation of a single law is not compensated by keeping other laws.
+Even a claim to keeping God's law is only self-deception, as His standard is perfect, and none can meet it.
+</p>
+
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Deuteronomy 27:26" target="_blank">Deuteronomy 27:26</a>, <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Galatians 3:10" target="_blank">Galatians 3:10</a> - 'You are under a curse if you do not abide by all things in the book of the law.'
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=James 2:10-11" target="_blank">James 2:10-11</a> - We cannot cherry-pick the law.
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 3:19-20" target="_blank">Romans 3:19-20</a>; <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 8:7-8" target="_blank">8:7-8</a> - 'cannot', capacity; incapable
+</p>
+</div>
+</li>
+<li><a id="orgc649731"></a>2. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 10:6-8" target="_blank">6-8</a> The Righteousness based on Faith<br />
+<div class="outline-text-7" id="text-orgc649731">
+<p>
+Paul paraphrases <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Deuteronomy 9:4" target="_blank">Deuteronomy 9:4</a>; <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Deuteronomy 30:6" target="_blank">30:6</a>,<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Deuteronomy 30:12-14" target="_blank">12-14</a>
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org0d5302c"></a><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 10:6" target="_blank">6</a> What this righteoussness does <i>not</i> say<br />
+<div class="outline-text-8" id="text-org0d5302c">
+<p>
+'Do I need to do the most extreme impossible things?'
+</p>
+
+<p>
+Paul points that Christ already has done the impossible; these kinds of impossible demands aren't made of us.
+</p>
+</div>
+</li>
+<li><a id="org624366c"></a><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 10:8" target="_blank">8</a> What this righteousness <i>does</i> say<br />
+<div class="outline-text-8" id="text-org624366c">
+<p>
+It's so accessible, it requires only your mouth and heart. Christ has done all required.
+</p>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="org6dd5c2f"></a>C. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 10:9-10" target="_blank">9-10</a>  The Dual Aspects of Faith<br />
+<div class="outline-text-6" id="text-org6dd5c2f">
+<p>
+'Being saved' refers to God rescuing us as sinners from His own judgment against our sin.
+</p>
+
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 5:8-9" target="_blank">5:8-9</a>, <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 3:21-" target="_blank">3:21-</a>
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org34b5d03"></a>1. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 10:9" target="_blank">9</a> Believe in your heart that God raised Jesus from the dead<br />
+<div class="outline-text-7" id="text-org34b5d03">
+<p>
+'believe <i>that</i>' - True saving faith has content; you can only believe in what you know.
+</p>
+
+<p>
+Paul singles out the resurrection from the Gospel as key.
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 1:4" target="_blank">Romans 1:4</a>;<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 4:24-25" target="_blank">4:24-25</a>;<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 6:4-5" target="_blank">6:4-5</a>;<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 8:11" target="_blank">8:11</a>,<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 8:34" target="_blank">34</a>
+</p>
+
+<p>
+The resurrection is shorthand for Jesus' claims to be the Son of God, Son of Man, Messiah.
+</p>
+
+<p>
+'in your heart' - Your entire being. An assent to the truth required, not just knowledge.
+</p>
+</div>
+</li>
+<li><a id="orgf056c8c"></a>2. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 10:9" target="_blank">9</a> Confess with your mouth Jesus as Lord<br />
+<div class="outline-text-7" id="text-orgf056c8c">
+<p>
+'confess' - to say the same thing (here, the same thing as God says about Jesus)
+Public acknowledgment; the earliest, simplest creed of the church.
+</p>
+
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Luke 6:46" target="_blank">Luke 6:46</a>; <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Matthew 7:22-23" target="_blank">Matthew 7:22-23</a>; <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=1 Corinthians 12:3" target="_blank">1 Corinthians 12:3</a> - Words alone are not sufficient.
+</p>
+
+<p>
+The confession: 'Jesus is Lord', meaning:
+</p>
+<ul class="org-ul">
+<li>Jesus is the one, true and living God; greek 'curios' is used for God's personal name in Septuagint</li>
+<li>Jesus is master - <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=John 13:12-16" target="_blank">John 13:12-16</a> - We must submit to Jesus, as He is greater and commands our obedience.</li>
+</ul>
+
+<p>
+This isn't separate from believing, but still subsequent to it - you can only confess what you believe.
+Similarly, truly believing these things about Jesus in your heart will compel you to confess Him with your mouth.
+</p>
+
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=John 20:26-29" target="_blank">John 20:26-29</a> - Thomas' confession
+</p>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="org3cdb059"></a>Implications<br />
+<ul class="org-ul">
+<li><a id="orgb146a11"></a>If you are saved, there is no condemnation.<br /></li>
+<li><a id="org89089ab"></a>If you are unsaved, Paul makes it clear this applies to all.<br /></li>
+</ul>
+</li>
+<li><a id="org6020e35"></a>D. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 10:11-13" target="_blank">11-13</a> The Practical Implications of Faith<br />
+<ul class="org-ul">
+<li><a id="orgd44fbb3"></a><b>1.</b> <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 10:11" target="_blank">11</a> Its Foundation is Scriptural<br />
+<div class="outline-text-7" id="text-orgd44fbb3">
+<p>
+Paul quotes again here from the OT - the same passage as in <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 9:33" target="_blank">9:33</a>: <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Isaiah 28:16" target="_blank">Isaiah 28:16</a>.
+Instead of focusing on the cornerstone, here he focuses on the surety of faith. 
+</p>
+
+<dl class="org-dl">
+<dt>'believes in him'</dt><dd>entrust yourself to him, solely and wholly</dd>
+<dt>'disappointed'</dt><dd>put to shame on the day of judgment</dd>
+</dl>
+
+<p>
+Note that this passage in Isaiah requires nothing but belief.
+</p>
+
+<p>
+Paul is proving here faith alone is all that is required for salvation.
+</p>
+</div>
+</li>
+<li><a id="org3648d28"></a><b>2.</b> <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 10:11" target="_blank">11</a> Its Application is Personal<br />
+<div class="outline-text-7" id="text-org3648d28">
+<p>
+Paul under the inspiration of the Holy Spirit, Paul intentionally changes the wording.
+</p>
+
+<dl class="org-dl">
+<dt>'Whoever believes'</dt><dd>does not match the Hebrew text, 'He who believes'; Paul says 'everyone who believes'</dd>
+</dl>
+
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 10:4" target="_blank">4</a> 'Christ is the end of the law for righteousness to <i>everyone</i> who believes'
+</p>
+</div>
+</li>
+<li><a id="org64fae0b"></a><b>3.</b> <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 10:12" target="_blank">12</a> Its Scope is Universal<br />
+<ul class="org-ul">
+<li><a id="orgb004f54"></a><b>a.</b> It applies equally to all people<br />
+<div class="outline-text-8" id="text-orgb004f54">
+<dl class="org-dl">
+<dt>'no distinction between Jew and Greek'</dt><dd>eqv. to 'Jew and Gentile' in its use; no difference <i>spiritually</i>, in that they are all saved in exactly the same way</dd>
+</dl>
+
+
+<ul class="org-ul">
+<li><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 1:16" target="_blank">Romans 1:16</a></li>
+<li><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 3:22-24,29" target="_blank">Romans 3:22-24,29</a></li>
+</ul>
+
+<p>
+Culture, ethnic background, race, religious background do not matter, as all mankind is under the same curse of sin and are saved the same way.
+</p>
+</div>
+</li>
+<li><a id="org8bfb986"></a><b>b.</b> The same Lord is Lord over all<br />
+<div class="outline-text-8" id="text-org8bfb986">
+<p>
+Not confined to one ethnicity.
+</p>
+
+<ul class="org-ul">
+<li><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=John 1" target="_blank">John 1</a> - Jesus is the one through whom all things were made; as the Creator, He <i>is</i> by definition Lord.</li>
+<li><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Joel 2:28" target="_blank">Joel 2:28</a></li>
+<li><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Acts 10:10-16" target="_blank">Acts 10:10-16</a></li>
+<li><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 3:29-30" target="_blank">Romans 3:29-30</a></li>
+</ul>
+
+<p>
+This is our motivating factor for missions - not to spread our <i>culture</i>, but to spread the single universal gospel.
+</p>
+</div>
+</li>
+<li><a id="org2a21654"></a><b>c.</b> God is abounding in the riches of His mercy, kindness, and patience<br />
+<div class="outline-text-8" id="text-org2a21654">
+<p>
+God has more than enough to satisfy all who come.
+Calvin: 'The wealth of our Father is not diminished by His liberality.'
+</p>
+
+<ul class="org-ul">
+<li><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 2:4" target="_blank">Romans 2:4</a></li>
+<li><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Ephesians 1:7" target="_blank">Ephesians 1:7</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="org7894284"></a><b>4.</b> <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 10:13" target="_blank">13</a> Its Promise is Categorical<br />
+<div class="outline-text-7" id="text-org7894284">
+<p>
+There are no qualifications Paul lists here!
+</p>
+
+<p>
+A pattern in the OT <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Genesis 4:25-26;12:8;26:25" target="_blank">Genesis 4:25-26;12:8;26:25</a> <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Exodus 24:25" target="_blank">Exodus 24:25</a>
+</p>
+
+<p>
+Calling on the Lord is used in four ways:
+</p>
+<ul class="org-ul">
+<li>Confessing God as your God, and the one true God <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Psalm 45:18-19" target="_blank">Psalm 45:18-19</a> <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Isaiah 44:5" target="_blank">Isaiah 44:5</a></li>
+<li>To call on God in praise (Psalm ?)</li>
+<li>To call on God in prayer <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Psalm 86:7" target="_blank">Psalm 86:7</a></li>
+<li>To call on God for forgiveness (likely the way meant here) <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Psalm 86:5" target="_blank">Psalm 86:5</a> <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Isaiah 55:6" target="_blank">Isaiah 55:6</a>
+<ul class="org-ul">
+<li>Accompanied by a spirit of repentance 
+<ul class="org-ul">
+<li><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Jonah 3:8" target="_blank">Jonah 3:8</a></li>
+<li><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Luke 18:13" target="_blank">Luke 18:13</a></li>
+<li><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Acts 2:21;9:14,21" target="_blank">Acts 2:21;9:14,21</a></li>
+<li><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=1 Corinthians 1:2" target="_blank">1 Corinthians 1:2</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org0a99e2d" class="outline-3">
+<h3 id="org0a99e2d"><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:1-32" target="_blank">11:1-32</a>    The Reality of God's Faithfulness</h3>
+<div class="outline-text-3" id="text-org0a99e2d">
+<p>
+Repeated structures in <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:1" target="_blank">1</a> and <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:11" target="_blank">11</a> mark two different sections.
+</p>
+</div>
+<div id="outline-container-org699203c" class="outline-4">
+<h4 id="org699203c">I. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:1-10" target="_blank">1-10</a> Israel's Current Spiritual Condition</h4>
+<div class="outline-text-4 blank-section" id="text-org699203c">
+</div>
+<ul class="org-ul">
+<li><a id="org05edcf5"></a>A. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:1-6" target="_blank">1-6</a>  A Remnant Is Saved By Grace<br />
+<ul class="org-ul">
+<li><a id="orgd9b908f"></a>1. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:1a" target="_blank">1a</a>    The Question: Has God Permanently Rejected Israel?<br /></li>
+<li><a id="org8ebc738"></a>2. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:1b,2a" target="_blank">1b,2a</a> The Answer: Absolutely Not!<br /></li>
+<li><a id="org9ef191c"></a>Application<br />
+<div class="outline-text-6" id="text-org9ef191c">
+<p>
+End of chapter 8: Paul argues we are absolutely secure in Christ.
+</p>
+
+<p>
+This is Paul's argument <i>even to Gentiles</i> that Israel is not a counterargument to our own
+salvation, but rather the proof of its security.
+</p>
+</div>
+</li>
+<li><a id="org2c53841"></a>3. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:1c-4" target="_blank">1c-4</a>  The Proof<br />
+<ul class="org-ul">
+<li><a id="orge61d84e"></a><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:1c" target="_blank">1c</a> Personal: Paul's own conversion to Christ<br />
+<div class="outline-text-7" id="text-orge61d84e">
+<p>
+Benjamin - the only son of Jacob born in the Promised Land; Jerusalem resided in its territory.
+</p>
+
+<p>
+Judah - the tribe of David - and Benjamin were both in the faithful south of Israel after its schism.
+</p>
+
+<p>
+Paul doesn't seem to make his point out of personal desire, but rather pointing out that as a Jewish Christian,
+he is proof that God has not wholly rejected His people.
+</p>
+
+<p>
+Indeed, Paul was the prime exemplar of this, given who he was before he was saved by God. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=1 Timothy 1:13-16" target="_blank">1 Timothy 1:13-16</a>
+</p>
+</div>
+</li>
+<li><a id="org06455b4"></a><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:2a" target="_blank">2a</a> Biblical: God's OT promises not to forsake His people<br />
+<div class="outline-text-7" id="text-org06455b4">
+<p>
+The wording of the initial question and his response here come directly from the OT:
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=1 Samuel 12:19-22" target="_blank">1 Samuel 12:19-22</a> <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Psalm 94:14" target="_blank">Psalm 94:14</a> <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Jeremiah 31:35-37" target="_blank">Jeremiah 31:35-37</a>
+</p>
+
+<p>
+Paul is refuting the idea that God has violated His promise to Israel.
+</p>
+
+<p>
+Central to God's nature is His inability to lie, to act contrary to His own nature:
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Numbers 23:19" target="_blank">Numbers 23:19</a> <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Titus 1:2" target="_blank">Titus 1:2</a> <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Hebrews 6:18" target="_blank">Hebrews 6:18</a>
+</p>
+
+<p>
+The ethnic descendants of Israel are still the special objects of God's care.
+</p>
+
+<p>
+There is therefore no place for anti-semitism in the heart of the believer, both
+because they are made in the image of God, and because of this special care He holds.
+</p>
+
+<p>
+We can also trust God will keep His promises to <i>you</i>. He is never undependable; He has
+never lied, never failed, and never will. He is incapable of doing so.
+</p>
+</div>
+</li>
+<li><a id="org444da0a"></a><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:2a" target="_blank">2a</a> Theological: God's electing love of the nation<br />
+<div class="outline-text-7" id="text-org444da0a">
+<p>
+'To-know before' προέγνω, from προγινώσκω
+</p>
+
+<p>
+This must be referring to the entire nation of Israel:
+</p>
+<ul class="org-ul">
+<li>It best fits the immediate context from <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:1" target="_blank">1</a></li>
+<li>It best fits the entire context of <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11" target="_blank">chapter 11</a></li>
+<li>Election of the nation is in view <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:28" target="_blank">Romans 11:28</a></li>
+</ul>
+
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Amos 3:2" target="_blank">Amos 3:2</a>
+</p>
+
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 9:4-5" target="_blank">9:4-5</a> Through Israel, He brought the Messiah
+</p>
+
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Deuteronomy 7:7-8;10:14-15;32:8-9" target="_blank">Deuteronomy 7:7-8;10:14-15;32:8-9</a>
+</p>
+
+<p>
+This does <i>not</i> imply the current nation of Israel is filled with believers,
+nor does it mean God will save every member of Israel (as we have seen in prior chapters).
+But the special purpose of Israel as a nation does not guarantee <i>individual</i> salvation.
+</p>
+
+<p>
+Human sin cannot cancel out the promises of God. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 3:3-4" target="_blank">3:3-4</a>
+</p>
+
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 8:29" target="_blank">8:29</a> Just as He foreknew Israel, He foreknows those He saves, and just as He never will
+reject Israel, He will never reject you, believer.
+</p>
+</div>
+</li>
+<li><a id="orgcaf590d"></a><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:2b-4" target="_blank">2b-4</a> Biblical: God's response to Elijah<br />
+<div class="outline-text-7" id="text-orgcaf590d">
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 9:27" target="_blank">9:27</a> introduces the idea of a 'remnant' from Isaiah.
+</p>
+
+<p>
+In OT it refers to a spiritual remnant who are saved; embodies both judgment and hope.
+</p>
+
+<p>
+In chapter 9, 'remnant' is used negatively; here, it is used positively.
+</p>
+
+<p>
+Paul makes clear here that the idea is not a new one.
+</p>
+
+<p>
+'appeals' or 'pleads' - to intercede on behalf of someone. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 8:27,34" target="_blank">8:27,34</a>
+But here, it's used in a negative way, <i>against</i> Israel.
+</p>
+
+<p>
+After Solomon's death, his son Rehoboam was foolish and the kingdom was divided; Judah and
+Benjamin in the south ('Judah'), and the other ten tribes in the north ('Israel').
+</p>
+
+<p>
+Jeroboam created their own custom religion in the north as a political ploy to prevent people
+from having to travel to Judah to worship. One place of worship was in Dan and Bethel, on the
+north and south ends of the kingdom. Gold images of calves are placed at these worship
+centers; these weren't images of God Himself, he said, but just things you could worship God
+through, or that He stood on, etc. This syncretist ploy tried to marry pagan Ba'al worship to
+worship of the true God, and He was condemned as it became a regular practice in the land.
+</p>
+
+<p>
+Over time, the worship refocused to worship Ba'al, and within 50 years after Solomon, under
+the reign of King Ahab son of Omri, the evil grew exceedingly great.
+</p>
+
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=1 Kings 16:25-19:14" target="_blank">1 Kings 16:25-19:14</a>
+</p>
+
+<p>
+'Ethbaal' - 'Ba'al is alive', a priest of Ba'al, who murdered his predecessor.
+</p>
+
+<p>
+'Asherah' - the consort of Ba'al
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org93dbd5a"></a><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:3a" target="_blank">3a</a> An Accurate Assessment<br />
+<div class="outline-text-8" id="text-org93dbd5a">
+<p>
+Elijah's diagnosis of the state of Israel is <i>almost</i> entirely accurate: his spiritual
+diagnosis of the worship of Ba'al was accurate.
+</p>
+
+<p>
+'demolished' - razed, total intolerance of worship of Yahweh.
+</p>
+</div>
+</li>
+<li><a id="orgdff706d"></a><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:3b" target="_blank">3b</a> A Mistaken Conclusion<br />
+<div class="outline-text-8" id="text-orgdff706d">
+<p>
+Elijah magnified the pain of his circumstances and minimized God's power, bringing him to
+depression and willingness to forsake his own life.
+</p>
+</div>
+</li>
+<li><a id="org1a7712f"></a><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:4" target="_blank">4</a>  God's Surprising Correction<br />
+<div class="outline-text-8" id="text-org1a7712f">
+<p>
+'a divine oracle'
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org05bb648"></a>He has always had a remnant.<br />
+<div class="outline-text-9" id="text-org05bb648">
+<p>
+'kept' - to preserve in existence; God kept His people by His own action. Paul, in the
+guidance of the Spirit here, adds 'for Myself' to clarify God's intent.
+</p>
+
+<p>
+This clearly parallels in what Paul is saying now.
+</p>
+</div>
+</li>
+<li><a id="org3f185a3"></a>The remnant is always larger than we think.<br />
+<div class="outline-text-9" id="text-org3f185a3">
+<p>
+God preserved '7,000 men'; but this is specifically the word 'males', so even more than that
+had been saved.
+</p>
+</div>
+</li>
+<li><a id="org3952eaf"></a>The true believing remnant doesn't bow to Ba'al.<br />
+<div class="outline-text-9" id="text-org3952eaf">
+<p>
+Recall what Ba'al worship entailed, what you expected to receive from it: sexual pleasure
+and materialism.
+</p>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="orgbbfb79b"></a>The Lessons<br />
+<ul class="org-ul">
+<li><a id="orga0649bd"></a>1. God has not forsaken Israel.<br /></li>
+<li><a id="orgb574e6b"></a>2. God is saving more Jewish people than we think.<br /></li>
+<li><a id="orga9597d4"></a>3. God always has a larger remnant than we think.<br /></li>
+<li><a id="org65fe5cd"></a>4. The spiritual majority are never right.<br />
+<div class="outline-text-9" id="text-org65fe5cd">
+<p>
+Scope: The world at large.
+</p>
+
+<p>
+Therefore, remain confident in the Scripture; numbers do not matter, only truth does.
+</p>
+</div>
+</li>
+<li><a id="orgf703c5e"></a>5. God most often accomplishes His purposes in quiet and seemingly insignificant ways, rather than dramatic ones.<br />
+<div class="outline-text-9" id="text-orgf703c5e">
+<p>
+While He can, He often doesn't, and we shouldn't take the absence of observable signs as an
+indication that He is not still working.
+</p>
+
+<p>
+Christ's church will be built.
+</p>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="orgbca16f4"></a>4. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:5-6" target="_blank">5-6</a>   The Implications<br />
+<ul class="org-ul">
+<li><a id="org0d4b9a2"></a>a) <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:5a" target="_blank">5a</a> There still exists a believing remnant.<br />
+<div class="outline-text-7" id="text-org0d4b9a2">
+<p>
+There has been no change in Israel's spiritual condition.
+</p>
+
+<p>
+The expression here notes the remnant has come into existence, unexpectedly. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Acts 2:41;4:4;6:1a" target="_blank">Acts 2:41;4:4;6:1a</a>
+</p>
+
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Acts 21:20" target="_blank">Acts 21:20</a> uses 'myriads', 'tens of thousands'
+</p>
+
+<p>
+Even out of the world at large, all believers make a remnant out of the full population.
+</p>
+</div>
+</li>
+<li><a id="org2dc124a"></a>b) <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:5b" target="_blank">5b</a> That remnant exists only because of God's choice.<br />
+<div class="outline-text-7" id="text-org2dc124a">
+<p>
+The remnant was not selected for their own works, but by God's gracious choice.
+</p>
+
+<p>
+Again, '<i>I</i> have kept for <i>myself</i>&#x2026;' in <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:4" target="_blank">4</a> and 'according to the choice of grace' in <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:5" target="_blank">5</a>.
+</p>
+
+<p>
+'choice' - election, seen and discussed earlier in <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 9:11" target="_blank">11</a>
+</p>
+</div>
+</li>
+<li><a id="orgee8555a"></a>c) <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:5b" target="_blank">5b</a> God's choice of the remnant is by grace alone.<br />
+<div class="outline-text-7" id="text-orgee8555a">
+<p>
+'grace' - not examining the kindness of the act, but the fact that the choice was totally of
+God. The attribute of God that delights in giving people good, the exact opposite of what
+they deserve.
+</p>
+</div>
+</li>
+<li><a id="orgb7bc46d"></a>d) <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:6" target="_blank">6</a>  God's grace toward the remnant is completely apart from works.<br />
+<div class="outline-text-7" id="text-orgb7bc46d">
+<p>
+Paul reiterates this same point he's made repeatedly. Why insert it here?
+</p>
+
+<p>
+Tom's considerations:
+</p>
+<ul class="org-ul">
+<li>Paul was overwhelmed with this doctrine, and consistently returns to it, as he loved it
+personally.</li>
+<li>Paul knew how difficult it was for us merit-based people to accept grace without our own
+works added to it.</li>
+</ul>
+
+<p>
+Spurgeon: The human heart is so naturally opposed to grace, even if we know we have no part
+in our salvation, we still want some part in the last mile.
+</p>
+
+<p>
+He makes the point that grace and works are mutually exclusive as means for salvation.
+</p>
+
+<p>
+'no longer' - does not imply that there used to be a different means, but rather that the
+logical argument can no longer be maintained for works as a means.
+</p>
+
+<p>
+God's choice excludes <i>anything</i> a human does, good or evil; it is impossible for man to in
+any way influence or affect God's choice, lest it not be God's choice at all, and therefore
+no longer be grace.
+</p>
+
+<p>
+To bring his primary point back home, God has not abandoned His people, and nothing they have
+done can or will subvert His free giving of grace to the remnant He selected.
+</p>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="org2e8f671"></a>Implications<br />
+<ul class="org-ul">
+<li><a id="org29a9b63"></a>1. Every believer in Jesus Chris is part of the believing remnant.<br />
+<div class="outline-text-7" id="text-org29a9b63">
+<p>
+Consider the remnant of the Noahic judgment. He would have been just not to preserve a remnant
+at all.
+</p>
+</div>
+</li>
+<li><a id="org0d7e5d9"></a>2. The only reason you are part of that remnant is God's choice of you.<br />
+<div class="outline-text-7" id="text-org0d7e5d9">
+<p>
+Are you personally amazed at the sheer magnitude of God's grace in saving you?
+</p>
+</div>
+</li>
+<li><a id="orgbf2b384"></a>3. God's choice of you - and therefore your salvation - is not according to your works but by grace alone.<br />
+<ul class="org-ul">
+<li><a id="org35e84b0"></a>If <span class="underline">any</span> of your hope or confidence of being right with God or of getting into heaven is because of your own works, you are not a Christian.<br />
+<div class="outline-text-8" id="text-org35e84b0">
+<p>
+Galatians - 'another gospel'
+</p>
+
+<p>
+Faith and confidence must solely be in Jesus Christ. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 3:24-25" target="_blank">Romans 3:24-25</a>
+</p>
+</div>
+</li>
+<li><a id="orgb683a26"></a>If you are a Christian, verse <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:6" target="_blank">6</a> refutes the idea that God chose you based on His foreknowledge of your faith.<br /></li>
+<li><a id="orgb71b513"></a>Since God didn't choose you because of your works but His grace, it's His grace and not your efforts that guarantee your final salvation.<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="orgd2d6479"></a>B. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:7-10" target="_blank">7-10</a> The Rest Are Being Hardened by Sin<br />
+<div class="outline-text-5" id="text-orgd2d6479">
+<p>
+Paul identifies three groups.
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="orga6957c4"></a>1. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:7a" target="_blank">7a</a>    Israel as a Whole Has Not Obtained Righteousness.<br />
+<div class="outline-text-6" id="text-orga6957c4">
+<p>
+'seeking' - root word for seek, but Paul uses an intensifying prefix: intense search.
+Also in present tense, so this is an intense, ongoing, earnest search.
+</p>
+
+<p>
+The same language is used here as in <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 9:30-10:1,3-4" target="_blank">9:30-10:1,3-4</a>
+</p>
+
+<p>
+Israel seeks to gain a right standing before God, but most failed to obtain it because thy
+were relying on their own works. Only about 16% of the Jewish people have professed faith in
+their Messiah.
+</p>
+
+<p>
+There is a danger in pursuing the right goal in the wrong way, and this same effect can be
+seen in churches today, as well.
+</p>
+
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 3:24-25;8:1,3" target="_blank">3:24-25;8:1,3</a> <i>This</i> is our salvation: Christ alone, our propitiation.
+</p>
+</div>
+</li>
+<li><a id="orgd45e1ef"></a>2. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:7b" target="_blank">7b</a>    The Elect in Israel Have Obtained Righteousness<br />
+<div class="outline-text-6" id="text-orgd45e1ef">
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 9:27;10:16" target="_blank">9:27;10:16</a> Only a remnant
+</p>
+
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 9:11-12,15-16,18,29" target="_blank">9:11-12,15-16,18,29</a> Sovereign election is the cause
+</p>
+
+<p>
+'but the election obtained it' - Paul does not call them 'the elect', to avoid the idea that
+the elect were elected by inherent merit.
+</p>
+
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=1 Thessalonians 1:4" target="_blank">1 Thessalonians 1:4</a>
+</p>
+
+<p>
+Paul brings us back to the grace of God again.
+</p>
+</div>
+</li>
+<li><a id="org21be05a"></a>3. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:7c-10" target="_blank">7c-10</a> The Rest of Israel Were Hardened<br />
+<ul class="org-ul">
+<li><a id="orgb31e3a3"></a>a. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:7c" target="_blank">7c</a>   Stated &amp; Defined<br />
+<div class="outline-text-7" id="text-orgb31e3a3">
+<p>
+'hardened' - in secular Greek, used to define medical conditions, like calcification of a
+gall stone or around a healing broken bone.
+</p>
+
+<p>
+2 Corinthians 3:14 A hardened mind, difficulty comprehending the truth.
+</p>
+
+<p>
+Here, Paul describes a hardened heart, as well; a stubborn, resistant heart.
+</p>
+
+<p>
+'were hardened' - passive tense; in context, the actor is God Himself. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 9:18;11:8" target="_blank">Romans 9:18;11:8</a>
+</p>
+
+<p>
+Hardening is a judicial act of God, based on the rebellion or unbelief of the sinner.
+This is a judgment we <i>all</i> deserve.
+</p>
+
+<p>
+Note that God does not actively produce evil, sin, or unbelief in the heart. He does not
+tempt any man. Instead, He simply passes them by and withholds the softening effects of His
+Spirit, allowing them to have the results of what they want: their sin. It permanently binds
+people in the sin they have chosen for themselves.
+</p>
+
+<p>
+The sinner begins by hardening his own heart against God, and it ends in God judicially
+hardening the sinner's heart.
+</p>
+
+<p>
+Compare to the relationship between the sun and Texas clay. The sun hardens the clay, not
+directly, but rather by acting on inherent properties of the clay itself (see in contrast
+what the sun does to wax). Similarly, God allows the inherent properties of the sinner to
+take hold.
+</p>
+
+<p>
+Compare also to an imprisoned criminal; this often makes them not repentant, but a <i>hardened</i>
+criminal. The jail doesn't harden them, but it reinforces the existing properties.
+</p>
+
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Hebrews 3:13" target="_blank">Hebrews 3:13</a> If you do not respond to the Word, the more you hear it, the harder your heart
+becomes. Hardening your heart to the truth is deadly serious.
+</p>
+
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Nehemiah 9:16-17,26-31" target="_blank">Nehemiah 9:16-17,26-31</a> This is a mark of Israel's history.
+</p>
+
+<p>
+<a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Ephesians 4:17-18" target="_blank">Ephesians 4:17-18</a> The same happens for every unbeliever.
+</p>
+</div>
+</li>
+<li><a id="orgab6c88e"></a>b. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:8-10" target="_blank">8-10</a> Defended<br />
+<div class="outline-text-7" id="text-orgab6c88e">
+<p>
+He chooses three passages: from the Law, the Prophets, and the (poetic writing?)
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org0dea3c9"></a><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Isaiah 29:10" target="_blank">Isaiah 29:10</a><br />
+<div class="outline-text-8" id="text-org0dea3c9">
+<p>
+'stupor' - total lack of spiritual sensitivity, as one blind drunk; self-induced
+</p>
+</div>
+</li>
+<li><a id="org6dcb4e6"></a><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Deuteronomy 29:4" target="_blank">Deuteronomy 29:4</a><br /></li>
+<li><a id="orgb674e58"></a><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Psalm 69:22-23" target="_blank">Psalm 69:22-23</a><br />
+<div class="outline-text-8" id="text-orgb674e58">
+<p>
+An imprecatory Psalm; not vengeful, but rather a call for God's justice on those who will not
+turn to Him out of a concern for God's glory and God's people.
+Here it represents a righteous man being attacked by his enemies, and Paul uses it to point
+to Christ and His eventual vindication by God.
+</p>
+
+<p>
+The spiritual advantages given to them would become their downfall instead.
+</p>
+
+<p>
+'retribution' - repayment, usually for punishment that a sin deserves. This is divine justice
+enacted, not capricious. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Lamentations 3:64-66" target="_blank">Lamentations 3:64-66</a>
+</p>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="orge8c32e6"></a>Lessons from this passage<br />
+<ul class="org-ul">
+<li><a id="orga1203c4"></a>1. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:33-34" target="_blank">33-34</a> A lesson in submitting to God's Wisdom.<br />
+<div class="outline-text-7" id="text-orga1203c4">
+<p>
+Do not argue or question God or throw His word aside to come up with your own plan.
+</p>
+
+<p>
+Let God be God. Wrestle with it, but don't compromise a high view of God in the process.
+</p>
+</div>
+</li>
+<li><a id="orgce86ed1"></a>2. A lesson in anticipating God's justice.<br />
+<div class="outline-text-7" id="text-orgce86ed1">
+<ul class="org-ul">
+<li><span class="underline">If you are not a believer in Jesus Christ</span>, this is a sobering reminder that God is
+perfect in His justice - toward you - and a call to repentance and faith. The longer you
+wait to submit, the harder it will become. I plead for you in sorrow to accept God's grace
+now, today.</li>
+<li><span class="underline">If you are a believer</span> and your heart is often heavy over all the injustice in the world,
+this passage should encourage you that one day justice will come.</li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="outline-container-org80a8d22" class="outline-4">
+<h4 id="org80a8d22">B. <a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:11-32" target="_blank">11-32</a> Israel's Future Spiritual Salvation</h4>
+</div>
+</div>
+<div id="outline-container-org2b3bf22" class="outline-3">
+<h3 id="org2b3bf22"><a class="bible" href="https://www.biblegateway.com/passage/?version=NIV;ESV;NASB&search=Romans 11:33-36" target="_blank">11:33-36</a>   Doxology: Our Adoration of God's Character</h3>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Nathan Armstrong</p>
+<p class="date">Created: 2019-06-09 Sun 15:00</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
