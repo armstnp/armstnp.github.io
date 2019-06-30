@@ -1,0 +1,4825 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2019-06-30 Sun 16:37 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>The Life of David - Faith Builders</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Nathan Armstrong" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="styles/gongzhitaao-org/org.css"/>
+<link rel="stylesheet" type="text/css" href="styles/armstnp-custom/css/bible.css"/>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">The Life of David - Faith Builders</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org4b9184a">Psalm 68 - 'The God of Sinai and of the Sanctuary'</a></li>
+<li><a href="#org5592ed4">2 Samuel 6 - 'The Dangers of Irreverence'</a></li>
+<li><a href="#orgd3f4b07">2 Samuel 7 - 'The Davidic Covenant'</a></li>
+<li><a href="#org7094138">2 Samuel 8 - 'God's Victories through David'</a></li>
+<li><a href="#orgcac9e5b">Psalm 144 - 'O Lord Our Rock'</a></li>
+<li><a href="#org2dde1f0">2 Samuel 9 - 'David's Kindness to Mephibosheth'</a></li>
+<li><a href="#org1f3cc38">2 Samuel 10 - 'An Evil Response to an Offer of Kindness'</a></li>
+<li><a href="#org27d00e6">2 Samuel 11 - 'David and Bathsheba' </a></li>
+<li><a href="#org95d2829">2 Samuel 12 - 'David's Repentance'</a></li>
+<li><a href="#orgeeee246">Psalm 51 - 'David's Psalm of Repentance'</a></li>
+<li><a href="#org677144c">2 Samuel 13:1-22 - 'The Devastating Consequences of Sin!'</a></li>
+<li><a href="#org1e1d584">2 Samuel 14 - 'Absalom's Estrangement from David'</a></li>
+<li><a href="#org80c8eff">2 Samuel 15 - 'Absalom's Rebellion in Declaring Himself King'</a></li>
+<li><a href="#org3989361">2 Samuel 16 - 'Ziba's Lie, Shimei's Curses, and Absalom's Treachery'</a></li>
+<li><a href="#org1548bdb">Psalm 3,5 - 'He's Always Been Faithful'</a></li>
+<li><a href="#orgabf0069">2 Samuel 17 - 'God's Purposes and Hushai's Counsel'</a></li>
+<li><a href="#org3d46103">2 Samuel 18 - 'The Lord's Discipline and Absalom's Death'</a></li>
+<li><a href="#org2604dca">Psalm 37 - 'Contrasts of the Wicked and the Righteous' </a></li>
+<li><a href="#org8492058">2 Samuel 19:1-23 - 'Joab's Rebuke and David's Mercy'</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org4b9184a" class="outline-2">
+<h2 id="org4b9184a"><a href="Psalm 68">Psalm 68</a> - <a href="https://countrysidebible.org/cbcmedia?return=single&amp;mediacode=ssfb190210a">'The God of Sinai and of the Sanctuary'</a></h2>
+<div class="outline-text-2" id="text-org4b9184a">
+<dl class="org-dl">
+<dt>Teacher</dt><dd>Terry Tyler</dd>
+</dl>
+</div>
+<div id="outline-container-org4fe0ae6" class="outline-3">
+<h3 id="org4fe0ae6">A victorious psalm of God's triumph</h3>
+<div class="outline-text-3 blank-section" id="text-org4fe0ae6">
+</div>
+<div id="outline-container-org9045383" class="outline-4">
+<h4 id="org9045383">Historical events</h4>
+<div class="outline-text-4" id="text-org9045383">
+<ul class="org-ul">
+<li>God exalted at Mt. Sinai</li>
+<li>God with His people in the wilderness</li>
+<li>God allowing them to conquer the land and the Jebusites</li>
+<li>God allowing them to ascend Mt. Zion (Ark of the Covenant)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgee7f139" class="outline-4">
+<h4 id="orgee7f139">Present elements and future elements</h4>
+<div class="outline-text-4" id="text-orgee7f139">
+<p>
+Things God has promised now and in the future (millennial reign)
+</p>
+</div>
+</div>
+<div id="outline-container-org1c06e1a" class="outline-4">
+<h4 id="org1c06e1a">A liturgical choir song</h4>
+</div>
+<div id="outline-container-orge076e71" class="outline-4">
+<h4 id="orge076e71"><a href="Psalm 68:1-18">1-18</a> God's triumphant ascent and rule from Sinai to Zion</h4>
+<div class="outline-text-4 blank-section" id="text-orge076e71">
+</div>
+<ul class="org-ul">
+<li><a id="org90a824e"></a>General references<br />
+<ul class="org-ul">
+<li><a id="org9d6c240"></a><a href="Psalm 68:1-3">1-3</a> Declare that God brings destruction on His enemies and gladness to His people.<br />
+<div class="outline-text-6" id="text-org9d6c240">
+<p>
+David is quoting Moses as they left Mt. Sinai, what they said every time God's cloud would move and the Ark set out. 
+</p>
+<ul class="org-ul">
+<li><a href="Numbers 10:33-35">Numbers 10:33-35</a></li>
+</ul>
+
+<p>
+'God, arise!' - God taking action.
+</p>
+
+<p>
+Enemies of God - those who fall short of loving Him.
+</p>
+
+<p>
+The image in v. 2 shows the utter powerlessness of God's enemies before His divine justice.
+</p>
+
+<p>
+This is to lead the people to rejoice.
+</p>
+</div>
+</li>
+<li><a id="org8e5f540"></a><a href="Psalm 68:4-6">4-6</a> Sing praise to God for His kindness to the needy<br />
+<div class="outline-text-6" id="text-org8e5f540">
+<p>
+The people are commanded to sing a song of praise.
+</p>
+
+<p>
+'him who ride through the deserts' may capture a couple of ideas:
+</p>
+<ul class="org-ul">
+<li>God's power traversing terrain easily that is perilous for man.</li>
+<li>God's care for His people in those difficult places.</li>
+</ul>
+
+<p>
+Care for all, highlighting the weakest
+</p>
+<ul class="org-ul">
+<li>Fatherless, those without care, guidance, provision</li>
+<li>Widows, those without a protector, defenseless, vulnerable. God is their <i>judge</i>, bringing fairness and protection.</li>
+<li>The 'solitary', those with no place of refuge: not just homeless, but isolated, alone.</li>
+<li>Prisoners, hearts changed to bring them into prosperity (not necessarily wealth!)</li>
+</ul>
+
+<p>
+Notice compassionate and gracious are often coupled when describing God's character.
+</p>
+<ul class="org-ul">
+<li><a href="Exodus 34:6">Exodus 34:6</a>; <a href="2 Chronicles 30:9">2 Chronicles 30:9</a>; <a href="Nehemiah 9:17,31">Nehemiah 9:17,31</a>; <a href="Psalm 103:8;111:4;112:4;116:5">Psalm 103:8;111:4;112:4;116:5</a>; <a href="Joel 2:13">Joel 2:13</a>; <a href="Jonah 4:2">Jonah 4:2</a></li>
+</ul>
+
+<p>
+The rebellious are left without that blessing, parched.
+</p>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="org379f2af"></a>Historical references<br />
+<ul class="org-ul">
+<li><a id="org196d0e7"></a><a href="Psalm 68:7-10">7-10</a> Remember God's majestic presence and provision for His people from Sinai through the wilderness to the promised land<br /></li>
+<li><a id="org368ca3a"></a><a href="Psalm 68:11-14">11-14</a> Announce and celebrate God's victories over <b>Gentile kings</b> and the spoil for His people<br />
+<div class="outline-text-6" id="text-org368ca3a">
+<p>
+<a href="1 Samuel 18:6-7">1 Samuel 18:6-7</a> Women carrying news from place to place in that culture, as seen in v. 11 here.
+</p>
+
+<p>
+<a href="Psalm 68:13">13</a> When you lie down to rest, you are covered in wonderful splendor, God allowing His abundant provision even in rest.
+</p>
+
+<p>
+<a href="Psalm 68:14">14</a> Zalmon seems to be a mountain, perhaps a dark volcanic mountain; Zalmon means 'dark one'. It could have been a rare event for snow to fall on it, generating excitement. Or like snow on a dark mountain, the scattered weapons may look like snow on the ground.
+</p>
+</div>
+</li>
+<li><a id="orgee78d58"></a><a href="Psalm 68:15-18">15-18</a> Proclaim the majesty ad honor of God amid His heavenly hosts and dwelling place in <b>Zion</b><br />
+<div class="outline-text-6" id="text-orgee78d58">
+<p>
+Like describing the palace and army of the Lord.
+</p>
+
+<p>
+<a href="Psalm 68:18">18</a> Ascending to Mt. Zion
+</p>
+
+<p>
+Paul quotes this verse specifically: <a href="Ephesians 4:8-11">Ephesians 4:8-11</a>
+</p>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="outline-container-org317ea07" class="outline-4">
+<h4 id="org317ea07"><a href="Psalm 68:19-35">19-35</a> God's continued and ultimate triumph and honor from all people</h4>
+<div class="outline-text-4 blank-section" id="text-org317ea07">
+</div>
+<ul class="org-ul">
+<li><a id="orgdb5dabe"></a>Present and future references<br />
+<ul class="org-ul">
+<li><a id="org9f11361"></a><a href="Psalm 68:19-23">19-23</a> Reflect on God's present and future protection of His people from His enemies<br />
+<div class="outline-text-6" id="text-org9f11361">
+<p>
+<a href="Psalm 68:22-23">22-23</a> from high and low, all the enemies of God will be brought to judgment and utterly humiliated.
+</p>
+</div>
+</li>
+<li><a id="orgbf19254"></a><a href="Psalm 68:24-28">24-28a</a> Celebrate the Lord's procession and presence in His sanctuary in Zion<br />
+<div class="outline-text-6" id="text-orgbf19254">
+<p>
+The ark is coming into Jerusalem, and the people are called to celebrate.
+</p>
+
+<p>
+<a href="2 Samuel 6">2 Samuel 6</a>, <a href="1 Chronicles 15-16">1 Chronicles 15-16</a>
+</p>
+</div>
+</li>
+<li><a id="org00d39c0"></a><a href="Psalm 68:28-31">28b-31</a> Offer petition for God to continue His conquests and receive proper honor among the Gentiles at Jerusalem<br />
+<div class="outline-text-6" id="text-org00d39c0">
+<p>
+<a href="Psalm 68:30">30</a> 'beast that dwells among the reeds' - Likely pharaoh of Egypt, maybe the image of a crocodile
+</p>
+
+<p>
+The gentile enemies of God represented here as beasts
+</p>
+
+<p>
+<a href="Psalm 68:29,31">29,31</a> This judgment would lead to some reaching out and turning to God; in the future, all nations will. <a href="Isaiah 2:2-5">Isaiah 2:2-5</a>, <a href="Philippians 2:9-11">Philippians 2:9-11</a>
+</p>
+</div>
+</li>
+<li><a id="org237da7d"></a><a href="Psalm 68:32-35">32-35</a> Sing praise every nation to God and ascribe to Him strength, majesty, and power<br />
+<div class="outline-text-6" id="text-org237da7d">
+<p>
+<a href="Psalm 68:34">34</a> - 'in the skies' - in full display before all nations, presented through the nation of Israel. The people should be overwhelmed with gratefulness for that privilege.
+</p>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="outline-container-org82aafab" class="outline-4">
+<h4 id="org82aafab">Closing reflections</h4>
+<div class="outline-text-4 blank-section" id="text-org82aafab">
+</div>
+<ul class="org-ul">
+<li><a id="orgfec0af3"></a>God is highly to be praised and worshipped<br />
+<div class="outline-text-5" id="text-orgfec0af3">
+<p>
+This psalm recounts His faithfulness and works, his holiness, his majesty, his sovereignty, his provision, his generosity, his deliverance, in past, present, and future.
+</p>
+</div>
+</li>
+<li><a id="orgb9993cb"></a>When God is seated in His rightful place, He is rightly exalted, and His people receive abundant care and blessing<br />
+<div class="outline-text-5" id="text-orgb9993cb">
+<p>
+A right relationship with God and His people bestows blessing, and He will be rightly exalted in the earth.
+</p>
+
+<p>
+Does God occupy His rightful place in the sanctuary of your heart?
+</p>
+</div>
+</li>
+<li><a id="org50ae80a"></a>David was deeply passionate and motivated to properly exalt the Lord<br />
+<div class="outline-text-5" id="text-org50ae80a">
+<p>
+Is your heart also?
+</p>
+
+<p>
+Stay focused on the purpose of worship.
+</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org5592ed4" class="outline-2">
+<h2 id="org5592ed4"><a href="2 Samuel 6">2 Samuel 6</a> - <a href="https://countrysidebible.org/cbcmedia?return=single&amp;mediacode=ssfb190224a">'The Dangers of Irreverence'</a></h2>
+<div class="outline-text-2" id="text-org5592ed4">
+<dl class="org-dl">
+<dt>Teacher</dt><dd>Eric Sears</dd>
+</dl>
+
+<p>
+David seeks to restore true worship of God to Jerusalem by returning the Ark
+</p>
+</div>
+<div id="outline-container-org4c90cca" class="outline-3">
+<h3 id="org4c90cca">4 Distinct Threads in this passage</h3>
+<div class="outline-text-3 blank-section" id="text-org4c90cca">
+</div>
+<div id="outline-container-org83ab2fb" class="outline-4">
+<h4 id="org83ab2fb">Historical Narrative - Ark moved to Jerusalem</h4>
+<div class="outline-text-4" id="text-org83ab2fb">
+<p>
+God moving into His chosen city
+</p>
+</div>
+</div>
+<div id="outline-container-org45a554b" class="outline-4">
+<h4 id="org45a554b">Teaches us something about the nature and character of God</h4>
+</div>
+<div id="outline-container-org0ac24e4" class="outline-4">
+<h4 id="org0ac24e4">Provides a positive example of how a Godly man should respond to the Lord and His lessons</h4>
+</div>
+<div id="outline-container-org581156d" class="outline-4">
+<h4 id="org581156d">Provides a couple of negative examples of things that God's followers should seek to set aside</h4>
+<div class="outline-text-4" id="text-org581156d">
+<p>
+Uzzah and Michal (the latter of which will be covered in the following week)
+</p>
+</div>
+</div>
+<div id="outline-container-org4a674d3" class="outline-4">
+<h4 id="org4a674d3">Central message: God is exalted and holy, and demands that His people worship and revere Him, but only as He has prescribed.</h4>
+<div class="outline-text-4" id="text-org4a674d3">
+<p>
+There are boundaries, but some freedom within those boundaries.  Where He has spoken, though, we <i>must</i> follow.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org202e842" class="outline-3">
+<h3 id="org202e842">The Dangers of Irreverence</h3>
+<div class="outline-text-3 blank-section" id="text-org202e842">
+</div>
+<div id="outline-container-orgb0be6a7" class="outline-4">
+<h4 id="orgb0be6a7"><a href="2 Samuel 6:1-2">1-2</a>          David determined to restore the true worship of God.</h4>
+<div class="outline-text-4 blank-section" id="text-orgb0be6a7">
+</div>
+<ul class="org-ul">
+<li><a id="orgcf5e83e"></a><a href="2 Samuel 6:1">1</a> David called the leaders of Israel together.<br />
+<div class="outline-text-5" id="text-orgcf5e83e">
+<p>
+<a href="1 Chronicles 13:1-5">1 Chronicles 13:1-5</a> - Military, tribal, city leaders
+Note in v. 3 of that passage - Saul had neglected the ark. <a href="1 Samuel 14">1 Samuel 14</a> is one of the only references to it during the reign of Saul.
+</p>
+</div>
+</li>
+<li><a id="org5ae7493"></a>Key issue - the full worship of God had been abandoned for a long time<br /></li>
+<li><a id="org0d29bec"></a><a href="2 Samuel 6:2">2a</a> David and the people travel to Kiriath-Jearim to retrieve the ark.<br />
+<div class="outline-text-5" id="text-org0d29bec">
+<p>
+Insert map: Kiriath-Jearim, Perez-uzzah, Jerusalem
+Insert picture: Kiriath-Jearim from the east
+</p>
+
+<p>
+The ark had likely been returned here from the Philistines: <a href="1 Samuel 6">1 Samuel 6</a>
+</p>
+
+<p>
+Wooded area. Insert picture: Kiriath-Jearim from north aerial
+</p>
+</div>
+</li>
+<li><a id="org2272799"></a><a href="2 Samuel 6:2">2b</a> The ark described<br />
+<div class="outline-text-5" id="text-org2272799">
+<p>
+Unusual for the ark to be described in such detail here, but likely did so to draw attention to two relevant points:
+</p>
+
+<ul class="org-ul">
+<li>Called by the name of God, Yahweh, emphasizing that it was so closely connected to God and God's presence among His people, you could not separate the two. 'Lord of Hosts' - Lord of armies, the heavenly hosts; His command over His created creatures.  Demanding highest reverence.</li>
+<li>God's throne on earth. His throne over His people, Israel. God was Israel's king.</li>
+</ul>
+</div>
+</li>
+<li><a id="org38bbdeb"></a>Lessons from the Ark<br />
+<div class="outline-text-5" id="text-org38bbdeb">
+<ul class="org-ul">
+<li>God is the ruler of His people</li>
+<li>God is holy (see: Cherubim, the highest order of God's created beings, with the purpose of protecting the holiness of God)
+<ul class="org-ul">
+<li>Holiness - God's transcendence over all His creation. (<a href="Isaiah 46:8-10;40:25;48:11">Isaiah 46:8-10; 40:25; 48:11</a>)</li>
+<li>Emphasized by the ark:
+<ul class="org-ul">
+<li>Inaccessible: resting in the Most Holy Place behind a curtain; covered when transported.</li>
+</ul></li>
+</ul></li>
+<li>God is righteous and just and demands judgment of sin</li>
+<li>Humanity is thoroughly sinful
+<ul class="org-ul">
+<li>God could not permit sinful man to even approach, much less touch the ark, teaching His people about His nature.</li>
+</ul></li>
+<li>God is merciful</li>
+<li>God has revealed Himself
+<ul class="org-ul">
+<li>Also called 'The Ark of the Testimony', containing reminders of God's covenant with His people</li>
+</ul></li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-org535d4f4" class="outline-4">
+<h4 id="org535d4f4"><a href="2 Samuel 6:3-5">3-5</a>          The Ark moved from Abinadab's house</h4>
+<div class="outline-text-4 blank-section" id="text-org535d4f4">
+</div>
+<ul class="org-ul">
+<li><a id="org1d64e28"></a><a href="2 Samuel 6:3-4">3-4</a> Ark loaded onto a new cart and began journey<br /></li>
+<li><a id="orgb109e2a"></a><a href="Numbers 4">Numbers 4</a> <a href="1 Chronicles 15:13">1 Chronicles 15:13</a> Problem - mode of transportation<br />
+<div class="outline-text-5" id="text-orgb109e2a">
+<p>
+The Israelites here seemed to be following the pattern of the Philistines' treatment of the Ark. The consequences that follow are in part due to David's lack of care.
+</p>
+</div>
+</li>
+<li><a id="org8ad83b4"></a><a href="2 Samuel 6:5">5</a> Positive - fanfare and celebration<br /></li>
+</ul>
+</div>
+<div id="outline-container-orgb9201d4" class="outline-4">
+<h4 id="orgb9201d4"><a href="2 Samuel 6:6-7">6-7</a>          God's startling lesson</h4>
+<div class="outline-text-4 blank-section" id="text-orgb9201d4">
+</div>
+<ul class="org-ul">
+<li><a id="orgdfc99d8"></a><a href="2 Samuel 6:6">6</a> Uzzah took hold of the Ark to keep it from falling.<br /></li>
+<li><a id="org61d91fb"></a><a href="2 Samuel 6:7">7</a> God struck down Uzzah.<br /></li>
+<li><a id="org067bda9"></a>How does God describe the sin of Uzzah?<br />
+<div class="outline-text-5" id="text-org067bda9">
+<ul class="org-ul">
+<li>Irreverence - a failure to appropriately respect the holiness of God
+<ul class="org-ul">
+<li>Uzzah's view of God was not high enough, and he put his own thoughts above God's. <a href="Isaiah 55:8-9">Isaiah 55:8-9</a></li>
+<li>Uzzah wrongfully assumed the touch of a sinful man was better than the touch of the dirt of the ground.</li>
+<li>It is a great sin to exalt our own thinking above God's revealed word.</li>
+</ul></li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-org3e25659" class="outline-4">
+<h4 id="org3e25659"><a href="2 Samuel 6:8-11">8-11</a>         David's response</h4>
+<div class="outline-text-4 blank-section" id="text-org3e25659">
+</div>
+<ul class="org-ul">
+<li><a id="orge42298d"></a>Anger<br />
+<div class="outline-text-5" id="text-orge42298d">
+<p>
+Likely directed at God - translation is that David was angry <i>because</i> God had directed His anger toward Uzzah.  This illustrates that David's view of God, too, was not high enough.
+</p>
+</div>
+</li>
+<li><a id="org05ad162"></a>Fear<br />
+<div class="outline-text-5" id="text-org05ad162">
+<p>
+The right response of a sinner before a holy and consuming God.
+</p>
+
+<p>
+<a href="Isaiah 8:13">Isaiah 8:13</a>
+</p>
+</div>
+</li>
+<li><a id="orgda111b9"></a>Abandoned his initial plan<br />
+<div class="outline-text-5" id="text-orgda111b9">
+<p>
+David likely understood he was to blame and would likely be condemned alongside Uzzah.  So he rights his course here to regroup and take the right course of action.
+</p>
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-org9ba3a76" class="outline-4">
+<h4 id="org9ba3a76"><a href="2 Samuel 6:12-15">12-15</a>, <a href="2 Samuel 6:17-19">17-19</a> David brings the ark into Jerusalem</h4>
+<div class="outline-text-4 blank-section" id="text-org9ba3a76">
+</div>
+<ul class="org-ul">
+<li><a id="org76ff8d8"></a><a href="2 Samuel 6:12">12</a> Significant difference from David's previous response - why?<br /></li>
+<li><a id="orga130f1b"></a>David was reminded that the presence of God brings blessing.<br /></li>
+<li><a id="org29f6fc2"></a><a href="1 Chronicles 15:2,13-15">1 Chronicles 15:2,13-15</a> David learned his lesson and redirected his steps<br />
+<div class="outline-text-5" id="text-org29f6fc2">
+<p>
+This parallel passage goes into great detail on all of David's preparations this time. There is a renewed certainty and assurance in David's actions here.
+</p>
+
+<ul class="org-ul">
+<li>He ordered that the ark be properly carried by the Levites</li>
+<li>He went to great lengths to carefully follow God's requirements (<a href="1 Chronicles 15-16">1 Chronicles 15-16</a>)</li>
+<li>Walking by the word brings security rather than uncertainty</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-org7b2e7ce" class="outline-4">
+<h4 id="org7b2e7ce"><a href="2 Samuel 6:13">13</a>           David offers a thank offering</h4>
+</div>
+<div id="outline-container-org5bddad3" class="outline-4">
+<h4 id="org5bddad3"><a href="2 Samuel 6:14">14</a>           David's personal response of worship</h4>
+<div class="outline-text-4" id="text-org5bddad3">
+<p>
+David - the man after God's own heart - had his heart in alignment with God's, effected and demonstrated through proper worship.
+</p>
+
+<ul class="org-ul">
+<li>David's worship conforms to God's requirements</li>
+<li>There is full commitment by David to fully engage in worshipping the Lord</li>
+<li>There is a humility in David's worship</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgcaacac8" class="outline-4">
+<h4 id="orgcaacac8"><a href="2 Samuel 6:15">15</a>           The worship of the other Israelites</h4>
+</div>
+<div id="outline-container-org17e5222" class="outline-4">
+<h4 id="org17e5222"><a href="2 Samuel 6:19">19</a>           The ark arrives at its new home.</h4>
+</div>
+<div id="outline-container-orgff9f107" class="outline-4">
+<h4 id="orgff9f107">Conclusions/lessons</h4>
+<div class="outline-text-4 blank-section" id="text-orgff9f107">
+</div>
+<ul class="org-ul">
+<li><a id="org75a3c2e"></a>We must cultivate a healthy reverence for the Holiness of God and reflect that in our worship.<br /></li>
+<li><a id="org01d6d63"></a>We must approach God&#x2026;<br /></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd3f4b07" class="outline-2">
+<h2 id="orgd3f4b07"><a href="2 Samuel 7">2 Samuel 7</a> - <a href="https://countrysidebible.org/cbcmedia?return=single&amp;mediacode=ssfb190303a">'The Davidic Covenant'</a></h2>
+<div class="outline-text-2" id="text-orgd3f4b07">
+<dl class="org-dl">
+<dt>Teacher</dt><dd>Eric Sears</dd>
+</dl>
+</div>
+<div id="outline-container-orgb70a135" class="outline-3">
+<h3 id="orgb70a135"><a href="2 Samuel 6:16">2 Samuel 6:16</a>,<a href="2 Samuel 6:20-23">20-23</a> Michal and David</h3>
+<div class="outline-text-3 blank-section" id="text-orgb70a135">
+</div>
+<div id="outline-container-org945b72b" class="outline-4">
+<h4 id="org945b72b"><a href="2 Samuel 6:16">16</a>    Michal's disdain for David</h4>
+<div class="outline-text-4" id="text-org945b72b">
+<p>
+'despised him in her heart' - not just what David was doing, but David himself. Deep-seated hatred.
+</p>
+
+<p>
+<a href="1 Samuel 19">1 Samuel 19</a> - We've seen her love for him before, so something has changed.
+</p>
+
+<p>
+Michal and David are not spiritually aligned.
+</p>
+
+<p>
+Saul had considered she might be a snare to David. (ref?)
+</p>
+
+<p>
+In <a href="1 Samuel 19">1 Samuel 19</a>, we see her with idols in her house; we also see her willingly deceitful.
+</p>
+
+<p>
+Could be she was jealous of his devotion.
+</p>
+
+<p>
+Could be she had distaste for David after having been taken from another man who loved her. (ref?)
+</p>
+
+<p>
+Most likely are the reasons listed: pride violated by David's actions and attire.
+</p>
+</div>
+</div>
+<div id="outline-container-org610ebfe" class="outline-4">
+<h4 id="org610ebfe"><a href="2 Samuel 6:20">20</a>    Michal's mocking rebuke</h4>
+<div class="outline-text-4" id="text-org610ebfe">
+<p>
+David returns home to be a blessing, with gifts for his family, desiring that they, too, celebrate.
+</p>
+
+<p>
+Michal ridicules him with a caustic tongue, accusing him off acting below his station.
+</p>
+
+<p>
+<a href="1 Chronicles 15:27">1 Chronicles 15:27</a> - not exposing himself, but rather debasing himself in her eyes.
+</p>
+</div>
+</div>
+<div id="outline-container-org5ae6dc4" class="outline-4">
+<h4 id="org5ae6dc4"><a href="2 Samuel 6:21-22">21-22</a> David's defense and determination</h4>
+<div class="outline-text-4" id="text-org5ae6dc4">
+<p>
+David makes it clear his purpose was to rejoice before the Lord, and not men. His foremost role is that if a servant of the Lord.
+</p>
+
+<p>
+David reminds her that he would not act like her father, whom God has rejected in favor of David.
+</p>
+
+<p>
+David makes it clear he will continue. In his mind, humility is synonymous in dignity.
+</p>
+</div>
+</div>
+<div id="outline-container-orgb5dbfdc" class="outline-4">
+<h4 id="orgb5dbfdc"><a href="2 Samuel 6:23">23</a>    Michal's disgrace</h4>
+<div class="outline-text-4" id="text-orgb5dbfdc">
+<p>
+Ironic justice: her desire to be recognized and esteemed by man was thwarted, the esteem tied to motherhood withheld from her.
+</p>
+</div>
+</div>
+<div id="outline-container-org9ad239f" class="outline-4">
+<h4 id="org9ad239f">Lessons</h4>
+<div class="outline-text-4" id="text-org9ad239f">
+<p>
+In some cases, our greatest detractors will be those closest to us.
+</p>
+
+<p>
+<a href="Luke 12:51-53">Luke 12:51-53</a> - free gospel is offensive, driving a wedge even between families.
+</p>
+
+<p>
+The true worshiper of God must not be daunted by opposition, even from family and friends.
+</p>
+
+<p>
+Pride precludes worship.
+</p>
+
+<p>
+<a href="Proverbs 29:25">Proverbs 29:25</a> - Fear of man is a snare.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org6ab1251" class="outline-3">
+<h3 id="org6ab1251"><a href="2 Samuel 7">2 Samuel 7</a></h3>
+<div class="outline-text-3 blank-section" id="text-org6ab1251">
+</div>
+<div id="outline-container-org419bd2b" class="outline-4">
+<h4 id="org419bd2b">History of progressive revelation</h4>
+<div class="outline-text-4" id="text-org419bd2b">
+<p>
+Revealing God's plan for a future redeemer
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="orga92cd04"></a><a href="Genesis 3">Genesis 3</a><br /></li>
+<li><a id="orge675ac4"></a>Noahic<br /></li>
+<li><a id="org8a39185"></a>Abrahamic<br /></li>
+<li><a id="orgf0679c4"></a>Isaac<br /></li>
+<li><a id="org1cd37a4"></a>Jacob<br /></li>
+<li><a id="org168af80"></a>Judah<br /></li>
+<li><a id="orgc4d5803"></a>Job - 'my redeemer'<br /></li>
+<li><a id="orgd3dbffb"></a>Mosaic<br /></li>
+<li><a id="org7238f34"></a>And now, we see David's descendant is identifed as this redeemer<br /></li>
+</ul>
+</div>
+<div id="outline-container-org59bf5cb" class="outline-4">
+<h4 id="org59bf5cb"><a href="2 Samuel 7:1-3">1-3</a>    David's plan to build a temple for the Lord</h4>
+</div>
+<div id="outline-container-orgf630dbf" class="outline-4">
+<h4 id="orgf630dbf"><a href="2 Samuel 7:4-11">4-11a</a>  God's correction and promises concerning David and Israel</h4>
+<div class="outline-text-4 blank-section" id="text-orgf630dbf">
+</div>
+<ul class="org-ul">
+<li><a id="orgba91714"></a><a href="2 Samuel 7:4-7">4-7</a> God's correction of David<br />
+<div class="outline-text-5" id="text-orgba91714">
+<p>
+God had not authorized such an endeavor. God had not even prescribed it. David still needed to learn he could not change how God is worshiped.
+</p>
+
+<p>
+<a href="1 Kings 8:17-18">1 Kings 8:17-18</a> However, God was pleased with David's heart.
+</p>
+
+<p>
+Reasons God would not allow David to build the temple
+</p>
+<ul class="org-ul">
+<li><a href="1 Kings 5:3">1 Kings 5:3</a> wars that surround David</li>
+<li><a href="1 Chronicles 22:7-8">1 Chronicles 22:7-8</a> David had shed too much blood in war to be acceptable to build God's house</li>
+</ul>
+</div>
+</li>
+<li><a id="org34d8e8a"></a><a href="2 Samuel 7:8-9">8-9</a> God's promise regarding David<br />
+<div class="outline-text-5" id="text-org34d8e8a">
+<p>
+David's great name covers a great deal of Old Testament scripture.
+</p>
+</div>
+</li>
+<li><a id="org86fa128"></a><a href="2 Samuel 7:10-11">10-11</a> God's promises regarding Israel<br />
+<div class="outline-text-5" id="text-org86fa128">
+<p>
+A place for Israel - land, see Abrahamic
+Rest from Israel's enemies - not yet fully fulfilled, was partially fulfilled in the following decades.
+</p>
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-org32d120e" class="outline-4">
+<h4 id="org32d120e"><a href="2 Samuel 7:11-17">11b-17</a> The Davidic Covenant</h4>
+<div class="outline-text-4" id="text-org32d120e">
+<p>
+Some call this the climax of the Old Testament
+</p>
+
+<p>
+David's name colors the rest of messianic history
+</p>
+
+<p>
+This unilateral covenant establishes the line and throne for the Messiah
+</p>
+
+<p>
+This Davidic title for the Messiah is used frequently in the NT - <a href="Matthew 1:1">Matthew 1:1</a>, <a href="Revelation 22:6">Revelation 22:6</a>
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org037eaaa"></a>2 sets of intertwined promises<br />
+<div class="outline-text-5" id="text-org037eaaa">
+<p>
+Telescoping in OT prophecy: ultimate end, but also a near-term, lesser, typological fulfillment that is not complete
+</p>
+
+<p>
+The near term fulfillment becomes a defense of apologetic for the ultimate
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org1fb1970"></a>Promises regarding the permanent house and throne of David<br /></li>
+<li><a id="orgfc51468"></a>Promises regarding Solomon<br /></li>
+</ul>
+</li>
+<li><a id="org4fb76ce"></a>2 Samuel 7:11-16, 1 Chronicles 17:11-14<br />
+<div class="outline-text-5" id="text-org4fb76ce">
+<p>
+Consider each point and how it is fulfilled by Solomon and how it is fulfilled by Jesus
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Promise / Prophecy</td>
+<td class="org-left">Fulfilled by Solomon</td>
+<td class="org-left">Fulfilled by Jesus</td>
+</tr>
+</tbody>
+</table>
+<p>
+<a href="https://photos.app.goo.gl/QQ82jnH5L9CMhB7c7">Reference</a>
+</p>
+
+
+<p>
+The descendant's throne will be established forever - Isaiah 9:6
+</p>
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-orga481407" class="outline-4">
+<h4 id="orga481407"><a href="2 Samuel 7:18-29">18-29</a>  David's thanksgiving and prayer</h4>
+<div class="outline-text-4" id="text-orga481407">
+<p>
+Conclusion:
+<a href="Luke 1:30-33">Luke 1:30-33</a>
+<a href="Revelation 11:15">Revelation 11:15</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org7094138" class="outline-2">
+<h2 id="org7094138"><a href="2 Samuel 8">2 Samuel 8</a> - <a href="https://countrysidebible.org/cbcmedia?return=single&amp;mediacode=ssfb190310a">'God's Victories through David'</a></h2>
+<div class="outline-text-2" id="text-org7094138">
+<dl class="org-dl">
+<dt>Teacher</dt><dd>Brandon Caron</dd>
+</dl>
+</div>
+<div id="outline-container-orgfb91455" class="outline-3">
+<h3 id="orgfb91455">Reminded of <a href="2 Timothy 3:16-17">2 Timothy 3:16-17</a> - 'all Scripture is God-breathed'</h3>
+<div class="outline-text-3" id="text-orgfb91455">
+<p>
+This passage is harder to see as that, nonetheless we must be certain it is.
+God intends this passage to be here for us. We must ask what we are to learn.
+The Bible never disappoints us when we take the time with it.
+</p>
+</div>
+</div>
+<div id="outline-container-org33e8914" class="outline-3">
+<h3 id="org33e8914">This passage is a strong reminder of God's faithfulness.</h3>
+<div class="outline-text-3" id="text-org33e8914">
+<p>
+Summary chapter, recapturing the victories God has given to David and the nation of Israel.
+God loves to use that which the world calls weak so that it's clear where the victory comes from.
+This chapter points us to a need for the Messiah.
+The best the world gives us falls woefully short.
+These are historical events, not hypothetical or fictional stories.
+</p>
+</div>
+</div>
+<div id="outline-container-org6ec0705" class="outline-3">
+<h3 id="org6ec0705">Central truth: God brings to fruition all His promises</h3>
+</div>
+<div id="outline-container-org7d4cc46" class="outline-3">
+<h3 id="org7d4cc46"><a href="2 Samuel 8:1-6">1-6</a>   David's Military Victories</h3>
+<div class="outline-text-3 blank-section" id="text-org7d4cc46">
+</div>
+<div id="outline-container-org5f7fcc3" class="outline-4">
+<h4 id="org5f7fcc3">Not an exhaustive list; just a summary</h4>
+</div>
+<div id="outline-container-org30e2cdb" class="outline-4">
+<h4 id="org30e2cdb">These are God's triumphs <i>through</i> David</h4>
+<div class="outline-text-4" id="text-org30e2cdb">
+<p>
+Recall David is the least likely to achieve these things
+Those things we are most proud of in ourselves are not what grants us the gifts of our life
+David was a man after God's own heart - he recognized who was responsible
+See David's prayer in <a href="2 Samuel 7:18-29">2 Samuel 7:18-29</a> - he exhibits this humility throughout
+</p>
+</div>
+</div>
+<div id="outline-container-orgc327fd5" class="outline-4">
+<h4 id="orgc327fd5">God will bring to bear much fruit in you - we need to be faithful to how God has called us to serve</h4>
+</div>
+<div id="outline-container-orgaf7817b" class="outline-4">
+<h4 id="orgaf7817b">Recurring phrase: 'And the Lord gave victory to David wherever he went.'</h4>
+<div class="outline-text-4" id="text-orgaf7817b">
+<p>
+NASB uses 'helped', too weak. 'Deliverance to life', 'infusing with life', 'deliverance' are all better pictures.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org57749fc" class="outline-3">
+<h3 id="org57749fc"><a href="2 Samuel 8:7-12">7-12</a>  David's Dedication of Spoils</h3>
+<div class="outline-text-3 blank-section" id="text-org57749fc">
+</div>
+<div id="outline-container-org86f0f5b" class="outline-4">
+<h4 id="org86f0f5b"><a href="2 Samuel 8:11">11</a> David not only has humility regarding his victories, but he even dedicates his spoils to the Lord</h4>
+</div>
+<div id="outline-container-org5fa750d" class="outline-4">
+<h4 id="org5fa750d">David is being a spiritual leader of Israel by example and by pointing to God as the source of these victories, not himself</h4>
+</div>
+</div>
+<div id="outline-container-org64ca182" class="outline-3">
+<h3 id="org64ca182"><a href="2 Samuel 8:13-18">13-18</a> David's Governing</h3>
+<div class="outline-text-3 blank-section" id="text-org64ca182">
+</div>
+<div id="outline-container-org3fd38e0" class="outline-4">
+<h4 id="org3fd38e0">David sets up his cabinet - true historical events</h4>
+</div>
+</div>
+<div id="outline-container-org07c78e5" class="outline-3">
+<h3 id="org07c78e5">God's faithfulness:</h3>
+<div class="outline-text-3 blank-section" id="text-org07c78e5">
+</div>
+<div id="outline-container-org8e059db" class="outline-4">
+<h4 id="org8e059db">Constantly demonstrates that all the glory goes to God</h4>
+</div>
+<div id="outline-container-orga630fcd" class="outline-4">
+<h4 id="orga630fcd">While David's rule and the nation become great, but this (and the chapters to follow) point us to a greater fulfillment in the Messiah</h4>
+<div class="outline-text-4" id="text-orga630fcd">
+<p>
+Man will always fail you.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgcac9e5b" class="outline-2">
+<h2 id="orgcac9e5b"><a href="Psalm 144">Psalm 144</a> - <a href="https://countrysidebible.org/cbcmedia?return=single&amp;mediacode=ssfb190317a">'O Lord Our Rock'</a></h2>
+<div class="outline-text-2" id="text-orgcac9e5b">
+<dl class="org-dl">
+<dt>Teacher</dt><dd>Rod Milton</dd>
+</dl>
+</div>
+<div id="outline-container-orgae62401" class="outline-3">
+<h3 id="orgae62401">Introduction: A rock that cannot be diminished, used up, depleted; giving without being made smaller.</h3>
+</div>
+<div id="outline-container-orge28fe8b" class="outline-3">
+<h3 id="orge28fe8b">1. <a href="Psalm 144:1-2">1-2</a>   David's Praise</h3>
+<div class="outline-text-3 blank-section" id="text-orge28fe8b">
+</div>
+<div id="outline-container-org4f764ea" class="outline-4">
+<h4 id="org4f764ea">Taking his own advise from <a href="Psalm 103">Psalm 103</a>, David praises the Lord</h4>
+</div>
+<div id="outline-container-org27b75f1" class="outline-4">
+<h4 id="org27b75f1">'LORD' - YHWH</h4>
+</div>
+<div id="outline-container-org326e073" class="outline-4">
+<h4 id="org326e073">'my rock' - conveying who God is, echoing <a href="Psalm 18:2">Psalm 18:2</a>, <a href="Psalm 94:21-22">Psalm 94:21-22</a></h4>
+</div>
+<div id="outline-container-orgd37b40e" class="outline-4">
+<h4 id="orgd37b40e">'my trainer' - warfare in ancient Israel was closely tied with the worship of God</h4>
+<div class="outline-text-4" id="text-orgd37b40e">
+<p>
+David's preparation for battle
+</p>
+
+<p>
+<a href="2 Samuel 22:35">2 Samuel 22:35</a>
+</p>
+</div>
+</div>
+<div id="outline-container-orga1ebf61" class="outline-4">
+<h4 id="orga1ebf61">'my steadfast love' - Lexicons:</h4>
+<div class="outline-text-4" id="text-orga1ebf61">
+<ul class="org-ul">
+<li>loyalty</li>
+<li>faithfulness</li>
+<li>goodness</li>
+<li>graciousness</li>
+<li>desire</li>
+<li>ardor</li>
+<li>zeal</li>
+<li>kindness</li>
+<li>benignity</li>
+<li>benevolence</li>
+<li>mercy</li>
+<li>pity</li>
+<li>piety</li>
+<li>grace</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org5b38e10" class="outline-4">
+<h4 id="org5b38e10">'my fortress'</h4>
+</div>
+<div id="outline-container-org24f70bb" class="outline-4">
+<h4 id="org24f70bb">'my stronghold' - refuge, lofty place</h4>
+</div>
+<div id="outline-container-org8b49ed2" class="outline-4">
+<h4 id="org8b49ed2">'my deliverer' - an escape</h4>
+<div class="outline-text-4" id="text-org8b49ed2">
+<p>
+<a href="1 Samuel 23:26-28">1 Samuel 23:26-28</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org5684474" class="outline-4">
+<h4 id="org5684474">'my shield' - a 'wrap-around' shield, a 'tank' of sorts</h4>
+<div class="outline-text-4" id="text-org5684474">
+<p>
+<a href="Psalm 28:7">Psalm 28:7</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org54c4a35" class="outline-4">
+<h4 id="org54c4a35">'my refuge' - a place of shelter, a place to hide and be protected</h4>
+</div>
+<div id="outline-container-orgd6f5348" class="outline-4">
+<h4 id="orgd6f5348">These descriptions overlap, designed to strengthen and affirm</h4>
+</div>
+</div>
+<div id="outline-container-org67c91f3" class="outline-3">
+<h3 id="org67c91f3">2. <a href="Psalm 144:3-4">3-4</a>   David's Powerlessness</h3>
+<div class="outline-text-3 blank-section" id="text-org67c91f3">
+</div>
+<div id="outline-container-orge6353e9" class="outline-4">
+<h4 id="orge6353e9"><a href="Psalm 8:3-6">Psalm 8:3-6</a> This treatment by God can be believed, but cannot be explained</h4>
+</div>
+<div id="outline-container-orga3b22be" class="outline-4">
+<h4 id="orga3b22be">Life is like a breath, yet God has given us purpose</h4>
+</div>
+<div id="outline-container-orgcbcc32c" class="outline-4">
+<h4 id="orgcbcc32c"><a href="James 4:13-14">James 4:13-14</a>, <a href="Job 8:9">Job 8:9</a>, <a href="Psalm 102:11">Psalm 102:11</a> - Shadows move on gently, quietly, leaving no trace, transient</h4>
+</div>
+</div>
+<div id="outline-container-org7c75df2" class="outline-3">
+<h3 id="org7c75df2">3. <a href="Psalm 144:5-8">5-8</a>   David's Petition</h3>
+<div class="outline-text-3 blank-section" id="text-org7c75df2">
+</div>
+<div id="outline-container-orgb9f3ef2" class="outline-4">
+<h4 id="orgb9f3ef2">'The Lord has often done this, and nowhere more than in Bethlehem.' - Spurgeon</h4>
+</div>
+<div id="outline-container-org0dfdc9c" class="outline-4">
+<h4 id="org0dfdc9c">'Touch the mountains so that they smoke!' - recalling Sinai</h4>
+</div>
+<div id="outline-container-orgf458419" class="outline-4">
+<h4 id="orgf458419"><a href="Isaiah 64:1">Isaiah 64:1</a></h4>
+</div>
+<div id="outline-container-orgc5710ca" class="outline-4">
+<h4 id="orgc5710ca">'Flash forth the lightning' - a sign of judgment</h4>
+<div class="outline-text-4" id="text-orgc5710ca">
+<p>
+Spurgeon - when we see God has taken notice of us, it is a small thing further to ask Him to exert that power
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org3a65f78" class="outline-3">
+<h3 id="org3a65f78">4. <a href="Psalm 144:9-11">9-11</a>  David's Proclamation</h3>
+<div class="outline-text-3 blank-section" id="text-org3a65f78">
+</div>
+<div id="outline-container-org61ffe52" class="outline-4">
+<h4 id="org61ffe52">'sing' - <a href="Psalm 33:1">Psalm 33:1</a>, <a href="Psalm 57:7">Psalm 57:7</a></h4>
+</div>
+<div id="outline-container-org2fbc023" class="outline-4">
+<h4 id="org2fbc023">'new song' - not freshly composed, but sung anew in the light of a new experience</h4>
+<div class="outline-text-4" id="text-org2fbc023">
+<p>
+See also in Revelation?
+</p>
+</div>
+</div>
+<div id="outline-container-orgdf12a44" class="outline-4">
+<h4 id="orgdf12a44">'a ten-stringed harp' - because he is able; bending all his skill towards the worship of God</h4>
+<div class="outline-text-4 blank-section" id="text-orgdf12a44">
+</div>
+<ul class="org-ul">
+<li><a id="orgfdc2f99"></a>Luther - 'except for theology, there is no other art that could be put on the same level except music'<br /></li>
+<li><a id="orge9104e7"></a><a href="Psalm 33:2">Psalm 33:2</a><br /></li>
+</ul>
+</div>
+<div id="outline-container-orga1ad3cf" class="outline-4">
+<h4 id="orga1ad3cf">'who gives victory to kings' - praising the God who has given Him victory.</h4>
+<div class="outline-text-4" id="text-orga1ad3cf">
+<p>
+<a href="Psalm 20:7">Psalm 20:7</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org51da08b" class="outline-4">
+<h4 id="org51da08b">'who rescues His servant from the evil sword'</h4>
+<div class="outline-text-4 blank-section" id="text-org51da08b">
+</div>
+<ul class="org-ul">
+<li><a id="org3229e55"></a><a href="1 Samuel 17:46">1 Samuel 17:46</a><br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3647692" class="outline-3">
+<h3 id="org3647692">5. <a href="Psalm 144:11">11</a>    David's Plea</h3>
+<div class="outline-text-3 blank-section" id="text-org3647692">
+</div>
+<div id="outline-container-orga1e2cbf" class="outline-4">
+<h4 id="orga1e2cbf">David asks God to rescue him again</h4>
+</div>
+<div id="outline-container-org858c253" class="outline-4">
+<h4 id="org858c253">This time, from the slanderous lies and destructive deeds of his enemies</h4>
+</div>
+</div>
+<div id="outline-container-orgb0041ee" class="outline-3">
+<h3 id="orgb0041ee">6. <a href="Psalm 144:12-15">12-15</a> David's Prospects</h3>
+<div class="outline-text-3 blank-section" id="text-orgb0041ee">
+</div>
+<div id="outline-container-org15e9048" class="outline-4">
+<h4 id="org15e9048">David hopes for tranquility and prosperity</h4>
+</div>
+<div id="outline-container-org8ea65b9" class="outline-4">
+<h4 id="org8ea65b9"><a href="Deuteronomy 28:1-4">Deuteronomy 28:1-4</a> may be in mind</h4>
+</div>
+<div id="outline-container-orgd6c89e5" class="outline-4">
+<h4 id="orgd6c89e5">Family and people</h4>
+<div class="outline-text-4 blank-section" id="text-orgd6c89e5">
+</div>
+<ul class="org-ul">
+<li><a id="org021e79d"></a>Seeing sons as plants - not weeds or thorns, but great plants, not withered or blast; healthful, towardly, pious, likely to bear fruit<br /></li>
+<li><a id="org994c34c"></a>Seeing daughters as cornerstones - well-established, staid with wisdom and discretion, united to the chief cornerstone, adorned with the graces of God's spirit, purified and consecrated to God as living temples<br /></li>
+<li><a id="org67ee323"></a><a href="Psalm 128:3">Psalm 128:3</a>, <a href="Psalm 52:8">Psalm 52:8</a>, <a href="Psalm 1:1-3">Psalm 1:1-3</a> for similar<br /></li>
+</ul>
+</div>
+<div id="outline-container-org6e1f81f" class="outline-4">
+<h4 id="org6e1f81f">National</h4>
+<div class="outline-text-4 blank-section" id="text-org6e1f81f">
+</div>
+<ul class="org-ul">
+<li><a id="org817e95e"></a>Full supply, enjoyed but not presumed on<br /></li>
+<li><a id="orga616b30"></a>Peace and security<br /></li>
+<li><a id="org28a7956"></a><a href="Deuteronomy 28:7">Deuteronomy 28:7</a>, <a href="Isaiah 24:11">Isaiah 24:11</a>, <a href="Jeremiah 14:2">Jeremiah 14:2</a> - Israel's eventual disobedience, and the consequent removal of God's blessing<br /></li>
+</ul>
+</div>
+<div id="outline-container-orgef33bc2" class="outline-4">
+<h4 id="orgef33bc2"><a href="Habakkuk 3:17-19">Habakkuk 3:17-19</a> - The greatest of this blessing comes from delighting in the Lord who provided it, not from the blessing itself</h4>
+</div>
+</div>
+<div id="outline-container-orgc25a4f0" class="outline-3">
+<h3 id="orgc25a4f0">Application</h3>
+<div class="outline-text-3 blank-section" id="text-orgc25a4f0">
+</div>
+<div id="outline-container-org3eb2b47" class="outline-4">
+<h4 id="org3eb2b47">God is a sure Rock!</h4>
+</div>
+<div id="outline-container-org7909729" class="outline-4">
+<h4 id="org7909729">Are we living in the tranquility and security that such a Rock offers?</h4>
+</div>
+<div id="outline-container-orgcd2c283" class="outline-4">
+<h4 id="orgcd2c283">This rock is also our redeemer. 'Oh Lord, Our Rock and Our Redeemer'</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-org2dde1f0" class="outline-2">
+<h2 id="org2dde1f0"><a href="2 Samuel 9">2 Samuel 9</a> - <a href="https://countrysidebible.org/cbcmedia?return=single&amp;mediacode=ssfb190324a">'David's Kindness to Mephibosheth'</a></h2>
+<div class="outline-text-2" id="text-org2dde1f0">
+<dl class="org-dl">
+<dt>Teacher</dt><dd>Terry Tyler</dd>
+</dl>
+</div>
+<div id="outline-container-orge6370f4" class="outline-3">
+<h3 id="orge6370f4">Theme: David modeled God's covenant faithfulness in remembering his vow to Jonathan and by showing kindness to Jonathan's son Mephibosheth</h3>
+<div class="outline-text-3 blank-section" id="text-orge6370f4">
+</div>
+<div id="outline-container-orgc74f57d" class="outline-4">
+<h4 id="orgc74f57d"><a href="2 Samuel 9:1-3">1-3a</a> David remembers his oath to Jonathan, and inquires how he might fulfill it</h4>
+<div class="outline-text-4" id="text-orgc74f57d">
+<p>
+Recall the practice expected in kingdoms; a new regime would kill the family of their conquered rivals.
+</p>
+
+<p>
+<a href="1 Samuel 20:14-17,42">1 Samuel 20:14-17,42</a>
+</p>
+
+<p>
+'kindness' - '<i>hesed</i>' in Hebrew: loyal love, enduring, covenantal faithfulness; used repeatedly here
+</p>
+</div>
+</div>
+<div id="outline-container-org8c218c7" class="outline-4">
+<h4 id="org8c218c7"><a href="2 Samuel 9:3-5">3b-5</a> Ziba mentions Jonathan's crippled son Mephibosheth and David sends for him</h4>
+<div class="outline-text-4" id="text-org8c218c7">
+<p>
+Ziba did not mention other sons of Saul, knowing that's who David would want to know about.
+</p>
+
+<p>
+<a href="2 Samuel 4:4">4:4</a> - His lameness came from an injury, while fleeing after Saul's and Jonathan's death.
+Ishbosheth, his uncle, died when he was 12. This is a number of years later, and he would be an adult.
+</p>
+
+<p>
+Machir - a loyal supporter of David
+Lo-debar - north of Jerusalem a ways
+</p>
+</div>
+</div>
+<div id="outline-container-org540ae79" class="outline-4">
+<h4 id="org540ae79"><a href="2 Samuel 9:6">6</a> Mephibosheth arrives and humbly greets David</h4>
+<div class="outline-text-4" id="text-org540ae79">
+<p>
+Maribaal was his original name, but changed by the author of Samuel
+Baal - originally 'master' or 'lord', but discontinued because of that close association to the false god Ba'al.
+The author of Samuel made slight changes to names to reflect that sensitivity.
+</p>
+
+<p>
+Mephibosheth follows a role of humble servitude. He's expecting his uncle is seeking to wipe out the previous dynasty.
+</p>
+</div>
+</div>
+<div id="outline-container-org949a4cd" class="outline-4">
+<h4 id="org949a4cd"><a href="2 Samuel 9:7">7</a> David shows kindness to Mephibosheth</h4>
+<div class="outline-text-4" id="text-org949a4cd">
+<p>
+David encourages him in his fear: 'do not fear'
+</p>
+
+<p>
+David shows kindness by:
+</p>
+<ul class="org-ul">
+<li>Giving him land, restoring that which had belonged to Saul</li>
+<li>Giving him privilege, showing him honor by seating him at his table and seeking a relationship with him</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd2da34c" class="outline-4">
+<h4 id="orgd2da34c"><a href="2 Samuel 9:8">8</a> Mephibosheth responds to David's kind offer in the most humble of ways</h4>
+<div class="outline-text-4" id="text-orgd2da34c">
+<p>
+He refers to himself as a slave, calling himself a 'dead dog', not only useless but despicable: deep self-abasement.
+</p>
+</div>
+</div>
+<div id="outline-container-orgb99bcae" class="outline-4">
+<h4 id="orgb99bcae"><a href="2 Samuel 9:9-10">9-10</a> David calls Ziba and gives him instructions</h4>
+<div class="outline-text-4 blank-section" id="text-orgb99bcae">
+</div>
+<ul class="org-ul">
+<li><a id="org1df599f"></a><a href="2 Samuel 9:9">9</a> Ziba is to give everything that belonged to Saul and all his house to Mephibosheth<br /></li>
+<li><a id="org5a6e6ee"></a><a href="2 Samuel 9:10">10a,c</a> Ziba and his sons and servants are to work the land and give the produce to Mephibosheth<br />
+<div class="outline-text-5" id="text-org5a6e6ee">
+<p>
+He had 15 sons, 20 servants - large family, of great value to Mephibosheth
+</p>
+
+<p>
+This power and influence of Ziba is essentially being subjugated to Mephibosheth?
+</p>
+</div>
+</li>
+<li><a id="org41514cc"></a><a href="2 Samuel 9:10">10b</a> Mephibosheth is to eat regularly at David's table<br /></li>
+</ul>
+</div>
+<div id="outline-container-org8bf11cb" class="outline-4">
+<h4 id="org8bf11cb"><a href="2 Samuel 9:11">11a</a> Ziba agrees to do all that the king had commanded</h4>
+</div>
+<div id="outline-container-orgae98680" class="outline-4">
+<h4 id="orgae98680"><a href="2 Samuel 9:11-13">11b-13</a> Mephibosheth then lives in Jerusalem with his son Mica and is treated as one of David's own sons at his royal table</h4>
+<div class="outline-text-4" id="text-orgae98680">
+<p>
+Mica is also spelled Micah elsewhere.
+</p>
+
+<p>
+Mephibosheth accepts David's kindness and 'ate always at the king's table'.
+</p>
+
+<p>
+Redundant emphasis that he is lame in both feet, emphasizing that David showed this kindness to his own disgrace, and not for utility of his own.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org7f362ca" class="outline-3">
+<h3 id="org7f362ca">Question on <a href="2 Samuel 21">2 Samuel 21</a></h3>
+<div class="outline-text-3 blank-section" id="text-org7f362ca">
+</div>
+<div id="outline-container-orgbe8e856" class="outline-4">
+<h4 id="orgbe8e856"><a href="2 Samuel 21:8-9">8-9</a> Did David break his word?</h4>
+<div class="outline-text-4 blank-section" id="text-orgbe8e856">
+</div>
+<ul class="org-ul">
+<li><a id="org234c617"></a><a href="2 Samuel 21:7">7</a> Different Mephibosheth! Not the son of Jonathan, but the son of Saul in vv. 8-9<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc4c3062" class="outline-3">
+<h3 id="orgc4c3062">Ziba the Traitor and His Unloving Disloyalty</h3>
+<div class="outline-text-3 blank-section" id="text-orgc4c3062">
+</div>
+<div id="outline-container-orgad5df8a" class="outline-4">
+<h4 id="orgad5df8a">Ziba's <span class="underline">actions</span></h4>
+<div class="outline-text-4 blank-section" id="text-orgad5df8a">
+</div>
+<ul class="org-ul">
+<li><a id="orgdd4e9c7"></a><a href="2 Samuel 9">2 Samuel 9</a> He was charged by David to serve Mephibosheth, which he agreed to do<br /></li>
+<li><a id="org9ca0009"></a><a href="2 Samuel 16">2 Samuel 16</a> He later accuses Mephibosheth of wanting to bring down David as king<br />
+<div class="outline-text-5" id="text-org9ca0009">
+<p>
+This is during the time of Absalom's conspiracy.
+Ziba attempts to implicate Mephibosheth to commend himself before David, bringing him gifts.
+</p>
+</div>
+</li>
+<li><a id="org8be6d76"></a><a href="2 Samuel 19">2 Samuel 19</a> Mephibosheth later sets the record straight with David in revealing Ziba's lies<br /></li>
+</ul>
+</div>
+<div id="outline-container-orgf6a3bef" class="outline-4">
+<h4 id="orgf6a3bef">Ziba's <span class="underline">character</span></h4>
+<div class="outline-text-4" id="text-orgf6a3bef">
+<p>
+The opposite of 'hesed': faithful, loyal love
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org6cc882f"></a>Dishonest<br /></li>
+<li><a id="orga09b887"></a>Disloyal and unfaithful<br /></li>
+<li><a id="org5a49b73"></a>Unloving<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org2f8b06b" class="outline-3">
+<h3 id="org2f8b06b">Hebrew Word <i>Hesed</i> (חֶסֶד)</h3>
+<div class="outline-text-3 blank-section" id="text-org2f8b06b">
+</div>
+<div id="outline-container-orged5133d" class="outline-4">
+<h4 id="orged5133d">Majority of translated uses: 'lovingkindness' (NASB), 'steadfast love' (ESV/RSV), 'mercy' (KJV), 'love' (NIV)</h4>
+</div>
+<div id="outline-container-orgced2428" class="outline-4">
+<h4 id="orgced2428">Sense in which it's used: loyal love</h4>
+<div class="outline-text-4 blank-section" id="text-orgced2428">
+</div>
+<ul class="org-ul">
+<li><a id="org76237b0"></a>240 times in the OT, especially in the Psalms; 'one of the most important in OT theology and ethics'<br /></li>
+<li><a id="org9c3bb4e"></a>David clearly loves this word and concept.<br /></li>
+<li><a id="org4186bd4"></a>Loyalty within a relationship; when used with God, it's in relation to His faithfulness to His people.<br /></li>
+</ul>
+</div>
+<div id="outline-container-org5c6719e" class="outline-4">
+<h4 id="org5c6719e">3 basic meanings, which always interact</h4>
+<div class="outline-text-4" id="text-org5c6719e">
+<dl class="org-dl">
+<dt>Strength</dt><dd>intentional effort and ability to act</dd>
+<dt>Steadfastness</dt><dd>reliability, endurance, permanence</dd>
+<dt>Love</dt><dd>willing affection and generosity that seeks the benefit of the recipient</dd>
+</dl>
+
+<p>
+All three of these intersect in <i>hesed</i>.
+</p>
+
+<p>
+Emphasized towards those for whom it is not deserved.
+</p>
+
+<p>
+God's steadfast love to His people who need redemption.
+</p>
+</div>
+</div>
+<div id="outline-container-org699a8de" class="outline-4">
+<h4 id="org699a8de">Concordance <a href="https://biblehub.com/hebrew/2617.htm">A</a> <a href="https://www.blueletterbible.org/lang/lexicon/lexicon.cfm?ot=NASB&amp;strongs=h2617&amp;t=nasb#lexSearch">B</a></h4>
+</div>
+</div>
+<div id="outline-container-org47c92c3" class="outline-3">
+<h3 id="org47c92c3">Reflections and Application</h3>
+<div class="outline-text-3 blank-section" id="text-org47c92c3">
+</div>
+<div id="outline-container-org10b60a1" class="outline-4">
+<h4 id="org10b60a1">David sought to show the kindness (<i>hesed</i>) <span class="underline">of God</span>.</h4>
+<div class="outline-text-4 blank-section" id="text-org10b60a1">
+</div>
+<ul class="org-ul">
+<li><a id="org5af4a34"></a>His desire was to put the character of God on display in his own life.<br /></li>
+<li><a id="org136b8a4"></a><a href="Ephesians 5:1">Ephesians 5:1</a> As believers, we are also called to put God's character on display in our own lives<br /></li>
+<li><a id="org796140d"></a>Imitating God in our character and actions is an immeasurable blessing on others<br /></li>
+<li><a id="orge98cdae"></a>Be reminded of God's <i>hesed</i> toward you personally who are in Christ!<br /></li>
+</ul>
+</div>
+<div id="outline-container-org2ead45d" class="outline-4">
+<h4 id="org2ead45d"><a href="1 Chronicles 8:34-40">1 Chronicles 8:34-40</a> The lineage of Mephibosheth</h4>
+<div class="outline-text-4 blank-section" id="text-org2ead45d">
+</div>
+<ul class="org-ul">
+<li><a id="org91f7eb8"></a>Merib-baal is Mephibosheth; his son Micah is Mica.<br /></li>
+<li><a id="org9329edd"></a>The line of Jonathan through Mephibosheth was blessed to become a great family.<br /></li>
+<li><a id="org099d119"></a>The downstream effects of that blessing of David onto Mephibosheth.<br /></li>
+</ul>
+</div>
+<div id="outline-container-orgc181c5c" class="outline-4">
+<h4 id="orgc181c5c">What was most personally encouraging from the lesson?</h4>
+<div class="outline-text-4 blank-section" id="text-orgc181c5c">
+</div>
+<ul class="org-ul">
+<li><a id="org7bb9452"></a>In contrast to the vengeance David could have required towards Saul's family, like for like, he showed God's lovingkindness towards Saul's family instead.<br /></li>
+</ul>
+</div>
+<div id="outline-container-org4df1749" class="outline-4">
+<h4 id="org4df1749">What was personally challenging from the lesson?</h4>
+<div class="outline-text-4 blank-section" id="text-org4df1749">
+</div>
+<ul class="org-ul">
+<li><a id="org2bab276"></a>Examining my own motives for showing kindness towards others<br />
+<div class="outline-text-5" id="text-org2bab276">
+<ul class="org-ul">
+<li>Selfish?</li>
+<li>Trying to please God?</li>
+<li>Trying to curry favor with man?</li>
+<li>Trying to appease our own conscience?</li>
+</ul>
+</div>
+</li>
+<li><a id="orgb523927"></a>Examining what I'm willing to sacrifice in order to show kindness<br /></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org1f3cc38" class="outline-2">
+<h2 id="org1f3cc38"><a href="2 Samuel 10">2 Samuel 10</a> - <a href="https://countrysidebible.org/cbcmedia?return=single&amp;mediacode=ssfb190331a">'An Evil Response to an Offer of Kindness'</a></h2>
+<div class="outline-text-2" id="text-org1f3cc38">
+<dl class="org-dl">
+<dt>Teacher</dt><dd>Terry Tyler</dd>
+</dl>
+</div>
+<div id="outline-container-orge4ddc1a" class="outline-3">
+<h3 id="orge4ddc1a"><a href="2 Samuel 10:1">1</a>     Nahash, king of the Ammonites, has died and Hanun his son becomes king.</h3>
+<div class="outline-text-3" id="text-orge4ddc1a">
+<p>
+David had fostered a good relationship with the Ammonites.
+</p>
+</div>
+</div>
+<div id="outline-container-org2fb57a5" class="outline-3">
+<h3 id="org2fb57a5"><a href="2 Samuel 10:2">2a</a>    David decides to show kindness (<i>Heb. hesed חֶסֶד</i>) to Hanun by sending representatives to console him.</h3>
+</div>
+<div id="outline-container-org4dd073d" class="outline-3">
+<h3 id="org4dd073d"><a href="2 Samuel 10:2b-3">2b-3</a>  Hanun's princes wrongly accuse David of having ulterior motives.</h3>
+<div class="outline-text-3" id="text-org4dd073d">
+<p>
+Why?
+</p>
+<ul class="org-ul">
+<li>Misunderstanding?</li>
+<li>David's recent defeat of the Moabites just south of Ammon? <a href="2 Samuel 8">2 Samuel 8</a></li>
+<li>New advisors?</li>
+<li>Paranoid?</li>
+<li>Arrogant?</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge4ff615" class="outline-3">
+<h3 id="orge4ff615"><a href="2 Samuel 10:4">4</a>     Hanun unwisely accepts the advice of his princes and rejects and humiliates David's representatives.</h3>
+<div class="outline-text-3" id="text-orge4ff615">
+<p>
+Discern and choose your councillors wisely.
+</p>
+
+<p>
+These actions were insults of the highest order, normally reserved for expressions of grief.
+All aspects of this were a violation of the Torah, an affront to the religion and God of Israel.
+</p>
+
+<p>
+These are actions for humiliating prisoners of war.
+</p>
+
+<p>
+This is an act cutting off the previous relationship with David and Israel.
+</p>
+</div>
+</div>
+<div id="outline-container-org5383567" class="outline-3">
+<h3 id="org5383567"><a href="2 Samuel 10:5">5</a>     David tells the men to stay in Jericho for a while to avoid further humiliation.</h3>
+<div class="outline-text-3" id="text-org5383567">
+<p>
+Allow them to recover from their shaming shaving.
+</p>
+</div>
+</div>
+<div id="outline-container-org86cda06" class="outline-3">
+<h3 id="org86cda06"><a href="2 Samuel 10:6">6</a>     The Ammonites realize the hostility they created and prepare for anticipated battle.</h3>
+<div class="outline-text-3" id="text-org86cda06">
+<p>
+Note the hiring of 33,000 Aramean (Syrian) mercenaries.
+These came from four regions to the north of Ammon.
+1 Chronicles 19:6 - 1,000 talents of silver - $18.2m - ~$551 per soldier (modern value of silver)
+</p>
+
+<p>
+Aramean - from which we get Aramaic
+</p>
+</div>
+</div>
+<div id="outline-container-org6c656f9" class="outline-3">
+<h3 id="org6c656f9"><a href="2 Samuel 10:7">7</a>     David sends out Joab and all the army for battle.</h3>
+</div>
+<div id="outline-container-orgbb41ffb" class="outline-3">
+<h3 id="orgbb41ffb"><a href="2 Samuel 10:8-11">8-11</a>  Trapped between them, Joab creates a plan of attack.</h3>
+<div class="outline-text-3" id="text-orgbb41ffb">
+<p>
+The mercenaries formed south of the capital, while the Ammonites' own forces were in the capital itself.
+</p>
+</div>
+</div>
+<div id="outline-container-org91a3ca7" class="outline-3">
+<h3 id="org91a3ca7"><a href="2 Samuel 10:12">12</a>    Joab encourages them to be strong and courageous and to trust that the Lord will do what is good in His sight.</h3>
+<div class="outline-text-3" id="text-org91a3ca7">
+<p>
+Trust that God will protect and fulfill what He has promised.
+</p>
+</div>
+</div>
+<div id="outline-container-org2ac2f26" class="outline-3">
+<h3 id="org2ac2f26"><a href="2 Samuel 10:13-14">13-14</a> Upon engaging, the Arameans and Ammonites flee and the Israelite army returns to Jerusalem.</h3>
+<div class="outline-text-3" id="text-org2ac2f26">
+<p>
+No indication of size of armies or losses.
+</p>
+
+<p>
+Note Joab doesn't lay siege or enter the city - it was not the right season (lit.; spring was a better time).
+</p>
+</div>
+</div>
+<div id="outline-container-orgf8177f3" class="outline-3">
+<h3 id="orgf8177f3">David Battles the Expanded Aramean Army</h3>
+<div class="outline-text-3 blank-section" id="text-orgf8177f3">
+</div>
+<div id="outline-container-org98a70ad" class="outline-4">
+<h4 id="org98a70ad"><a href="2 Samuel 10:15-16">15-16</a> The Arameans regroup and gather additional troops.</h4>
+<div class="outline-text-4" id="text-org98a70ad">
+<p>
+'beyond the river' - Euphrates river from far in the north.
+</p>
+</div>
+</div>
+<div id="outline-container-org0c64428" class="outline-4">
+<h4 id="org0c64428"><a href="2 Samuel 10:17-18">17-18</a> The Israelites defeat the Arameans, who sustain massive casualties.</h4>
+<div class="outline-text-4" id="text-org0c64428">
+<p>
+<a href="1 Chronicles 19:18">1 Chronicles 19:18</a> observes 7,000 charioteers, likely a copyist error.
+</p>
+</div>
+</div>
+<div id="outline-container-orge37ba39" class="outline-4">
+<h4 id="orge37ba39"><a href="2 Samuel 10:19">19</a>    The Arameans reach several conclusions:</h4>
+<div class="outline-text-4 blank-section" id="text-orge37ba39">
+</div>
+<ul class="org-ul">
+<li><a id="orgec2cd99"></a>We will serve Israel and be at peace with them.<br /></li>
+<li><a id="org09da832"></a>We will not help the Ammonites anymore.<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgf02e2d2" class="outline-3">
+<h3 id="orgf02e2d2">The Striking Comparison of the Stories of Mephibosheth and Hanun</h3>
+<div class="outline-text-3 blank-section" id="text-orgf02e2d2">
+</div>
+<div id="outline-container-org96c8b1f" class="outline-4">
+<h4 id="org96c8b1f">Similarities</h4>
+<div class="outline-text-4 blank-section" id="text-org96c8b1f">
+</div>
+<ul class="org-ul">
+<li><a id="org7232a3f"></a>David had the relationship and covenant with the father of each of them<br /></li>
+<li><a id="orgd8af61e"></a>Each of their fathers died<br /></li>
+<li><a id="orgcc38ce2"></a>David desired and initiated showing generous loyalty and kindness to each of them<br /></li>
+</ul>
+</div>
+<div id="outline-container-org86afc57" class="outline-4">
+<h4 id="org86afc57">Differences</h4>
+<div class="outline-text-4" id="text-org86afc57">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Mephibosheth</th>
+<th scope="col" class="org-left">Hanun</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Part of the covenant people of God</td>
+<td class="org-left">Not part of the covenant people of God</td>
+</tr>
+
+<tr>
+<td class="org-left">Considered himself unworthy</td>
+<td class="org-left">Considered David as unworthy</td>
+</tr>
+
+<tr>
+<td class="org-left">Considered David to be a gracious friend</td>
+<td class="org-left">Considered David to be a scheming enemy</td>
+</tr>
+
+<tr>
+<td class="org-left">Humbly received David's offer</td>
+<td class="org-left">Arrogantly rejected David's offer</td>
+</tr>
+
+<tr>
+<td class="org-left">Enjoyed an inheritance and blessing at the royal table as a son</td>
+<td class="org-left">Received no benefits but only massive consequences and suffering as an enemy <i>for generations</i></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-orgc3c2af8" class="outline-4">
+<h4 id="orgc3c2af8">Ongoing consequences for Ammon <a href="2 Samuel 11:1;12:26,29-31">2 Samuel 11:1;12:26,29-31</a></h4>
+</div>
+</div>
+<div id="outline-container-orgeae5223" class="outline-3">
+<h3 id="orgeae5223">Reflections and Application</h3>
+<div class="outline-text-3 blank-section" id="text-orgeae5223">
+</div>
+<div id="outline-container-org006caa1" class="outline-4">
+<h4 id="org006caa1"><a href="2 Samuel 10:2">2a</a> David's desire was to put the character of God on display in his own life.</h4>
+</div>
+<div id="outline-container-orgf06269d" class="outline-4">
+<h4 id="orgf06269d"><a href="Psalm 145:8">Psalm 145:8</a> <a href="Micah 6:8">Micah 6:8</a> <a href="Ephesians 5:1">Ephesians 5:1</a> As believers, we also are called to put God's character in display in our own lives.</h4>
+</div>
+<div id="outline-container-org95d5012" class="outline-4">
+<h4 id="org95d5012">Be careful who you listen to - it could cost you dearly.</h4>
+</div>
+<div id="outline-container-orga12efa7" class="outline-4">
+<h4 id="orga12efa7"><a href="Titus 3:4-6">Titus 3:4-6</a> <a href="Romans 2:4-5">Romans 2:4-5</a> The consequences of rejecting the kindness (<i>hesed</i>) that God offers in salvation are beyond comprehension.</h4>
+<div class="outline-text-4" id="text-orga12efa7">
+<p>
+'The worst kind of ingratitude is to return evil for kindness.'
+</p>
+</div>
+</div>
+<div id="outline-container-org284166f" class="outline-4">
+<h4 id="org284166f">As believers, be reminded of God's steadfast love toward you and its many benefits.</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-org27d00e6" class="outline-2">
+<h2 id="org27d00e6"><a href="2 Samuel 11">2 Samuel 11</a> - 'David and Bathsheba' <a id="orgb35b570"></a></h2>
+<div class="outline-text-2" id="text-org27d00e6">
+<dl class="org-dl">
+<dt>Teacher</dt><dd>Eric Sears</dd>
+</dl>
+</div>
+<div id="outline-container-org8ce56ac" class="outline-3">
+<h3 id="org8ce56ac">Introduction</h3>
+<div class="outline-text-3 blank-section" id="text-org8ce56ac">
+</div>
+<div id="outline-container-orge940826" class="outline-4">
+<h4 id="orge940826">C.S. Lewis - "The Weight of Glory"</h4>
+<div class="outline-text-4" id="text-orge940826">
+<p>
+Mankind lives as if the great and future promises are non-existent.
+"We are half-hearted creatures, fooling about [&#x2026;]"
+</p>
+</div>
+</div>
+<div id="outline-container-orgb5255de" class="outline-4">
+<h4 id="orgb5255de">Sin is actually a rejection of what God has said and promised.</h4>
+</div>
+<div id="outline-container-orgab6777f" class="outline-4">
+<h4 id="orgab6777f">This chapter marks a turning point, coloring and overshadowing the remainder of David's reign.</h4>
+</div>
+<div id="outline-container-org69b2152" class="outline-4">
+<h4 id="org69b2152"><a href="1 Kings 15:5">1 Kings 15:5</a> Even marks this as <i>the</i> significant exception in David's life, with catastrophic ongoing consequences.</h4>
+</div>
+</div>
+<div id="outline-container-org8cf9f9a" class="outline-3">
+<h3 id="org8cf9f9a"><a href="2 Samuel 11:1">1</a>     Occasion for Sin</h3>
+<div class="outline-text-3 blank-section" id="text-org8cf9f9a">
+</div>
+<div id="outline-container-org7aff1a8" class="outline-4">
+<h4 id="org7aff1a8">Joab and the army go and lay siege to Rabbah.</h4>
+<div class="outline-text-4" id="text-org7aff1a8">
+<p>
+Timing: better weather, between planting and harvest; food available to supply.
+</p>
+
+<p>
+Also a cultural expectation of sorts for the kings to lead their armies in battle.
+</p>
+</div>
+</div>
+<div id="outline-container-orgd2bf09c" class="outline-4">
+<h4 id="orgd2bf09c">"But David stayed"</h4>
+<div class="outline-text-4" id="text-orgd2bf09c">
+<p>
+He was not doing what he ought to have been; something is wrong with this picture, and the
+framing of the text makes that clear.
+</p>
+</div>
+</div>
+<div id="outline-container-org213e333" class="outline-4">
+<h4 id="org213e333">Point - David was neglecting his kingly duties,</h4>
+<div class="outline-text-4" id="text-org213e333">
+<p>
+This serves as a background for the sin to come. He is at his leisure while his army is at war.
+His focus is on himself and his own desires and indulgences.
+</p>
+
+<p>
+Note that Uriah, in contrast, refused the offered leisure, remaining faithful to his duties.
+</p>
+</div>
+</div>
+<div id="outline-container-org5326dca" class="outline-4">
+<h4 id="org5326dca">Lessons</h4>
+<div class="outline-text-4 blank-section" id="text-org5326dca">
+</div>
+<ul class="org-ul">
+<li><a id="orgca35ce4"></a>Staying busy with the work the Lord has called us to do can guard against temptation.<br />
+<div class="outline-text-5" id="text-orgca35ce4">
+<p>
+Laziness is the devil's handiwork (?)
+</p>
+</div>
+</li>
+<li><a id="orgfa0d14b"></a><a href="Proverbs 7">Proverbs 7</a> We need to be mindful of the environments or situations in which we are most prone to sin.<br />
+<div class="outline-text-5" id="text-orgfa0d14b">
+<p>
+The battle was lost from the outset.
+</p>
+
+<p>
+We cannot make provision for the flesh.
+</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgf91c32a" class="outline-3">
+<h3 id="orgf91c32a"><a href="2 Samuel 11:2">2</a>     Temptation</h3>
+<div class="outline-text-3 blank-section" id="text-orgf91c32a">
+</div>
+<div id="outline-container-orgcd5315a" class="outline-4">
+<h4 id="orgcd5315a">Temptation is external - being tempted is not sinful.</h4>
+</div>
+<div id="outline-container-org5b189ce" class="outline-4">
+<h4 id="org5b189ce"><a href="James 1:13-15">James 1:13-15</a> Sin occurs when our own sinful cravings lure us in action.</h4>
+</div>
+<div id="outline-container-orgf8479c7" class="outline-4">
+<h4 id="orgf8479c7">Decision point - what should David do?</h4>
+<div class="outline-text-4" id="text-orgf8479c7">
+<p>
+We ought to have a plan and strategy for when temptation arises. We won't see it coming.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org74e3c60" class="outline-3">
+<h3 id="org74e3c60"><a href="2 Samuel 11:3">3</a>     Consideration</h3>
+<div class="outline-text-3 blank-section" id="text-org74e3c60">
+</div>
+<div id="outline-container-org175be7f" class="outline-4">
+<h4 id="org175be7f">What is the Biblical approach to sexual temptation?</h4>
+<div class="outline-text-4 blank-section" id="text-org175be7f">
+</div>
+<ul class="org-ul">
+<li><a id="org34548f0"></a><a href="2 Timothy 2:22">2 Timothy 2:22</a> Run, physically and mentally!<br />
+<div class="outline-text-5" id="text-org34548f0">
+<p>
+Also surrounding ones self with faithful people, also pursuing righteousness
+</p>
+</div>
+</li>
+<li><a id="org51dbc66"></a><a href="Romans 13:14">Romans 13:14</a> Make no provision<br />
+<div class="outline-text-5" id="text-org51dbc66">
+<p>
+'Give no quarter'
+</p>
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-org051ab9b" class="outline-4">
+<h4 id="org051ab9b">What did David do?</h4>
+<div class="outline-text-4 blank-section" id="text-org051ab9b">
+</div>
+<ul class="org-ul">
+<li><a id="orgb4134c5"></a>He inquired about the woman<br />
+<div class="outline-text-5" id="text-orgb4134c5">
+<p>
+Fed his own lust.
+</p>
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-orgf4c48e3" class="outline-4">
+<h4 id="orgf4c48e3">Bathsheba</h4>
+<div class="outline-text-4 blank-section" id="text-orgf4c48e3">
+</div>
+<ul class="org-ul">
+<li><a id="org631c6b1"></a>Wife of Uriah the Hittite<br />
+<div class="outline-text-5" id="text-org631c6b1">
+<p>
+One of David's elite warriors, loyal to him.
+</p>
+
+<p>
+So committed to his fellow soldiers, he refused to enjoy the leisures and pleasures of home
+while they were at battle.
+</p>
+</div>
+</li>
+<li><a id="org3aab977"></a>Daughter of Eliam<br />
+<div class="outline-text-5" id="text-org3aab977">
+<p>
+Another of David's mighty men, the son of Ahithophel.
+</p>
+</div>
+</li>
+<li><a id="org5d364d4"></a>Granddaughter of Ahithophel<br />
+<div class="outline-text-5" id="text-org5d364d4">
+<p>
+Became Absalom's chief councillor, and encouraged his rebellion. It is possible Ahithophel was
+motivated by this sin against Bathsheba.
+</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgbde7a37" class="outline-3">
+<h3 id="orgbde7a37"><a href="2 Samuel 11:4">4</a>     Sin</h3>
+<div class="outline-text-3" id="text-orgbde7a37">
+<p>
+Question about the text: did she purify herself before or after?
+</p>
+</div>
+<div id="outline-container-org72f0b40" class="outline-4">
+<h4 id="org72f0b40">David sends for Bathsheba and commits adultery with her.</h4>
+</div>
+<div id="outline-container-org8e1a01c" class="outline-4">
+<h4 id="org8e1a01c">Bathsheba was at least a willing participant, and would also have been condemned under law.</h4>
+<div class="outline-text-4" id="text-org8e1a01c">
+<p>
+David is still fully responsible for his own sin, and his was the greater sin by far.
+</p>
+
+<p>
+She may not have been stewarding her own beauty well. <a href="1 Peter 3:3-4">1 Peter 3:3-4</a>
+</p>
+
+<p>
+Bathsheba suffers consequences of this sin as well.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orge4b37a7" class="outline-3">
+<h3 id="orge4b37a7"><a href="2 Samuel 11:5">5</a>     Consequence - Pregnancy</h3>
+<div class="outline-text-3 blank-section" id="text-orge4b37a7">
+</div>
+<div id="outline-container-org81a74a8" class="outline-4">
+<h4 id="org81a74a8">The law would demand death for adultery. The consequences for the nation would be massive.</h4>
+</div>
+<div id="outline-container-orgc409a84" class="outline-4">
+<h4 id="orgc409a84">David chooses to conceal it, begetting more sin.</h4>
+</div>
+</div>
+<div id="outline-container-orgb892145" class="outline-3">
+<h3 id="orgb892145"><a href="2 Samuel 11:6-25">6-25</a>  Concealment</h3>
+<div class="outline-text-3 blank-section" id="text-orgb892145">
+</div>
+<div id="outline-container-orgfe3121f" class="outline-4">
+<h4 id="orgfe3121f">One sin often begets others; concealing a sin requires many other sins.</h4>
+</div>
+<div id="outline-container-org79e10be" class="outline-4">
+<h4 id="org79e10be"><a href="2 Samuel 11:6-9">6-9</a>   Plan A - Get Uriah to come home.</h4>
+</div>
+<div id="outline-container-orgd18af02" class="outline-4">
+<h4 id="orgd18af02"><a href="2 Samuel 11:10-13">10-13</a> Plan A.2 - Get Uriah drunk.</h4>
+</div>
+<div id="outline-container-orga7c324e" class="outline-4">
+<h4 id="orga7c324e"><a href="2 Samuel 11:14-17">14-17</a> Plan B - Murder</h4>
+<div class="outline-text-4 blank-section" id="text-orga7c324e">
+</div>
+<ul class="org-ul">
+<li><a id="org9db6fc4"></a>Uriah had to unwittingly deliver his own death warrant.<br /></li>
+<li><a id="org003d1dc"></a>Note that other people suffered death because of this action, as well.<br /></li>
+</ul>
+</div>
+<div id="outline-container-orga173d18" class="outline-4">
+<h4 id="orga173d18"><a href="2 Samuel 11:18-24">18-24</a> Battle Report</h4>
+</div>
+<div id="outline-container-org4fd5ba3" class="outline-4">
+<h4 id="org4fd5ba3"><a href="2 Samuel 11:25">25</a>    David's Response</h4>
+<div class="outline-text-4" id="text-org4fd5ba3">
+<p>
+"The sword devours one as well as another" - you win some, you lose some
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org2dae1ca" class="outline-3">
+<h3 id="org2dae1ca"><a href="2 Samuel 11:26-27">26-27</a> Conclusion</h3>
+<div class="outline-text-3 blank-section" id="text-org2dae1ca">
+</div>
+<div id="outline-container-org94a6fe5" class="outline-4">
+<h4 id="org94a6fe5">David marries Bathsheba</h4>
+</div>
+<div id="outline-container-orgec7f2a2" class="outline-4">
+<h4 id="orgec7f2a2">God considered what David had done to be great evil</h4>
+<div class="outline-text-4 blank-section" id="text-orgec7f2a2">
+</div>
+<ul class="org-ul">
+<li><a id="orgb299a26"></a>a) Failure to fulfill kingly responsibilitie<br /></li>
+<li><a id="orge69dc03"></a>b) Lust - coveting his neighbor's wife<br /></li>
+<li><a id="org2039912"></a>c) Adultery<br /></li>
+<li><a id="org7ba386f"></a>d) Abuse of power<br /></li>
+<li><a id="org2cdcc94"></a>e) Lying / deceit<br /></li>
+<li><a id="orgb46933f"></a>f) Murder<br /></li>
+<li><a id="org6dc14b3"></a>g) Refusal to repent<br /></li>
+<li><a id="org4b24af1"></a>h) Causing others to become accessories to his crimes<br /></li>
+<li><a id="org5fb5db0"></a>i) Carlessness with the lives of others<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgb91b75f" class="outline-3">
+<h3 id="orgb91b75f">Lessons / Conclusion</h3>
+<div class="outline-text-3 blank-section" id="text-orgb91b75f">
+</div>
+<div id="outline-container-org95a2aa1" class="outline-4">
+<h4 id="org95a2aa1">'Thou art the man!'</h4>
+</div>
+<div id="outline-container-orgdf0a17d" class="outline-4">
+<h4 id="orgdf0a17d">The fundamental issue every time we sin is a lack of faith in the Word and promises of God.</h4>
+</div>
+<div id="outline-container-org140c99c" class="outline-4">
+<h4 id="org140c99c">Biblical faith exercised daily, hourly, and minute-by-minute is the key to overcoming temptation.</h4>
+</div>
+<div id="outline-container-org11618f7" class="outline-4">
+<h4 id="org11618f7">Whether you experience victory and failure in temptation is determined in your mind.</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-org95d2829" class="outline-2">
+<h2 id="org95d2829"><a href="2 Samuel 12">2 Samuel 12</a> - 'David's Repentance'</h2>
+<div class="outline-text-2" id="text-org95d2829">
+<dl class="org-dl">
+<dt>Teacher</dt><dd>Eric Sears</dd>
+</dl>
+</div>
+<div id="outline-container-orgf1eba4d" class="outline-3">
+<h3 id="orgf1eba4d">Introduction</h3>
+<div class="outline-text-3 blank-section" id="text-orgf1eba4d">
+</div>
+<div id="outline-container-org28e9f6b" class="outline-4">
+<h4 id="org28e9f6b"><b>Chapter 12 Theme:</b> God's grace in confrontation, discipline, forgiveness, and sorrow.</h4>
+</div>
+<div id="outline-container-orgf71d3a8" class="outline-4">
+<h4 id="orgf71d3a8">Background - Chapter 11 (see <a href="#orgb35b570">No description for this link</a>)</h4>
+</div>
+</div>
+<div id="outline-container-orgde1775e" class="outline-3">
+<h3 id="orgde1775e">David's Repentance</h3>
+<div class="outline-text-3 blank-section" id="text-orgde1775e">
+</div>
+<div id="outline-container-org37652e9" class="outline-4">
+<h4 id="org37652e9"><a href="2 Samuel 12:1-4">1-4</a>   Nathan's tactful confrontation</h4>
+<div class="outline-text-4 blank-section" id="text-org37652e9">
+</div>
+<ul class="org-ul">
+<li><a id="orgaf1f525"></a>God demonstrates His grace to David by sending Nathan to confront him.<br /></li>
+<li><a id="orgc3025ae"></a>What was going on in David's mind and heart up to this point? <a href="Psalm 32:3-4;51:12">Psalm 32:3-4;51:12</a><br />
+<div class="outline-text-5" id="text-orgc3025ae">
+<p>
+David's conscience continues to assail him, what was likely months later.
+</p>
+</div>
+</li>
+<li><a id="org2fa29ed"></a>Nathan's ingenious story<br />
+<div class="outline-text-5" id="text-org2fa29ed">
+<p>
+He responded faithfully to God's instruction, despite the clear danger in this confrontation.
+</p>
+
+<p>
+He disarmed David by using man's tendency to incriminate others, causing David to indict himself.
+The familiar form of a parable takes shape here.
+</p>
+
+<p>
+<a href="Galatians 6:1">Galatians 6:1</a> We, too, are called to confront, carefully.
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org6e1132e"></a>Parallels: David &lt;=&gt; The callous rich man with many sheep; Uriah &lt;=&gt; The poor man with but one lamb.<br /></li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="outline-container-orgefe3afd" class="outline-4">
+<h4 id="orgefe3afd"><a href="2 Samuel 12:5-6">5-6</a>   David's response to Nathan's story</h4>
+<div class="outline-text-4 blank-section" id="text-orgefe3afd">
+</div>
+<ul class="org-ul">
+<li><a id="orgc6d7f7f"></a>David's anger 'burned' - even extending so far as to pledge an oath, sentencing the right amount and then saying the man <i>ought</i> to die, beyond the prescription of the law.<br /></li>
+<li><a id="org278a5c8"></a>David passed judgement on another while remaining completely blind to his own sinfulness.<br /></li>
+</ul>
+</div>
+<div id="outline-container-org83fd184" class="outline-4">
+<h4 id="org83fd184"><a href="2 Samuel 12:7-12">7-12</a>  God's Condemnation of David</h4>
+<div class="outline-text-4 blank-section" id="text-org83fd184">
+</div>
+<ul class="org-ul">
+<li><a id="org922c38d"></a>'You are the man!'<br /></li>
+<li><a id="org6c26b05"></a><a href="2 Samuel 12:7-9">7-9</a> God's charges against David<br />
+<ul class="org-ul">
+<li><a id="orgcebf111"></a><a href="2 Samuel 12:7-8">7-8</a> Ingratitude for and abuse of all of God's blessings<br />
+<div class="outline-text-6" id="text-orgcebf111">
+<p>
+The possessions of Saul had been given to him by God.
+</p>
+
+<p>
+Re: Saul's harem - this is the only place this is mentioned.
+This is not condoned by God, but God had allowed it.
+He had ample opportunity to satisfy his sexual lusts without taking another man's wife.
+</p>
+
+<p>
+God had given him status and protection.
+</p>
+
+<p>
+'would add / would have added as much more' - God had only begun to bless David.
+</p>
+
+<p>
+This self-deceived lie that he would be better off seeking his own desires is the same as we see in the Fall.
+David was refusing to develop a thankful heart, demanding and taking more for himself.
+</p>
+</div>
+</li>
+<li><a id="org228764e"></a><a href="2 Samuel 12:9">9a</a> Despising the Word of the Lord<br />
+<div class="outline-text-6" id="text-org228764e">
+<p>
+&#x2026; and in doing so, despising the Lord Himself. <a href="2 Samuel 12:10">10</a>
+</p>
+
+<p>
+<a href="Hebrews 4:12">Hebrews 4:12</a> 'living and active and sharper than any two-edges sword'
+</p>
+</div>
+</li>
+<li><a id="orgd91d338"></a><a href="2 Samuel 12:9">9b</a> Crimes against Uriah<br />
+<div class="outline-text-6" id="text-orgd91d338">
+<p>
+Murder - one of the - if not the - highest of sins one can commit against another person.
+</p>
+
+<p>
+He even specifies the deceit used, the method David used intentionally to have him killed.
+David is held directly accountable here.
+</p>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="org7b3323a"></a><a href="2 Samuel 12:10-12">10-12</a> Consequences for David's sin<br />
+<ul class="org-ul">
+<li><a id="orgb7b3f64"></a>David's family and reign would be constantly plagued by violence.<br /></li>
+<li><a id="orgb0d58ac"></a>Revolt from within David's own family. (Absalom)<br /></li>
+<li><a id="orgfb03624"></a>David would be publicly shamed and disgraced. (Absalom)<br /></li>
+<li><a id="org91cfbee"></a>Note that this punishment is less than what the law required for adultery <i>and</i> murder.<br />
+<div class="outline-text-6" id="text-org91cfbee">
+<p>
+<a href="Hebrews 12:6">Hebrews 12:6</a> God's judgment and discipline of His children is actually a gracious demonstration of His love for them.
+</p>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="outline-container-org3f3e2e4" class="outline-4">
+<h4 id="org3f3e2e4"><a href="2 Samuel 12:13">13</a>    David's penitent response</h4>
+<div class="outline-text-4" id="text-org3f3e2e4">
+<p>
+A simple confession here.
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org6174187"></a>How David doesn't respond: defensiveness, excuses, anger, challenges, etc.<br /></li>
+<li><a id="org02f5da7"></a>He does not 'shoot the messenger' - removing him, claiming he has no right to judge, or turning on Nathan's flaws.<br /></li>
+<li><a id="org4754a37"></a>He does give an open and honest confession of guilt.<br />
+<div class="outline-text-5" id="text-org4754a37">
+<p>
+<a href="Psalm 51:4">Psalm 51:4</a>
+</p>
+</div>
+</li>
+<li><a id="orgeebd0c0"></a>He acknowledges that his sin is ultimately, chiefly against God, and therefore he required forgiveness from God first.<br />
+<div class="outline-text-5" id="text-orgeebd0c0">
+<p>
+Psalm 51 covers this in more detail; covering next week.
+</p>
+</div>
+</li>
+<li><a id="org53d6e9b"></a>Result - God forgave David, and the Gospel is revealed here: sin, confession, forgiveness, and life.<br />
+<ul class="org-ul">
+<li><a id="org726ff68"></a>Nathan declares God has withdrawn the immediate death penalty<br /></li>
+<li><a id="org00b6651"></a>&#x2026; but the only way this penalty could ultimately be paid is in the sacrifice and death of the Messiah.<br /></li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="outline-container-orgbd1840e" class="outline-4">
+<h4 id="orgbd1840e"><a href="2 Samuel 12:14">14</a>    A further heartbreaking consequence</h4>
+<div class="outline-text-4 blank-section" id="text-orgbd1840e">
+</div>
+<ul class="org-ul">
+<li><a id="org5341676"></a>Principle - while forgiveness is offered fully and freely, we will often still face the temporal consequences of our sin.<br /></li>
+</ul>
+</div>
+<div id="outline-container-orgeff175a" class="outline-4">
+<h4 id="orgeff175a"><a href="2 Samuel 12:15-23">15-23</a> David's impassioned plea for mercy</h4>
+<div class="outline-text-4 blank-section" id="text-orgeff175a">
+</div>
+<ul class="org-ul">
+<li><a id="org7596286"></a>The temporal consequences are still suffered, but David's confidence is in the power of God to act in mercy and grace.<br /></li>
+<li><a id="orgd243afa"></a>David takes ultimate comfort in the child's presence with his Lord.<br /></li>
+</ul>
+</div>
+<div id="outline-container-orga7155c7" class="outline-4">
+<h4 id="orga7155c7"><a href="2 Samuel 12:24-25">24-25</a> God's grace to David and Bathsheba</h4>
+<div class="outline-text-4" id="text-orga7155c7">
+<p>
+This new son, Solomon, would be David's heir and would be in the line of the Messiah.
+</p>
+
+<p>
+In the midst of sin, shame, and sorow, we see God's love, grace, and salvation.
+</p>
+</div>
+</div>
+<div id="outline-container-org75a6af8" class="outline-4">
+<h4 id="org75a6af8"><a href="2 Samuel 12:26-31">26-31</a> David gets back to work</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-orgeeee246" class="outline-2">
+<h2 id="orgeeee246"><a href="Psalm 51">Psalm 51</a> - 'David's Psalm of Repentance'</h2>
+<div class="outline-text-2" id="text-orgeeee246">
+<dl class="org-dl">
+<dt>Teacher</dt><dd>Dave Jeffries</dd>
+</dl>
+</div>
+<div id="outline-container-org6f2d6b0" class="outline-3">
+<h3 id="org6f2d6b0"><span class="underline">Theme</span></h3>
+<div class="outline-text-3" id="text-org6f2d6b0">
+<p>
+Our merciful, gracious, and compassionate God is always ready to forgive even the
+greatest of sins of His penitent children and restore them to a place of usefulness in His kindgom.
+</p>
+</div>
+</div>
+<div id="outline-container-org9005ece" class="outline-3">
+<h3 id="org9005ece"><span class="underline">Background</span></h3>
+<div class="outline-text-3" id="text-org9005ece">
+<p>
+"This is the classic passage in the Old Testament of man's repentance and God's forgiveness of sin. &#x2026;" John MacArthur Study
+</p>
+
+<p>
+"For the choir director. A Psalm of David, when Nathan the prophet came to him, after he had gone in to Bathsheba." This Psalm's inspired title
+</p>
+
+<p>
+Note: Choir, therefore also suitable for corporate worship, not just individual.
+</p>
+</div>
+</div>
+<div id="outline-container-orga05a68e" class="outline-3">
+<h3 id="orga05a68e">I. <a href="Psalm 51:1-17">1-17</a> Confession of Sin, and Prayer for Pardon &amp; Restoration</h3>
+<div class="outline-text-3 blank-section" id="text-orga05a68e">
+</div>
+<div id="outline-container-orgbfbccea" class="outline-4">
+<h4 id="orgbfbccea">1. <a href="Psalm 51:1-2">1-2</a>   An earnest plea for <span class="underline">mercy</span> &amp; <span class="underline">forgiveness</span></h4>
+<div class="outline-text-4" id="text-orgbfbccea">
+<p>
+He seeks God to be gracious towards him, founding his plea on the character of God.
+</p>
+
+<p>
+It's almost a sort of legal case.  'According to your steadfast love' - חֶסֶד, 'hesed' again
+</p>
+
+<p>
+<a href="Psalm 103:13">103:13</a> The compassion of God
+</p>
+
+<p>
+'blot out' - erasing or removing the writing from a book, including the accounting sense.
+</p>
+
+<p>
+'wash' - soaked, beat, wrung out, and rinsed clothing to clean thoroughly
+</p>
+
+<p>
+'cleanse' - same as 'purify' in <a href="Psalm 51:7">7</a>, referring to the ritual purification before entering the temple.
+</p>
+
+<p>
+Chiasm: <a href="Psalm 51:1">1</a> Blot out, wash, cleanse; <a href="Psalm 51:7,9">7,9</a> cleanse, wash, blot out
+</p>
+</div>
+</div>
+<div id="outline-container-org178d8ae" class="outline-4">
+<h4 id="org178d8ae">2. <a href="Psalm 51:3-6">3-6 </a>  <span class="underline">Acknowledgment</span> of sins &amp; offenses</h4>
+<div class="outline-text-4" id="text-org178d8ae">
+<p>
+<a href="Proverbs 28:13">Proverbs 28:13</a>
+</p>
+
+<p>
+Sin is anti-God by definition, by nature.
+</p>
+
+<p>
+<a href="2 Samuel 12:13">2 Samuel 12:13</a> David recognized the ultimate sin is against God, and even
+one sin is enough to remove us from fellowship with holy God.
+</p>
+
+<p>
+David makes it clear that he understands his entire nature is saturated
+with sin from birth: original sin, and that this was a specific, grievous
+enactment of that sin nature.
+</p>
+</div>
+</div>
+<div id="outline-container-orga9740e6" class="outline-4">
+<h4 id="orga9740e6">3. <a href="Psalm 51:7-12">7-12</a>  Prayer for <span class="underline">moral</span> <span class="underline">cleanness</span></h4>
+<div class="outline-text-4" id="text-orga9740e6">
+<p>
+'hyssop' - Used to sprinkle blood or water on someone who was being ceremonially cleaned.
+Similarly, David wanted to be cleansed of his moral guilt.
+</p>
+
+<p>
+'white as snow' <a href="Isaiah 1:18">Isaiah 1:18</a>
+</p>
+
+<p>
+<a href="Psalm 103:12">Psalm 103:12</a> <a href="Isaiah 38:17">Isaiah 38:17</a> <a href="Micah 7:19">Micah 7:19</a> <a href="Hebrews 10:17">Hebrews 10:17</a> God's complete and total removal of sin after repentance.
+</p>
+
+<p>
+<a href="Psalm 32:3-4">32:3-4</a> Same word 'body' as in <a href="Romans 51:8">8</a>, 'bones', describing the physical effects of harboring unrepentant sin.
+</p>
+
+<p>
+<a href="1 Samuel 16">1 Samuel 16</a> David may have been remembering those times in which the Spirit had left Saul.
+Not referring to a loss of salvation, but rather the present fruits of salvation, the right relationship
+with His God and the joy it entails
+</p>
+</div>
+</div>
+<div id="outline-container-org5b8e558" class="outline-4">
+<h4 id="org5b8e558">4. <a href="Psalm 51:13-17">13-17</a> Promise of renewed <span class="underline">service</span> after being forgiven &amp; restored</h4>
+<div class="outline-text-4" id="text-org5b8e558">
+<p>
+<a href="Psalm 51:14-15">14-15</a> The forgiven sinner responds in praise.
+</p>
+
+<p>
+? 6-7: God remove anxiety when we are forgiven.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgcbf4030" class="outline-3">
+<h3 id="orgcbf4030">II. <a href="Psalm 51:18-19">18-19</a> Prayer for God to restore and bless the nation</h3>
+<div class="outline-text-3" id="text-orgcbf4030">
+<p>
+David understands his sin has devastating consequences for the nation as a whole, too.
+</p>
+</div>
+</div>
+<div id="outline-container-orgad9e8ba" class="outline-3">
+<h3 id="orgad9e8ba">III. <span class="underline">Application</span></h3>
+<div class="outline-text-3 blank-section" id="text-orgad9e8ba">
+</div>
+<div id="outline-container-orgb50b081" class="outline-4">
+<h4 id="orgb50b081">1. Forgiveness is found in God alone, for He is gracious and merciful</h4>
+<div class="outline-text-4" id="text-orgb50b081">
+<p>
+<a href="Exodus 3:6-7">Exodus 3:6-7</a> <a href="Psalm 51:1;103:1-3a;130:4a">Psalm 51:1;103:1-3a;130:4a</a>
+</p>
+</div>
+</div>
+<div id="outline-container-orga18e9fa" class="outline-4">
+<h4 id="orga18e9fa">2. <a href="Psalm 51:4">4</a> Remember, though we may have sinned against other people, our sin is ultimately against God</h4>
+</div>
+<div id="outline-container-org248db9d" class="outline-4">
+<h4 id="org248db9d">3. Sin affects the sinner, the sinner's family, and the sinner's community - Sin always hurts someone</h4>
+<div class="outline-text-4" id="text-org248db9d">
+<p>
+<a href="Joshua 7:5,25">Joshua 7:5,25</a> (Achan), <a href="Acts 5:1-11">Acts 5:1-11</a> (Ananias and Sapphira)
+</p>
+</div>
+</div>
+<div id="outline-container-org24257f3" class="outline-4">
+<h4 id="org24257f3">4. Believers should often confess their sins to God</h4>
+<div class="outline-text-4" id="text-org24257f3">
+<p>
+<a href="Proverbs 28:13">Proverbs 28:13</a> <a href="1 John 1:9">1 John 1:9</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org0012b2b" class="outline-4">
+<h4 id="org0012b2b">5. God's disciplinary measures are aimed at the restoration of His sinning children</h4>
+<div class="outline-text-4" id="text-org0012b2b">
+<p>
+<a href="Psalm 32:3-4;51:8">Psalm 32:3-4;51:8</a> <a href="Hebrews 12:5-11">Hebrews 12:5-11</a>
+</p>
+</div>
+</div>
+<div id="outline-container-orgc35d780" class="outline-4">
+<h4 id="orgc35d780">6. After being forgiven, Christians rely upon God alone for restoration</h4>
+<div class="outline-text-4" id="text-orgc35d780">
+<p>
+<a href="Psalm 51:10-12">10-12</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org14bd28f" class="outline-4">
+<h4 id="org14bd28f">7. After being restored, worship God and be useful in His service</h4>
+<div class="outline-text-4" id="text-org14bd28f">
+<p>
+<a href="Psalm 32:6-7;51:13-15">Psalm 32:6-7;51:13-15</a>
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf7c4ed4" class="outline-3">
+<h3 id="orgf7c4ed4">Recommended Reading</h3>
+<div class="outline-text-3" id="text-orgf7c4ed4">
+<p>
+<a href="Psalm 32">Psalm 32</a>, written at the same period and in response to the same sin event.
+See also Dusty Burris' sermon on that passage.
+</p>
+</div>
+</div>
+<div id="outline-container-orgc4235fc" class="outline-3">
+<h3 id="orgc4235fc">Praying Psalm 151</h3>
+<div class="outline-text-3 blank-section" id="text-orgc4235fc">
+</div>
+<div id="outline-container-org590c9db" class="outline-4">
+<h4 id="org590c9db"><a href="Psalm 51:1">1</a>  Be gracious and merciful to me, O God.</h4>
+</div>
+<div id="outline-container-orgae5626b" class="outline-4">
+<h4 id="orgae5626b"><a href="Psalm 51:4">4</a>  Lord, I have sinned against You.</h4>
+</div>
+<div id="outline-container-orga7ba413" class="outline-4">
+<h4 id="orga7ba413"><a href="Psalm 51:8">8</a>  Help me to rejoice in Your loving discipline, Father.</h4>
+</div>
+<div id="outline-container-org804cc04" class="outline-4">
+<h4 id="org804cc04"><a href="Psalm 51:14">14</a> You are righteous, Lord.</h4>
+</div>
+<div id="outline-container-orgbdb70c3" class="outline-4">
+<h4 id="orgbdb70c3"><a href="Psalm 51:18">18</a> Father, do good things for Jerusalem (family, community).</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-org677144c" class="outline-2">
+<h2 id="org677144c"><a href="2 Samuel 13:1-22">2 Samuel 13:1-22</a> - 'The Devastating Consequences of Sin!'</h2>
+<div class="outline-text-2" id="text-org677144c">
+<dl class="org-dl">
+<dt>Teacher</dt><dd>Vikram Pimplekar</dd>
+</dl>
+</div>
+<div id="outline-container-org6b2ba6c" class="outline-3">
+<h3 id="org6b2ba6c">Context</h3>
+<div class="outline-text-3" id="text-org6b2ba6c">
+<p>
+<a href="James 1:14-15">James 1:14-15</a>
+</p>
+
+<p>
+The process of sin begins with desire (good or evil; the focus is on its strength), followed by
+enticement (lure, wondering about it), conception and delivery of the sin, leading to death.
+<a href="Romans 6:23">Romans 6:23</a>
+</p>
+</div>
+<div id="outline-container-orgbc6ea35" class="outline-4">
+<h4 id="orgbc6ea35">Theme: The Lord ensures that justice is satisfied, sometimes by allowing one's children to repeat the parents' sin.</h4>
+</div>
+<div id="outline-container-orgcf26065" class="outline-4">
+<h4 id="orgcf26065">Outline of 2 Samuel</h4>
+<div class="outline-text-4 blank-section" id="text-orgcf26065">
+</div>
+<ul class="org-ul">
+<li><a id="org1ce3119"></a>1. <a href="2 Samuel 1-10">1-10</a>  The Triumphs of David<br /></li>
+<li><a id="org5ab7de6"></a>2. <a href="2 Samuel 11-12">11-12</a> The Transgressions of David<br /></li>
+<li><a id="org76a00c7"></a>3. <a href="2 Samuel 13-24">13-24</a> The Troubles of David<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgb2a1ec0" class="outline-3">
+<h3 id="orgb2a1ec0">Outline for the Lesson</h3>
+<div class="outline-text-3 blank-section" id="text-orgb2a1ec0">
+</div>
+<div id="outline-container-org75252b9" class="outline-4">
+<h4 id="org75252b9">A. <a href="2 Samuel 13:1-22">1-22</a>  Amnon's Sin</h4>
+<div class="outline-text-4 blank-section" id="text-org75252b9">
+</div>
+<ul class="org-ul">
+<li><a id="orgc18aa16"></a>1. <a href="2 Samuel 13:1-14">1-14</a>  Amnon's abuse of power and unbridled lust ends in rape<br />
+<ul class="org-ul">
+<li><a id="orgd5ee2cc"></a>a. <a href="2 Samuel 13:1-7">1-7</a>  The plot to get Tamar to Amnon's house<br />
+<div class="outline-text-6" id="text-orgd5ee2cc">
+<p>
+This relationship with a half-sister was illegal, and carried the death penalty.
+</p>
+
+<p>
+Jonadab - a cousin of Amnon - is noted here to be 'crafty'.
+</p>
+
+<p>
+His claim of physical hunger is really a ravenous sexual hunger.
+</p>
+</div>
+</li>
+<li><a id="orgea3d1d1"></a>b. <a href="2 Samuel 13:8-14">8-14</a> The planning and execution of Tamar's rape<br />
+<div class="outline-text-6" id="text-orgea3d1d1">
+<p>
+She knows something is not right:
+</p>
+<ul class="org-ul">
+<li>Amnon refuses to eat the food</li>
+<li>Amnon sends everyone out of the room</li>
+<li>Amnon has Tamar bring the food into the bedroom</li>
+<li>Amnon holds her and directly asks her to lie with him.</li>
+</ul>
+
+<p>
+Tamar gives six reasons for him to not do so.
+</p>
+<ul class="org-ul">
+<li>Plainly asks him not to</li>
+<li>Not how the Israel treated its virgins</li>
+<li>It is a disgraceful thing</li>
+<li>Appeal to his morality as it would disgrace her</li>
+<li>Appeal to his pride: he would be considered a fool (Nabal, someone who foolishly accused David)</li>
+<li>Appeal to authority: the king may simply give her to him</li>
+</ul>
+
+<p>
+He follows through with the act anyway. He would not listen to her (shama שָׁמַע 'hear/listen')
+</p>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="orgadb7f68"></a>2. <a href="2 Samuel 13:15-22">15-22</a> The Aftermath of Tamar's Rape<br />
+<ul class="org-ul">
+<li><a id="org7666a4a"></a>a. <a href="2 Samuel 13:15-18">15-18</a> Amnon's utter hate and dismissal of Tamar<br /></li>
+<li><a id="org3e57896"></a>b. <a href="2 Samuel 13:19">19</a>    Tamar's utter humiliation<br /></li>
+<li><a id="org2388caa"></a>c. <a href="2 Samuel 13:20,22">20,22</a> Absalom's utter hatred for Amnon<br /></li>
+<li><a id="org6041717"></a>d. <a href="2 Samuel 13:21">21</a>    David's utterly weak response<br />
+<div class="outline-text-6" id="text-org6041717">
+<p>
+Mere anger, but no reprimand. Some translations (LXX) tell us he loved his firstborn and thus
+was light on him in response to this evil act.
+</p>
+
+<p>
+<a href="Matthew 5:27-28">Matthew 5:27-28</a>
+</p>
+
+<p>
+Malcolm Muggeridge - Saw an Indian woman, and swam towards her, &#x2026;
+</p>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="outline-container-org2501b3a" class="outline-4">
+<h4 id="org2501b3a">B. <a href="2 Samuel 13:23-39">23-39</a> Absalom's Sin</h4>
+<div class="outline-text-4 blank-section" id="text-org2501b3a">
+</div>
+<ul class="org-ul">
+<li><a id="orgd743dc6"></a>1. <a href="2 Samuel 13:23-29">23-29</a> Absalom's vengance and deceitful request to David ends in murder<br />
+<ul class="org-ul">
+<li><a id="org57e88a4"></a>a. <a href="2 Samuel 13:23-27">23-27</a> The plot to get Amnon to Absalom's feast<br />
+<div class="outline-text-6" id="text-org57e88a4">
+<p>
+Note the parallels between this sin of murder and the sin of rape in the prior section.
+</p>
+
+<p>
+Just as David sent Tamar on being pressed, he sends Amnon on being pressed.
+</p>
+
+<p>
+Note verses <a href="2 Samuel 13:7,27">7,27</a> and <a href="2 Samuel 11:1,3,4,5,6,14">11:1,3,4,5,6,14</a>, and - in similarity but contrast - <a href="2 Samuel 12:1">12:1</a>
+All the same word: 'shalach', 'sent', שָׁלַח ; telling us who is in authority.
+</p>
+
+<p>
+Sin once more begets sin in the same pattern.
+</p>
+</div>
+</li>
+<li><a id="org7b773a5"></a>b. <a href="2 Samuel 13:28-29">28-29</a> The planning and execution of Amnon's murder<br /></li>
+</ul>
+</li>
+<li><a id="orgc1ecfaa"></a>2. <a href="2 Samuel 13:30-39">30-39</a> The aftermath of Amnon's murder<br />
+<ul class="org-ul">
+<li><a id="org6448914"></a>a. <a href="2 Samuel 13:30-35">30-35</a> The false report and clarification<br />
+<div class="outline-text-6" id="text-org6448914">
+<p>
+Jonadab returns here, and he knew exactly what had likely been intended.
+</p>
+</div>
+</li>
+<li><a id="org1529beb"></a>b. <a href="2 Samuel 13:31,36">31,36</a> David and his son's mourning for Amnon<br /></li>
+<li><a id="orgc1f200f"></a>c. <a href="2 Samuel 13:34,38">34,38</a> Absalom's flight to Geshur<br />
+<div class="outline-text-6" id="text-orgc1f200f">
+<p>
+Geshur - the homeland of his mother, who was the daughter (?) of Talmai
+</p>
+</div>
+</li>
+<li><a id="orgc6b8e75"></a>d. <a href="2 Samuel 13:39">39</a>    David's recovery from grief<br />
+<div class="outline-text-6" id="text-orgc6b8e75">
+<p>
+<a href="Ezekiel 18:19-20">Ezekiel 18:19-20</a> These sons are accountable for their own sins, but they <i>are</i> following the
+life David is modeling.
+</p>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgb986ecb" class="outline-3">
+<h3 id="orgb986ecb">Observations from the Text</h3>
+<div class="outline-text-3 blank-section" id="text-orgb986ecb">
+</div>
+<div id="outline-container-orga30292d" class="outline-4">
+<h4 id="orga30292d">1. Divine justice is satisfied even when human justice fails</h4>
+</div>
+<div id="outline-container-org737ac9e" class="outline-4">
+<h4 id="org737ac9e">2. Human sin typically brings with it collateral damage</h4>
+</div>
+<div id="outline-container-org9e49ba5" class="outline-4">
+<h4 id="org9e49ba5">3. Sometimes the most painful act of divine discipline is when the Lord allows the children to repeat the sins of the parents</h4>
+</div>
+</div>
+<div id="outline-container-org1d45921" class="outline-3">
+<h3 id="org1d45921">Application</h3>
+<div class="outline-text-3 blank-section" id="text-org1d45921">
+</div>
+<div id="outline-container-orgb5dec0e" class="outline-4">
+<h4 id="orgb5dec0e">Model Christ in your spheres of influence, because they will be greatly molded by your example.</h4>
+</div>
+<div id="outline-container-org0a226a7" class="outline-4">
+<h4 id="org0a226a7">True repentance is required and accepted. <a href="1 John 1">1 John 1</a></h4>
+</div>
+</div>
+</div>
+<div id="outline-container-org1e1d584" class="outline-2">
+<h2 id="org1e1d584"><a href="2 Samuel 14">2 Samuel 14</a> - 'Absalom's Estrangement from David'</h2>
+<div class="outline-text-2" id="text-org1e1d584">
+<dl class="org-dl">
+<dt>Teacher</dt><dd>Terry Tyler</dd>
+</dl>
+</div>
+<div id="outline-container-orgd2a3280" class="outline-3">
+<h3 id="orgd2a3280">Theme</h3>
+<div class="outline-text-3" id="text-orgd2a3280">
+<p>
+Just as God declared would happen, calamity continues to unfold in David's family amid sins and
+their consequences. Absalom's estrangement from David promotes bitterness that will later
+escalate to full-blown ungodly rebellion.
+</p>
+
+<p>
+Recall <a href="2 Samuel 12:10-11">12:10-11</a> for the declaration of this judgment.
+</p>
+</div>
+</div>
+<div id="outline-container-orgf96cb27" class="outline-3">
+<h3 id="orgf96cb27"><a href="2 Samuel 14:1-24">1-24</a>  Joab seeks to return Absalom to Jerusalem</h3>
+<div class="outline-text-3 blank-section" id="text-orgf96cb27">
+</div>
+<div id="outline-container-orgf0ab9fc" class="outline-4">
+<h4 id="orgf0ab9fc"><a href="2 Samuel 14:1-3">1-3</a>   He perceives the need, plans the strategy, and recruits a woman from Tekoa</h4>
+<div class="outline-text-4" id="text-orgf0ab9fc">
+<p>
+Joab knows David well, and takes action. Note this in contrast to David's own passivity.
+</p>
+
+<p>
+Note David was tricked by both of his sons' transgressions.
+</p>
+
+<p>
+'Tekoa' - city 10 miles south of Jerusalem
+</p>
+
+<p>
+'wise' - clever
+</p>
+</div>
+</div>
+<div id="outline-container-org85df17f" class="outline-4">
+<h4 id="org85df17f"><a href="2 Samuel 14:4-17">4-17</a>  The woman presents her fictitious story to David</h4>
+<div class="outline-text-4 blank-section" id="text-org85df17f">
+</div>
+<ul class="org-ul">
+<li><a id="org477b7c8"></a><a href="2 Samuel 14:4-7">4-7</a>   The woman's story<br />
+<div class="outline-text-5" id="text-org477b7c8">
+<dl class="org-dl">
+<dt>Her painful situation</dt><dd>My husband died and one of my two sons killed the other.</dd>
+<dt>Her present problem</dt><dd>The rest of the family seeks justice by wanting to kill my remaining son.</dd>
+<dt>Her undesired outcome</dt><dd>This would end the family line and my husband's name.</dd>
+<dt>The imminent request</dt><dd>My remaining son needs protection.</dd>
+</dl>
+
+<p>
+By way of comparison, Joab may have invoked some parallels in this story between these sons
+and Cain and Abel.
+</p>
+</div>
+</li>
+<li><a id="org4853697"></a><a href="2 Samuel 14:8-11">8-11</a>  David's decisions<br />
+<div class="outline-text-5" id="text-org4853697">
+<p>
+Is he brushing her off? Indecisive?
+</p>
+
+<p>
+He may be seen as unjust and guilty if he does pardon the son.
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org3140fb9"></a><a href="2 Samuel 14:10">10</a>  No one will be allowed to blame you in any way.<br /></li>
+<li><a id="org2eb3cea"></a><a href="2 Samuel 14:11b">11b</a> No one will touch a hair on your son.<br />
+<div class="outline-text-6" id="text-org2eb3cea">
+<p>
+'the avenger of blood' - the executioner, acting in such cases requiring death.
+</p>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="org7ce7e57"></a><a href="2 Samuel 14:12-14">12-14</a> The woman applies the principle to Absalom's situation<br />
+<div class="outline-text-5" id="text-org7ce7e57">
+<p>
+Note: God does take away life, but the point she is trying to make is that He does not
+<i>always</i> take life. <a href="Exodus 33:19">Exodus 33:19</a>
+</p>
+
+<p>
+Since God acts with mercy, she argues David should act likewise.
+</p>
+</div>
+</li>
+<li><a id="org04767bb"></a><a href="2 Samuel 14:15-17">15-17</a> Awkwardly, the woman returns to her fictitious story<br />
+<div class="outline-text-5" id="text-org04767bb">
+<p>
+Almost feels like she is rambling a bit, trying to flesh out her story here and justfy having
+made that statement; the seams of her fictional role start to show.
+</p>
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-org5327390" class="outline-4">
+<h4 id="org5327390"><a href="2 Samuel 14:18-20">18-20</a> David unmasks the fictitious story and its source</h4>
+</div>
+<div id="outline-container-org1980004" class="outline-4">
+<h4 id="org1980004"><a href="2 Samuel 14:21-24">21-24</a> David instructs Joab to bring Absalom back to Jerusalem</h4>
+<div class="outline-text-4" id="text-org1980004">
+<p>
+Did Joab do this for selfish reasons? Would need to survey Joab's character, first.
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org8d46317"></a><a href="2 Samuel 14:24">24</a> However, he's not permitted to see the king<br />
+<div class="outline-text-5" id="text-org8d46317">
+<p>
+'Let him dwell apart in his own house; he is not to come into my presence' - David may be
+unwilling to fully forgive his son, harboring a grudge, and planting seeds of bitterness.
+</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgdd6fca2" class="outline-3">
+<h3 id="orgdd6fca2"><a href="2 Samuel 14:25-27">25-27</a> Absalom is highly praised among the people</h3>
+<div class="outline-text-3" id="text-orgdd6fca2">
+<p>
+Resembles the people's opinion of Saul.
+</p>
+
+<p>
+They were starting to examine the externals instead of the heart.
+</p>
+</div>
+<div id="outline-container-org613f9e1" class="outline-4">
+<h4 id="org613f9e1"><a href="2 Samuel 14:25">25</a> All Israel considered him:</h4>
+<div class="outline-text-4 blank-section" id="text-org613f9e1">
+</div>
+<ul class="org-ul">
+<li><a id="orgaf51878"></a>Handsome<br /></li>
+<li><a id="org31bc41b"></a>Highly praised<br /></li>
+<li><a id="org14ae84d"></a>Without defect<br /></li>
+</ul>
+</div>
+<div id="outline-container-org05abd6a" class="outline-4">
+<h4 id="org05abd6a"><a href="2 Samuel 14:26">26</a> He had lots of hair</h4>
+<div class="outline-text-4" id="text-org05abd6a">
+<p>
+3-1/2 - 5 lbs. of hair a year
+</p>
+
+<p>
+This hair was a sign of vigor.
+</p>
+</div>
+</div>
+<div id="outline-container-org4ed9c7d" class="outline-4">
+<h4 id="org4ed9c7d"><a href="2 Samuel 14:27">27</a> He had 3 sons and a beautiful daughter</h4>
+<div class="outline-text-4" id="text-org4ed9c7d">
+<p>
+Interestingly, he named her Tamar.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org80a7b7d" class="outline-3">
+<h3 id="org80a7b7d"><a href="2 Samuel 14:28-33">28-33</a> Absalom seeks to be reconciled to David</h3>
+<div class="outline-text-3 blank-section" id="text-org80a7b7d">
+</div>
+<div id="outline-container-orgf7dea77" class="outline-4">
+<h4 id="orgf7dea77"><a href="2 Samuel 14:28-29">28-29</a> After 2 years in Jerusalem without seeing David, he asks Joab repeatedly to help</h4>
+<div class="outline-text-4" id="text-orgf7dea77">
+<p>
+He doesn't want to risk his own claim to the throne by being cut off, in exile even though he
+lives in Jerusalem.
+</p>
+</div>
+</div>
+<div id="outline-container-org8589759" class="outline-4">
+<h4 id="org8589759"><a href="2 Samuel 14:30-32">30-32</a> After Absalom sets Joab's barley field on fire, Joab finally says ok</h4>
+<div class="outline-text-4" id="text-org8589759">
+<p>
+This is a destructive and devious act.
+</p>
+</div>
+</div>
+<div id="outline-container-orgb805356" class="outline-4">
+<h4 id="orgb805356"><a href="2 Samuel 14:33">33</a>    Joab brings Absalom before David where David kisses and embraces him</h4>
+<div class="outline-text-4" id="text-orgb805356">
+<p>
+Is this David reconciling him? At least publicly. Need further study to see what David's heart
+attitude was in this. Regardless, Absalom clearly had had the seeds of bitterness planted
+already.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgcaf0337" class="outline-3">
+<h3 id="orgcaf0337">Closing Observations</h3>
+<div class="outline-text-3 blank-section" id="text-orgcaf0337">
+</div>
+<div id="outline-container-orgf4d8da4" class="outline-4">
+<h4 id="orgf4d8da4">Remember the big picture of what God said would happen.</h4>
+</div>
+<div id="outline-container-orgb290e9a" class="outline-4">
+<h4 id="orgb290e9a">You can see David's struggle with moral authority based on his own sin.</h4>
+<div class="outline-text-4" id="text-orgb290e9a">
+<p>
+It is difficult to make right decisions when you know you yourself have committed similar sins
+or think you have no place or position from which to judge.
+</p>
+
+<p>
+Our obedience is essential for future uprightness.
+</p>
+</div>
+</div>
+<div id="outline-container-org02acfc4" class="outline-4">
+<h4 id="org02acfc4">Sin and its consequences really make life complicated.</h4>
+</div>
+<div id="outline-container-orga9c2b19" class="outline-4">
+<h4 id="orga9c2b19">Unresolved conflict with no communication easily promotes bitterness.</h4>
+</div>
+<div id="outline-container-org250a61e" class="outline-4">
+<h4 id="org250a61e">How quickly and easily the heart of man falls away from the Lord in disobedience.</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-org80c8eff" class="outline-2">
+<h2 id="org80c8eff"><a href="2 Samuel 15">2 Samuel 15</a> - 'Absalom's Rebellion in Declaring Himself King'</h2>
+<div class="outline-text-2" id="text-org80c8eff">
+<dl class="org-dl">
+<dt>Teacher</dt><dd>Terry Tyler</dd>
+</dl>
+</div>
+<div id="outline-container-org6337e5f" class="outline-3">
+<h3 id="org6337e5f">Theme</h3>
+<div class="outline-text-3" id="text-org6337e5f">
+<p>
+Just as God declared would happen, calamity continues to unfold in David's family amid sins
+and their consequences. Absalom launches a full rebellion against bothe the Lord and his
+father David by working to make himself to be king, while David ultimately trusts that the
+Lord will do what seems good to Him.
+</p>
+
+<p>
+<a href="2 Samuel 12:10-11">12:10-11</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org47e6bfe" class="outline-3">
+<h3 id="org47e6bfe"><a href="2 Samuel 15:1-6">1-6</a>   Absalom plans his conspiracy</h3>
+<div class="outline-text-3" id="text-org47e6bfe">
+<p>
+Four tragic elements of his plan revealed.
+</p>
+</div>
+<div id="outline-container-org248df68" class="outline-4">
+<h4 id="org248df68"><a href="2 Samuel 15:1">1</a>   By elevating himself through pomp and ceremony.</h4>
+<div class="outline-text-4" id="text-org248df68">
+<p>
+Note he is the first Israelite leader to acquire chariot and horses, something forbidden to
+God's people. <a href="Deuteronomy 17:16">Deuteronomy 17:16</a> <a href="1 Samuel 8:10-11">1 Samuel 8:10-11</a>
+</p>
+
+<p>
+The text from Exodus to this point marks chariots and horses as only being used by enemies of
+the Lord.
+</p>
+</div>
+</div>
+<div id="outline-container-org4f35740" class="outline-4">
+<h4 id="org4f35740"><a href="2 Samuel 15:2-3">2-3</a> By criticizing his father David's administration of justice.</h4>
+<div class="outline-text-4" id="text-org4f35740">
+<p>
+Absalom seems to be <span class="underline"><span class="underline">intercepting</span></span> people here before their claims are even heard by David.
+</p>
+
+<p>
+A politician's politician, here, he wants people to feel heard by him, and not David.
+</p>
+</div>
+</div>
+<div id="outline-container-orgef8f455" class="outline-4">
+<h4 id="orgef8f455"><a href="2 Samuel 15:4">4</a>   By making boastful campaign promises.</h4>
+</div>
+<div id="outline-container-org21b9bc3" class="outline-4">
+<h4 id="org21b9bc3"><a href="2 Samuel 15:5-6">5-6</a> By displaying personal charm and flattery.</h4>
+<div class="outline-text-4" id="text-org21b9bc3">
+<p>
+Cunning duplicity demonstrated with every action, here.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org7a9025b" class="outline-3">
+<h3 id="org7a9025b"><a href="2 Samuel 15:7-12">7-12</a>  Absalom launches his conspiracy</h3>
+<div class="outline-text-3 blank-section" id="text-org7a9025b">
+</div>
+<div id="outline-container-orgec768f6" class="outline-4">
+<h4 id="orgec768f6"><a href="2 Samuel 15:7-9">7-9</a> Absalom asks to go to Hebron to pay a vow to the Lord.</h4>
+<div class="outline-text-4" id="text-orgec768f6">
+<p>
+<a href="2 Samuel 15:7">7</a> Note LXX says forty, most manuscripts say 'four', and this makes the most sense in context.
+</p>
+
+<p>
+Hebron was a place for sacrifice before the temple was built in Jerusalem.
+</p>
+
+<p>
+David is tricked again, here. <a href="Numbers 30">Numbers 30</a> shows vows to the Lord are extremely serious, and
+David does not want to stand in the way.
+</p>
+
+<p>
+Hebron had a strong wall, and likely had strong support there as the former capital.
+</p>
+</div>
+</div>
+<div id="outline-container-orgcab7e4e" class="outline-4">
+<h4 id="orgcab7e4e"><a href="2 Samuel 15:10-12">10-12</a> From Hebron, Absalom commences the conspiracy in disguise.</h4>
+<div class="outline-text-4 blank-section" id="text-orgcab7e4e">
+</div>
+<ul class="org-ul">
+<li><a id="org0d97bff"></a><a href="2 Samuel 15:10">10</a>  By sending out spies to prepare to announce his kingship.<br />
+<div class="outline-text-5" id="text-org0d97bff">
+<p>
+Building rumors and anticipation.
+</p>
+</div>
+</li>
+<li><a id="org609daaa"></a><a href="2 Samuel 15:11">11</a>  By taking 200 of David's men with him.<br />
+<div class="outline-text-5" id="text-org609daaa">
+<p>
+Unsuspecting participants, and lends seeming legitimacy to his actions.
+</p>
+
+<p>
+These are men that can't help David directly, and can't defect once trapped inside the city.
+</p>
+</div>
+</li>
+<li><a id="org140564d"></a><a href="2 Samuel 15:12a">12a</a> By obtaining the defection of David's highly-regarded counselor.<br />
+<div class="outline-text-5" id="text-org140564d">
+<p>
+Ahithophel the Gilonite, whose quality is seen in <a href="2 Samuel 16:23">16:23</a>. His granddaughter was Bathsheba,
+perhaps in retaliation.
+</p>
+
+<p>
+This may have prompted <a href="Psalm 55:12-14">Psalm 55:12-14</a>.
+</p>
+</div>
+</li>
+<li><a id="org9506623"></a><a href="2 Samuel 15:12b">12b</a> By gaining the increasing support of the people.<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org272d6a6" class="outline-3">
+<h3 id="org272d6a6"><a href="2 Samuel 15:13-37">13-37</a> David flees and plans his response</h3>
+<div class="outline-text-3 blank-section" id="text-org272d6a6">
+</div>
+<div id="outline-container-org9ac9047" class="outline-4">
+<h4 id="org9ac9047"><a href="2 Samuel 15:13">13</a>    David learns about the people's growing embrace of Absalom.</h4>
+</div>
+<div id="outline-container-orgbe71f31" class="outline-4">
+<h4 id="orgbe71f31"><a href="2 Samuel 15:14">14</a>    David issues the evacuation order to quickly leave Jerusalem.</h4>
+<div class="outline-text-4" id="text-orgbe71f31">
+<p>
+For the first time in the Biblical account, David commands a retreat.
+</p>
+</div>
+</div>
+<div id="outline-container-orgf737485" class="outline-4">
+<h4 id="orgf737485"><a href="2 Samuel 15:15-23">15-23</a> David's loyal servants follow him out of Jerusalem.</h4>
+<div class="outline-text-4" id="text-orgf737485">
+<p>
+David does not want to spoil the city he had beautified by warring in it.
+</p>
+
+<p>
+His leaving behind of the concubines sets the stage for the fulfillment of another part of
+Nathan's prophecy, seen in <a href="2 Samuel 12:11">12:11</a>.
+</p>
+
+<p>
+Cherethites, Pelethites, and Gittites were all hired foreign mercenaries, likely Philistines.
+</p>
+
+<p>
+David argues Ittai should remain with whomever the Lord chooses as king.
+</p>
+
+<p>
+<a href="2 Samuel 18:2">18:2</a> Ittai is later appointed to lead part of David's army, likely due to this
+demonstration of loyalty in following him into exile.
+</p>
+
+<p>
+<a href="Psalm 63">Psalm 63</a> may have been written with this moment in mind.
+</p>
+</div>
+</div>
+<div id="outline-container-orgf629e40" class="outline-4">
+<h4 id="orgf629e40"><a href="2 Samuel 15:24-26">24-26</a> David insists that the ark of God remain in Jerusalem because he trusts the Lord for the outcome.</h4>
+<div class="outline-text-4" id="text-orgf629e40">
+<p>
+David is not putting himself and his own God-given authority above God Himself.
+</p>
+</div>
+</div>
+<div id="outline-container-org64e3a03" class="outline-4">
+<h4 id="org64e3a03"><a href="2 Samuel 15:27-29">27-29</a> David instructs Zadok and Abiathar the priests to remain and become informants.</h4>
+<div class="outline-text-4" id="text-org64e3a03">
+<p>
+Zadok eventually becomes the only high priest of Solomon.
+</p>
+</div>
+</div>
+<div id="outline-container-orga79b70b" class="outline-4">
+<h4 id="orga79b70b"><a href="2 Samuel 15:30">30</a>    David and those with him weep as they depart Jerusalem.</h4>
+<div class="outline-text-4" id="text-orga79b70b">
+<p>
+His own misfortunes and dangers, the troubles for Israel and his family, and the dishonor
+that would come to God because of all these things.
+</p>
+</div>
+</div>
+<div id="outline-container-orgbd280ac" class="outline-4">
+<h4 id="orgbd280ac"><a href="2 Samuel 15:31-37">31-37</a> David learns of Ahithophel's defection and he recruits Hushai to oppose him and be an informant.</h4>
+<div class="outline-text-4" id="text-orgbd280ac">
+<p>
+<a href="1 Chronicles 27">1 Chronicles 27</a> says Hushai was a loyal councillor and friend of David. ('confidant')
+</p>
+
+<p>
+Hushai would be in Absalom's presence regularly, where Zadok and Abiathar would not be. God
+has provided a chain of information for David.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org96ac88f" class="outline-3">
+<h3 id="org96ac88f">Closing Observations</h3>
+<div class="outline-text-3 blank-section" id="text-org96ac88f">
+</div>
+<div id="outline-container-org402ead9" class="outline-4">
+<h4 id="org402ead9">Some people, like David, respond to mercy and grace with humility, gratitude, and obedience.</h4>
+<div class="outline-text-4" id="text-org402ead9">
+<p>
+He is bearing under consequences with obedience, not bitterness.
+</p>
+</div>
+</div>
+<div id="outline-container-org8a7a7dd" class="outline-4">
+<h4 id="org8a7a7dd">Some people, like Absalom, respond to mercy and grace with sin and more rebellion.</h4>
+</div>
+<div id="outline-container-orgf3ce6a9" class="outline-4">
+<h4 id="orgf3ce6a9">Some people use spiritual activity as a cover for their ungodly desires.</h4>
+</div>
+<div id="outline-container-org445f6fb" class="outline-4">
+<h4 id="org445f6fb">The heart of God's people can be quickly swayed to rebellion and disobedience.</h4>
+</div>
+<div id="outline-container-orge87fc21" class="outline-4">
+<h4 id="orge87fc21">God is in control always - in the past, in the present, and in the future.</h4>
+<div class="outline-text-4" id="text-orge87fc21">
+<p>
+David's full trust in God's sovereignty is seen clearly in his responses here.
+</p>
+
+<p>
+Even his own sin and the ensuing consequences would not thwart God.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org3989361" class="outline-2">
+<h2 id="org3989361"><a href="2 Samuel 16">2 Samuel 16</a> - 'Ziba's Lie, Shimei's Curses, and Absalom's Treachery'</h2>
+<div class="outline-text-2" id="text-org3989361">
+<dl class="org-dl">
+<dt>Teacher</dt><dd>Eric Sears</dd>
+</dl>
+</div>
+<div id="outline-container-org01eba90" class="outline-3">
+<h3 id="org01eba90">Introduction</h3>
+<div class="outline-text-3 blank-section" id="text-org01eba90">
+</div>
+<div id="outline-container-org9470ba7" class="outline-4">
+<h4 id="org9470ba7"><a href="2 Samuel 12:11-12">12:11-12</a></h4>
+</div>
+<div id="outline-container-org9f944cb" class="outline-4">
+<h4 id="org9f944cb"><a href="2 Samuel 15-19">15-19</a> Absalom's Revolt</h4>
+<div class="outline-text-4" id="text-org9f944cb">
+<p>
+Shakespearian in its feel and form.
+</p>
+</div>
+</div>
+<div id="outline-container-orgf8f0a4c" class="outline-4">
+<h4 id="orgf8f0a4c">2 Samuel 15 Last week</h4>
+<div class="outline-text-4 blank-section" id="text-orgf8f0a4c">
+</div>
+<ul class="org-ul">
+<li><a id="org561e397"></a>Absalom's pride and politics<br /></li>
+<li><a id="orgdc9b551"></a>Absalom deceitfully requests to leave Jerusalem<br /></li>
+<li><a id="org0193d5c"></a>While away, Absalom encacts his plan to amass support and then sets his eyes on Jerusalem<br /></li>
+<li><a id="orga0badd5"></a>David gets word of Absalom's treachery and hastily orders an evacuation of the city<br />
+<div class="outline-text-5" id="text-orga0badd5">
+<p>
+This move took the wind out of Absalom's sails
+</p>
+</div>
+</li>
+<li><a id="org1b9445b"></a>But David also leaves a few key people to act as spies for him.<br /></li>
+</ul>
+</div>
+<div id="outline-container-org4c2a19c" class="outline-4">
+<h4 id="org4c2a19c">Theme</h4>
+<div class="outline-text-4" id="text-org4c2a19c">
+<p>
+When we experience the difficult and sometimes devastating consequences of our own sins, we
+should be reminded that even those consequences are ordained by God for our good, and it is in
+God that we will find mercy and grace.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org715d939" class="outline-3">
+<h3 id="org715d939"><a href="2 Samuel 16:1-4">1-4</a>   Ziba, the opportunistic liar</h3>
+<div class="outline-text-3 blank-section" id="text-org715d939">
+</div>
+<div id="outline-container-orga8de665" class="outline-4">
+<h4 id="orga8de665">First met back in <a href="2 Samuel 9">9</a>, in charge of Saul's estate.</h4>
+<div class="outline-text-4 blank-section" id="text-orga8de665">
+</div>
+<ul class="org-ul">
+<li><a id="org11b7442"></a>Ziba - the former steward - became the servant of Mephibosheth under David's command.<br /></li>
+<li><a id="org8177445"></a>This may have been a retaliatory action.<br /></li>
+</ul>
+</div>
+<div id="outline-container-org1ca4364" class="outline-4">
+<h4 id="org1ca4364">Ziba met David with donkeys laden with food.</h4>
+</div>
+<div id="outline-container-orgac6d1f5" class="outline-4">
+<h4 id="orgac6d1f5">Was this a legitimate need that Ziba was meeting for David?</h4>
+<div class="outline-text-4" id="text-orgac6d1f5">
+<p>
+Yes! Fleeing from one's enemies, David would welcome the help he knew he'd need.
+</p>
+</div>
+</div>
+<div id="outline-container-org2b76b38" class="outline-4">
+<h4 id="org2b76b38">Ziba lied about Mephibosheth.</h4>
+<div class="outline-text-4" id="text-org2b76b38">
+<p>
+Later, that lie is made very clear. Ziba left Mephibosheth behind, an act of shocking
+faithlessness.
+</p>
+</div>
+</div>
+<div id="outline-container-org6f91ee0" class="outline-4">
+<h4 id="org6f91ee0">He got what he really wanted - Saul's estate.</h4>
+<div class="outline-text-4" id="text-org6f91ee0">
+<p>
+Manipulative, dishonest, and even capitalizing on Mephibosheth's lameness.
+</p>
+</div>
+</div>
+<div id="outline-container-org731a79b" class="outline-4">
+<h4 id="org731a79b">Should David have known this man was lying to him?</h4>
+<div class="outline-text-4" id="text-org731a79b">
+<p>
+The story stunk - David may have been hasty in his decision. But he was also in a difficult
+position, and did not have the resources to verify, and likely could not risk burning a bridge.
+Plus, he likely recognized that God was using even faithless Ziba to meet his needs.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org937588c" class="outline-3">
+<h3 id="org937588c"><a href="2 Samuel 16:5-14">5-14</a>  Shimei, the violent detractor</h3>
+<div class="outline-text-3 blank-section" id="text-org937588c">
+</div>
+<div id="outline-container-org34f134d" class="outline-4">
+<h4 id="org34f134d"><a href="2 Samuel 16:5-6">5-6</a>   Shimei confronts David</h4>
+</div>
+<div id="outline-container-orgd3375c0" class="outline-4">
+<h4 id="orgd3375c0"><a href="2 Samuel 16:7-8">7-8</a>   Shimei's accusations</h4>
+<div class="outline-text-4" id="text-orgd3375c0">
+<p>
+Accusations and conclusions with some elements of truth, even if Shimei was off on the details.
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org937f850"></a>Accusation 1 - David was a man of bloodshed<br />
+<div class="outline-text-5" id="text-org937f850">
+<p>
+True, but not in the way that Shimei was accusing.
+</p>
+</div>
+</li>
+<li><a id="org47d93bf"></a>Accusation 2 - David was a worthless lowlife<br />
+<div class="outline-text-5" id="text-org47d93bf">
+<p>
+Literally 'son of Belial'
+</p>
+</div>
+</li>
+<li><a id="org7c5d24d"></a>Accusation 3 - Shimei mistakenly attributed David as somehow being responsible for Saul's death<br /></li>
+<li><a id="orge524613"></a>Conclusion 1 - Because of David's sins, the Lord has removed the kingdom from him<br /></li>
+<li><a id="orgd7ee0f0"></a>Conclusion 2 - David is experiencing the consequences for his own sins<br /></li>
+</ul>
+</div>
+<div id="outline-container-orgf32d943" class="outline-4">
+<h4 id="orgf32d943"><a href="2 Samuel 16:9">9</a>     Abishai's response</h4>
+<div class="outline-text-4" id="text-orgf32d943">
+<p>
+Echoing his earlier responses to similar confrontations against David.
+</p>
+
+<p>
+Personal note: 'Dead dog' - funny enough, the term Mephibosheth, a member of the house of Saul,
+used to refer to and abase himself back in chapter 9.
+</p>
+</div>
+</div>
+<div id="outline-container-orgf692170" class="outline-4">
+<h4 id="orgf692170"><a href="2 Samuel 16:10-11">10-11</a> David's response</h4>
+<div class="outline-text-4 blank-section" id="text-orgf692170">
+</div>
+<ul class="org-ul">
+<li><a id="org6780be1"></a>'What have I to do with you?' - Idiom, effectively 'we're not on the same page!'<br /></li>
+<li><a id="org94c4cad"></a>Reason - Shimei was likely sent by God<br />
+<div class="outline-text-5" id="text-org94c4cad">
+<p>
+David chose to submit to and learn from God's discipline
+</p>
+
+<p>
+This shows the inner workings of David's mind: God ordained everything that is happening to
+him.
+</p>
+</div>
+</li>
+<li><a id="orge57da77"></a>Point - Expect opposition<br />
+<div class="outline-text-5" id="text-orge57da77">
+<p>
+If his own family is against him, how much more would a more distant nephew?
+</p>
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-orgcc459e5" class="outline-4">
+<h4 id="orgcc459e5"><a href="2 Samuel 16:12">12</a>    David's Confidence</h4>
+<div class="outline-text-4" id="text-orgcc459e5">
+<p>
+<a href="Psalm 3">Psalm 3</a> Trusting in God
+</p>
+
+<p>
+This is a model of faith.
+</p>
+
+<p>
+<a href="1 Samuel 25">1 Samuel 25</a> Nabal insulted David, and David charged after him; but he was stopped by Abigail.
+This stands in contrast to that.
+</p>
+</div>
+</div>
+<div id="outline-container-org37a5029" class="outline-4">
+<h4 id="org37a5029"><a href="2 Samuel 16:13">13</a>    Journey Continues</h4>
+</div>
+<div id="outline-container-orgaaa9cba" class="outline-4">
+<h4 id="orgaaa9cba"><a href="2 Samuel 16:14">14</a>    David refreshes himself</h4>
+<div class="outline-text-4" id="text-orgaaa9cba">
+<p>
+Even after a difficult and painful day, David trusts in God's deliverance.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org43eccf7" class="outline-3">
+<h3 id="org43eccf7"><a href="2 Samuel 16:15-23">15-23</a> Absalom, the power-hungry usurper</h3>
+<div class="outline-text-3 blank-section" id="text-org43eccf7">
+</div>
+<div id="outline-container-org47b229a" class="outline-4">
+<h4 id="org47b229a"><a href="2 Samuel 16:15">15</a>     Absalom enters Jerusalem</h4>
+<div class="outline-text-4" id="text-org47b229a">
+<p>
+Likely expecting a rout, or that he would have to lay a showy siege of the city.
+</p>
+
+<p>
+This is an <i>anticlimax</i> for Absalom. As it stands, he can't legitimately lay claim to the
+throne.
+</p>
+</div>
+</div>
+<div id="outline-container-org651a3d9" class="outline-4">
+<h4 id="org651a3d9"><b><a href="2 Samuel 16:16-19">16-19</a> Hushai assures Absalom of his allegiance</b></h4>
+<div class="outline-text-4" id="text-org651a3d9">
+<p>
+David's very survival ultimately depends on Absalom accepting Hushai into his counsel.
+</p>
+
+<p>
+Extremely clever response, that <i>just</i> circuits around the question while making it clear that
+Hushai would serve under Absalom, without placing his allegiance with Absalom.
+</p>
+</div>
+</div>
+<div id="outline-container-org0a95111" class="outline-4">
+<h4 id="org0a95111"><a href="2 Samuel 16:20-22">20-22</a>  The problem and Ahithophel's solution</h4>
+<div class="outline-text-4 blank-section" id="text-org0a95111">
+</div>
+<ul class="org-ul">
+<li><a id="orgcdee518"></a>Problem - with David out of Jerusalem, questions could be raised regarding the legitimacy of Absalom's claim to the throne.<br />
+<div class="outline-text-5" id="text-orgcdee518">
+<p>
+This seems a question of desperation, not merely 'well, what's next?'
+</p>
+</div>
+</li>
+<li><a id="orged3eea3"></a>Ahithophel's counsel - take David's concubines<br />
+<div class="outline-text-5" id="text-orged3eea3">
+<p>
+This move is bold, taking over a king's harem, common as one means to declare that the prized
+possession of the king was now the conqueror's.
+</p>
+</div>
+</li>
+<li><a id="org857a837"></a>This act would:<br />
+<ul class="org-ul">
+<li><a id="org9f595c8"></a>Declare Absalom as the rightful king woh enjoyed the privileges reserved for the king<br /></li>
+<li><a id="orga80dd7f"></a>Ridicule and humiliate David<br />
+<div class="outline-text-6" id="text-orga80dd7f">
+<p>
+Marks him as someone who cannot protect his wives
+</p>
+</div>
+</li>
+<li><a id="orgcc26a16"></a>The point of no return<br />
+<div class="outline-text-6" id="text-orgcc26a16">
+<p>
+A formal challenge for the throne
+</p>
+</div>
+</li>
+<li><a id="orgda7ceb1"></a>No more middle ground - people would have to pick sides<br /></li>
+<li><a id="org9371a0c"></a>Strengthen Absalom's base of support<br /></li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="outline-container-orga9b51ac" class="outline-4">
+<h4 id="orga9b51ac"><a href="2 Samuel 16:23">23</a>     Ahithophel's wisdom</h4>
+<div class="outline-text-4" id="text-orga9b51ac">
+<p>
+The high bar Hushai will have to contend with
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb8c0d7c" class="outline-3">
+<h3 id="orgb8c0d7c">Conclusions/Lessons</h3>
+<div class="outline-text-3 blank-section" id="text-orgb8c0d7c">
+</div>
+<div id="outline-container-org4848337" class="outline-4">
+<h4 id="org4848337">Remember the relatively insignificant sin that set into motion the catastrophic string of events that continued to unfold in the story we studied today.</h4>
+</div>
+<div id="outline-container-org712d46c" class="outline-4">
+<h4 id="org712d46c">Secret sins often don't stay secret.</h4>
+<div class="outline-text-4" id="text-org712d46c">
+<p>
+Because they are not secret at all - God knows all.
+</p>
+</div>
+</div>
+<div id="outline-container-orgaf1888e" class="outline-4">
+<h4 id="orgaf1888e">Recognize that the Lord may use the sins and insults of others against you as part of His discipline.</h4>
+<div class="outline-text-4 blank-section" id="text-orgaf1888e">
+</div>
+<ul class="org-ul">
+<li><a id="org8c99c68"></a>Like David, there are times when we should be humbly willing to accept that discipline and simply appeal to the Lord for His mercy and grace.<br /></li>
+</ul>
+</div>
+<div id="outline-container-org09dbc4c" class="outline-4">
+<h4 id="org09dbc4c">When we are suffering as a result of our own sins, one of the central lessons in this chapter is that even in the midst of consequences of our own making, [&#x2026;]</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-org1548bdb" class="outline-2">
+<h2 id="org1548bdb"><a href="Psalm 3,5">Psalm 3,5</a> - 'He's Always Been Faithful'</h2>
+<div class="outline-text-2" id="text-org1548bdb">
+<dl class="org-dl">
+<dt>Teacher</dt><dd>Eric Sears</dd>
+</dl>
+</div>
+<div id="outline-container-org69a7458" class="outline-3">
+<h3 id="org69a7458">Thomas 'Stonewall' Jackson - 'I am as safe in my bed as in the battlefield; the Lord has determined the day of my death.'</h3>
+</div>
+<div id="outline-container-org678cf0d" class="outline-3">
+<h3 id="org678cf0d">Introduction</h3>
+<div class="outline-text-3 blank-section" id="text-org678cf0d">
+</div>
+<div id="outline-container-orgf1a93cb" class="outline-4">
+<h4 id="orgf1a93cb">Background - David on the run from Absalom, his son.</h4>
+</div>
+<div id="outline-container-org87d0a4b" class="outline-4">
+<h4 id="org87d0a4b">Question 1: What was David's perspective on this situation and how did he determine to handle it?</h4>
+<div class="outline-text-4 blank-section" id="text-org87d0a4b">
+</div>
+<ul class="org-ul">
+<li><a id="org5dc5886"></a>Answer: <a href="Psalm 3">Psalm 3</a><br /></li>
+</ul>
+</div>
+<div id="outline-container-org121e8be" class="outline-4">
+<h4 id="org121e8be">Question 2: How should we as believers regard those around us who promote and commit sins?</h4>
+<div class="outline-text-4 blank-section" id="text-org121e8be">
+</div>
+<ul class="org-ul">
+<li><a id="org421f68f"></a>Answer: <a href="Psalm 5">Psalm 5</a><br /></li>
+</ul>
+</div>
+<div id="outline-container-org9589018" class="outline-4">
+<h4 id="org9589018">Theme: God is sovereign over all and faithfully saves and protects His people.</h4>
+</div>
+<div id="outline-container-org3fd9cae" class="outline-4">
+<h4 id="org3fd9cae">Sub-theme: Our perspectives , thinking patterns, attitudes, and actions must be regulated by the theological truths taught in God's Word.</h4>
+</div>
+</div>
+<div id="outline-container-org7bb1604" class="outline-3">
+<h3 id="org7bb1604"><a href="Psalm 3">Psalm 3</a></h3>
+<div class="outline-text-3 blank-section" id="text-org7bb1604">
+</div>
+<div id="outline-container-orgde28c1b" class="outline-4">
+<h4 id="orgde28c1b"><a href="Psalm 3:1-2">1-2</a> David's Predicament</h4>
+<div class="outline-text-4 blank-section" id="text-orgde28c1b">
+</div>
+<ul class="org-ul">
+<li><a id="orgc460588"></a><a href="Psalm 3:1">1</a> Issue 1: The proliferation of his enemies<br />
+<div class="outline-text-5" id="text-orgc460588">
+<p>
+The gravity of the situation is clear, and his surprise at this sudden increase.
+</p>
+
+<p>
+It's not always people, but simply the problems of life, as well.
+</p>
+
+<p>
+So, how should we respond in the face of such difficulties?
+</p>
+</div>
+</li>
+<li><a id="org36ca4a2"></a><a href="Psalm 3:2">2</a> Issue 2: The scornful slander of his enemies<br />
+<div class="outline-text-5" id="text-org36ca4a2">
+<p>
+Essentially saying God was finished with David. See again what Shimei had said in <a href="2 Samuel 16">2 Samuel 16</a>.
+</p>
+
+<p>
+David attributes this claim of God's abandonment to others beyond Shimei.
+</p>
+
+<p>
+It could also be these claims were not just temporal, but eternal: that David is unredeemable.
+</p>
+
+<p>
+It is a temptation for us to then agree in the face of this trouble.
+</p>
+
+<p>
+Spurgeon - 'It is the most _ of afflictions to be led to believe that there is no hope for us in God'.
+</p>
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-org1480da3" class="outline-4">
+<h4 id="org1480da3"><a href="Psalm 3:3-4">3-4</a> David's Confidence</h4>
+<div class="outline-text-4" id="text-org1480da3">
+<p>
+David reminds himself of four things he knows to be true about God, in which he places his
+confidence.
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org07c540a"></a><a href="Psalm 3:3a">3a</a> In God's faithful protection, 'a shield'<br />
+<div class="outline-text-5" id="text-org07c540a">
+<p>
+God had already protected David in numerous ways in the past.
+</p>
+</div>
+</li>
+<li><a id="org1991ba3"></a><a href="Psalm 3:3b">3b</a> In God's sovereign plans for His own glory, 'my glory'<br />
+<div class="outline-text-5" id="text-org1991ba3">
+<p>
+The only glory worth anything to David is his connection to the one who is glorious.
+<a href="Psalm 115:1">Psalm 115:1</a>
+</p>
+
+<p>
+God's chief end is to glorify Himself, and David trusted He would be working towards that
+end, and David delights in that.
+</p>
+</div>
+</li>
+<li><a id="org47c6675"></a><a href="Psalm 3:3c">3c</a> That God is the source of true joy, 'the lifter my head'<br />
+<div class="outline-text-5" id="text-org47c6675">
+<p>
+<a href="Romans 8:28">Romans 8:28</a> <a href="Psalm 16:11">Psalm 16:11</a>
+</p>
+
+<p>
+Where do we find our joy; the things of earth, or the things of heaven?
+</p>
+</div>
+</li>
+<li><a id="org4d236ea"></a><a href="Psalm 3:4">4</a>  In God's answered prayer<br />
+<div class="outline-text-5" id="text-org4d236ea">
+<p>
+God hears and works all situations out for our good and His glory.
+</p>
+
+<p>
+Translation is difficult here; in NASB, it uses past tense, but Hebrew only has two primary
+senses: past 'completed' action, and past 'incompleted' action (perfect and imperfect),
+implying present and future action. A better translation might be 'I have been crying aloud
+to the Lord, and He will answer me from His holy hill.' (verify w/ Hebrew scholar)
+</p>
+
+<ol class="org-ol">
+<li>Pray</li>
+<li>Remind ourselves of God's character and promises</li>
+<li>Remind ourselves of God's past faithfulness</li>
+<li>Act in accordance to God's commands (?)</li>
+</ol>
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-orgbb7d719" class="outline-4">
+<h4 id="orgbb7d719"><a href="Psalm 3:5-6">5-6</a> Practical conclusions of David's faith</h4>
+<div class="outline-text-4 blank-section" id="text-orgbb7d719">
+</div>
+<ul class="org-ul">
+<li><a id="org79d7a80"></a><a href="Psalm 3:5">5</a> Sleep!<br />
+<div class="outline-text-5" id="text-org79d7a80">
+<p>
+What David knew about God was so thoroughly engrained on David's heart that he was able to
+rest, free of anxiety.
+</p>
+</div>
+</li>
+<li><a id="org8f4bc91"></a><a href="Psalm 3:6">6</a> No Fear<br />
+<div class="outline-text-5" id="text-org8f4bc91">
+<p>
+He has nothing to fear given his confidence in God, his shield, glory, and joy.
+</p>
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-orgb88166d" class="outline-4">
+<h4 id="orgb88166d"><a href="Psalm 3:7-8">7-8</a> David's confident prayer for deliverance</h4>
+<div class="outline-text-4" id="text-orgb88166d">
+<p>
+A call to action for God.
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org71e2c29"></a><a href="Psalm 3:7a">7a</a> A call for God to save<br /></li>
+<li><a id="org3266a0c"></a><a href="Psalm 3:7b">7b</a> Reasons for David's bold prayer<br />
+<div class="outline-text-5" id="text-org3266a0c">
+<p>
+These verbs are all past tense; God has already judged David's enemies, and his prayer is
+that He would continue to act accordingly.
+</p>
+</div>
+</li>
+<li><a id="org71dac23"></a><a href="Psalm 3:8">8</a>  Salvation belongs to the Lord<br />
+<div class="outline-text-5" id="text-org71dac23">
+<p>
+God alone provides salvation, for himself and for God's people.
+</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org9d50dfe" class="outline-3">
+<h3 id="org9d50dfe">He's Always Been Faithful - Sara Groves</h3>
+<div class="outline-text-3" id="text-org9d50dfe">
+<p class="verse">
+Great is thy faithfulness, Lord, unto me<br />
+<br />
+Morning by morning I wake up to find<br />
+The power and comfort of God's hand in mine<br />
+Season by season I watch Him, amazed<br />
+In awe of the mystery of His perfect ways<br />
+All I have need of, His hand will provide<br />
+He's always been faithful to me.<br />
+<br />
+I can't remember a trial or a pain<br />
+He did not recycle to bring me gain<br />
+I can't remember one single regret<br />
+In serving God only, and trusting His hand<br />
+All I have need of, His hand will provide<br />
+He's always been faithful to me.<br />
+<br />
+This is my anthem, this is my song<br />
+The theme of the stories I've heard for so long<br />
+God has been faithful, He will be again<br />
+His loving compassion, it knows no end<br />
+All I have need of, His hand will provide<br />
+He's always been faithful, He's always been faithful<br />
+He's always been faithful to me.<br />
+</p>
+</div>
+</div>
+<div id="outline-container-orgc751596" class="outline-3">
+<h3 id="orgc751596"><a href="Psalm 5">Psalm 5</a></h3>
+<div class="outline-text-3" id="text-orgc751596">
+<p>
+Imprecatory psalm - the writer is praying for God to judge the wicked.
+</p>
+</div>
+<div id="outline-container-orga04ec48" class="outline-4">
+<h4 id="orga04ec48"><a href="Psalm 5:1-3">1-3</a>   A prayer for expected help</h4>
+<div class="outline-text-4" id="text-orga04ec48">
+<p>
+David seeks relief from the oppression, lies, and injustice of the wicked.
+</p>
+
+<p>
+David has an expectation God will hear and act, and so he eagerly awaits God's response.
+</p>
+</div>
+</div>
+<div id="outline-container-orgcbc8647" class="outline-4">
+<h4 id="orgcbc8647"><a href="Psalm 5:4-7">4-7</a>   The Wicked and the Righteous contrasted</h4>
+<div class="outline-text-4" id="text-orgcbc8647">
+<p>
+Statements of something God does or does not do, followed by referencing some part of His
+character.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">Verse</th>
+<th scope="col" class="org-left">Action or Inaction</th>
+<th scope="col" class="org-left">Character</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">4</td>
+<td class="org-left">Does not delight in wickedness</td>
+<td class="org-left">Has no evil in Himself</td>
+</tr>
+
+<tr>
+<td class="org-right">5</td>
+<td class="org-left">Does not allow the boastful to stand before Him</td>
+<td class="org-left">Hates all who do iniquity</td>
+</tr>
+
+<tr>
+<td class="org-right">6</td>
+<td class="org-left">Destroys all who speak falsehood</td>
+<td class="org-left">Abhors the man who is bloodthirsty and deceitful</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+In contrast to God's view and treatment of the wicked, we see His view and treatment of His
+people.
+</p>
+</div>
+</div>
+<div id="outline-container-org9734243" class="outline-4">
+<h4 id="org9734243"><a href="Psalm 5:8-10">8-10</a>  Prayer to lead the Psalmist, but destroy the wicked</h4>
+<div class="outline-text-4" id="text-org9734243">
+<p>
+'Make your way straight' - make the path clear to David. His desire is to not be led astray by
+the wicked, whose paths are sure to lead to destruction.
+</p>
+
+<p>
+We know we should be praying for the salvation of the wicked. But we also pray that God would
+act in judgment.
+</p>
+</div>
+</div>
+<div id="outline-container-orgbb7f7e8" class="outline-4">
+<h4 id="orgbb7f7e8"><a href="Psalm 5:11-12">11-12</a> Prayer to bless and protect those who love the Lord</h4>
+<div class="outline-text-4" id="text-orgbb7f7e8">
+<p>
+Parallels with Psalm 3.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org7102fcb" class="outline-3">
+<h3 id="org7102fcb">Conclusions</h3>
+<div class="outline-text-3 blank-section" id="text-org7102fcb">
+</div>
+<div id="outline-container-org0d11755" class="outline-4">
+<h4 id="org0d11755">Psalm 3</h4>
+<div class="outline-text-4 blank-section" id="text-org0d11755">
+</div>
+<ul class="org-ul">
+<li><a id="org5a1b83d"></a>Our theology must dictate our mindset and actions.<br /></li>
+<li><a id="orgde6cb4d"></a>Our confidence in God must motivate our prayers.<br /></li>
+<li><a id="orgd1153a5"></a>In difficult times, we must resist the temptations to despair or compromise, and instead have faith in God.<br /></li>
+</ul>
+</div>
+<div id="outline-container-org4c80201" class="outline-4">
+<h4 id="org4c80201">Psalm 5</h4>
+<div class="outline-text-4 blank-section" id="text-org4c80201">
+</div>
+<ul class="org-ul">
+<li><a id="orge95066d"></a>Our response to evil in the world is prayer.<br /></li>
+<li><a id="org493f360"></a>We lament the wickedness that surrounds us, especially in contrast to the character of God.<br /></li>
+<li><a id="org6810f01"></a>We seek guidance from God, so that we won't be led astray.<br /></li>
+<li><a id="orgc974c1c"></a>We lean on God as our refuge, source of grace, and protection for His people.<br /></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgabf0069" class="outline-2">
+<h2 id="orgabf0069"><a href="2 Samuel 17">2 Samuel 17</a> - 'God's Purposes and Hushai's Counsel'</h2>
+<div class="outline-text-2" id="text-orgabf0069">
+<dl class="org-dl">
+<dt>Teacher</dt><dd>Vikram Pimplekar</dd>
+</dl>
+</div>
+<div id="outline-container-org684840e" class="outline-3">
+<h3 id="org684840e">Theme</h3>
+<div class="outline-text-3" id="text-org684840e">
+<p>
+The Lord works <span class="underline">through</span> bad counsel of Hushai to <span class="underline">accomplish his plans</span> of bringing calamity on Absalom.
+</p>
+</div>
+</div>
+<div id="outline-container-org37ccae0" class="outline-3">
+<h3 id="org37ccae0">I.   Context</h3>
+<div class="outline-text-3 blank-section" id="text-org37ccae0">
+</div>
+<div id="outline-container-org9622e7a" class="outline-4">
+<h4 id="org9622e7a">Outline of 2 Samuel</h4>
+<div class="outline-text-4 blank-section" id="text-org9622e7a">
+</div>
+<ul class="org-ul">
+<li><a id="org645431d"></a>1. 1-10  The Triumphs of David<br /></li>
+<li><a id="orgb27ceb9"></a>2. 11-12 The Transgressions of David<br /></li>
+<li><a id="orgc7047d3"></a>3. 13-24 The Troubles of David<br />
+<ul class="org-ul">
+<li><a id="org8bbb02a"></a>a. 13-18 Absalom's Life and Rebellion<br />
+<div class="outline-text-6" id="text-org8bbb02a">
+<p>
+&#x2026; and Absalom's advisors
+</p>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org789742c" class="outline-3">
+<h3 id="org789742c">II.  Outline for the Lesson</h3>
+<div class="outline-text-3 blank-section" id="text-org789742c">
+</div>
+<div id="outline-container-org796c41b" class="outline-4">
+<h4 id="org796c41b">A. <a href="2 Samuel 17:1-14">1-14</a> Ahithophel and Hushai Counsel Absalom</h4>
+<div class="outline-text-4 blank-section" id="text-org796c41b">
+</div>
+<ul class="org-ul">
+<li><a id="org296f17c"></a>1. <a href="2 Samuel 17:1-4">1-4</a> Ahithophel counsels Absalom to go on the offensive against King David<br />
+<div class="outline-text-5" id="text-org296f17c">
+<p>
+Immediate action, trying to catch David off balance.
+</p>
+
+<p>
+<a href="2 Samuel 16:21">16:21</a> A show of strength to contrast with David and his men's weakness.
+</p>
+</div>
+</li>
+<li><a id="org24268fd"></a>2. <a href="2 Samuel 17:5-13">5-13</a> Hushai councels Absalom to plan and prepare well<br />
+<div class="outline-text-5" id="text-org24268fd">
+<p>
+It could be Absalom doesn't want to be seen as dependent on one man's counsel alone, a
+prideful and politically useful move.
+</p>
+
+<p>
+Advice in contrast to his name, which implies haste. He exaggerates support for Absalom,
+appealing to his ego by noting Ahithophel would take the credit for killing David.
+</p>
+</div>
+</li>
+<li><a id="orga4ebbde"></a>3. <a href="2 Samuel 17:14">14</a>   Absalom decides to follow Hushai's counsel<br />
+<div class="outline-text-5" id="text-orga4ebbde">
+<p>
+We get a glimpse of God's continuing, active involvement and control.
+</p>
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-orge5d54f3" class="outline-4">
+<h4 id="orge5d54f3">B. <a href="2 Samuel 17:15-22">15-22</a> Hushai Cautions David</h4>
+<div class="outline-text-4 blank-section" id="text-orge5d54f3">
+</div>
+<ul class="org-ul">
+<li><a id="org50ba327"></a>1. <a href="2 Samuel 17:15-16">15-16</a> The Priest's sons carry the message<br />
+<div class="outline-text-5" id="text-org50ba327">
+<p>
+Zadok and Abiathar, seen in <a href="2 Samuel 15:32-37">15:32-37</a>
+</p>
+
+<p>
+A young / slave girl would be the link between these priests and their sons, Jonathan and
+Ahimaaz, seen in <a href="2 Samuel 15:32-37">2 Samuel 15:32-37</a>
+</p>
+</div>
+</li>
+<li><a id="orgeb01d69"></a>2. <a href="2 Samuel 17:17-22">17-22</a> David is cautioned<br />
+<div class="outline-text-5" id="text-orgeb01d69">
+<p>
+Are these righteous lies?
+</p>
+<ul class="org-ul">
+<li><a href="Exodus 1">Exodus 1</a> Egyptian midwives and Hebrew babies</li>
+<li><a href="Joshua 2,6">Joshua 2,6</a> Rahab and the Hebrew spies</li>
+<li>Hushai's counsel</li>
+<li>The woman and Ahimaaz &amp; Jonathan</li>
+</ul>
+
+<p>
+Response
+</p>
+<ul class="org-ul">
+<li><a href="Exodus 20">Exodus 20</a> The command specifically had to do with testimony in the court of Law</li>
+<li>I am not obligated to tell everything in my heart; a wise person is someone who knows what
+<i>not</i> to say, as well as what to say</li>
+<li>No contradiction in the command and the application</li>
+</ul>
+</div>
+</li>
+<li><a id="orge136c0d"></a>3. <a href="2 Samuel 17:23">23</a>    Ahithophel dies by committing suicide<br />
+<div class="outline-text-5" id="text-orge136c0d">
+<p>
+'set his house in order' - implied giving one's last will and testament, to give instructions
+to prepare for death and to secure financial position.
+</p>
+
+<p>
+Ahithophel probably knows the consequences of Absalom's chosen course of action, and his
+inevitable death by David's hand.
+</p>
+</div>
+</li>
+<li><a id="orgb6e987a"></a>4. <a href="2 Samuel 17:24-26">24-26</a> Amasa appointed to lead the army<br /></li>
+</ul>
+</div>
+<div id="outline-container-orgcd338a6" class="outline-4">
+<h4 id="orgcd338a6">C. <a href="2 Samuel 17:27-29">27-29</a> Friends Care for David and his people</h4>
+<div class="outline-text-4" id="text-orgcd338a6">
+<p>
+David receives rest and supplies sufficient for the task ahead.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org07992d9" class="outline-3">
+<h3 id="org07992d9">III. Observation: Parallels between David and Jesus' accounts</h3>
+<div class="outline-text-3" id="text-org07992d9">
+<p>
+The path of Christ on the Mount of Olives, and betrayal by those close to him
+</p>
+</div>
+</div>
+<div id="outline-container-orgb7ff679" class="outline-3">
+<h3 id="orgb7ff679">IV.  Lessons</h3>
+<div class="outline-text-3 blank-section" id="text-orgb7ff679">
+</div>
+<div id="outline-container-org7d61cb1" class="outline-4">
+<h4 id="org7d61cb1">A. This account illustrates for us how <span class="underline">divine sovereignty and human agency</span> work together in the outworking of the divine purpose</h4>
+</div>
+<div id="outline-container-orgf5eda0c" class="outline-4">
+<h4 id="orgf5eda0c">B. God works through <span class="underline">bad and good counsel</span> to accomplish his purposes</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-org3d46103" class="outline-2">
+<h2 id="org3d46103"><a href="2 Samuel 18">2 Samuel 18</a> - 'The Lord's Discipline and Absalom's Death'</h2>
+<div class="outline-text-2" id="text-org3d46103">
+<dl class="org-dl">
+<dt>Teacher</dt><dd>Vikram Pimplekar</dd>
+</dl>
+</div>
+<div id="outline-container-org44ff7f5" class="outline-3">
+<h3 id="org44ff7f5">Theme</h3>
+<div class="outline-text-3" id="text-org44ff7f5">
+<p>
+The Lord's discipline is just and unavoidable and it often brings great sorrow in its wake.
+</p>
+</div>
+</div>
+<div id="outline-container-org3e1eee0" class="outline-3">
+<h3 id="org3e1eee0">Outline</h3>
+<div class="outline-text-3 blank-section" id="text-org3e1eee0">
+</div>
+<div id="outline-container-orgf002b7d" class="outline-4">
+<h4 id="orgf002b7d">1. <a href="2 Samuel 18:1-5">1-5</a>   David prepares his men for the war against Israel.</h4>
+<div class="outline-text-4 blank-section" id="text-orgf002b7d">
+</div>
+<ul class="org-ul">
+<li><a id="org822e298"></a>a. <a href="2 Samuel 18:1-2">1-2</a> David organizes his troops<br /></li>
+<li><a id="orgd13cf8d"></a>b. <a href="2 Samuel 18:3-4">3-4</a> David accepts his troops advice<br /></li>
+<li><a id="org3e44cba"></a>c. <a href="2 Samuel 18:5">5</a>   David admonishes his leaders<br />
+<div class="outline-text-5" id="text-org3e44cba">
+<p>
+He desires as a father that his son be protected, even in the midst of war, and this he
+declares publicly.
+</p>
+
+<p>
+David understands what's at sake.
+</p>
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-org45ac4eb" class="outline-4">
+<h4 id="org45ac4eb">2. <a href="2 Samuel 18:6-18">6-18</a>  David's men win the war against Israel.</h4>
+<div class="outline-text-4 blank-section" id="text-org45ac4eb">
+</div>
+<ul class="org-ul">
+<li><a id="org3e2ce00"></a>a. <a href="2 Samuel 18:6-7">6-7</a>   David's men slaughter the men of Israel<br /></li>
+<li><a id="org761a826"></a>b. <a href="2 Samuel 18:8-16">8-16</a>  Joab slays David's son Absalom<br />
+<div class="outline-text-5" id="text-org761a826">
+<p>
+The manner in which Absalom is hanging from a tree hints that he is under the Divine Curse.
+</p>
+
+<p>
+Joab is the same man who had helped David killed Uriah, who had killed another general out of
+jealousy, and now is a man whose man do not trust him to back their decisions up, and is
+willing to ignore David's direction to deal his own justice.
+</p>
+</div>
+</li>
+<li><a id="org2d3a8b9"></a>c. <a href="2 Samuel 18:17-18">17-18</a> The pillar for and of Absalom<br />
+<div class="outline-text-5" id="text-org2d3a8b9">
+<p>
+Absalom made one for himself, an attempt to leave a legacy for his own name.
+</p>
+
+<p>
+A pillar of stones was built above his body, outside the Promised Land, the very thing he had
+wanted of his father (ref?). He is treated as a foreigner, forfeiting the blessings of God's
+chosen people.
+</p>
+
+<p>
+God's law is upheld by this, having been stoned for rebelling against his father.
+</p>
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-orgb74e6bf" class="outline-4">
+<h4 id="orgb74e6bf">3. <a href="2 Samuel 18:19-33">19-33</a> David wonders about and weep for his son Absalom</h4>
+<div class="outline-text-4 blank-section" id="text-orgb74e6bf">
+</div>
+<ul class="org-ul">
+<li><a id="orgdf1c745"></a>a. <a href="2 Samuel 18:19-32">19-32</a> Ahimaaz and a Cushite deliver the news about the war to David<br />
+<div class="outline-text-5" id="text-orgdf1c745">
+<p>
+A single messenger is coordinated; defeat would usually lead to a returning <i>group</i>.
+</p>
+
+<p>
+'All is well' - effectively 'peace I bring to you'; 'Shalom'
+</p>
+
+<p>
+They greet him with peace, and he asks if his <i>son</i> has peace. Note the name: Ab-salom, father
+of peace.
+</p>
+
+<p>
+Ahimaaz gives a cagey answer that may be an attempt to defend Joab. <a href="2 Samuel 18:20">20</a> Difficult to tell, but
+multiple translations and the source material may help clarify the use of punctuation here to
+tell whether Joab had actually told Ahimaaz the outcome or not.
+</p>
+</div>
+</li>
+<li><a id="org6a9823c"></a>b. <a href="2 Samuel 18:33">33</a>    David the father weeps for Absalom his son<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org768b774" class="outline-3">
+<h3 id="org768b774">Lessons</h3>
+<div class="outline-text-3 blank-section" id="text-org768b774">
+</div>
+<div id="outline-container-org647a29b" class="outline-4">
+<h4 id="org647a29b"><a href="2 Samuel 12:10-14">12:10-14</a> The Lord is just</h4>
+</div>
+<div id="outline-container-org524f80e" class="outline-4">
+<h4 id="org524f80e"><a href="2 Samuel 18:15">18:15</a> Absalom faced the consequence of his sin</h4>
+<div class="outline-text-4" id="text-org524f80e">
+<p>
+<a href="Philippians 2:5-8">Philippians 2:5-8</a> A Christlike response to being wronged, in contrast
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org2604dca" class="outline-2">
+<h2 id="org2604dca"><a href="Psalm 37">Psalm 37</a> - 'Contrasts of the Wicked and the Righteous' <a id="orgd88794f"></a></h2>
+<div class="outline-text-2" id="text-org2604dca">
+<dl class="org-dl">
+<dt>Teacher</dt><dd>Terry Tyler</dd>
+</dl>
+</div>
+<div id="outline-container-org58aca51" class="outline-3">
+<h3 id="org58aca51"><a href="Psalm 37:1-8,27,34,37-40">1-8,27,34,37-40</a>  Commands to the righteous</h3>
+<div class="outline-text-3 blank-section" id="text-org58aca51">
+</div>
+<div id="outline-container-org62f3e74" class="outline-4">
+<h4 id="org62f3e74"><a href="Psalm 37:1">1</a></h4>
+<div class="outline-text-4" id="text-org62f3e74">
+<p>
+'fret' - to be agitated, irritated, worry
+</p>
+
+<p>
+'envious' - admiring the temporary successes of those who do evil
+</p>
+</div>
+</div>
+<div id="outline-container-orga008177" class="outline-4">
+<h4 id="orga008177"><a href="Psalm 37:3">3</a>     Gives the right response, instead</h4>
+<div class="outline-text-4" id="text-orga008177">
+<p>
+Consider Job's response to God.
+</p>
+
+<p>
+'There is a joy in holy activity which drives away the rust of discontent.
+&#x2026;
+Very much of our outward depends on the inward: where there is Heaven in the heart there will
+be Heaven in the house.' - Spurgeon
+</p>
+</div>
+</div>
+<div id="outline-container-orga303d5a" class="outline-4">
+<h4 id="orga303d5a"><a href="Psalm 37:4">4</a>     When our delight is in the Lord, He will satisfy that delight.</h4>
+</div>
+<div id="outline-container-org31790fe" class="outline-4">
+<h4 id="org31790fe"><a href="Psalm 37:5">5</a>     God will guide our journey</h4>
+</div>
+<div id="outline-container-orgdcf5730" class="outline-4">
+<h4 id="orgdcf5730"><a href="Psalm 37:6-7">6-7</a>   God will surely carry out justice; we have but to be patient for it.</h4>
+<div class="outline-text-4" id="text-orgdcf5730">
+<p>
+'In the matter of personal reputation we may especially be content to be quiet, and leave our
+vindication with the Judge of all the earth. [&#x2026;]' - Spurgeon
+</p>
+</div>
+</div>
+<div id="outline-container-org2939e1c" class="outline-4">
+<h4 id="org2939e1c"><a href="Psalm 37:8">8</a>     Another reminder to not fret, with an additional caution against the evil to which it leads.</h4>
+</div>
+<div id="outline-container-orgcccfe56" class="outline-4">
+<h4 id="orgcccfe56"><a href="Psalm 37:27">27</a>    Another admonition to avoid evil.</h4>
+</div>
+<div id="outline-container-org20daf30" class="outline-4">
+<h4 id="org20daf30"><a href="Psalm 37:34">34</a>    A command to wait, be patient, stay on the right path</h4>
+</div>
+<div id="outline-container-orgcffe331" class="outline-4">
+<h4 id="orgcffe331"><a href="Psalm 37:37">37</a>    Watch and emulate other righteous men.</h4>
+<div class="outline-text-4" id="text-orgcffe331">
+<p>
+'His way may be rough, but it leads home.' - Charles Spurgeon
+</p>
+</div>
+</div>
+<div id="outline-container-org557dd4b" class="outline-4">
+<h4 id="org557dd4b"><a href="Psalm 37:38-40">38-40</a> The wicked will be destroyed, while the righteous will be safe in the Lord's protection.</h4>
+<div class="outline-text-4" id="text-org557dd4b">
+<p>
+'Whoever truly believes in God will be no longer fretful against the apparent irregularities
+[&#x2026;]' - Charles Spurgeon
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org91b1fa0" class="outline-3">
+<h3 id="org91b1fa0"><a href="Psalm 37:9-24,28-33">9-24,28-33</a> Marks and outcomes of the wicked and righteous</h3>
+<div class="outline-text-3 blank-section" id="text-org91b1fa0">
+</div>
+<div id="outline-container-orgc56e5d8" class="outline-4">
+<h4 id="orgc56e5d8"><a href="Psalm 37:9-11">9-11</a> Statements of contrast</h4>
+<div class="outline-text-4" id="text-orgc56e5d8">
+<p>
+'The shortness of life makes us see that the glitter of the wicked is not true gold.'
+Charles Spurgeon
+</p>
+</div>
+</div>
+<div id="outline-container-orgc093d14" class="outline-4">
+<h4 id="orgc093d14"><a href="Psalm 37:12">12</a> It is common that those who do evil plot against and hate those who are righteous</h4>
+<div class="outline-text-4" id="text-orgc093d14">
+<p>
+They are following in the way of Satan.
+</p>
+</div>
+</div>
+<div id="outline-container-orgcbf5a0b" class="outline-4">
+<h4 id="orgcbf5a0b"><a href="Psalm 37:13-15">13-15</a></h4>
+<div class="outline-text-4" id="text-orgcbf5a0b">
+<p>
+'The evil man does not see how close his destruction is upon his heels; he boasts of crushing
+others when the foot of justice is already uplifted to trample him [&#x2026;]'
+</p>
+
+<p>
+Consider Haman in Esther, hung on his own gallows, his instrument of injustice.
+</p>
+</div>
+</div>
+<div id="outline-container-org5456630" class="outline-4">
+<h4 id="org5456630"><a href="Psalm 37:16">16</a> Long to be among the righteous first, not for riches</h4>
+</div>
+<div id="outline-container-org1f85086" class="outline-4">
+<h4 id="org1f85086"><a href="Psalm 37:17-20">17-20</a> The lasting provision and life of the righteous, and the transience of the wicked</h4>
+<div class="outline-text-4" id="text-org1f85086">
+<p>
+'God is not a friend in the sunshine only; He is a friend indeed and a friend in need.'
+Charles Spurgeon
+</p>
+</div>
+</div>
+<div id="outline-container-org9315ec0" class="outline-4">
+<h4 id="org9315ec0"><a href="Psalm 37:21-22">21-22</a> The righteous are marked by generosity.</h4>
+</div>
+<div id="outline-container-org8d15fa7" class="outline-4">
+<h4 id="org8d15fa7"><a href="Psalm 37:23-24">23-24</a> God ordains our steps, knows the final outcome, but is still with us every step of the way</h4>
+</div>
+<div id="outline-container-org1e774cd" class="outline-4">
+<h4 id="org1e774cd"><a href="Psalm 37:28">28</a> God never forsakes his people; faithful lovingkindness is part of His character, as is His justice</h4>
+<div class="outline-text-4" id="text-org1e774cd">
+<p>
+Descendants aren't punished for the sins of their ancestors; but rather, he's remarking on
+those who have the same nature as their wicked ancestors, 'cut from the same cloth'.
+</p>
+</div>
+</div>
+<div id="outline-container-orgda74b16" class="outline-4">
+<h4 id="orgda74b16"><a href="Psalm 37:29">29</a> 'the land' standing in for all the covenant blessings God had made</h4>
+<div class="outline-text-4" id="text-orgda74b16">
+<p>
+'Tenures differ, but none can match the holding which believers have of heaven. Paradise is
+theirs for ever by inheritance, and they shall live for ever to enjoy it. Who would not be a
+saint on such terms? Who would fret concerning the fleeting treasures of the godless?' -
+Charles Spurgeon
+</p>
+</div>
+</div>
+<div id="outline-container-org6592650" class="outline-4">
+<h4 id="org6592650"><a href="Psalm 37:30-31">30-31</a> A recurring theme of the Psalms. See also <a href="Psalm 40:8">40:8</a></h4>
+</div>
+<div id="outline-container-org026a0b6" class="outline-4">
+<h4 id="org026a0b6"><a href="Psalm 37:32">32</a> Again, the wicked conspiring against the righteous.</h4>
+</div>
+<div id="outline-container-org354bf18" class="outline-4">
+<h4 id="org354bf18">Psalm 37:33 God will deliver and vindicate His righteous ones.</h4>
+<div class="outline-text-4" id="text-org354bf18">
+<p>
+'In due season just men will be justified. Temporary injustices are tolerated, in the order of
+Providence, for purposes most wise; but the bitter shall not always be called sweet, [&#x2026;]' -
+Charles Spurgeon
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org52c639b" class="outline-3">
+<h3 id="org52c639b"><a href="Psalm 37:25-26,35-36">25-26,35-36</a> David's personal testimony</h3>
+<div class="outline-text-3 blank-section" id="text-org52c639b">
+</div>
+<div id="outline-container-org2bfb7b7" class="outline-4">
+<h4 id="org2bfb7b7"><a href="Psalm 37:25-26">25-26</a> He reflects on his witness of God's faithfulness to His people.</h4>
+</div>
+<div id="outline-container-org7aeb81e" class="outline-4">
+<h4 id="org7aeb81e"><a href="Psalm 37:35-36">35-36</a> The appearance of earthly prosperity of the wicked is quickly destroyed.</h4>
+</div>
+</div>
+<div id="outline-container-orgf5455c0" class="outline-3">
+<h3 id="orgf5455c0">Topic Layers of Psalm 37</h3>
+<div class="outline-text-3" id="text-orgf5455c0">
+<p>
+Names of&#x2026;
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Wicked</th>
+<th scope="col" class="org-left">Righteous</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Wicked</td>
+<td class="org-left">Righteous</td>
+</tr>
+
+<tr>
+<td class="org-left">Evildoers</td>
+<td class="org-left">Humble</td>
+</tr>
+
+<tr>
+<td class="org-left">Wrongdoers</td>
+<td class="org-left">Blameless</td>
+</tr>
+
+<tr>
+<td class="org-left">Enemies of the Lord</td>
+<td class="org-left">Upright</td>
+</tr>
+
+<tr>
+<td class="org-left">Cursed</td>
+<td class="org-left">Man of peace</td>
+</tr>
+
+<tr>
+<td class="org-left">Transgressors</td>
+<td class="org-left">Godly ones</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Blessed</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+Characteristics of&#x2026;
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Wicked</td>
+<td class="org-left">Righteous</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+Fate of&#x2026;
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Wicked</td>
+<td class="org-left">Righteous</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+God's Response to&#x2026;
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Wicked</td>
+<td class="org-left">Righteous</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+God's commands to the righteous, regarding attitude towards&#x2026;
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Wicked</td>
+<td class="org-left">God</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org52f7851" class="outline-3">
+<h3 id="org52f7851">Closing Thoughts</h3>
+<div class="outline-text-3 blank-section" id="text-org52f7851">
+</div>
+<div id="outline-container-org6c1ec57" class="outline-4">
+<h4 id="org6c1ec57">Remember that God is the one who determines who is wicked vs righteous.</h4>
+<div class="outline-text-4" id="text-org6c1ec57">
+<p>
+'I am a good person' is cited by people setting their own standard for righteousness.
+</p>
+</div>
+</div>
+<div id="outline-container-org40e9b26" class="outline-4">
+<h4 id="org40e9b26">Keep a time perspective of eternity and not just this short life.</h4>
+<div class="outline-text-4" id="text-org40e9b26">
+<p>
+'Time is nothing to him; let it be nothing to thee. God is worth waiting for. In a story we
+wait for the end to clear up the plot. [&#x2026;]' - Charles Spurgeon
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org6059028"></a>Concerning the temporary state and successes of the wicked<br /></li>
+<li><a id="orgae0e8d0"></a>Concerning the eternal state and inheritance of the righteous<br /></li>
+</ul>
+</div>
+<div id="outline-container-orgf3ae4ed" class="outline-4">
+<h4 id="orgf3ae4ed">Keep biblical perspectives on&#x2026;</h4>
+<div class="outline-text-4 blank-section" id="text-orgf3ae4ed">
+</div>
+<ul class="org-ul">
+<li><a id="org81d4826"></a>Who is really destitute, poor, and to be pitied<br /></li>
+<li><a id="org5cfcb20"></a>Who is really rich with much provision and blessing<br /></li>
+</ul>
+</div>
+<div id="outline-container-org51d9596" class="outline-4">
+<h4 id="org51d9596">Anchor your heart and mind in times of difficulty by having the right attitudes toward God.</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-org8492058" class="outline-2">
+<h2 id="org8492058"><a href="2 Samuel 19:1-23">2 Samuel 19:1-23</a> - 'Joab's Rebuke and David's Mercy'</h2>
+<div class="outline-text-2" id="text-org8492058">
+<dl class="org-dl">
+<dt>Teacher</dt><dd>Terry Tyler</dd>
+</dl>
+</div>
+<div id="outline-container-org26ccdd9" class="outline-3">
+<h3 id="org26ccdd9"><a href="2 Samuel 19:1-8a">1-8a</a>   Joab's rebuke of David</h3>
+<div class="outline-text-3 blank-section" id="text-org26ccdd9">
+</div>
+<div id="outline-container-org4067873" class="outline-4">
+<h4 id="org4067873"><a href="2 Samuel 19:1-4">1-4</a>  David grieves for his son instead of celebrating the victory.</h4>
+<div class="outline-text-4" id="text-org4067873">
+<p>
+<a href="2 Samuel 18:5">18:5</a> David had charged that his son not be hurt.
+</p>
+
+<p>
+<a href="2 Samuel 18:14">18:14</a> Joab specifically went out and killed Absalom, disregarding David's direction.
+</p>
+</div>
+</div>
+<div id="outline-container-orgc6831fb" class="outline-4">
+<h4 id="orgc6831fb"><a href="2 Samuel 19:5-6">5-6</a>  Joab rebukes David for mourning for his enemy.</h4>
+<div class="outline-text-4" id="text-orgc6831fb">
+<p>
+David's actions <i>did</i> hurt his loyal troops, showing ingratitude for his own supporters.
+</p>
+
+<p>
+<i>But</i> Joab's actions seem to be a step too far, here, too.
+</p>
+</div>
+</div>
+<div id="outline-container-org46b845e" class="outline-4">
+<h4 id="org46b845e"><a href="2 Samuel 19:7-8a">7-8a</a> Joab challenges David to go to the gate among the people.</h4>
+</div>
+</div>
+<div id="outline-container-orgaef6ebe" class="outline-3">
+<h3 id="orgaef6ebe"><a href="2 Samuel 19:8b-14">8b-14</a>  The nation's consideration of David</h3>
+<div class="outline-text-3 blank-section" id="text-orgaef6ebe">
+</div>
+<div id="outline-container-orgadc6c8e" class="outline-4">
+<h4 id="orgadc6c8e"><a href="2 Samuel 19:8b-10">8b-10</a> The tribes of Israel</h4>
+<div class="outline-text-4 blank-section" id="text-orgadc6c8e">
+</div>
+<ul class="org-ul">
+<li><a id="orgbd9a1d7"></a><a href="2 Samuel 19:8b-10a">8b-10a</a> They initiallyy quarrel about recognizing David as king.<br /></li>
+<li><a id="org12eb780"></a><a href="2 Samuel 19:10b">10b</a>    They convince each other that they should bring David back as king.<br /></li>
+</ul>
+</div>
+<div id="outline-container-org9446446" class="outline-4">
+<h4 id="org9446446"><a href="2 Samuel 19:11-14">11-14</a> Judah</h4>
+<div class="outline-text-4 blank-section" id="text-org9446446">
+</div>
+<ul class="org-ul">
+<li><a id="org72b34ab"></a><a href="2 Samuel 19:11-13">11-13</a> David has to challenge Judah to recognize him again as king.<br />
+<div class="outline-text-5" id="text-org72b34ab">
+<p>
+There is a deep schism between Judah and the rest of Israel that had been around a long time
+before this.
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org2ac6d07"></a><a href="2 Samuel 19:11-12">11-12</a> Tactic #1 - Solicit the help of Zadok and Abiathar the priests to persuade Judah's elders.<br />
+<div class="outline-text-6" id="text-org2ac6d07">
+<p>
+'Why don't you just get on board?'
+</p>
+
+<p>
+<a href="2 Samuel 15:29">15:29</a> These were highly regarded high priests.
+</p>
+</div>
+</li>
+<li><a id="org0e0758c"></a><a href="2 Samuel 19:13">13</a>    Tactic #2 - Invite Amasa (Absalom's commander) to replace Joab as the commander of his army.<br />
+<div class="outline-text-6" id="text-org0e0758c">
+<p>
+David's nephew, building a bridge to Absalom's former army.
+</p>
+
+<p>
+This is punishment for Joab's actions.
+</p>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="org928c3bf"></a><a href="2 Samuel 19:14">14</a>    The hearts of Judah are turned back and they ask David to return as king.<br />
+<div class="outline-text-5" id="text-org928c3bf">
+<p>
+God is orchestrating this reunification.
+</p>
+
+<p>
+David and the people are suffering the consequences of David's sin, yet God is not yet done
+with him.
+</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org8850318" class="outline-3">
+<h3 id="org8850318"><a href="2 Samuel 19:15-18">15-18</a>  The initial reception of David</h3>
+<div class="outline-text-3 blank-section" id="text-org8850318">
+</div>
+<div id="outline-container-org1eca26d" class="outline-4">
+<h4 id="org1eca26d"><a href="2 Samuel 19:15a">15a</a>     David begins the return trip back to Jerusalem.</h4>
+<div class="outline-text-4" id="text-org1eca26d">
+<p>
+From Mahanaim, a long journey west and then south along the Jordan.
+</p>
+</div>
+</div>
+<div id="outline-container-org56f1903" class="outline-4">
+<h4 id="org56f1903"><a href="2 Samuel 19:15b-18a">15b-18a</a> Many go out to meet David to help him cross the Jordan.</h4>
+<div class="outline-text-4" id="text-org56f1903">
+<p>
+Showing open support to reduce risk of being caught up in kingly vengeance they expect.
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="orgf3c877f"></a><a href="2 Samuel 19:15b">15b</a> People of Judah<br />
+<div class="outline-text-5" id="text-orgf3c877f">
+<p>
+Gilgal is recurringly at the center of important events in Israel.
+</p>
+</div>
+</li>
+<li><a id="orgafc223d"></a><a href="2 Samuel 19:16">16</a>  Shimei<br /></li>
+<li><a id="org7678476"></a><a href="2 Samuel 19:17a">17a</a> Thousand men of Benjamin<br /></li>
+<li><a id="org362dae0"></a><a href="2 Samuel 19:17b">17b</a> Ziba, along with his 15 sons and 20 servants.<br />
+<div class="outline-text-5" id="text-org362dae0">
+<p>
+Ziba, who had been caring for Mephibosheth's estate, and who betrayed Mephibosheth during
+Absalom's coup.
+</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org833c4a7" class="outline-3">
+<h3 id="org833c4a7"><a href="2 Samuel 19:18b-23">18b-23</a> David's mercy to Shimei</h3>
+<div class="outline-text-3 blank-section" id="text-org833c4a7">
+</div>
+<div id="outline-container-org6f63a29" class="outline-4">
+<h4 id="org6f63a29"><a href="2 Samuel 19:18b-20">18b-20</a> Shimei falls down before David and begs him for mercy and forgiveness.</h4>
+<div class="outline-text-4" id="text-org6f63a29">
+<p>
+Recall what this wrong was in <a href="2 Samuel 16:5-13">16:5-13</a>
+</p>
+
+<p>
+Is this genuine? Is it self-serving? Time will tell.
+</p>
+</div>
+</div>
+<div id="outline-container-org151a1ff" class="outline-4">
+<h4 id="org151a1ff"><a href="2 Samuel 19:21">21</a>     Abishai advocates putting Shimei to death for cursing the Lord's anointed.</h4>
+<div class="outline-text-4" id="text-org151a1ff">
+<p>
+Joab, Abishai, and Ashiel were brothers.
+</p>
+
+<p>
+Abner had killed Ashiel, and Joab and Abishai had killed Abner in turn.
+</p>
+
+<p>
+Abishai has a history of hastening to bloodshed. <a href="1 Samuel 26:8">1 Samuel 26:8</a> <a href="2 Samuel 16:9">2 Samuel 16:9</a>
+</p>
+
+<p>
+This standard in this case was good, based on <a href="Exodus 22:28">Exodus 22:28</a>
+</p>
+
+<p>
+Ironically, his standard seems to shift - desiring to kill Saul, the Lord's anointed, then
+wanting to kill Shimei for cursing the Lord's anointed.
+</p>
+</div>
+</div>
+<div id="outline-container-orge75755a" class="outline-4">
+<h4 id="orge75755a"><a href="2 Samuel 19:22-23">22-23</a>  David instead responds with mercy.</h4>
+<div class="outline-text-4 blank-section" id="text-orge75755a">
+</div>
+<ul class="org-ul">
+<li><a id="org1e1bf41"></a><a href="2 Samuel 19:22">22</a> He rebukes Abishai, calling him an adversary.<br />
+<div class="outline-text-5" id="text-org1e1bf41">
+<p>
+Adversary (Hb. שָׂטָן )is most commonly used for Satan in the OT.
+</p>
+
+<p>
+He is standing athwart of God's desired direction for David's heart.
+</p>
+
+<p>
+Joab and Abishai had repeatedly been adversaries to David in the past, and he has rebuked
+them before. He could be rebuking them again for repeating this pattern.
+</p>
+
+<p>
+David doesn't need to exert his power to prove he is king.
+</p>
+</div>
+</li>
+<li><a id="org59aeff1"></a><a href="2 Samuel 19:23">23</a> He makes an oath to Shimei that he will not kill him.<br />
+<div class="outline-text-5" id="text-org59aeff1">
+<p>
+This man had acted wickedly and deserved death by the law, but David acted in mercy towards
+him.
+</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org92e497e" class="outline-3">
+<h3 id="org92e497e">From <a href="Psalm 37">Psalm 37</a> <a href="#orgd88794f">Last Week</a></h3>
+<div class="outline-text-3 blank-section" id="text-org92e497e">
+</div>
+<div id="outline-container-org5339506" class="outline-4">
+<h4 id="org5339506">Recall what it says of the righteous</h4>
+</div>
+<div id="outline-container-org8b0e824" class="outline-4">
+<h4 id="org8b0e824">What is your response to those who do evil to you?</h4>
+</div>
+</div>
+<div id="outline-container-org6568e94" class="outline-3">
+<h3 id="org6568e94">Closing Thoughts</h3>
+<div class="outline-text-3 blank-section" id="text-org6568e94">
+</div>
+<div id="outline-container-org3048b02" class="outline-4">
+<h4 id="org3048b02">God, according to His sovereign plans, brought David back as king of all Israel.</h4>
+<div class="outline-text-4" id="text-org3048b02">
+<p>
+No evil man - not even one like Absalom - can thwart the plans of God.
+</p>
+</div>
+</div>
+<div id="outline-container-orgda62ee9" class="outline-4">
+<h4 id="orgda62ee9">These difficulties in David's life were God's punishment for David's sin.</h4>
+</div>
+<div id="outline-container-org0597018" class="outline-4">
+<h4 id="org0597018">David provides a great illustration here of godly attitudes and actions toward the wicked.</h4>
+<div class="outline-text-4" id="text-org0597018">
+<p>
+David shows trust in the Lord to deal with Shimei according to his heart, and responds as God
+commands him to.
+</p>
+
+<p>
+In the future, David protects Shimei as he had promised. However, he instructs Solomon to
+watch Shimei and not let him go unpunished, signifying that there was no true repentance.
+</p>
+
+<p>
+<a href="1 Kings 2">1 Kings 2</a> Shimei was constrained to Jerusalem by Solomon; when he broke those boundaries, he
+was put to death by Solomon.
+</p>
+</div>
+</div>
+<div id="outline-container-org2b4583e" class="outline-4">
+<h4 id="org2b4583e">How about you? Respond in godly ways toward the wicked.</h4>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Nathan Armstrong</p>
+<p class="date">Created: 2019-06-30 Sun 16:37</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
