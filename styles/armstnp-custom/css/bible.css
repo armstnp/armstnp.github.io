@@ -1,4 +1,4 @@
-a.bible {
+a.bible, a.rtBibleRef {
     font-family: georgia;
     font-style: oblique;
     color: seagreen;
@@ -10,7 +10,7 @@ a.bible {
     display: inline-block;
 }
 
-a.bible:hover {
+a.bible:hover, a.rtBibleRef:hover {
     color: blanchedalmond;
     background-color: seagreen;
 }
