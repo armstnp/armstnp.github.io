@@ -223,32 +223,6 @@ for the JavaScript code in this tag.
  }
 /*]]>*///-->
 </script>
-<script>
-	var refTagger = {
-		settings: {
-			bibleVersion: "ESV",			
-			roundCorners: true,
-			socialSharing: [],
-			customStyle : {
-				heading: {
-					backgroundColor : "#440000",
-					color : "#000000"
-				},
-				body   : {
-					color : "#000000"
-				}
-			}
-		}
-	};
-	(function(d, t) {
-		var n=d.querySelector("[nonce]");
-		refTagger.settings.nonce = n && (n.nonce||n.getAttribute("nonce"));
-		var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
-		g.src = "https://api.reftagger.com/v2/RefTagger.js";
-		g.nonce = refTagger.settings.nonce;
-		s.parentNode.insertBefore(g, s);
-	}(document, "script"));
-</script>
 </head>
 <body>
 <div id="content">
@@ -294,5 +268,31 @@ In contrast to the negativity aimed at doctrine, the absence of sound doctrine a
 </p>
 </div>
 Romans 6:13
+<script>
+	var refTagger = {
+		settings: {
+			bibleVersion: "ESV",			
+			roundCorners: true,
+			socialSharing: [],
+			customStyle : {
+				heading: {
+					backgroundColor : "#440000",
+					color : "#000000"
+				},
+				body   : {
+					color : "#000000"
+				}
+			}
+		}
+	};
+	(function(d, t) {
+		var n=d.querySelector("[nonce]");
+		refTagger.settings.nonce = n && (n.nonce||n.getAttribute("nonce"));
+		var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+		g.src = "https://api.reftagger.com/v2/RefTagger.js";
+		g.nonce = refTagger.settings.nonce;
+		s.parentNode.insertBefore(g, s);
+	}(document, "script"));
+</script>
 </body>
 </html>
